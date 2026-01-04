@@ -15,8 +15,11 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+        <Stack.Screen name="index" options={{ title: 'Accueil' }} />
+        <Stack.Screen name="weapons/index" options={{ title: 'Succès d\'armes' }} />
+        <Stack.Screen name="ranked/index" options={{ title: 'Succès ranked' }} />
+        <Stack.Screen name="salmon-run/index" options={{ title: 'Succès salmon' }} />
+        <Stack.Screen name="modals/modal" options={{ presentation: 'modal' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
