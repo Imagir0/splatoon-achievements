@@ -8,15 +8,15 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Bienvenue dans vos succès !</Text>
 
-      <Pressable style={styles.button} onPress={() => router.push('/weapons')}>
+      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/weapons')}>
         <Text style={styles.buttonText}>Succès d'armes</Text>
       </Pressable>
 
-      <Pressable style={styles.button} onPress={() => router.push('/ranked')}>
+      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/ranked')}>
         <Text style={styles.buttonText}>Succès des modes</Text>
       </Pressable>
 
-      <Pressable style={styles.button} onPress={() => router.push('/salmon-run')}>
+      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/salmon-run')}>
         <Text style={styles.buttonText}>Succès d'équipement</Text>
       </Pressable>
     </View>
