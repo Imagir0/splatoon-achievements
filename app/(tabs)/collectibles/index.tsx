@@ -1,53 +1,100 @@
+import { useBadges } from '@/contexts/BadgesContext';
+import { badges } from '@/data/badges';
 import { useRouter } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useMemo } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+const STORAGE_KEY = 'splatfest_checked';
+
+const collectibleCategories = [
+  { key: 'splatfest', title: 'Splatfests' },
+  { key: 'tableturf', title: 'Tableturf' },
+  { key: 'storyMode', title: 'Story Mode' },
+  { key: 'challenge', title: 'Challenge' },
+  { key: 'DLC', title: 'DLC' },
+  { key: 'rankLevel', title: 'Rang et niveau' },
+  { key: 'equipement', title: 'Équipements' },
+  { key: 'spending', title: 'Dépenses' },
+  { key: 'gameModes', title: 'Modes de jeu' },
+  { key: 'weapons', title: 'Armes' },
+  { key: 'specialWeapons', title: 'Armes spéciales' },
+];
+
+export default function CollectiblesScreen() {
   const router = useRouter();
+  const { selectedBadges } = useBadges();
+
+  const splatfestBadges = useMemo(
+    () =>
+      badges.filter(
+        item =>
+          item.category.includes('Fest') ||
+          item.category.includes('WinCount_Tcl')
+      ),
+    []
+  );
+
+  const totalSplatfest = splatfestBadges.length;
+
+  const splatfestCount = splatfestBadges.filter(
+    b => selectedBadges[b.id]
+  ).length;
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Bienvenue dans vos succès !</Text>
+    <ScrollView contentContainerStyle={styles.container}>
+      <Text style={styles.title}>Collections des badges</Text>
 
-      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/weapons')}>
-        <Text style={styles.buttonText}>Succès d'armes</Text>
-      </Pressable>
+      {collectibleCategories.map(cat => {
+        const isSplatfest = cat.key === 'splatfest';
 
-      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/ranked')}>
-        <Text style={styles.buttonText}>Succès des modes</Text>
-      </Pressable>
+        return (
+          <Pressable
+            key={cat.key}
+            style={styles.card}
+            onPress={() => router.push(`/(tabs)/collectibles/${cat.key}`)}
+          >
+            <View style={styles.row}>
+              <Text style={styles.cardTitle}>{cat.title}</Text>
 
-      <Pressable style={styles.button} onPress={() => router.push('/(tabs)/collectibles/salmon-run')}>
-        <Text style={styles.buttonText}>Succès d'équipement</Text>
-      </Pressable>
-    </View>
+              {isSplatfest && (
+                <Text style={styles.counter}>
+                  {splatfestCount} / {totalSplatfest}
+                </Text>
+              )}
+            </View>
+          </Pressable>
+        );
+      })}
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     padding: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff'
+    paddingBottom: 40,
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 40
+    marginBottom: 20,
+    fontWeight: '700',
   },
-  button: {
-    backgroundColor: '#007AFF',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
+  card: {
+    padding: 16,
     borderRadius: 10,
-    marginVertical: 10,
-    width: '80%',
-    alignItems: 'center'
+    backgroundColor: '#e5e7eb',
+    marginBottom: 12,
   },
-  buttonText: {
-    color: '#fff',
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  cardTitle: {
     fontSize: 18,
-    fontWeight: '600'
-  }
+    fontWeight: '600',
+  },
+  counter: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
 });
