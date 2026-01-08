@@ -18,6 +18,7 @@ export const badgeFilters: Record<string, (b: any) => boolean> = {
   rankLevel: (b) =>
     b.category.includes('challenge') ||
     b.category.includes('Rank') && !b.category.includes('NawaBattlerRank') && !b.category.includes('FestRankMax') ||
+    b.category.includes('ChallengeWinStreak') ||
     b.category.includes('Udemae') ||
     b.category.includes('XPower') ||
     b.category.includes('XRank'),
@@ -34,8 +35,14 @@ export const badgeFilters: Record<string, (b: any) => boolean> = {
     b.category.includes('WinCount') && !b.category.includes('WinCount_Tcl') && !b.category.includes('WinCount_WeaponSp') && !b.category.includes('WinCount_HighXPower'),
 
   weapons: (b) =>
-    b.category.includes('Weapon'),
+    b.category.includes('Weapon') && !b.category.includes('WinCount_WeaponSp') ||
+    b.category.includes('VariousWeaponLevel'),
 
   specialWeapons: (b) =>
     b.category.includes('WinCount_WeaponSp'),
+
+  others: (b) =>
+    b.category.includes('Lottery') && !b.category.includes('SpendLottery') ||
+    b.category.includes('Catalogue') ||
+    b.category.includes('Hammer'),
 };

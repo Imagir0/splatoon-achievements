@@ -1,0 +1,14 @@
+export const CATEGORY_TITLES: Record<string, string> = {
+  weapons: 'Armes',
+  specialWeapons: 'Armes spéciales',
+  rankLevel: 'Rangs et niveaux',
+  gameModes: 'Modes de jeu',
+  challenge: 'Matchs challenge',
+  spending: 'Dépenses',
+  equipement: 'Équipements',
+  splatfest: 'Splatfests',
+  others: 'Autres',
+  tableturf: 'Cartes & Territoire',
+  storyMode: 'Mode histoire',
+  DLC: "DLC - Tour de l'ordre",
+};

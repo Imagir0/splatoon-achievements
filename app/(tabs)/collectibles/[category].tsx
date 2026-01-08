@@ -1,6 +1,7 @@
 import { useBadges } from '@/contexts/BadgesContext';
 import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
+import { CATEGORY_TITLES } from '@/data/categoryTitles';
 import { useLocalSearchParams, useNavigation } from 'expo-router';
 import React, { useMemo } from 'react';
 import {
@@ -12,25 +13,11 @@ import {
     View,
 } from 'react-native';
 
-const CATEGORY_TITLES: Record<string, string> = {
-  splatfest: 'Splatfests',
-  tableturf: 'Cartes & Territoires',
-  storyMode: 'Mode histoire',
-  challenge: 'Matchs challenge',
-  DLC: 'DLC',
-  rankLevel: 'Rangs et niveaux',
-  equipement: 'Équipements',
-  spending: 'Dépenses',
-  gameModes: 'Modes de jeu',
-  weapons: 'Armes',
-  specialWeapons: 'Armes spéciales',
-};
-
 export default function CategoryScreen() {
   const { category } = useLocalSearchParams<{ category: string }>();
   const { selectedBadges, toggleBadge } = useBadges();
   const navigation = useNavigation();
-  const title = CATEGORY_TITLES[category ?? ''] ?? 'Badges';
+  const title = CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
 
   React.useLayoutEffect(() => {
     navigation.setOptions({ title });
@@ -44,6 +31,9 @@ export default function CategoryScreen() {
 
   return (
     <View style={{ flex: 1, padding: 16 }}>
+        <Text style={{ fontSize: 24, fontWeight: '700', margin: 16 }}>
+            {title}
+        </Text>
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}

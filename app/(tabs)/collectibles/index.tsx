@@ -1,23 +1,14 @@
 import { useBadges } from '@/contexts/BadgesContext';
 import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
+import { CATEGORY_TITLES } from '@/data/categoryTitles';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-const collectibleCategories = [
-  { key: 'weapons', title: 'Armes' },
-  { key: 'specialWeapons', title: 'Armes spéciales' },
-  { key: 'rankLevel', title: 'Rang et niveau' },
-  { key: 'gameModes', title: 'Modes de jeu' },
-  { key: 'challenge', title: 'Challenge' },
-  { key: 'spending', title: 'Dépenses' },
-  { key: 'equipement', title: 'Équipements' },
-  { key: 'splatfest', title: 'Splatfests' },
-  { key: 'tableturf', title: 'Tableturf' },
-  { key: 'storyMode', title: 'Story Mode' },
-  { key: 'DLC', title: 'DLC' },
-];
+const collectibleCategories = Object.entries(CATEGORY_TITLES).map(
+  ([key, title]) => ({ key, title })
+);
 
 export default function CollectiblesScreen() {
   const router = useRouter();
