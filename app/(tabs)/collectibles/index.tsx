@@ -1,11 +1,10 @@
 import { useBadges } from '@/contexts/BadgesContext';
+import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
 import { useRouter } from 'expo-router';
-import { useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-const STORAGE_KEY = 'splatfest_checked';
-
+// Définition des catégories
 const collectibleCategories = [
   { key: 'splatfest', title: 'Splatfests' },
   { key: 'tableturf', title: 'Tableturf' },
@@ -24,47 +23,48 @@ export default function CollectiblesScreen() {
   const router = useRouter();
   const { selectedBadges } = useBadges();
 
-  const splatfestBadges = useMemo(
-    () =>
-      badges.filter(
-        item =>
-          item.category.includes('Fest') ||
-          item.category.includes('WinCount_Tcl')
-      ),
-    []
-  );
+  // Filtrage des badges
+  const getCategoryCounters = (key: string) => {
+    const filterFn = badgeFilters[key];
+    if (!filterFn) return { total: 0, checked: 0 };
 
-  const totalSplatfest = splatfestBadges.length;
+    const list = badges.filter(filterFn);
+    const total = list.length;
 
-  const splatfestCount = splatfestBadges.filter(
-    b => selectedBadges[b.id]
-  ).length;
+    const checked = list.filter(b => selectedBadges[b.id]).length;
+
+    return { total, checked };
+  };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Collections des badges</Text>
 
-      {collectibleCategories.map(cat => {
-        const isSplatfest = cat.key === 'splatfest';
+      {collectibleCategories.map((cat) => {
+        const { total, checked } = getCategoryCounters(cat.key);
 
         return (
           <Pressable
             key={cat.key}
             style={styles.card}
-            onPress={() => router.push(`/(tabs)/collectibles/${cat.key}`)}
+            onPress={() =>
+              router.push({
+                pathname: '/(tabs)/collectibles/[category]',
+                params: { category: cat.key },
+              })
+            }
           >
             <View style={styles.row}>
               <Text style={styles.cardTitle}>{cat.title}</Text>
 
-              {isSplatfest && (
-                <Text style={styles.counter}>
-                  {splatfestCount} / {totalSplatfest}
-                </Text>
-              )}
+              <Text style={styles.counter}>
+                {checked} / {total}
+              </Text>
             </View>
           </Pressable>
         );
       })}
+
     </ScrollView>
   );
 }
