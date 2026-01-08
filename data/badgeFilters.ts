@@ -45,4 +45,14 @@ export const badgeFilters: Record<string, (b: any) => boolean> = {
     b.category.includes('Lottery') && !b.category.includes('SpendLottery') ||
     b.category.includes('Catalogue') ||
     b.category.includes('Hammer'),
+
+  salmonRun: (b) =>
+    b.category.includes('CoopBigRunTrophy') ||
+    b.category.includes('CoopClearDangerRateMax') ||
+    b.category.includes('CoopContestTrophy') ||
+    b.category.includes('CoopKillTripleBoss') ||
+    b.category.includes('TotalKumaPoint') ||
+    b.category.includes('CoopRareEnemyKillNum') ||
+    b.category.includes('CoopGrade_Normal') ||
+    b.category.includes('CoopBossKillNum'),
 };

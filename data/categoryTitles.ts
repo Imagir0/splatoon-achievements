@@ -11,4 +11,5 @@ export const CATEGORY_TITLES: Record<string, string> = {
   tableturf: 'Cartes & Territoire',
   storyMode: 'Mode histoire',
   DLC: "DLC - Tour de l'ordre",
+  salmonRun: "Salmon Run",
 };
