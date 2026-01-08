@@ -16,12 +16,9 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="ranked/index" options={{ title: 'Succès ranked' }} />
-        <Stack.Screen name="salmon-run/index" options={{ title: 'Succès salmon' }} />
-        <Stack.Screen name="story-mode/index" options={{ title: 'Mode histoire' }} />
-        <Stack.Screen name="tableturf-battle/index" options={{ title: 'Cartes et territoire' }} />
-        <Stack.Screen name="weapons/index" options={{ title: 'Succès d\'armes' }} />
-        <Stack.Screen name="modals/modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="weapons/index" options={{ title: 'Succès des armes' }} />
+        <Stack.Screen name="salmon-run/index" options={{ title: 'Succès du mode Salmon Run' }} />
+        
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
