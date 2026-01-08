@@ -28,21 +28,26 @@ export default function CollectiblesScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <View style={styles.summaryRow}>
-        {/* Badge possédés */}
-        <View style={styles.summaryTile}>
-          <Text style={styles.summaryText}>Possédés</Text>
-          <Text style={styles.summaryNumber}>
+      <Pressable
+        style={styles.summaryCard}
+        onPress={() =>
+          router.push('/(tabs)/collectibles/list')
+        }
+      >
+        <View style={styles.summaryTopRow}>
+          <Text style={styles.summaryTitle}>Badges</Text>
+
+          <Text style={styles.summaryCounter}>
             {Object.values(selectedBadges).filter(v => v).length}
+            {' / '}
+            {badges.length}
           </Text>
         </View>
 
-        {/* Total badges */}
-        <View style={styles.summaryTile}>
-          <Text style={styles.summaryText}>Total</Text>
-          <Text style={styles.summaryNumber}>{badges.length}</Text>
-        </View>
-      </View>
+        <Text style={styles.summaryLink}>
+          Voir la collection
+        </Text>
+      </Pressable>
 
       {collectibleCategories.map(cat => {
         const { total, checked } = getCategoryCounters(cat.key);
@@ -136,26 +141,30 @@ const styles = StyleSheet.create({
     backgroundColor: '#16a34a',
     borderRadius: 4,
   },
-  summaryRow: {
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  marginBottom: 16,
-  },
-  summaryTile: {
-    flex: 1,
+    summaryCard: {
     padding: 16,
     borderRadius: 10,
-    alignItems: 'center',
-    marginHorizontal: 4,
-    backgroundColor: '#e5e7eb'
+    backgroundColor: '#e5e7eb',
+    marginBottom: 20,
   },
-  summaryText: {
-    fontSize: 16,
+  summaryTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  summaryTitle: {
+    fontSize: 18,
     fontWeight: '600',
   },
-  summaryNumber: {
-    fontSize: 20,
+  summaryCounter: {
+    fontSize: 16,
     fontWeight: '700',
+  },
+  summaryLink: {
     marginTop: 4,
-  }
+    fontSize: 12,
+    color: '#374151',
+    opacity: 0.7,
+  },
+
 });

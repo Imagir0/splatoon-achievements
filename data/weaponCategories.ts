@@ -12,6 +12,11 @@ export const weaponCategories: Record<
     filter: (b: Badge) => boolean;
   }
 > = {
+  general: {
+    title: 'Général',
+    filter: (b: Badge) =>
+      b.category.includes('VariousWeaponLevel'),
+  },
   shooters: {
     title: 'Lanceurs',
     filter: (b: Badge) =>
