@@ -16,8 +16,8 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="weapons/index" options={{ title: 'Succès des armes' }} />
-        <Stack.Screen name="salmon-run/index" options={{ title: 'Succès du mode Salmon Run' }} />
+        <Stack.Screen name="weapons/index" options={{ title: 'Badges des armes' }} />
+        <Stack.Screen name="salmon-run/index" options={{ title: 'Badges du mode Salmon Run' }} />
         
       </Stack>
       <StatusBar style="auto" />

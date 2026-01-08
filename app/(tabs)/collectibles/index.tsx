@@ -30,6 +30,22 @@ export default function CollectiblesScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Collections des badges</Text>
 
+      <View style={styles.summaryRow}>
+        {/* Badge possédés */}
+        <View style={styles.summaryTile}>
+          <Text style={styles.summaryText}>Possédés</Text>
+          <Text style={styles.summaryNumber}>
+            {Object.values(selectedBadges).filter(v => v).length}
+          </Text>
+        </View>
+
+        {/* Total badges */}
+        <View style={styles.summaryTile}>
+          <Text style={styles.summaryText}>Total</Text>
+          <Text style={styles.summaryNumber}>{badges.length}</Text>
+        </View>
+      </View>
+
       {collectibleCategories.map(cat => {
         const { total, checked } = getCategoryCounters(cat.key);
         const progress = total > 0 ? checked / total : 0;
@@ -127,4 +143,26 @@ const styles = StyleSheet.create({
     backgroundColor: '#16a34a',
     borderRadius: 4,
   },
+  summaryRow: {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  marginBottom: 16,
+  },
+  summaryTile: {
+    flex: 1,
+    padding: 16,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginHorizontal: 4,
+    backgroundColor: '#e5e7eb'
+  },
+  summaryText: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  summaryNumber: {
+    fontSize: 20,
+    fontWeight: '700',
+    marginTop: 4,
+  }
 });

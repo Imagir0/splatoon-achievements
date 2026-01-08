@@ -5,12 +5,12 @@ import { CATEGORY_TITLES } from '@/data/categoryTitles';
 import { useLocalSearchParams, useNavigation } from 'expo-router';
 import React, { useMemo } from 'react';
 import {
-    FlatList,
-    Image,
-    Pressable,
-    StyleSheet,
-    Text,
-    View,
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
 } from 'react-native';
 
 export default function CategoryScreen() {
@@ -90,5 +90,6 @@ const styles = StyleSheet.create({
     borderColor: '#065f46',
     alignItems: 'center',
     justifyContent: 'center',
+    marginLeft: 5,
   },
 });
