@@ -28,8 +28,6 @@ export default function CollectiblesScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>Collections des badges</Text>
-
       <View style={styles.summaryRow}>
         {/* Badge possédés */}
         <View style={styles.summaryTile}>
@@ -105,11 +103,6 @@ const styles = StyleSheet.create({
   container: {
     padding: 20,
     paddingBottom: 40,
-  },
-  title: {
-    fontSize: 24,
-    marginBottom: 20,
-    fontWeight: '700',
   },
   card: {
     padding: 16,
