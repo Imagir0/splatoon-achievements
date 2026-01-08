@@ -57,7 +57,7 @@ export default function CategoryScreen() {
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.description}>{item.description}test</Text>
+              <Text style={styles.description}>{item.description}</Text>
 
               <View style={styles.checkbox}>
                 {isChecked && <Text>✔</Text>}
