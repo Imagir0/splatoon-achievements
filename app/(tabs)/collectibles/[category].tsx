@@ -31,9 +31,6 @@ export default function CategoryScreen() {
 
   return (
     <View style={{ flex: 1, padding: 16 }}>
-        <Text style={{ fontSize: 24, fontWeight: '700', margin: 16 }}>
-            {title}
-        </Text>
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}
