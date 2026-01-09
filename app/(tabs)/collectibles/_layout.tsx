@@ -20,7 +20,11 @@ export default function RootLayout() {
         <Stack.Screen name="badges/weapons/index" options={{ title: 'Badges des armes' }} />
         <Stack.Screen name="badges/salmonRun/index" options={{ title: 'Badges du mode Salmon Run' }} />
         <Stack.Screen name="banners/index" options={{ title: 'Bannières' }} />
+        <Stack.Screen name="gears/index" options={{ title: 'Équipements' }} />
         <Stack.Screen name="objects/index" options={{ title: 'Objets' }} />
+        <Stack.Screen name="salmon/index" options={{ title: 'Salmon Run' }} />
+        <Stack.Screen name="tableturf/index" options={{ title: 'Cartes & Territoire' }} />
+        <Stack.Screen name="weapons/index" options={{ title: 'Armes' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

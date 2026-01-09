@@ -1,13 +1,21 @@
 import { Stack } from 'expo-router';
-import { useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { View } from 'react-native';
+
+import CollectiblesTabBar from './components/CollectiblesTabBar';
 
 import BadgesScreen from './badges';
 import BannersScreen from './banners';
+import GearsScreen from './gears';
 import ObjectsScreen from './objects';
+import SalmonScreen from './salmon';
+import TableturfScreen from './tableturf';
+import WeaponsScreen from './weapons';
 
 export default function CollectiblesScreen() {
-  const [activeTab, setActiveTab] = useState<'badges' | 'banners' | 'objects'>('badges');
+  const [activeTab, setActiveTab] = useState<
+    'badges' | 'banners' | 'gears' | 'objects' | 'salmon' | 'tableturf' | 'weapons'
+  >('badges');
 
   const renderActiveTab = () => {
     switch (activeTab) {
@@ -17,6 +25,14 @@ export default function CollectiblesScreen() {
         return <BannersScreen />;
       case 'objects':
         return <ObjectsScreen />;
+      case 'gears':
+        return <GearsScreen />;
+      case 'weapons':
+        return <WeaponsScreen />;
+      case 'tableturf':
+        return <TableturfScreen />;
+      case 'salmon':
+        return <SalmonScreen />;
       default:
         return null;
     }
@@ -26,56 +42,9 @@ export default function CollectiblesScreen() {
     <View style={{ flex: 1 }}>
       <Stack.Screen options={{ title: 'Collections' }} />
 
-      {/* Menu fixe en haut */}
-      <View style={styles.tabMenu}>
-        <Pressable
-          style={[styles.tabButton, activeTab === 'badges' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('badges')}
-        >
-          <Text style={styles.tabText}>Badges</Text>
-        </Pressable>
+      <CollectiblesTabBar activeTab={activeTab} onChange={setActiveTab} />
 
-        <Pressable
-          style={[styles.tabButton, activeTab === 'banners' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('banners')}
-        >
-          <Text style={styles.tabText}>Splatiquettes</Text>
-        </Pressable>
-
-        <Pressable
-          style={[styles.tabButton, activeTab === 'objects' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('objects')}
-        >
-          <Text style={styles.tabText}>Objets</Text>
-        </Pressable>
-      </View>
-
-      {/* Contenu de l'onglet actif */}
       <View style={{ flex: 1 }}>{renderActiveTab()}</View>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  tabMenu: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    backgroundColor: '#e5e7eb',
-  },
-  tabButton: {
-    flex: 1,
-    alignItems: 'center',
-    paddingVertical: 8,
-    borderBottomWidth: 2,
-    borderBottomColor: 'transparent',
-  },
-  tabButtonActive: {
-    borderBottomColor: '#16a34a',
-  },
-  tabText: {
-    fontSize: 16,
-    fontWeight: '600',
-  },
-});
