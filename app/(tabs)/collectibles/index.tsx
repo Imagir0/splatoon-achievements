@@ -1,170 +1,81 @@
-import { useBadges } from '@/contexts/BadgesContext';
-import { badgeFilters } from '@/data/badgeFilters';
-import { badges } from '@/data/badges';
-import { CATEGORY_TITLES } from '@/data/categoryTitles';
-import { useRouter } from 'expo-router';
-import { useEffect, useRef } from 'react';
-import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Stack } from 'expo-router';
+import { useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-const collectibleCategories = Object.entries(CATEGORY_TITLES).map(
-  ([key, title]) => ({ key, title })
-);
+import BadgesScreen from './badges';
+import BannersScreen from './banners';
+import ObjectsScreen from './objects';
 
 export default function CollectiblesScreen() {
-  const router = useRouter();
-  const { selectedBadges } = useBadges();
+  const [activeTab, setActiveTab] = useState<'badges' | 'banners' | 'objects'>('badges');
 
-  // Fonction pour compter les badges cochés et totaux par catégorie
-  const getCategoryCounters = (key: string) => {
-    const filterFn = badgeFilters[key];
-    if (!filterFn) return { total: 0, checked: 0 };
-
-    const filteredBadges = badges.filter(filterFn);
-    const total = filteredBadges.length;
-    const checked = filteredBadges.filter(b => selectedBadges[b.id]).length;
-
-    return { total, checked };
+  const renderActiveTab = () => {
+    switch (activeTab) {
+      case 'badges':
+        return <BadgesScreen />;
+      case 'banners':
+        return <BannersScreen />;
+      case 'objects':
+        return <ObjectsScreen />;
+      default:
+        return null;
+    }
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-      <Pressable
-        style={styles.summaryCard}
-        onPress={() =>
-          router.push('/(tabs)/collectibles/list')
-        }
-      >
-        <View style={styles.summaryTopRow}>
-          <Text style={styles.summaryTitle}>Badges</Text>
+    <View style={{ flex: 1 }}>
+      <Stack.Screen options={{ title: 'Collections' }} />
 
-          <Text style={styles.summaryCounter}>
-            {Object.values(selectedBadges).filter(v => v).length}
-            {' / '}
-            {badges.length}
-          </Text>
-        </View>
+      {/* Menu fixe en haut */}
+      <View style={styles.tabMenu}>
+        <Pressable
+          style={[styles.tabButton, activeTab === 'badges' && styles.tabButtonActive]}
+          onPress={() => setActiveTab('badges')}
+        >
+          <Text style={styles.tabText}>Badges</Text>
+        </Pressable>
 
-        <Text style={styles.summaryLink}>
-          Voir la collection
-        </Text>
-      </Pressable>
+        <Pressable
+          style={[styles.tabButton, activeTab === 'banners' && styles.tabButtonActive]}
+          onPress={() => setActiveTab('banners')}
+        >
+          <Text style={styles.tabText}>Splatiquettes</Text>
+        </Pressable>
 
-      {collectibleCategories.map(cat => {
-        const { total, checked } = getCategoryCounters(cat.key);
-        const progress = total > 0 ? checked / total : 0;
+        <Pressable
+          style={[styles.tabButton, activeTab === 'objects' && styles.tabButtonActive]}
+          onPress={() => setActiveTab('objects')}
+        >
+          <Text style={styles.tabText}>Objets</Text>
+        </Pressable>
+      </View>
 
-        // Animated value pour la barre de progression
-        const progressAnim = useRef(new Animated.Value(0)).current;
-
-        useEffect(() => {
-          Animated.timing(progressAnim, {
-          toValue: progress,
-          duration: 1200,
-          easing: Easing.out(Easing.ease),
-          useNativeDriver: false,
-        }).start();
-        }, [progress]);
-
-        return (
-          <Pressable
-            key={cat.key}
-            style={styles.card}
-            onPress={() =>
-              router.push({
-                pathname: '/(tabs)/collectibles/[category]',
-                params: { category: cat.key },
-              })
-            }
-          >
-            <View style={styles.row}>
-              <Text style={styles.cardTitle}>{cat.title}</Text>
-              <Text style={styles.counter}>
-                {checked} / {total}
-              </Text>
-            </View>
-
-            {/* Barre animée */}
-            <View style={styles.barBackground}>
-              <Animated.View
-                style={[
-                  styles.barProgress,
-                  {
-                    width: progressAnim.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: ['0%', '100%'],
-                    }),
-                  },
-                ]}
-              />
-            </View>
-          </Pressable>
-        );
-      })}
-    </ScrollView>
+      {/* Contenu de l'onglet actif */}
+      <View style={{ flex: 1 }}>{renderActiveTab()}</View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-    paddingBottom: 40,
-  },
-  card: {
-    padding: 16,
-    borderRadius: 10,
-    backgroundColor: '#e5e7eb',
-    marginBottom: 12,
-  },
-  row: {
+  tabMenu: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#e5e7eb',
+  },
+  tabButton: {
+    flex: 1,
     alignItems: 'center',
+    paddingVertical: 8,
+    borderBottomWidth: 2,
+    borderBottomColor: 'transparent',
   },
-  cardTitle: {
-    fontSize: 18,
-    fontWeight: '600',
+  tabButtonActive: {
+    borderBottomColor: '#16a34a',
   },
-  counter: {
+  tabText: {
     fontSize: 16,
     fontWeight: '600',
   },
-  barBackground: {
-    height: 8,
-    width: '100%',
-    backgroundColor: '#d1d5db',
-    borderRadius: 4,
-    marginTop: 6,
-    overflow: 'hidden',
-  },
-  barProgress: {
-    height: '100%',
-    backgroundColor: '#16a34a',
-    borderRadius: 4,
-  },
-    summaryCard: {
-    padding: 16,
-    borderRadius: 10,
-    backgroundColor: '#e5e7eb',
-    marginBottom: 20,
-  },
-  summaryTopRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  summaryTitle: {
-    fontSize: 18,
-    fontWeight: '600',
-  },
-  summaryCounter: {
-    fontSize: 16,
-    fontWeight: '700',
-  },
-  summaryLink: {
-    marginTop: 4,
-    fontSize: 12,
-    color: '#374151',
-    opacity: 0.7,
-  },
-
 });

@@ -56,7 +56,7 @@ export default function SalmonRunIndex() {
             key={key}
             onPress={() =>
               router.push({
-                pathname: '/(tabs)/collectibles/salmonRun/[salmonRunCategory]',
+                pathname: '/(tabs)/collectibles/badges/salmonRun/[salmonRunCategory]',
                 params: { salmonRunCategory: key },
               })
             }

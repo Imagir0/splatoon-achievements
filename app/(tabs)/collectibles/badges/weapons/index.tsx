@@ -56,7 +56,7 @@ export default function WeaponsIndex() {
             key={key}
             onPress={() =>
               router.push({
-                pathname: '/(tabs)/collectibles/weapons/[weaponCategory]',
+                pathname: '/(tabs)/collectibles/badges/weapons/[weaponCategory]',
                 params: { weaponCategory: key },
               })
             }
