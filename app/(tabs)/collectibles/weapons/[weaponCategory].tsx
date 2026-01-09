@@ -1,12 +1,13 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import {
-    FlatList,
-    Image,
-    Pressable,
-    StyleSheet,
-    Text,
-    View,
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 
 import { useBadges } from '@/contexts/BadgesContext';
@@ -18,14 +19,41 @@ export default function WeaponCategoryScreen() {
   const weaponCategory = params.weaponCategory as
     | keyof typeof weaponCategories
     | undefined;
+
   const config = weaponCategory ? weaponCategories[weaponCategory] : undefined;
 
   const { selectedBadges, toggleBadge } = useBadges();
+  const [search, setSearch] = useState('');
+
+  // Liste des catégories qui doivent afficher la barre de recherche
+  const searchableCategories = [
+    'shooters',
+    'rollers',
+    'chargers',
+    'sloshers',
+    'splatlings',
+    'dualies',
+    'brellas',
+    'blasters',
+    'brushes',
+    'bows',
+    'splatanas',
+  ];
+
+  const showSearch = weaponCategory
+    ? searchableCategories.includes(weaponCategory)
+    : false;
 
   const filteredBadges = useMemo(() => {
     if (!config) return [];
-    return badges.filter(config.filter);
-  }, [config]);
+
+    return badges.filter(
+      (badge) =>
+        config.filter(badge) &&
+        (!showSearch || // si la recherche est activée, filtre par search
+          badge.description.toLowerCase().includes(search.toLowerCase()))
+    );
+  }, [config, search, showSearch]);
 
   if (!config) {
     return (
@@ -43,6 +71,15 @@ export default function WeaponCategoryScreen() {
         }}
       />
 
+      {showSearch && (
+        <TextInput
+          value={search}
+          onChangeText={setSearch}
+          placeholder="Rechercher un badge…"
+          style={styles.searchInput}
+        />
+      )}
+
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}
@@ -52,18 +89,10 @@ export default function WeaponCategoryScreen() {
           return (
             <Pressable
               onPress={() => toggleBadge(item.id)}
-              style={[
-                styles.row,
-                isChecked && styles.rowChecked,
-              ]}
+              style={[styles.row, isChecked && styles.rowChecked]}
             >
-              {/* Image du badge */}
               <Image source={item.image} style={styles.image} />
-
-              {/* Description */}
               <Text style={styles.description}>{item.description}</Text>
-
-              {/* Checkbox */}
               <View style={styles.checkbox}>
                 {isChecked && <Text style={styles.checkMark}>✔</Text>}
               </View>
@@ -116,5 +145,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#065f46',
     fontWeight: '700',
+  },
+  searchInput: {
+    height: 44,
+    borderRadius: 10,
+    paddingHorizontal: 14,
+    marginBottom: 12,
+    backgroundColor: '#e5e7eb',
+    fontSize: 16,
   },
 });
