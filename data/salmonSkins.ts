@@ -1,4 +1,4 @@
-module.exports = [
+export const salmonSkins = [
   {
     id: 1,
     image: require('@/assets/images/salmonSkins/COP001.png'),

@@ -1,5 +1,6 @@
 import { BadgesProvider } from '@/contexts/BadgesContext';
 import { BannersProvider } from '@/contexts/BannersContext';
+import { SalmonSkinsProvider } from '@/contexts/SalmonRunContext';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 
@@ -7,6 +8,7 @@ export default function TabsLayout() {
   return (
     <BadgesProvider>
     <BannersProvider>
+      <SalmonSkinsProvider>
       <Tabs
         screenOptions={{
           // Supprime l'espace prévu pour les icônes
@@ -58,6 +60,7 @@ export default function TabsLayout() {
           }}
         />
       </Tabs>
+      </SalmonSkinsProvider>
     </BannersProvider>
     </BadgesProvider>
   );
