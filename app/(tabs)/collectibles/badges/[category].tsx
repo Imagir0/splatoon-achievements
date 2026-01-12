@@ -1,7 +1,7 @@
 import { useBadges } from '@/contexts/BadgesContext';
 import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
-import { CATEGORY_TITLES } from '@/data/categoryTitles';
+import { BADGES_CATEGORY_TITLES } from '@/data/badgesCategoryTitles';
 import { useLocalSearchParams, useNavigation } from 'expo-router';
 import React, { useMemo } from 'react';
 import {
@@ -17,7 +17,7 @@ export default function CategoryScreen() {
   const { category } = useLocalSearchParams<{ category: string }>();
   const { selectedBadges, toggleBadge } = useBadges();
   const navigation = useNavigation();
-  const title = CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
+  const title = BADGES_CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
 
   React.useLayoutEffect(() => {
     navigation.setOptions({ title });

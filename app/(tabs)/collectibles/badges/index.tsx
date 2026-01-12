@@ -1,12 +1,12 @@
 import { useBadges } from '@/contexts/BadgesContext';
 import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
-import { CATEGORY_TITLES } from '@/data/categoryTitles';
+import { BADGES_CATEGORY_TITLES } from '@/data/badgesCategoryTitles';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-const collectibleCategories = Object.entries(CATEGORY_TITLES).map(
+const collectibleCategories = Object.entries(BADGES_CATEGORY_TITLES).map(
   ([key, title]) => ({ key, title })
 );
 
@@ -14,7 +14,6 @@ export default function CollectiblesScreen() {
   const router = useRouter();
   const { selectedBadges } = useBadges();
 
-  // Fonction pour compter les badges cochés et totaux par catégorie
   const getCategoryCounters = (key: string) => {
     const filterFn = badgeFilters[key];
     if (!filterFn) return { total: 0, checked: 0 };
@@ -36,7 +35,6 @@ export default function CollectiblesScreen() {
       >
         <View style={styles.summaryTopRow}>
           <Text style={styles.summaryTitle}>Badges</Text>
-
           <Text style={styles.summaryCounter}>
             {Object.values(selectedBadges).filter(v => v).length}
             {' / '}
@@ -53,16 +51,15 @@ export default function CollectiblesScreen() {
         const { total, checked } = getCategoryCounters(cat.key);
         const progress = total > 0 ? checked / total : 0;
 
-        // Animated value pour la barre de progression
         const progressAnim = useRef(new Animated.Value(0)).current;
 
         useEffect(() => {
           Animated.timing(progressAnim, {
-          toValue: progress,
-          duration: 1200,
-          easing: Easing.out(Easing.ease),
-          useNativeDriver: false,
-        }).start();
+            toValue: progress,
+            duration: 1200,
+            easing: Easing.out(Easing.ease),
+            useNativeDriver: false,
+          }).start();
         }, [progress]);
 
         return (
@@ -83,7 +80,6 @@ export default function CollectiblesScreen() {
               </Text>
             </View>
 
-            {/* Barre animée */}
             <View style={styles.barBackground}>
               <Animated.View
                 style={[

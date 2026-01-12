@@ -1,10 +1,12 @@
 import { BadgesProvider } from '@/contexts/BadgesContext';
+import { BannersProvider } from '@/contexts/BannersContext';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 
 export default function TabsLayout() {
   return (
     <BadgesProvider>
+    <BannersProvider>
       <Tabs
         screenOptions={{
           // Supprime l'espace prévu pour les icônes
@@ -56,6 +58,7 @@ export default function TabsLayout() {
           }}
         />
       </Tabs>
+    </BannersProvider>
     </BadgesProvider>
   );
 }
