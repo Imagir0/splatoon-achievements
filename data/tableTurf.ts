@@ -1,7 +1,7 @@
-module.exports = [
+export const tableTurf = [
   {
     number: 1,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/HeroShooter.png'),
+    image: require('@/assets/images/tableturf/HeroShooter.png'),
     name: 'Hero Shot',
     rarity: 'Fresh',
     specialCost: '5',
@@ -11,7 +11,7 @@ module.exports = [
   },
   {
     number: 2,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterShort00.png'),
+    image: require('@/assets/images/tableturf/ShooterShort00.png'),
     name: 'Sploosh-o-matic',
     rarity: 'Common',
     specialCost: '4',
@@ -21,7 +21,7 @@ module.exports = [
   },
   {
     number: 3,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterFirst00.png'),
+    image: require('@/assets/images/tableturf/ShooterFirst00.png'),
     name: 'Splattershot Jr.',
     rarity: 'Common',
     specialCost: '2',
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     number: 4,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterPrecision00.png'),
+    image: require('@/assets/images/tableturf/ShooterPrecision00.png'),
     name: 'Splash-o-matic',
     rarity: 'Common',
     specialCost: '3',
@@ -41,7 +41,7 @@ module.exports = [
   },
   {
     number: 5,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterBlaze00.png'),
+    image: require('@/assets/images/tableturf/ShooterBlaze00.png'),
     name: 'Aerospray MG',
     rarity: 'Common',
     specialCost: '3',
@@ -51,7 +51,7 @@ module.exports = [
   },
   {
     number: 6,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterNormal00.png'),
+    image: require('@/assets/images/tableturf/ShooterNormal00.png'),
     name: 'Splattershot',
     rarity: 'Common',
     specialCost: '3',
@@ -61,7 +61,7 @@ module.exports = [
   },
   {
     number: 7,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterGravity00.png'),
+    image: require('@/assets/images/tableturf/ShooterGravity00.png'),
     name: '.52 Gal',
     rarity: 'Common',
     specialCost: '3',
@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     number: 8,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterQuickMiddle00.png'),
+    image: require('@/assets/images/tableturf/ShooterQuickMiddle00.png'),
     name: 'N-ZAP \'85',
     rarity: 'Common',
     specialCost: '2',
@@ -81,7 +81,7 @@ module.exports = [
   },
   {
     number: 9,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterExpert00.png'),
+    image: require('@/assets/images/tableturf/ShooterExpert00.png'),
     name: 'Splattershot Pro',
     rarity: 'Common',
     specialCost: '4',
@@ -91,7 +91,7 @@ module.exports = [
   },
   {
     number: 10,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterHeavy00.png'),
+    image: require('@/assets/images/tableturf/ShooterHeavy00.png'),
     name: '.96 Gal',
     rarity: 'Common',
     specialCost: '4',
@@ -101,7 +101,7 @@ module.exports = [
   },
   {
     number: 11,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterLong00.png'),
+    image: require('@/assets/images/tableturf/ShooterLong00.png'),
     name: 'Jet Squelcher',
     rarity: 'Common',
     specialCost: '4',
@@ -111,7 +111,7 @@ module.exports = [
   },
   {
     number: 12,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterShort00.png'),
+    image: require('@/assets/images/tableturf/BlasterShort00.png'),
     name: 'Luna Blaster',
     rarity: 'Common',
     specialCost: '3',
@@ -121,7 +121,7 @@ module.exports = [
   },
   {
     number: 13,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterMiddle00.png'),
+    image: require('@/assets/images/tableturf/BlasterMiddle00.png'),
     name: 'Blaster',
     rarity: 'Common',
     specialCost: '3',
@@ -131,7 +131,7 @@ module.exports = [
   },
   {
     number: 14,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLong00.png'),
+    image: require('@/assets/images/tableturf/BlasterLong00.png'),
     name: 'Range Blaster',
     rarity: 'Common',
     specialCost: '4',
@@ -141,7 +141,7 @@ module.exports = [
   },
   {
     number: 15,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLightShort00.png'),
+    image: require('@/assets/images/tableturf/BlasterLightShort00.png'),
     name: 'Clash Blaster',
     rarity: 'Common',
     specialCost: '3',
@@ -151,7 +151,7 @@ module.exports = [
   },
   {
     number: 16,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLight00.png'),
+    image: require('@/assets/images/tableturf/BlasterLight00.png'),
     name: 'Rapid Blaster',
     rarity: 'Common',
     specialCost: '3',
@@ -161,7 +161,7 @@ module.exports = [
   },
   {
     number: 17,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLightLong00.png'),
+    image: require('@/assets/images/tableturf/BlasterLightLong00.png'),
     name: 'Rapid Blaster Pro',
     rarity: 'Common',
     specialCost: '4',
@@ -171,7 +171,7 @@ module.exports = [
   },
   {
     number: 18,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterTripleQuick00.png'),
+    image: require('@/assets/images/tableturf/ShooterTripleQuick00.png'),
     name: 'L-3 Nozzlenose',
     rarity: 'Common',
     specialCost: '3',
@@ -181,7 +181,7 @@ module.exports = [
   },
   {
     number: 19,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterTripleMiddle00.png'),
+    image: require('@/assets/images/tableturf/ShooterTripleMiddle00.png'),
     name: 'H-3 Nozzlenose',
     rarity: 'Common',
     specialCost: '3',
@@ -191,7 +191,7 @@ module.exports = [
   },
   {
     number: 20,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterFlash00.png'),
+    image: require('@/assets/images/tableturf/ShooterFlash00.png'),
     name: 'Squeezer',
     rarity: 'Common',
     specialCost: '3',
@@ -201,7 +201,7 @@ module.exports = [
   },
   {
     number: 21,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerCompact00.png'),
+    image: require('@/assets/images/tableturf/RollerCompact00.png'),
     name: 'Carbon Roller',
     rarity: 'Common',
     specialCost: '3',
@@ -211,7 +211,7 @@ module.exports = [
   },
   {
     number: 22,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerNormal00.png'),
+    image: require('@/assets/images/tableturf/RollerNormal00.png'),
     name: 'Splat Roller',
     rarity: 'Common',
     specialCost: '4',
@@ -221,7 +221,7 @@ module.exports = [
   },
   {
     number: 23,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerHeavy00.png'),
+    image: require('@/assets/images/tableturf/RollerHeavy00.png'),
     name: 'Dynamo Roller',
     rarity: 'Common',
     specialCost: '5',
@@ -231,7 +231,7 @@ module.exports = [
   },
   {
     number: 24,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerHunter00.png'),
+    image: require('@/assets/images/tableturf/RollerHunter00.png'),
     name: 'Flingza Roller',
     rarity: 'Common',
     specialCost: '4',
@@ -241,7 +241,7 @@ module.exports = [
   },
   {
     number: 25,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushMini00.png'),
+    image: require('@/assets/images/tableturf/BrushMini00.png'),
     name: 'Inkbrush',
     rarity: 'Common',
     specialCost: '3',
@@ -251,7 +251,7 @@ module.exports = [
   },
   {
     number: 26,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushNormal00.png'),
+    image: require('@/assets/images/tableturf/BrushNormal00.png'),
     name: 'Octobrush',
     rarity: 'Common',
     specialCost: '4',
@@ -261,7 +261,7 @@ module.exports = [
   },
   {
     number: 27,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerQuick00.png'),
+    image: require('@/assets/images/tableturf/ChargerQuick00.png'),
     name: 'Classic Squiffer',
     rarity: 'Common',
     specialCost: '3',
@@ -271,7 +271,7 @@ module.exports = [
   },
   {
     number: 28,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerNormal00.png'),
+    image: require('@/assets/images/tableturf/ChargerNormal00.png'),
     name: 'Splat Charger',
     rarity: 'Common',
     specialCost: '3',
@@ -281,7 +281,7 @@ module.exports = [
   },
   {
     number: 29,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerNormalScope00.png'),
+    image: require('@/assets/images/tableturf/ChargerNormalScope00.png'),
     name: 'Splatterscope',
     rarity: 'Common',
     specialCost: '4',
@@ -291,7 +291,7 @@ module.exports = [
   },
   {
     number: 30,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLong00.png'),
+    image: require('@/assets/images/tableturf/ChargerLong00.png'),
     name: 'E-liter 4K',
     rarity: 'Common',
     specialCost: '4',
@@ -301,7 +301,7 @@ module.exports = [
   },
   {
     number: 31,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLongScope00.png'),
+    image: require('@/assets/images/tableturf/ChargerLongScope00.png'),
     name: 'E-liter 4K Scope',
     rarity: 'Common',
     specialCost: '5',
@@ -311,7 +311,7 @@ module.exports = [
   },
   {
     number: 32,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLight00.png'),
+    image: require('@/assets/images/tableturf/ChargerLight00.png'),
     name: 'Bamboozler 14 Mk I',
     rarity: 'Common',
     specialCost: '3',
@@ -321,7 +321,7 @@ module.exports = [
   },
   {
     number: 33,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerKeeper00.png'),
+    image: require('@/assets/images/tableturf/ChargerKeeper00.png'),
     name: 'Goo Tuber',
     rarity: 'Common',
     specialCost: '4',
@@ -331,7 +331,7 @@ module.exports = [
   },
   {
     number: 34,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherStrong00.png'),
+    image: require('@/assets/images/tableturf/SlosherStrong00.png'),
     name: 'Slosher',
     rarity: 'Common',
     specialCost: '3',
@@ -341,7 +341,7 @@ module.exports = [
   },
   {
     number: 35,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherDiffusion00.png'),
+    image: require('@/assets/images/tableturf/SlosherDiffusion00.png'),
     name: 'Tri-Slosher',
     rarity: 'Common',
     specialCost: '2',
@@ -351,7 +351,7 @@ module.exports = [
   },
   {
     number: 36,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherLauncher00.png'),
+    image: require('@/assets/images/tableturf/SlosherLauncher00.png'),
     name: 'Sloshing Machine',
     rarity: 'Common',
     specialCost: '3',
@@ -361,7 +361,7 @@ module.exports = [
   },
   {
     number: 37,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherBathtub00.png'),
+    image: require('@/assets/images/tableturf/SlosherBathtub00.png'),
     name: 'Bloblobber',
     rarity: 'Common',
     specialCost: '4',
@@ -371,7 +371,7 @@ module.exports = [
   },
   {
     number: 38,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherWashtub00.png'),
+    image: require('@/assets/images/tableturf/SlosherWashtub00.png'),
     name: 'Explosher',
     rarity: 'Common',
     specialCost: '4',
@@ -381,7 +381,7 @@ module.exports = [
   },
   {
     number: 39,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerQuick00.png'),
+    image: require('@/assets/images/tableturf/SpinnerQuick00.png'),
     name: 'Mini Splatling',
     rarity: 'Common',
     specialCost: '3',
@@ -391,7 +391,7 @@ module.exports = [
   },
   {
     number: 40,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerStandard00.png'),
+    image: require('@/assets/images/tableturf/SpinnerStandard00.png'),
     name: 'Heavy Splatling',
     rarity: 'Common',
     specialCost: '5',
@@ -401,7 +401,7 @@ module.exports = [
   },
   {
     number: 41,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerHyper00.png'),
+    image: require('@/assets/images/tableturf/SpinnerHyper00.png'),
     name: 'Hydra Splatling',
     rarity: 'Common',
     specialCost: '5',
@@ -411,7 +411,7 @@ module.exports = [
   },
   {
     number: 42,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerDownpour00.png'),
+    image: require('@/assets/images/tableturf/SpinnerDownpour00.png'),
     name: 'Ballpoint Splatling',
     rarity: 'Common',
     specialCost: '4',
@@ -421,7 +421,7 @@ module.exports = [
   },
   {
     number: 43,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerSerein00.png'),
+    image: require('@/assets/images/tableturf/SpinnerSerein00.png'),
     name: 'Nautilus 47',
     rarity: 'Common',
     specialCost: '4',
@@ -431,7 +431,7 @@ module.exports = [
   },
   {
     number: 44,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverShort00.png'),
+    image: require('@/assets/images/tableturf/ManeuverShort00.png'),
     name: 'Dapple Dualies',
     rarity: 'Common',
     specialCost: '3',
@@ -441,7 +441,7 @@ module.exports = [
   },
   {
     number: 45,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverNormal00.png'),
+    image: require('@/assets/images/tableturf/ManeuverNormal00.png'),
     name: 'Splat Dualies',
     rarity: 'Common',
     specialCost: '3',
@@ -451,7 +451,7 @@ module.exports = [
   },
   {
     number: 46,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverGallon00.png'),
+    image: require('@/assets/images/tableturf/ManeuverGallon00.png'),
     name: 'Glooga Dualies',
     rarity: 'Common',
     specialCost: '4',
@@ -461,7 +461,7 @@ module.exports = [
   },
   {
     number: 47,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverDual00.png'),
+    image: require('@/assets/images/tableturf/ManeuverDual00.png'),
     name: 'Dualie Squelchers',
     rarity: 'Common',
     specialCost: '4',
@@ -471,7 +471,7 @@ module.exports = [
   },
   {
     number: 48,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverStepper00.png'),
+    image: require('@/assets/images/tableturf/ManeuverStepper00.png'),
     name: 'Dark Tetra Dualies',
     rarity: 'Common',
     specialCost: '3',
@@ -481,7 +481,7 @@ module.exports = [
   },
   {
     number: 49,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterNormal00.png'),
+    image: require('@/assets/images/tableturf/ShelterNormal00.png'),
     name: 'Splat Brella',
     rarity: 'Common',
     specialCost: '4',
@@ -491,7 +491,7 @@ module.exports = [
   },
   {
     number: 50,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterWide00.png'),
+    image: require('@/assets/images/tableturf/ShelterWide00.png'),
     name: 'Tenta Brella',
     rarity: 'Common',
     specialCost: '5',
@@ -501,7 +501,7 @@ module.exports = [
   },
   {
     number: 51,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterCompact00.png'),
+    image: require('@/assets/images/tableturf/ShelterCompact00.png'),
     name: 'Undercover Brella',
     rarity: 'Common',
     specialCost: '3',
@@ -511,7 +511,7 @@ module.exports = [
   },
   {
     number: 52,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerNormal00.png'),
+    image: require('@/assets/images/tableturf/StringerNormal00.png'),
     name: 'Tri-Stringer',
     rarity: 'Common',
     specialCost: '4',
@@ -521,7 +521,7 @@ module.exports = [
   },
   {
     number: 53,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerShort00.png'),
+    image: require('@/assets/images/tableturf/StringerShort00.png'),
     name: 'REEF-LUX 450',
     rarity: 'Common',
     specialCost: '4',
@@ -531,7 +531,7 @@ module.exports = [
   },
   {
     number: 54,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberNormal00.png'),
+    image: require('@/assets/images/tableturf/SaberNormal00.png'),
     name: 'Splatana Stamper',
     rarity: 'Common',
     specialCost: '3',
@@ -541,7 +541,7 @@ module.exports = [
   },
   {
     number: 55,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberLight00.png'),
+    image: require('@/assets/images/tableturf/SaberLight00.png'),
     name: 'Splatana Wiper',
     rarity: 'Common',
     specialCost: '2',
@@ -551,7 +551,7 @@ module.exports = [
   },
   {
     number: 56,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombSplash.png'),
+    image: require('@/assets/images/tableturf/BombSplash.png'),
     name: 'Splat Bomb',
     rarity: 'Common',
     specialCost: '1',
@@ -561,7 +561,7 @@ module.exports = [
   },
   {
     number: 57,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombSuction.png'),
+    image: require('@/assets/images/tableturf/BombSuction.png'),
     name: 'Suction Bomb',
     rarity: 'Common',
     specialCost: '1',
@@ -571,7 +571,7 @@ module.exports = [
   },
   {
     number: 58,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombQuick.png'),
+    image: require('@/assets/images/tableturf/BombQuick.png'),
     name: 'Burst Bomb',
     rarity: 'Common',
     specialCost: '1',
@@ -581,7 +581,7 @@ module.exports = [
   },
   {
     number: 59,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Sprinkler.png'),
+    image: require('@/assets/images/tableturf/Sprinkler.png'),
     name: 'Sprinkler',
     rarity: 'Common',
     specialCost: '1',
@@ -591,7 +591,7 @@ module.exports = [
   },
   {
     number: 60,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shield.png'),
+    image: require('@/assets/images/tableturf/Shield.png'),
     name: 'Splash Wall',
     rarity: 'Common',
     specialCost: '2',
@@ -601,7 +601,7 @@ module.exports = [
   },
   {
     number: 61,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombFizzy.png'),
+    image: require('@/assets/images/tableturf/BombFizzy.png'),
     name: 'Fizzy Bomb',
     rarity: 'Common',
     specialCost: '1',
@@ -611,7 +611,7 @@ module.exports = [
   },
   {
     number: 62,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombCurling.png'),
+    image: require('@/assets/images/tableturf/BombCurling.png'),
     name: 'Curling Bomb',
     rarity: 'Common',
     specialCost: '2',
@@ -621,7 +621,7 @@ module.exports = [
   },
   {
     number: 63,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombRobot.png'),
+    image: require('@/assets/images/tableturf/BombRobot.png'),
     name: 'Autobomb',
     rarity: 'Common',
     specialCost: '3',
@@ -631,7 +631,7 @@ module.exports = [
   },
   {
     number: 64,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Beacon.png'),
+    image: require('@/assets/images/tableturf/Beacon.png'),
     name: 'Squid Beakon',
     rarity: 'Common',
     specialCost: '4',
@@ -641,7 +641,7 @@ module.exports = [
   },
   {
     number: 65,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/PointSensor.png'),
+    image: require('@/assets/images/tableturf/PointSensor.png'),
     name: 'Point Sensor',
     rarity: 'Common',
     specialCost: '2',
@@ -651,7 +651,7 @@ module.exports = [
   },
   {
     number: 66,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Trap.png'),
+    image: require('@/assets/images/tableturf/Trap.png'),
     name: 'Ink Mine',
     rarity: 'Common',
     specialCost: '2',
@@ -661,7 +661,7 @@ module.exports = [
   },
   {
     number: 67,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/PoisonMist.png'),
+    image: require('@/assets/images/tableturf/PoisonMist.png'),
     name: 'Toxic Mist',
     rarity: 'Common',
     specialCost: '2',
@@ -671,7 +671,7 @@ module.exports = [
   },
   {
     number: 68,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/LineMarker.png'),
+    image: require('@/assets/images/tableturf/LineMarker.png'),
     name: 'Angle Shooter',
     rarity: 'Common',
     specialCost: '2',
@@ -681,7 +681,7 @@ module.exports = [
   },
   {
     number: 69,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombTako.png'),
+    image: require('@/assets/images/tableturf/BombTako.png'),
     name: 'Torpedo',
     rarity: 'Common',
     specialCost: '2',
@@ -691,7 +691,7 @@ module.exports = [
   },
   {
     number: 70,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpUltraShot.png'),
+    image: require('@/assets/images/tableturf/SpUltraShot.png'),
     name: 'Trizooka',
     rarity: 'Rare',
     specialCost: '3',
@@ -701,7 +701,7 @@ module.exports = [
   },
   {
     number: 71,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpGreatBarrier.png'),
+    image: require('@/assets/images/tableturf/SpGreatBarrier.png'),
     name: 'Big Bubbler',
     rarity: 'Rare',
     specialCost: '3',
@@ -711,7 +711,7 @@ module.exports = [
   },
   {
     number: 72,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpSuperHook.png'),
+    image: require('@/assets/images/tableturf/SpSuperHook.png'),
     name: 'Zipcaster',
     rarity: 'Rare',
     specialCost: '3',
@@ -721,7 +721,7 @@ module.exports = [
   },
   {
     number: 73,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpMultiMissile.png'),
+    image: require('@/assets/images/tableturf/SpMultiMissile.png'),
     name: 'Tenta Missiles',
     rarity: 'Rare',
     specialCost: '3',
@@ -731,7 +731,7 @@ module.exports = [
   },
   {
     number: 74,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpInkStorm.png'),
+    image: require('@/assets/images/tableturf/SpInkStorm.png'),
     name: 'Ink Storm',
     rarity: 'Rare',
     specialCost: '3',
@@ -741,7 +741,7 @@ module.exports = [
   },
   {
     number: 75,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpNiceBall.png'),
+    image: require('@/assets/images/tableturf/SpNiceBall.png'),
     name: 'Booyah Bomb',
     rarity: 'Rare',
     specialCost: '3',
@@ -751,7 +751,7 @@ module.exports = [
   },
   {
     number: 76,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShockSonar.png'),
+    image: require('@/assets/images/tableturf/ShockSonar.png'),
     name: 'Wave Breaker',
     rarity: 'Rare',
     specialCost: '3',
@@ -761,7 +761,7 @@ module.exports = [
   },
   {
     number: 77,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kyuinki.png'),
+    image: require('@/assets/images/tableturf/Kyuinki.png'),
     name: 'Ink Vac',
     rarity: 'Rare',
     specialCost: '3',
@@ -771,7 +771,7 @@ module.exports = [
   },
   {
     number: 78,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpMegaphoneLaser51.png'),
+    image: require('@/assets/images/tableturf/SpMegaphoneLaser51.png'),
     name: 'Killer Wail 5.1',
     rarity: 'Rare',
     specialCost: '3',
@@ -781,7 +781,7 @@ module.exports = [
   },
   {
     number: 79,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Jetpack.png'),
+    image: require('@/assets/images/tableturf/Jetpack.png'),
     name: 'Inkjet',
     rarity: 'Rare',
     specialCost: '3',
@@ -791,7 +791,7 @@ module.exports = [
   },
   {
     number: 80,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpUltraStamp.png'),
+    image: require('@/assets/images/tableturf/SpUltraStamp.png'),
     name: 'Ultra Stamp',
     rarity: 'Rare',
     specialCost: '3',
@@ -801,7 +801,7 @@ module.exports = [
   },
   {
     number: 81,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kanitank.png'),
+    image: require('@/assets/images/tableturf/Kanitank.png'),
     name: 'Crab Tank',
     rarity: 'Rare',
     specialCost: '3',
@@ -811,7 +811,7 @@ module.exports = [
   },
   {
     number: 82,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Chidori.png'),
+    image: require('@/assets/images/tableturf/Chidori.png'),
     name: 'Reefslider',
     rarity: 'Rare',
     specialCost: '3',
@@ -821,7 +821,7 @@ module.exports = [
   },
   {
     number: 83,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TripleTornado.png'),
+    image: require('@/assets/images/tableturf/TripleTornado.png'),
     name: 'Triple Inkstrike',
     rarity: 'Rare',
     specialCost: '3',
@@ -831,7 +831,7 @@ module.exports = [
   },
   {
     number: 84,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/EnergyStand.png'),
+    image: require('@/assets/images/tableturf/EnergyStand.png'),
     name: 'Tacticooler',
     rarity: 'Rare',
     specialCost: '3',
@@ -841,7 +841,7 @@ module.exports = [
   },
   {
     number: 85,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Bukichi.png'),
+    image: require('@/assets/images/tableturf/Bukichi.png'),
     name: 'Sheldon',
     rarity: 'Rare',
     specialCost: '5',
@@ -851,7 +851,7 @@ module.exports = [
   },
   {
     number: 86,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Omura.png'),
+    image: require('@/assets/images/tableturf/Omura.png'),
     name: 'Gnarly Eddy',
     rarity: 'Rare',
     specialCost: '5',
@@ -861,7 +861,7 @@ module.exports = [
   },
   {
     number: 87,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hanagasa.png'),
+    image: require('@/assets/images/tableturf/Hanagasa.png'),
     name: 'Jel La Fleur',
     rarity: 'Rare',
     specialCost: '5',
@@ -871,7 +871,7 @@ module.exports = [
   },
   {
     number: 88,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Yashiganisan.png'),
+    image: require('@/assets/images/tableturf/Yashiganisan.png'),
     name: 'Mr. Coco',
     rarity: 'Rare',
     specialCost: '5',
@@ -881,7 +881,7 @@ module.exports = [
   },
   {
     number: 89,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Paruko.png'),
+    image: require('@/assets/images/tableturf/Paruko.png'),
     name: 'Harmony',
     rarity: 'Rare',
     specialCost: '5',
@@ -891,7 +891,7 @@ module.exports = [
   },
   {
     number: 90,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Spiky.png'),
+    image: require('@/assets/images/tableturf/Spiky.png'),
     name: 'Murch',
     rarity: 'Rare',
     specialCost: '5',
@@ -901,7 +901,7 @@ module.exports = [
   },
   {
     number: 91,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kumasan.png'),
+    image: require('@/assets/images/tableturf/Kumasan.png'),
     name: 'Mr. Grizz',
     rarity: 'Rare',
     specialCost: '5',
@@ -911,7 +911,7 @@ module.exports = [
   },
   {
     number: 92,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Mother.png'),
+    image: require('@/assets/images/tableturf/Mother.png'),
     name: 'Marigold',
     rarity: 'Rare',
     specialCost: '5',
@@ -921,7 +921,7 @@ module.exports = [
   },
   {
     number: 93,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kojake.png'),
+    image: require('@/assets/images/tableturf/Kojake.png'),
     name: 'Smallfry',
     rarity: 'Fresh',
     specialCost: '1',
@@ -931,7 +931,7 @@ module.exports = [
   },
   {
     number: 94,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Atarime.png'),
+    image: require('@/assets/images/tableturf/Atarime.png'),
     name: 'Cuttlefish',
     rarity: 'Fresh',
     specialCost: '5',
@@ -941,7 +941,7 @@ module.exports = [
   },
   {
     number: 95,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shirei.png'),
+    image: require('@/assets/images/tableturf/Shirei.png'),
     name: 'Captain',
     rarity: 'Fresh',
     specialCost: '6',
@@ -951,7 +951,7 @@ module.exports = [
   },
   {
     number: 96,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Aori.png'),
+    image: require('@/assets/images/tableturf/Aori.png'),
     name: 'Callie',
     rarity: 'Fresh',
     specialCost: '5',
@@ -961,7 +961,7 @@ module.exports = [
   },
   {
     number: 97,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hotaru.png'),
+    image: require('@/assets/images/tableturf/Hotaru.png'),
     name: 'Marie',
     rarity: 'Fresh',
     specialCost: '5',
@@ -971,7 +971,7 @@ module.exports = [
   },
   {
     number: 98,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Fuka.png'),
+    image: require('@/assets/images/tableturf/Fuka.png'),
     name: 'Shiver',
     rarity: 'Fresh',
     specialCost: '6',
@@ -981,7 +981,7 @@ module.exports = [
   },
   {
     number: 99,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Utsuho.png'),
+    image: require('@/assets/images/tableturf/Utsuho.png'),
     name: 'Frye',
     rarity: 'Fresh',
     specialCost: '6',
@@ -991,7 +991,7 @@ module.exports = [
   },
   {
     number: 100,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Mantaro.png'),
+    image: require('@/assets/images/tableturf/Mantaro.png'),
     name: 'Big Man',
     rarity: 'Fresh',
     specialCost: '6',
@@ -1001,7 +1001,7 @@ module.exports = [
   },
   {
     number: 101,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Judgekun.png'),
+    image: require('@/assets/images/tableturf/Judgekun.png'),
     name: 'Judd',
     rarity: 'Fresh',
     specialCost: '5',
@@ -1011,7 +1011,7 @@ module.exports = [
   },
   {
     number: 102,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/KoJudgekun.png'),
+    image: require('@/assets/images/tableturf/KoJudgekun.png'),
     name: 'Li\'l Judd',
     rarity: 'Fresh',
     specialCost: '3',
@@ -1021,7 +1021,7 @@ module.exports = [
   },
   {
     number: 103,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Batoroika.png'),
+    image: require('@/assets/images/tableturf/Batoroika.png'),
     name: 'SquidForce',
     rarity: 'Rare',
     specialCost: '4',
@@ -1031,7 +1031,7 @@ module.exports = [
   },
   {
     number: 104,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Ironic.png'),
+    image: require('@/assets/images/tableturf/Ironic.png'),
     name: 'Zink',
     rarity: 'Rare',
     specialCost: '5',
@@ -1041,7 +1041,7 @@ module.exports = [
   },
   {
     number: 105,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kuraagesu.png'),
+    image: require('@/assets/images/tableturf/Kuraagesu.png'),
     name: 'Krak-On',
     rarity: 'Rare',
     specialCost: '5',
@@ -1051,7 +1051,7 @@ module.exports = [
   },
   {
     number: 106,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Rokkenberugu.png'),
+    image: require('@/assets/images/tableturf/Rokkenberugu.png'),
     name: 'Rockenberg',
     rarity: 'Rare',
     specialCost: '4',
@@ -1061,7 +1061,7 @@ module.exports = [
   },
   {
     number: 107,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Ezokko.png'),
+    image: require('@/assets/images/tableturf/Ezokko.png'),
     name: 'Zekko',
     rarity: 'Rare',
     specialCost: '5',
@@ -1071,7 +1071,7 @@ module.exports = [
   },
   {
     number: 108,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Forima.png'),
+    image: require('@/assets/images/tableturf/Forima.png'),
     name: 'Forge',
     rarity: 'Rare',
     specialCost: '4',
@@ -1081,7 +1081,7 @@ module.exports = [
   },
   {
     number: 109,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hokkorii.png'),
+    image: require('@/assets/images/tableturf/Hokkorii.png'),
     name: 'Firefin',
     rarity: 'Rare',
     specialCost: '4',
@@ -1091,7 +1091,7 @@ module.exports = [
   },
   {
     number: 110,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hotakkusu.png'),
+    image: require('@/assets/images/tableturf/Hotakkusu.png'),
     name: 'Skalop',
     rarity: 'Rare',
     specialCost: '5',
@@ -1101,7 +1101,7 @@ module.exports = [
   },
   {
     number: 111,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Jimon.png'),
+    image: require('@/assets/images/tableturf/Jimon.png'),
     name: 'Splash Mob',
     rarity: 'Rare',
     specialCost: '4',
@@ -1111,7 +1111,7 @@ module.exports = [
   },
   {
     number: 112,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shigureni.png'),
+    image: require('@/assets/images/tableturf/Shigureni.png'),
     name: 'Inkline',
     rarity: 'Rare',
     specialCost: '4',
@@ -1121,7 +1121,7 @@ module.exports = [
   },
   {
     number: 113,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Arome.png'),
+    image: require('@/assets/images/tableturf/Arome.png'),
     name: 'Tentatek',
     rarity: 'Rare',
     specialCost: '1',
@@ -1131,7 +1131,7 @@ module.exports = [
   },
   {
     number: 114,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Yako.png'),
+    image: require('@/assets/images/tableturf/Yako.png'),
     name: 'Takoroka',
     rarity: 'Rare',
     specialCost: '5',
@@ -1141,7 +1141,7 @@ module.exports = [
   },
   {
     number: 115,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Anaaki.png'),
+    image: require('@/assets/images/tableturf/Anaaki.png'),
     name: 'Annaki',
     rarity: 'Rare',
     specialCost: '5',
@@ -1151,7 +1151,7 @@ module.exports = [
   },
   {
     number: 116,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Enperii.png'),
+    image: require('@/assets/images/tableturf/Enperii.png'),
     name: 'Enperry',
     rarity: 'Rare',
     specialCost: '5',
@@ -1161,7 +1161,7 @@ module.exports = [
   },
   {
     number: 117,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Tatakikensaki.png'),
+    image: require('@/assets/images/tableturf/Tatakikensaki.png'),
     name: 'Toni Kensa',
     rarity: 'Rare',
     specialCost: '3',
@@ -1171,7 +1171,7 @@ module.exports = [
   },
   {
     number: 118,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Barazushi.png'),
+    image: require('@/assets/images/tableturf/Barazushi.png'),
     name: 'Barazushi',
     rarity: 'Rare',
     specialCost: '4',
@@ -1181,7 +1181,7 @@ module.exports = [
   },
   {
     number: 119,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shichirin.png'),
+    image: require('@/assets/images/tableturf/Shichirin.png'),
     name: 'Emberz',
     rarity: 'Rare',
     specialCost: '4',
@@ -1191,7 +1191,7 @@ module.exports = [
   },
   {
     number: 120,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoTrooper.png'),
+    image: require('@/assets/images/tableturf/TakoTrooper.png'),
     name: 'Octotrooper',
     rarity: 'Common',
     specialCost: '3',
@@ -1201,7 +1201,7 @@ module.exports = [
   },
   {
     number: 121,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TateTakoTrooper.png'),
+    image: require('@/assets/images/tableturf/TateTakoTrooper.png'),
     name: 'Shielded Octotrooper',
     rarity: 'Common',
     specialCost: '4',
@@ -1211,7 +1211,7 @@ module.exports = [
   },
   {
     number: 122,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BaiTakoTrooper.png'),
+    image: require('@/assets/images/tableturf/BaiTakoTrooper.png'),
     name: 'Twintacle Octotrooper',
     rarity: 'Common',
     specialCost: '4',
@@ -1221,7 +1221,7 @@ module.exports = [
   },
   {
     number: 123,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoHopper.png'),
+    image: require('@/assets/images/tableturf/TakoHopper.png'),
     name: 'Octohopper',
     rarity: 'Common',
     specialCost: '4',
@@ -1231,7 +1231,7 @@ module.exports = [
   },
   {
     number: 124,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Takopter.png'),
+    image: require('@/assets/images/tableturf/Takopter.png'),
     name: 'Octocopter',
     rarity: 'Common',
     specialCost: '2',
@@ -1241,7 +1241,7 @@ module.exports = [
   },
   {
     number: 125,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BombTakopter.png'),
+    image: require('@/assets/images/tableturf/BombTakopter.png'),
     name: 'Octobomber',
     rarity: 'Common',
     specialCost: '5',
@@ -1251,7 +1251,7 @@ module.exports = [
   },
   {
     number: 126,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BarrierTakopter.png'),
+    image: require('@/assets/images/tableturf/BarrierTakopter.png'),
     name: 'Octodisco',
     rarity: 'Common',
     specialCost: '5',
@@ -1261,7 +1261,7 @@ module.exports = [
   },
   {
     number: 127,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoPod.png'),
+    image: require('@/assets/images/tableturf/TakoPod.png'),
     name: 'Octopod',
     rarity: 'Common',
     specialCost: '1',
@@ -1271,7 +1271,7 @@ module.exports = [
   },
   {
     number: 128,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakopodDEV.png'),
+    image: require('@/assets/images/tableturf/TakopodDEV.png'),
     name: 'Oversized Octopod',
     rarity: 'Rare',
     specialCost: '4',
@@ -1281,7 +1281,7 @@ module.exports = [
   },
   {
     number: 129,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Sutakoraa.png'),
+    image: require('@/assets/images/tableturf/Sutakoraa.png'),
     name: 'Tentakook',
     rarity: 'Common',
     specialCost: '3',
@@ -1291,7 +1291,7 @@ module.exports = [
   },
   {
     number: 130,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoSniper.png'),
+    image: require('@/assets/images/tableturf/TakoSniper.png'),
     name: 'Octosniper',
     rarity: 'Rare',
     specialCost: '4',
@@ -1301,7 +1301,7 @@ module.exports = [
   },
   {
     number: 131,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoCommander.png'),
+    image: require('@/assets/images/tableturf/TakoCommander.png'),
     name: 'Octocommander',
     rarity: 'Rare',
     specialCost: '5',
@@ -1311,7 +1311,7 @@ module.exports = [
   },
   {
     number: 132,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoMissile.png'),
+    image: require('@/assets/images/tableturf/TakoMissile.png'),
     name: 'Octomissile',
     rarity: 'Common',
     specialCost: '2',
@@ -1321,7 +1321,7 @@ module.exports = [
   },
   {
     number: 133,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakopperinGo.png'),
+    image: require('@/assets/images/tableturf/TakopperinGo.png'),
     name: 'Octozeppelin',
     rarity: 'Rare',
     specialCost: '4',
@@ -1331,7 +1331,7 @@ module.exports = [
   },
   {
     number: 134,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Incleaner.png'),
+    image: require('@/assets/images/tableturf/Incleaner.png'),
     name: 'Squee-G',
     rarity: 'Common',
     specialCost: '3',
@@ -1341,7 +1341,7 @@ module.exports = [
   },
   {
     number: 135,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoStamp.png'),
+    image: require('@/assets/images/tableturf/TakoStamp.png'),
     name: 'Octostamp',
     rarity: 'Common',
     specialCost: '2',
@@ -1351,7 +1351,7 @@ module.exports = [
   },
   {
     number: 136,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StampWave.png'),
+    image: require('@/assets/images/tableturf/StampWave.png'),
     name: 'Amped Octostamp',
     rarity: 'Rare',
     specialCost: '4',
@@ -1361,7 +1361,7 @@ module.exports = [
   },
   {
     number: 137,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoDozer.png'),
+    image: require('@/assets/images/tableturf/TakoDozer.png'),
     name: 'Flooder',
     rarity: 'Common',
     specialCost: '5',
@@ -1371,7 +1371,7 @@ module.exports = [
   },
   {
     number: 138,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoStrike.png'),
+    image: require('@/assets/images/tableturf/TakoStrike.png'),
     name: 'Octoballer',
     rarity: 'Common',
     specialCost: '5',
@@ -1381,7 +1381,7 @@ module.exports = [
   },
   {
     number: 139,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakoZonesu.png'),
+    image: require('@/assets/images/tableturf/TakoZonesu.png'),
     name: 'Octoling',
     rarity: 'Rare',
     specialCost: '4',
@@ -1391,7 +1391,7 @@ module.exports = [
   },
   {
     number: 140,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/TakowasaShogun.png'),
+    image: require('@/assets/images/tableturf/TakowasaShogun.png'),
     name: 'DJ Octavio',
     rarity: 'Fresh',
     specialCost: '6',
@@ -1401,7 +1401,7 @@ module.exports = [
   },
   {
     number: 141,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shake.png'),
+    image: require('@/assets/images/tableturf/Shake.png'),
     name: 'Chum',
     rarity: 'Common',
     specialCost: '2',
@@ -1411,7 +1411,7 @@ module.exports = [
   },
   {
     number: 142,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Dosukoi.png'),
+    image: require('@/assets/images/tableturf/Dosukoi.png'),
     name: 'Cohock',
     rarity: 'Common',
     specialCost: '4',
@@ -1421,7 +1421,7 @@ module.exports = [
   },
   {
     number: 143,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Tamahiroi.png'),
+    image: require('@/assets/images/tableturf/Tamahiroi.png'),
     name: 'Snatcher',
     rarity: 'Common',
     specialCost: '3',
@@ -1431,7 +1431,7 @@ module.exports = [
   },
   {
     number: 144,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Bakudan.png'),
+    image: require('@/assets/images/tableturf/Bakudan.png'),
     name: 'Steelhead',
     rarity: 'Common',
     specialCost: '5',
@@ -1441,7 +1441,7 @@ module.exports = [
   },
   {
     number: 145,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hebi.png'),
+    image: require('@/assets/images/tableturf/Hebi.png'),
     name: 'Steel Eel',
     rarity: 'Common',
     specialCost: '4',
@@ -1451,7 +1451,7 @@ module.exports = [
   },
   {
     number: 146,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Teppan.png'),
+    image: require('@/assets/images/tableturf/Teppan.png'),
     name: 'Scrapper',
     rarity: 'Common',
     specialCost: '4',
@@ -1461,7 +1461,7 @@ module.exports = [
   },
   {
     number: 147,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Tower.png'),
+    image: require('@/assets/images/tableturf/Tower.png'),
     name: 'Stinger',
     rarity: 'Common',
     specialCost: '3',
@@ -1471,7 +1471,7 @@ module.exports = [
   },
   {
     number: 148,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Mogura.png'),
+    image: require('@/assets/images/tableturf/Mogura.png'),
     name: 'Maws',
     rarity: 'Common',
     specialCost: '5',
@@ -1481,7 +1481,7 @@ module.exports = [
   },
   {
     number: 149,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Koumori.png'),
+    image: require('@/assets/images/tableturf/Koumori.png'),
     name: 'Drizzler',
     rarity: 'Common',
     specialCost: '5',
@@ -1491,7 +1491,7 @@ module.exports = [
   },
   {
     number: 150,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Katapaddo.png'),
+    image: require('@/assets/images/tableturf/Katapaddo.png'),
     name: 'Flyfish',
     rarity: 'Common',
     specialCost: '5',
@@ -1501,7 +1501,7 @@ module.exports = [
   },
   {
     number: 151,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Buranko.png'),
+    image: require('@/assets/images/tableturf/Buranko.png'),
     name: 'Fish Stick',
     rarity: 'Common',
     specialCost: '4',
@@ -1511,7 +1511,7 @@ module.exports = [
   },
   {
     number: 152,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Iruka.png'),
+    image: require('@/assets/images/tableturf/Iruka.png'),
     name: 'Flipper-Flopper',
     rarity: 'Common',
     specialCost: '5',
@@ -1521,7 +1521,7 @@ module.exports = [
   },
   {
     number: 153,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Nabebuta.png'),
+    image: require('@/assets/images/tableturf/Nabebuta.png'),
     name: 'Slammin\' Lid',
     rarity: 'Common',
     specialCost: '3',
@@ -1531,7 +1531,7 @@ module.exports = [
   },
   {
     number: 154,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Taihou.png'),
+    image: require('@/assets/images/tableturf/Taihou.png'),
     name: 'Big Shot',
     rarity: 'Common',
     specialCost: '5',
@@ -1541,7 +1541,7 @@ module.exports = [
   },
   {
     number: 155,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kinshake.png'),
+    image: require('@/assets/images/tableturf/Kinshake.png'),
     name: 'Goldie',
     rarity: 'Rare',
     specialCost: '5',
@@ -1551,7 +1551,7 @@ module.exports = [
   },
   {
     number: 156,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Grill.png'),
+    image: require('@/assets/images/tableturf/Grill.png'),
     name: 'Griller',
     rarity: 'Rare',
     specialCost: '5',
@@ -1561,7 +1561,7 @@ module.exports = [
   },
   {
     number: 157,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hakobiya.png'),
+    image: require('@/assets/images/tableturf/Hakobiya.png'),
     name: 'Mothership',
     rarity: 'Rare',
     specialCost: '5',
@@ -1571,7 +1571,7 @@ module.exports = [
   },
   {
     number: 158,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Tamaire.png'),
+    image: require('@/assets/images/tableturf/Tamaire.png'),
     name: 'Mudmouth',
     rarity: 'Rare',
     specialCost: '5',
@@ -1581,7 +1581,7 @@ module.exports = [
   },
   {
     number: 159,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Denchinamazu.png'),
+    image: require('@/assets/images/tableturf/Denchinamazu.png'),
     name: 'Zapfish',
     rarity: 'Common',
     specialCost: '4',
@@ -1591,7 +1591,7 @@ module.exports = [
   },
   {
     number: 160,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/GachiYagura.png'),
+    image: require('@/assets/images/tableturf/GachiYagura.png'),
     name: 'Tower Control Tower',
     rarity: 'Rare',
     specialCost: '5',
@@ -1601,7 +1601,7 @@ module.exports = [
   },
   {
     number: 161,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/GachiHoko.png'),
+    image: require('@/assets/images/tableturf/GachiHoko.png'),
     name: 'Rainmaker',
     rarity: 'Rare',
     specialCost: '5',
@@ -1611,7 +1611,7 @@ module.exports = [
   },
   {
     number: 162,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/GachiAsari.png'),
+    image: require('@/assets/images/tableturf/GachiAsari.png'),
     name: 'Power Clam',
     rarity: 'Rare',
     specialCost: '4',
@@ -1621,7 +1621,7 @@ module.exports = [
   },
   {
     number: 163,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterFirst01.png'),
+    image: require('@/assets/images/tableturf/ShooterFirst01.png'),
     name: 'Custom Splattershot Jr.',
     rarity: 'Common',
     specialCost: '2',
@@ -1631,7 +1631,7 @@ module.exports = [
   },
   {
     number: 164,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterBlaze01.png'),
+    image: require('@/assets/images/tableturf/ShooterBlaze01.png'),
     name: 'Aerospray RG',
     rarity: 'Common',
     specialCost: '3',
@@ -1641,7 +1641,7 @@ module.exports = [
   },
   {
     number: 165,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterNormal01.png'),
+    image: require('@/assets/images/tableturf/ShooterNormal01.png'),
     name: 'Tentatek Splattershot',
     rarity: 'Common',
     specialCost: '3',
@@ -1651,7 +1651,7 @@ module.exports = [
   },
   {
     number: 166,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterExpert01.png'),
+    image: require('@/assets/images/tableturf/ShooterExpert01.png'),
     name: 'Forge Splattershot Pro',
     rarity: 'Common',
     specialCost: '4',
@@ -1661,7 +1661,7 @@ module.exports = [
   },
   {
     number: 167,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterQuickLong00.png'),
+    image: require('@/assets/images/tableturf/ShooterQuickLong00.png'),
     name: 'Splattershot Nova',
     rarity: 'Common',
     specialCost: '4',
@@ -1671,7 +1671,7 @@ module.exports = [
   },
   {
     number: 168,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterShort01.png'),
+    image: require('@/assets/images/tableturf/BlasterShort01.png'),
     name: 'Luna Blaster Neo',
     rarity: 'Common',
     specialCost: '3',
@@ -1681,7 +1681,7 @@ module.exports = [
   },
   {
     number: 169,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerCompact01.png'),
+    image: require('@/assets/images/tableturf/RollerCompact01.png'),
     name: 'Carbon Roller Deco',
     rarity: 'Common',
     specialCost: '3',
@@ -1691,7 +1691,7 @@ module.exports = [
   },
   {
     number: 170,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerWide00.png'),
+    image: require('@/assets/images/tableturf/RollerWide00.png'),
     name: 'Big Swig Roller',
     rarity: 'Common',
     specialCost: '4',
@@ -1701,7 +1701,7 @@ module.exports = [
   },
   {
     number: 171,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushMini01.png'),
+    image: require('@/assets/images/tableturf/BrushMini01.png'),
     name: 'Inkbrush Nouveau',
     rarity: 'Common',
     specialCost: '3',
@@ -1711,7 +1711,7 @@ module.exports = [
   },
   {
     number: 172,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerPencil00.png'),
+    image: require('@/assets/images/tableturf/ChargerPencil00.png'),
     name: 'Snipewriter 5H',
     rarity: 'Common',
     specialCost: '4',
@@ -1721,7 +1721,7 @@ module.exports = [
   },
   {
     number: 173,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherStrong01.png'),
+    image: require('@/assets/images/tableturf/SlosherStrong01.png'),
     name: 'Slosher Deco',
     rarity: 'Common',
     specialCost: '3',
@@ -1731,7 +1731,7 @@ module.exports = [
   },
   {
     number: 174,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerQuick01.png'),
+    image: require('@/assets/images/tableturf/SpinnerQuick01.png'),
     name: 'Zink Mini Splatling',
     rarity: 'Common',
     specialCost: '3',
@@ -1741,7 +1741,7 @@ module.exports = [
   },
   {
     number: 175,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverShort01.png'),
+    image: require('@/assets/images/tableturf/ManeuverShort01.png'),
     name: 'Dapple Dualies Nouveau',
     rarity: 'Common',
     specialCost: '3',
@@ -1751,7 +1751,7 @@ module.exports = [
   },
   {
     number: 176,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterShort01.png'),
+    image: require('@/assets/images/tableturf/ShooterShort01.png'),
     name: 'Neo Sploosh- o-matic',
     rarity: 'Common',
     specialCost: '4',
@@ -1761,7 +1761,7 @@ module.exports = [
   },
   {
     number: 177,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterPrecision01.png'),
+    image: require('@/assets/images/tableturf/ShooterPrecision01.png'),
     name: 'Neo Splash- o-matic',
     rarity: 'Common',
     specialCost: '3',
@@ -1771,7 +1771,7 @@ module.exports = [
   },
   {
     number: 178,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterQuickMiddle01.png'),
+    image: require('@/assets/images/tableturf/ShooterQuickMiddle01.png'),
     name: 'N-ZAP \'89',
     rarity: 'Common',
     specialCost: '2',
@@ -1781,7 +1781,7 @@ module.exports = [
   },
   {
     number: 179,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterHeavy01.png'),
+    image: require('@/assets/images/tableturf/ShooterHeavy01.png'),
     name: '.96 Gal Deco',
     rarity: 'Common',
     specialCost: '4',
@@ -1791,7 +1791,7 @@ module.exports = [
   },
   {
     number: 180,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterLong01.png'),
+    image: require('@/assets/images/tableturf/ShooterLong01.png'),
     name: 'Custom Jet Squelcher',
     rarity: 'Common',
     specialCost: '4',
@@ -1801,7 +1801,7 @@ module.exports = [
   },
   {
     number: 181,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLightShort01.png'),
+    image: require('@/assets/images/tableturf/BlasterLightShort01.png'),
     name: 'Clash Blaster Neo',
     rarity: 'Common',
     specialCost: '3',
@@ -1811,7 +1811,7 @@ module.exports = [
   },
   {
     number: 182,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLight01.png'),
+    image: require('@/assets/images/tableturf/BlasterLight01.png'),
     name: 'Rapid Blaster Deco',
     rarity: 'Common',
     specialCost: '3',
@@ -1821,7 +1821,7 @@ module.exports = [
   },
   {
     number: 183,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterTripleQuick01.png'),
+    image: require('@/assets/images/tableturf/ShooterTripleQuick01.png'),
     name: 'L-3 Nozzlenose D',
     rarity: 'Common',
     specialCost: '3',
@@ -1831,7 +1831,7 @@ module.exports = [
   },
   {
     number: 184,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerNormal01.png'),
+    image: require('@/assets/images/tableturf/RollerNormal01.png'),
     name: 'Krak-On Splat Roller',
     rarity: 'Common',
     specialCost: '4',
@@ -1841,7 +1841,7 @@ module.exports = [
   },
   {
     number: 185,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerNormal01.png'),
+    image: require('@/assets/images/tableturf/ChargerNormal01.png'),
     name: 'Z+F Splat Charger',
     rarity: 'Common',
     specialCost: '3',
@@ -1851,7 +1851,7 @@ module.exports = [
   },
   {
     number: 186,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerNormalScope01.png'),
+    image: require('@/assets/images/tableturf/ChargerNormalScope01.png'),
     name: 'Z+F Splatterscope',
     rarity: 'Common',
     specialCost: '4',
@@ -1861,7 +1861,7 @@ module.exports = [
   },
   {
     number: 187,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherDiffusion01.png'),
+    image: require('@/assets/images/tableturf/SlosherDiffusion01.png'),
     name: 'Tri-Slosher Nouveau',
     rarity: 'Common',
     specialCost: '2',
@@ -1871,7 +1871,7 @@ module.exports = [
   },
   {
     number: 188,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpCastle.png'),
+    image: require('@/assets/images/tableturf/SpCastle.png'),
     name: 'Kraken Royale',
     rarity: 'Rare',
     specialCost: '3',
@@ -1881,7 +1881,7 @@ module.exports = [
   },
   {
     number: 189,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpFirework.png'),
+    image: require('@/assets/images/tableturf/SpFirework.png'),
     name: 'Super Chump',
     rarity: 'Rare',
     specialCost: '3',
@@ -1891,7 +1891,7 @@ module.exports = [
   },
   {
     number: 190,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/MametsubuBukichi.png'),
+    image: require('@/assets/images/tableturf/MametsubuBukichi.png'),
     name: 'Shelly & Donny',
     rarity: 'Rare',
     specialCost: '5',
@@ -1901,7 +1901,7 @@ module.exports = [
   },
   {
     number: 191,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Anemo.png'),
+    image: require('@/assets/images/tableturf/Anemo.png'),
     name: 'Annie',
     rarity: 'Rare',
     specialCost: '5',
@@ -1911,7 +1911,7 @@ module.exports = [
   },
   {
     number: 192,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Echizen.png'),
+    image: require('@/assets/images/tableturf/Echizen.png'),
     name: 'Jelonzo',
     rarity: 'Rare',
     specialCost: '5',
@@ -1921,7 +1921,7 @@ module.exports = [
   },
   {
     number: 193,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Ajio.png'),
+    image: require('@/assets/images/tableturf/Ajio.png'),
     name: 'Fred Crumbs',
     rarity: 'Rare',
     specialCost: '4',
@@ -1931,7 +1931,7 @@ module.exports = [
   },
   {
     number: 194,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Daunii.png'),
+    image: require('@/assets/images/tableturf/Daunii.png'),
     name: 'Spyke',
     rarity: 'Rare',
     specialCost: '5',
@@ -1941,7 +1941,7 @@ module.exports = [
   },
   {
     number: 195,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Utsuho1.png'),
+    image: require('@/assets/images/tableturf/Utsuho1.png'),
     name: 'The Eel Deal - Frye',
     rarity: 'Fresh',
     specialCost: '5',
@@ -1951,7 +1951,7 @@ module.exports = [
   },
   {
     number: 196,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Fuka1.png'),
+    image: require('@/assets/images/tableturf/Fuka1.png'),
     name: 'The Cold-Blooded Bandit - Shiver',
     rarity: 'Fresh',
     specialCost: '5',
@@ -1961,7 +1961,7 @@ module.exports = [
   },
   {
     number: 197,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Mantaro1.png'),
+    image: require('@/assets/images/tableturf/Mantaro1.png'),
     name: 'The Hype Manta Storm - Big Man',
     rarity: 'Fresh',
     specialCost: '5',
@@ -1971,7 +1971,7 @@ module.exports = [
   },
   {
     number: 198,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Ezokkorii.png'),
+    image: require('@/assets/images/tableturf/Ezokkorii.png'),
     name: 'Z+F',
     rarity: 'Rare',
     specialCost: '4',
@@ -1981,7 +1981,7 @@ module.exports = [
   },
   {
     number: 199,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterQuickLong01.png'),
+    image: require('@/assets/images/tableturf/ShooterQuickLong01.png'),
     name: 'Annaki Splattershot Nova',
     rarity: 'Common',
     specialCost: '4',
@@ -1991,7 +1991,7 @@ module.exports = [
   },
   {
     number: 200,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLightLong01.png'),
+    image: require('@/assets/images/tableturf/BlasterLightLong01.png'),
     name: 'Rapid Blaster Pro Deco',
     rarity: 'Common',
     specialCost: '4',
@@ -2001,7 +2001,7 @@ module.exports = [
   },
   {
     number: 201,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterPrecision00.png'),
+    image: require('@/assets/images/tableturf/BlasterPrecision00.png'),
     name: 'S-BLAST \'92',
     rarity: 'Common',
     specialCost: '4',
@@ -2011,7 +2011,7 @@ module.exports = [
   },
   {
     number: 202,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterTripleMiddle01.png'),
+    image: require('@/assets/images/tableturf/ShooterTripleMiddle01.png'),
     name: 'H-3 Nozzlenose D',
     rarity: 'Common',
     specialCost: '3',
@@ -2021,7 +2021,7 @@ module.exports = [
   },
   {
     number: 203,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerWide01.png'),
+    image: require('@/assets/images/tableturf/RollerWide01.png'),
     name: 'Big Swig Roller Express',
     rarity: 'Common',
     specialCost: '4',
@@ -2031,7 +2031,7 @@ module.exports = [
   },
   {
     number: 204,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushHeavy00.png'),
+    image: require('@/assets/images/tableturf/BrushHeavy00.png'),
     name: 'Painbrush',
     rarity: 'Common',
     specialCost: '4',
@@ -2041,7 +2041,7 @@ module.exports = [
   },
   {
     number: 205,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerStandard01.png'),
+    image: require('@/assets/images/tableturf/SpinnerStandard01.png'),
     name: 'Heavy Splatling Deco',
     rarity: 'Common',
     specialCost: '5',
@@ -2051,7 +2051,7 @@ module.exports = [
   },
   {
     number: 206,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverDual01.png'),
+    image: require('@/assets/images/tableturf/ManeuverDual01.png'),
     name: 'Custom Dualie Squelchers',
     rarity: 'Common',
     specialCost: '4',
@@ -2061,7 +2061,7 @@ module.exports = [
   },
   {
     number: 207,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverStepper01.png'),
+    image: require('@/assets/images/tableturf/ManeuverStepper01.png'),
     name: 'Light Tetra Dualies',
     rarity: 'Common',
     specialCost: '3',
@@ -2071,7 +2071,7 @@ module.exports = [
   },
   {
     number: 208,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterWide01.png'),
+    image: require('@/assets/images/tableturf/ShelterWide01.png'),
     name: 'Tenta Sorella Brella',
     rarity: 'Common',
     specialCost: '5',
@@ -2081,7 +2081,7 @@ module.exports = [
   },
   {
     number: 209,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberLight01.png'),
+    image: require('@/assets/images/tableturf/SaberLight01.png'),
     name: 'Splatana Wiper Deco',
     rarity: 'Common',
     specialCost: '2',
@@ -2091,7 +2091,7 @@ module.exports = [
   },
   {
     number: 210,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerHeavy01.png'),
+    image: require('@/assets/images/tableturf/RollerHeavy01.png'),
     name: 'Gold Dynamo Roller',
     rarity: 'Common',
     specialCost: '5',
@@ -2101,7 +2101,7 @@ module.exports = [
   },
   {
     number: 211,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushNormal01.png'),
+    image: require('@/assets/images/tableturf/BrushNormal01.png'),
     name: 'Octobrush Nouveau',
     rarity: 'Common',
     specialCost: '4',
@@ -2111,7 +2111,7 @@ module.exports = [
   },
   {
     number: 212,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerKeeper01.png'),
+    image: require('@/assets/images/tableturf/ChargerKeeper01.png'),
     name: 'Custom Goo Tuber',
     rarity: 'Common',
     specialCost: '4',
@@ -2121,7 +2121,7 @@ module.exports = [
   },
   {
     number: 213,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherLauncher01.png'),
+    image: require('@/assets/images/tableturf/SlosherLauncher01.png'),
     name: 'Sloshing Machine Neo',
     rarity: 'Common',
     specialCost: '3',
@@ -2131,7 +2131,7 @@ module.exports = [
   },
   {
     number: 214,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherBathtub01.png'),
+    image: require('@/assets/images/tableturf/SlosherBathtub01.png'),
     name: 'Bloblobber Deco',
     rarity: 'Common',
     specialCost: '4',
@@ -2141,7 +2141,7 @@ module.exports = [
   },
   {
     number: 215,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherDouble00.png'),
+    image: require('@/assets/images/tableturf/SlosherDouble00.png'),
     name: 'Dread Wringer',
     rarity: 'Common',
     specialCost: '5',
@@ -2151,7 +2151,7 @@ module.exports = [
   },
   {
     number: 216,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerDownpour01.png'),
+    image: require('@/assets/images/tableturf/SpinnerDownpour01.png'),
     name: 'Ballpoint Splatling Nouveau',
     rarity: 'Common',
     specialCost: '4',
@@ -2161,7 +2161,7 @@ module.exports = [
   },
   {
     number: 217,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerHyperShort00.png'),
+    image: require('@/assets/images/tableturf/SpinnerHyperShort00.png'),
     name: 'Heavy Edit Splatling',
     rarity: 'Common',
     specialCost: '5',
@@ -2171,7 +2171,7 @@ module.exports = [
   },
   {
     number: 218,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterNormal01.png'),
+    image: require('@/assets/images/tableturf/ShelterNormal01.png'),
     name: 'Sorella Brella',
     rarity: 'Common',
     specialCost: '4',
@@ -2181,7 +2181,7 @@ module.exports = [
   },
   {
     number: 219,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerNormal01.png'),
+    image: require('@/assets/images/tableturf/StringerNormal01.png'),
     name: 'Inkline Tri-Stringer',
     rarity: 'Common',
     specialCost: '4',
@@ -2191,7 +2191,7 @@ module.exports = [
   },
   {
     number: 220,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Yokozuna.png'),
+    image: require('@/assets/images/tableturf/Yokozuna.png'),
     name: 'Cohozuna',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2201,7 +2201,7 @@ module.exports = [
   },
   {
     number: 221,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Tatsu.png'),
+    image: require('@/assets/images/tableturf/Tatsu.png'),
     name: 'Horrorboros',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2211,7 +2211,7 @@ module.exports = [
   },
   {
     number: 222,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterMiddle01.png'),
+    image: require('@/assets/images/tableturf/BlasterMiddle01.png'),
     name: 'Custom Blaster',
     rarity: 'Common',
     specialCost: '3',
@@ -2221,7 +2221,7 @@ module.exports = [
   },
   {
     number: 223,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterFlash01.png'),
+    image: require('@/assets/images/tableturf/ShooterFlash01.png'),
     name: 'Foil Squeezer',
     rarity: 'Common',
     specialCost: '3',
@@ -2231,7 +2231,7 @@ module.exports = [
   },
   {
     number: 224,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverNormal01.png'),
+    image: require('@/assets/images/tableturf/ManeuverNormal01.png'),
     name: 'Enperry Splat Dualies',
     rarity: 'Common',
     specialCost: '3',
@@ -2241,7 +2241,7 @@ module.exports = [
   },
   {
     number: 225,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterCompact01.png'),
+    image: require('@/assets/images/tableturf/ShelterCompact01.png'),
     name: 'Undercover Sorella Brella',
     rarity: 'Common',
     specialCost: '3',
@@ -2251,7 +2251,7 @@ module.exports = [
   },
   {
     number: 226,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerShort01.png'),
+    image: require('@/assets/images/tableturf/StringerShort01.png'),
     name: 'REEF-LUX 450 Deco',
     rarity: 'Common',
     specialCost: '4',
@@ -2261,7 +2261,7 @@ module.exports = [
   },
   {
     number: 227,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberNormal01.png'),
+    image: require('@/assets/images/tableturf/SaberNormal01.png'),
     name: 'Splatana Stamper Nouveau',
     rarity: 'Common',
     specialCost: '3',
@@ -2271,7 +2271,7 @@ module.exports = [
   },
   {
     number: 228,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerPencil01.png'),
+    image: require('@/assets/images/tableturf/ChargerPencil01.png'),
     name: 'Snipewriter 5B',
     rarity: 'Common',
     specialCost: '4',
@@ -2281,7 +2281,7 @@ module.exports = [
   },
   {
     number: 229,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterPrecision01.png'),
+    image: require('@/assets/images/tableturf/BlasterPrecision01.png'),
     name: 'S-BLAST \'91',
     rarity: 'Common',
     specialCost: '4',
@@ -2291,7 +2291,7 @@ module.exports = [
   },
   {
     number: 230,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BrushHeavy01.png'),
+    image: require('@/assets/images/tableturf/BrushHeavy01.png'),
     name: 'Painbrush Nouveau',
     rarity: 'Common',
     specialCost: '4',
@@ -2301,7 +2301,7 @@ module.exports = [
   },
   {
     number: 231,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpPogo.png'),
+    image: require('@/assets/images/tableturf/SpPogo.png'),
     name: 'Triple Splashdown',
     rarity: 'Rare',
     specialCost: '3',
@@ -2311,7 +2311,7 @@ module.exports = [
   },
   {
     number: 232,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpChimney.png'),
+    image: require('@/assets/images/tableturf/SpChimney.png'),
     name: 'Splattercolor Screen',
     rarity: 'Rare',
     specialCost: '3',
@@ -2321,7 +2321,7 @@ module.exports = [
   },
   {
     number: 233,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverSdodr.png'),
+    image: require('@/assets/images/tableturf/ManeuverSdodr.png'),
     name: 'Order Dualies',
     rarity: 'Fresh',
     specialCost: '2',
@@ -2331,7 +2331,7 @@ module.exports = [
   },
   {
     number: 234,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShooterGravity01.png'),
+    image: require('@/assets/images/tableturf/ShooterGravity01.png'),
     name: '.52 Gal Deco',
     rarity: 'Common',
     specialCost: '3',
@@ -2341,7 +2341,7 @@ module.exports = [
   },
   {
     number: 235,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/RollerHunter01.png'),
+    image: require('@/assets/images/tableturf/RollerHunter01.png'),
     name: 'Foil Flingza Roller',
     rarity: 'Common',
     specialCost: '4',
@@ -2351,7 +2351,7 @@ module.exports = [
   },
   {
     number: 236,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerQuick01.png'),
+    image: require('@/assets/images/tableturf/ChargerQuick01.png'),
     name: 'New Squiffer',
     rarity: 'Common',
     specialCost: '3',
@@ -2361,7 +2361,7 @@ module.exports = [
   },
   {
     number: 237,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLong01.png'),
+    image: require('@/assets/images/tableturf/ChargerLong01.png'),
     name: 'Custom E-liter 4K',
     rarity: 'Common',
     specialCost: '4',
@@ -2371,7 +2371,7 @@ module.exports = [
   },
   {
     number: 238,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLongScope01.png'),
+    image: require('@/assets/images/tableturf/ChargerLongScope01.png'),
     name: 'Custom E-liter 4K Scope',
     rarity: 'Common',
     specialCost: '5',
@@ -2381,7 +2381,7 @@ module.exports = [
   },
   {
     number: 239,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherWashtub01.png'),
+    image: require('@/assets/images/tableturf/SlosherWashtub01.png'),
     name: 'Custom Explosher',
     rarity: 'Common',
     specialCost: '4',
@@ -2391,7 +2391,7 @@ module.exports = [
   },
   {
     number: 240,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SlosherDouble01.png'),
+    image: require('@/assets/images/tableturf/SlosherDouble01.png'),
     name: 'Dread Wringer D',
     rarity: 'Common',
     specialCost: '5',
@@ -2401,7 +2401,7 @@ module.exports = [
   },
   {
     number: 241,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerSerein01.png'),
+    image: require('@/assets/images/tableturf/SpinnerSerein01.png'),
     name: 'Nautilus 79',
     rarity: 'Common',
     specialCost: '4',
@@ -2411,7 +2411,7 @@ module.exports = [
   },
   {
     number: 242,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverGallon01.png'),
+    image: require('@/assets/images/tableturf/ManeuverGallon01.png'),
     name: 'Glooga Dualies Deco',
     rarity: 'Common',
     specialCost: '4',
@@ -2421,7 +2421,7 @@ module.exports = [
   },
   {
     number: 243,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverLong00.png'),
+    image: require('@/assets/images/tableturf/ManeuverLong00.png'),
     name: 'Douser Dualies FF',
     rarity: 'Common',
     specialCost: '4',
@@ -2431,7 +2431,7 @@ module.exports = [
   },
   {
     number: 244,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterFocus00.png'),
+    image: require('@/assets/images/tableturf/ShelterFocus00.png'),
     name: 'Recycled Brella 24 Mk I',
     rarity: 'Common',
     specialCost: '4',
@@ -2441,7 +2441,7 @@ module.exports = [
   },
   {
     number: 245,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Miura.png'),
+    image: require('@/assets/images/tableturf/Miura.png'),
     name: 'Flow',
     rarity: 'Rare',
     specialCost: '5',
@@ -2451,7 +2451,7 @@ module.exports = [
   },
   {
     number: 246,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Bizen.png'),
+    image: require('@/assets/images/tableturf/Bizen.png'),
     name: 'Jelfonzo',
     rarity: 'Rare',
     specialCost: '5',
@@ -2461,7 +2461,7 @@ module.exports = [
   },
   {
     number: 247,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Shiganii.png'),
+    image: require('@/assets/images/tableturf/Shiganii.png'),
     name: 'Bisk',
     rarity: 'Rare',
     specialCost: '5',
@@ -2471,7 +2471,7 @@ module.exports = [
   },
   {
     number: 248,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Mizuta.png'),
+    image: require('@/assets/images/tableturf/Mizuta.png'),
     name: 'Acht',
     rarity: 'Rare',
     specialCost: '6',
@@ -2481,7 +2481,7 @@ module.exports = [
   },
   {
     number: 249,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Yumeebi.png'),
+    image: require('@/assets/images/tableturf/Yumeebi.png'),
     name: 'Cipher',
     rarity: 'Rare',
     specialCost: '5',
@@ -2491,7 +2491,7 @@ module.exports = [
   },
   {
     number: 250,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/HimeDrone.png'),
+    image: require('@/assets/images/tableturf/HimeDrone.png'),
     name: 'Pearl Drone',
     rarity: 'Fresh',
     specialCost: '2',
@@ -2501,7 +2501,7 @@ module.exports = [
   },
   {
     number: 251,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Hime.png'),
+    image: require('@/assets/images/tableturf/Hime.png'),
     name: 'Pearl',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2511,7 +2511,7 @@ module.exports = [
   },
   {
     number: 252,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Iida.png'),
+    image: require('@/assets/images/tableturf/Iida.png'),
     name: 'Marina',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2521,7 +2521,7 @@ module.exports = [
   },
   {
     number: 253,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/BlasterLong01.png'),
+    image: require('@/assets/images/tableturf/BlasterLong01.png'),
     name: 'Custom Range Blaster',
     rarity: 'Common',
     specialCost: '4',
@@ -2531,7 +2531,7 @@ module.exports = [
   },
   {
     number: 254,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ChargerLight01.png'),
+    image: require('@/assets/images/tableturf/ChargerLight01.png'),
     name: 'Bamboozler 14 Mk II',
     rarity: 'Common',
     specialCost: '3',
@@ -2541,7 +2541,7 @@ module.exports = [
   },
   {
     number: 255,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerHyper01.png'),
+    image: require('@/assets/images/tableturf/SpinnerHyper01.png'),
     name: 'Custom Hydra Splatling',
     rarity: 'Common',
     specialCost: '5',
@@ -2551,7 +2551,7 @@ module.exports = [
   },
   {
     number: 256,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SpinnerHyperShort01.png'),
+    image: require('@/assets/images/tableturf/SpinnerHyperShort01.png'),
     name: 'Heavy Edit Splatling Nouveau',
     rarity: 'Common',
     specialCost: '5',
@@ -2561,7 +2561,7 @@ module.exports = [
   },
   {
     number: 257,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ManeuverLong01.png'),
+    image: require('@/assets/images/tableturf/ManeuverLong01.png'),
     name: 'Custom Douser Dualies FF',
     rarity: 'Common',
     specialCost: '4',
@@ -2571,7 +2571,7 @@ module.exports = [
   },
   {
     number: 258,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/ShelterFocus01.png'),
+    image: require('@/assets/images/tableturf/ShelterFocus01.png'),
     name: 'Recycled Brella 24 Mk II',
     rarity: 'Common',
     specialCost: '4',
@@ -2581,7 +2581,7 @@ module.exports = [
   },
   {
     number: 259,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerExplosion00.png'),
+    image: require('@/assets/images/tableturf/StringerExplosion00.png'),
     name: 'Wellstring V',
     rarity: 'Common',
     specialCost: '5',
@@ -2591,7 +2591,7 @@ module.exports = [
   },
   {
     number: 260,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/StringerExplosion01.png'),
+    image: require('@/assets/images/tableturf/StringerExplosion01.png'),
     name: 'Custom Wellstring V',
     rarity: 'Common',
     specialCost: '5',
@@ -2601,7 +2601,7 @@ module.exports = [
   },
   {
     number: 261,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberHeavy00.png'),
+    image: require('@/assets/images/tableturf/SaberHeavy00.png'),
     name: 'Mint Decavitator',
     rarity: 'Common',
     specialCost: '5',
@@ -2611,7 +2611,7 @@ module.exports = [
   },
   {
     number: 262,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/SaberHeavy01.png'),
+    image: require('@/assets/images/tableturf/SaberHeavy01.png'),
     name: 'Charcoal Decavitator',
     rarity: 'Common',
     specialCost: '5',
@@ -2621,7 +2621,7 @@ module.exports = [
   },
   {
     number: 263,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Robu.png'),
+    image: require('@/assets/images/tableturf/Robu.png'),
     name: 'Crusty Sean',
     rarity: 'Rare',
     specialCost: '5',
@@ -2631,7 +2631,7 @@ module.exports = [
   },
   {
     number: 264,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Kumasan1.png'),
+    image: require('@/assets/images/tableturf/Kumasan1.png'),
     name: 'The Ursine Anomaly - #03',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2641,7 +2641,7 @@ module.exports = [
   },
   {
     number: 265,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Jaw.png'),
+    image: require('@/assets/images/tableturf/Jaw.png'),
     name: 'Megalodontia',
     rarity: 'Fresh',
     specialCost: '6',
@@ -2651,7 +2651,7 @@ module.exports = [
   },
   {
     number: 266,
-    image: require('@/assets/images/tableturf/https://leanny.github.io/splat3/images/minigame/card/Odako.png'),
+    image: require('@/assets/images/tableturf/Odako.png'),
     name: 'Overlorder',
     rarity: 'Fresh',
     specialCost: '6',
