@@ -1,4 +1,4 @@
-module.exports = [
+export const weapons = [
   {
     id: 0,
     image: require('@/assets/images/weapons/Path_Wst_Shooter_Short_00.png'),
