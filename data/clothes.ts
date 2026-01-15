@@ -1,4 +1,4 @@
-module.exports = [
+export const clothes = [
   {
     id: 2,
     image: require('@/assets/images/clothes/Clt_FST001.png'),

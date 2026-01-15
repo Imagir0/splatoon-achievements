@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#16a34a',
     borderRadius: 4,
   },
-    summaryCard: {
+  summaryCard: {
     padding: 16,
     borderRadius: 10,
     backgroundColor: '#e5e7eb',

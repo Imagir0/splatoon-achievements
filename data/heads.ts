@@ -1,4 +1,4 @@
-module.exports = [
+export const heads = [
   {
     id: 1,
     image: require('@/assets/images/heads/Hed_FST000.png'),

@@ -21,6 +21,9 @@ export default function RootLayout() {
         <Stack.Screen name="badges/salmonRun/index" options={{ title: 'Badges du mode Salmon Run' }} />
         <Stack.Screen name="banners/index" options={{ title: 'Bannières' }} />
         <Stack.Screen name="gears/index" options={{ title: 'Équipements' }} />
+        <Stack.Screen name="gears/clothes/index" options={{ title: 'Vêtements' }} />
+        <Stack.Screen name="gears/heads/index" options={{ title: 'Accessoires' }} />
+        <Stack.Screen name="gears/shoes/index" options={{ title: 'Chaussures' }} />
         <Stack.Screen name="objects/index" options={{ title: 'Objets' }} />
         <Stack.Screen name="salmon/index" options={{ title: 'Salmon Run' }} />
         <Stack.Screen name="tableturf/index" options={{ title: 'Cartes & Territoire' }} />
