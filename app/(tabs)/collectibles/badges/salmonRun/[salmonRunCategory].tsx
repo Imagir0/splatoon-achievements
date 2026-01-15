@@ -1,17 +1,9 @@
-import { Stack, useLocalSearchParams } from 'expo-router';
-import { useMemo } from 'react';
-import {
-  FlatList,
-  Image,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-
 import { useBadges } from '@/contexts/BadgesContext';
 import { badges } from '@/data/badges';
 import { salmonRunCategories } from '@/data/salmonRunCategories';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import { useMemo } from 'react';
+import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function SalmonRunCategoryScreen() {
   const params = useLocalSearchParams();
@@ -19,9 +11,8 @@ export default function SalmonRunCategoryScreen() {
     | keyof typeof salmonRunCategories
     | undefined;
   const config = salmonRunCategory ? salmonRunCategories[salmonRunCategory] : undefined;
-
   const { selectedBadges, toggleBadge } = useBadges();
-
+  
   const filteredBadges = useMemo(() => {
     if (!config) return [];
     return badges.filter(config.filter);
