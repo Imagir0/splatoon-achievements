@@ -140,6 +140,13 @@ async function main() {
 
   console.log("Génération du fichier cardlist.js…");
 
+  for (const cl of cardlistData) {
+    cl.image = await downloadImage(cl.image);
+
+    if (cl.brand) cl.brand.image = await downloadImage(cl.brand.image);
+    if (cl.ability) cl.ability.image = await downloadImage(cl.ability.image);
+  }
+
   let fileContent = "module.exports = [\n";
 
   for (const h of cardlistData) {

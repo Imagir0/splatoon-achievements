@@ -4,15 +4,15 @@ import { badges } from '@/data/badges';
 import { Stack } from 'expo-router';
 import React from 'react';
 import {
-    Alert,
-    Dimensions,
-    FlatList,
-    Image,
-    Platform,
-    Pressable,
-    StyleSheet,
-    ToastAndroid,
-    View
+  Alert,
+  Dimensions,
+  FlatList,
+  Image,
+  Platform,
+  Pressable,
+  StyleSheet,
+  ToastAndroid,
+  View
 } from 'react-native';
 
 export default function AllBadgesScreen() {

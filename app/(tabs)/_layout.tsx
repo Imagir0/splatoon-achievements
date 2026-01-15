@@ -1,6 +1,7 @@
 import { BadgesProvider } from '@/contexts/BadgesContext';
 import { BannersProvider } from '@/contexts/BannersContext';
 import { SalmonSkinsProvider } from '@/contexts/SalmonRunContext';
+import { TableTurfProvider } from '@/contexts/TableTurfContext';
 import { WeaponsProvider } from '@/contexts/WeaponsContext';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
@@ -10,6 +11,7 @@ export default function TabsLayout() {
     <BadgesProvider>
     <BannersProvider>
       <SalmonSkinsProvider>
+        <TableTurfProvider>
       <WeaponsProvider>
       <Tabs
         screenOptions={{
@@ -62,6 +64,7 @@ export default function TabsLayout() {
           }}
         />
       </Tabs>
+      </TableTurfProvider>
       </WeaponsProvider>
       </SalmonSkinsProvider>
     </BannersProvider>
