@@ -2,8 +2,6 @@ import type { ObjectItem } from '@/data/allObjects';
 
 type ObjectFilter = (o: ObjectItem) => boolean;
 
-
-
 export const objectsFilters: Record<
   'figures' | 'lockers' | 'stickers',
   Record<string, ObjectFilter>
@@ -24,12 +22,12 @@ export const objectsFilters: Record<
     salmon: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Uroko') &&
-      o.id >= 1200000 && o.id <= 1200024 &&
-      o.id === 1200145,
+      (o.id >= 1200000 && o.id <= 1200024 ||
+      o.id === 1200145),
 
     salmonEvent: (o) =>
       o.category === 'figures' &&
-      o.howToGet.includes('Uroko') &&
+      o.howToGet.includes('Other') &&
       o.id >= 1200031 && o.id <=1200144,
 
     tableturf: (o) =>
@@ -49,7 +47,7 @@ export const objectsFilters: Record<
   },
 
   lockers: {
-    all: (o) =>
+    general: (o) =>
       o.category === 'lockers',
   },
 

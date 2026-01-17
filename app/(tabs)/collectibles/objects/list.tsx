@@ -4,7 +4,7 @@ import { Stack } from 'expo-router';
 import React from 'react';
 import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, ToastAndroid, View } from 'react-native';
 
-export default function AllObjetcsScreen() {
+export default function AllObjectsScreen() {
   const { isOwned } = useObjects();
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -20,26 +20,26 @@ export default function AllObjetcsScreen() {
     }
   };
 
-  const GEAR_COLORS: Record<ObjectItem['type'], string> = {
+  const GEAR_COLORS: Record<ObjectItem['category'], string> = {
         figures: '#a5dfa7ff',
         lockers: '#a5b4fc',
         stickers: '#ff9284ff',
     };
 
-    function getObjectColor(object: ObjectItem) {
-    return GEAR_COLORS[object.type] ?? '#e5e7eb';
+    function getGearColor(object: ObjectItem) {
+    return GEAR_COLORS[object.category] ?? '#e5e7eb';
     }
 
   return (
     <View style={{ flex: 1, padding: spacing }}>
-      <Stack.Screen options={{ title: 'Tous les objets' }} />
+      <Stack.Screen options={{ title: 'Tous les équipements' }} />
 
       <FlatList
         data={allObjects}
-        keyExtractor={(item) => `${item.type}-${item.id}`}
+        keyExtractor={(item) => `${item.category}-${item.id}`}
         numColumns={numColumns}
         renderItem={({ item }) => {
-          const owned = isOwned(item.type, item.id);
+          const owned = isOwned(item.category, item.id);
 
           return (
             <Pressable
@@ -50,7 +50,7 @@ export default function AllObjetcsScreen() {
                   width: itemSize,
                   height: itemSize,
                   margin: spacing,
-                  backgroundColor: getObjectColor(item),
+                  backgroundColor: getGearColor(item),
                 },
               ]}
             >
