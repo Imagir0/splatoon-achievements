@@ -1,7 +1,8 @@
 import { useObjects } from '@/contexts/ObjectsContext';
 import { allObjects, ObjectItem } from '@/data/allObjects';
+import { objectsFilters } from '@/data/objectsFilters';
 import { Stack } from 'expo-router';
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, ToastAndroid, View } from 'react-native';
 
 export default function AllObjectsScreen() {
@@ -10,6 +11,53 @@ export default function AllObjectsScreen() {
   const numColumns = 10;
   const spacing = 2;
   const itemSize = (screenWidth - spacing * (numColumns * 2)) / numColumns;
+
+  const OBJECT_GROUP_ORDER: Array<{
+    category: ObjectItem['category'];
+    filterKey: string;
+  }> = [
+    { category: 'figures', filterKey: 'spend' },
+    { category: 'stickers', filterKey: 'spend' },
+
+    { category: 'figures', filterKey: 'rank' },
+
+    { category: 'figures', filterKey: 'salmon' },
+    { category: 'stickers', filterKey: 'salmon' },
+
+    { category: 'figures', filterKey: 'salmonEvent' },
+    { category: 'stickers', filterKey: 'salmonEvent' },
+
+    { category: 'figures', filterKey: 'tableturf' },
+    { category: 'stickers', filterKey: 'tableturf' },
+
+    { category: 'figures', filterKey: 'story' },
+    { category: 'stickers', filterKey: 'story' },
+
+    { category: 'figures', filterKey: 'dlc' },
+    { category: 'stickers', filterKey: 'dlc' },
+
+    { category: 'stickers', filterKey: 'weapons' },
+
+    { category: 'lockers', filterKey: 'general' },
+  ];
+
+  const sortedObjects = useMemo(() => {
+    const result: ObjectItem[] = [];
+
+    for (const group of OBJECT_GROUP_ORDER) {
+      const filterFn = objectsFilters[group.category]?.[group.filterKey];
+      if (!filterFn) continue;
+
+      const items = allObjects
+        .filter(filterFn)
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      result.push(...items);
+    }
+
+    return result;
+  }, []);
+
 
   const handlePress = (object: ObjectItem) => {
     const message = object.name;
@@ -35,7 +83,7 @@ export default function AllObjectsScreen() {
       <Stack.Screen options={{ title: 'Tous les équipements' }} />
 
       <FlatList
-        data={allObjects}
+        data={sortedObjects}
         keyExtractor={(item) => `${item.category}-${item.id}`}
         numColumns={numColumns}
         renderItem={({ item }) => {
