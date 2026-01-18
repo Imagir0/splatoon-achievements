@@ -3,8 +3,8 @@ import { OBJECTS_DATA } from '@/data/objects';
 import { FIGURES_CATEGORY_TITLES } from '@/data/objectsCategoryTitles';
 import { objectsFilters } from '@/data/objectsFilters';
 import { Stack, useLocalSearchParams } from 'expo-router';
-import React, { useMemo } from 'react';
-import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { FlatList, Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function FiguresCategoryScreen() {
     const { figuresCategory } = useLocalSearchParams<{ figuresCategory: string }>();
@@ -16,17 +16,45 @@ export default function FiguresCategoryScreen() {
     // Récupérer le filtre correspondant à cette catégorie
     const filterFn = objectsFilters.figures[figuresCategory ?? ''];
 
+    // Barre de recheche
+    const [search, setSearch] = useState('');
+    const searchableCategories = [
+        'spend',
+    ];
+
+    const showSearch = figuresCategory
+        ? searchableCategories.includes(figuresCategory)
+        : false;
+
     // Filtrage des figurines selon le filtre
     const filteredFigures = useMemo(() => {
         if (!filterFn) return [];
+
         return OBJECTS_DATA.figures
             .map(f => ({ ...f, category: 'figures' as const }))
-            .filter(filterFn);
-    }, [figuresCategory]);
+            .filter(
+                (figure) =>
+                    filterFn(figure) &&
+                    (
+                        !showSearch ||
+                        figure.name.toLowerCase().includes(search.toLowerCase())
+                    )
+            )
+            .sort((a, b) => a.name.localeCompare(b.name));
+    }, [filterFn, figuresCategory, search, showSearch]);
 
     return (
         <View style={{ flex: 1, padding: 16 }}>
             <Stack.Screen options={{ title }} />
+
+            {showSearch && (
+                <TextInput
+                    value={search}
+                    onChangeText={setSearch}
+                    placeholder="Rechercher un objet…"
+                    style={styles.searchInput}
+                />
+            )}
 
             <FlatList
                 data={filteredFigures}
@@ -83,5 +111,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginLeft: 5,
+    },
+    searchInput: {
+        height: 44,
+        borderRadius: 10,
+        paddingHorizontal: 14,
+        marginBottom: 12,
+        backgroundColor: '#e5e7eb',
+        fontSize: 16,
     },
 });

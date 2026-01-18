@@ -3,8 +3,8 @@ import { OBJECTS_DATA } from '@/data/objects';
 import { objectsFilters } from '@/data/objectsFilters';
 import { STICKERS_CATEGORY_TITLES } from '@/data/stickersCategoryTitles';
 import { Stack, useLocalSearchParams } from 'expo-router';
-import React, { useMemo } from 'react';
-import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { FlatList, Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function StickersCategoryScreen() {
     const { stickersCategory } = useLocalSearchParams<{ stickersCategory: string }>();
@@ -16,17 +16,46 @@ export default function StickersCategoryScreen() {
     // Récupérer le filtre correspondant à cette catégorie
     const filterFn = objectsFilters.stickers[stickersCategory ?? ''];
 
-    // Filtrage des stickers selon le filtre
+    // Barre de recheche
+    const [search, setSearch] = useState('');
+    const searchableCategories = [
+        'spend',
+        'weapons',
+    ];
+
+    const showSearch = stickersCategory
+        ? searchableCategories.includes(stickersCategory)
+        : false;
+
+    // Filtrage des figurines selon le filtre
     const filteredStickers = useMemo(() => {
         if (!filterFn) return [];
+
         return OBJECTS_DATA.stickers
-            .map(s => ({ ...s, category: 'stickers' as const })) // pour TS
-            .filter(filterFn);
-    }, [stickersCategory]);
+            .map(f => ({ ...f, category: 'stickers' as const }))
+            .filter(
+                (sticker) =>
+                    filterFn(sticker) &&
+                    (
+                        !showSearch ||
+                        sticker.name.toLowerCase().includes(search.toLowerCase())
+                    )
+            )
+            .sort((a, b) => a.name.localeCompare(b.name));
+    }, [filterFn, stickersCategory, search, showSearch]);
 
     return (
         <View style={{ flex: 1, padding: 16 }}>
             <Stack.Screen options={{ title }} />
+
+            {showSearch && (
+                <TextInput
+                    value={search}
+                    onChangeText={setSearch}
+                    placeholder="Rechercher un autocollant…"
+                    style={styles.searchInput}
+                />
+            )}
 
             <FlatList
                 data={filteredStickers}
@@ -83,5 +112,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginLeft: 5,
+    },
+    searchInput: {
+        height: 44,
+        borderRadius: 10,
+        paddingHorizontal: 14,
+        marginBottom: 12,
+        backgroundColor: '#e5e7eb',
+        fontSize: 16,
     },
 });

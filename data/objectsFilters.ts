@@ -28,22 +28,22 @@ export const objectsFilters: Record<
     salmonEvent: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Other') &&
-      o.id >= 1200031 && o.id <=1200144,
+      o.id >= 1200031 && o.id <= 1200144,
 
     tableturf: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Other') &&
-      o.id >= 1400000 && o.id <=1400002,
+      o.id >= 1400000 && o.id <= 1400002,
 
     story: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Other') &&
-      o.id >= 1300000 && o.id <=1300028,
+      o.id >= 1300000 && o.id <= 1300028,
 
     dlc: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Other') &&
-      o.id >= 1310000 && o.id <=1320006,
+      o.id >= 1310000 && o.id <= 1320006,
   },
 
   lockers: {
@@ -62,53 +62,46 @@ export const objectsFilters: Record<
     weapons: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Other') &&
-      o.id >= 6200000 && o.id <=6080121 ||
-      o.id >= 6400685 && o.id <=6400826 ||
-      o.id >= 6400977 && o.id <=6400978 ||
-      o.id >= 6401024 && o.id <=6401026 ||
-      o.id >= 6401095 && o.id <=6401103 ||
-      o.id >= 6401118 && o.id <=6401128 ||
-      o.id >= 6401140 && o.id <=6401142 ||
-      o.id >= 6400534 && o.id <=6400675 ||
-      o.id >= 6400975 && o.id <=6400976 ||
-      o.id >= 6401021 && o.id <=6401022 ||
-      o.id >= 6401060 && o.id <=6401068 ||
-      o.id >= 6401107 && o.id <=6401117 ||
-      o.id >= 6401137 && o.id <=6401139 ||
-      o.id === 6401028,
+      o.id >= 6000000 && o.id <= 6080121 ||
+      o.id >= 6400534 && o.id <= 6400826 ||
+      o.id >= 6400975 && o.id <= 6400978 ||
+      o.id >= 6401021 && o.id <= 6401026 ||
+      o.id === 6401028 ||
+      o.id >= 6401060 && o.id <= 6401068 ||
+      o.id >= 6401095 && o.id <= 6401128 ||
+      o.id >= 6401137 && o.id <= 6401142,
 
     salmon: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Uroko') &&
-      o.id >= 6200000 && o.id <=6200502,
+      o.id >= 6200000 && o.id <= 6200502,
 
     salmonEvent: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Other') &&
-      o.id >= 6202001 && o.id <=6202034 ||
-      o.id >= 6400967 && o.id <=6400974 ||
-      o.id >= 6401008 && o.id <=6401009 ||
-      o.id >= 6401001 && o.id <=6401006 ||
-      o.id >= 6401088 && o.id <=6401089 ||
-      o.id >= 6401073 && o.id <=6401078 ||
-      o.id >= 6401135 && o.id <=6401136 ||
-      o.id >= 6401129 && o.id <=6401134,
+      o.id >= 6202001 && o.id <= 6202034 ||
+      o.id >= 6400967 && o.id <= 6400974 ||
+      o.id >= 6401001 && o.id <= 6401006 ||
+      o.id >= 6401008 && o.id <= 6401009 ||
+      o.id >= 6401073 && o.id <= 6401078 ||
+      o.id >= 6401088 && o.id <= 6401089 ||
+      o.id >= 6401129 && o.id <= 6401136,
 
     tableturf: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Other') &&
-      o.id >= 6400101 && o.id <=6400107,
+      o.id >= 6400101 && o.id <= 6400107,
 
     story: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Other') &&
-      o.id >= 6300100 && o.id <=6300300,
+      o.id >= 6300100 && o.id <= 6300300,
 
     dlc: (o) =>
       o.category === 'stickers' &&
       o.howToGet.includes('Other') &&
-      o.id >= 6400991 && o.id <=6401000 ||
-      o.id >= 6401044 && o.id <=6401056 ||
-      o.id >= 6401029 && o.id <=6401043,
+      o.id >= 6400991 && o.id <= 6401000 ||
+      o.id >= 6401044 && o.id <= 6401056 ||
+      o.id >= 6401029 && o.id <= 6401043,
   },
 };

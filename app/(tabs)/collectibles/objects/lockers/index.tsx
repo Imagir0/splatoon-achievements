@@ -1,12 +1,12 @@
 import { Stack } from 'expo-router';
 import React, { useMemo } from 'react';
 import {
-    FlatList,
-    Image,
-    Pressable,
-    StyleSheet,
-    Text,
-    View
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  View
 } from 'react-native';
 
 import { useObjects } from '@/contexts/ObjectsContext';

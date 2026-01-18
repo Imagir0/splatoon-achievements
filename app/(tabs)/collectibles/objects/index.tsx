@@ -43,7 +43,6 @@ export default function ObjectsIndexScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Résumé global */}
       <Pressable
         style={styles.summaryCard}
         onPress={() =>

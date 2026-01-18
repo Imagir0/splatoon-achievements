@@ -21,14 +21,14 @@ export default function AllObjectsScreen() {
   };
 
   const GEAR_COLORS: Record<ObjectItem['category'], string> = {
-        figures: '#a5dfa7ff',
-        lockers: '#a5b4fc',
-        stickers: '#ff9284ff',
-    };
+    figures: 'rgb(193, 233, 194)',
+    lockers: '#bfc6e9',
+    stickers: 'rgb(238, 184, 177)',
+  };
 
-    function getGearColor(object: ObjectItem) {
+  function getGearColor(object: ObjectItem) {
     return GEAR_COLORS[object.category] ?? '#e5e7eb';
-    }
+  }
 
   return (
     <View style={{ flex: 1, padding: spacing }}>
