@@ -25,6 +25,9 @@ export default function RootLayout() {
         <Stack.Screen name="gears/heads/index" options={{ title: 'Accessoires' }} />
         <Stack.Screen name="gears/shoes/index" options={{ title: 'Chaussures' }} />
         <Stack.Screen name="objects/index" options={{ title: 'Objets' }} />
+        <Stack.Screen name="objects/figures/index" options={{ title: 'Objets' }} />
+        <Stack.Screen name="objects/lockers/index" options={{ title: 'Casiers' }} />
+        <Stack.Screen name="objects/stickers/index" options={{ title: 'Autocollants' }} />
         <Stack.Screen name="salmon/index" options={{ title: 'Salmon Run' }} />
         <Stack.Screen name="tableturf/index" options={{ title: 'Cartes & Territoire' }} />
         <Stack.Screen name="weapons/index" options={{ title: 'Armes' }} />
