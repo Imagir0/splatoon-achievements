@@ -13,4 +13,5 @@ export type ObjectItem = {
   name: string;
   category: 'figures' | 'lockers' | 'stickers';
   howToGet: string;
+  maxNumber: string;
 };

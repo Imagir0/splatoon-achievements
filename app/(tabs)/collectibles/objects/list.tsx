@@ -3,10 +3,22 @@ import { allObjects, ObjectItem } from '@/data/allObjects';
 import { objectsFilters } from '@/data/objectsFilters';
 import { Stack } from 'expo-router';
 import React, { useMemo } from 'react';
-import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, ToastAndroid, View } from 'react-native';
+import {
+  Alert,
+  Dimensions,
+  FlatList,
+  Image,
+  Platform,
+  Pressable,
+  StyleSheet,
+  Text,
+  ToastAndroid,
+  View,
+} from 'react-native';
 
 export default function AllObjectsScreen() {
-  const { isOwned } = useObjects();
+  const { getObjectCount } = useObjects();
+
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
   const spacing = 2;
@@ -58,7 +70,6 @@ export default function AllObjectsScreen() {
     return result;
   }, []);
 
-
   const handlePress = (object: ObjectItem) => {
     const message = object.name;
     if (Platform.OS === 'android') {
@@ -80,14 +91,20 @@ export default function AllObjectsScreen() {
 
   return (
     <View style={{ flex: 1, padding: spacing }}>
-      <Stack.Screen options={{ title: 'Tous les équipements' }} />
+      <Stack.Screen options={{ title: 'Tous les objets / stickers' }} />
 
       <FlatList
         data={sortedObjects}
         keyExtractor={(item) => `${item.category}-${item.id}`}
         numColumns={numColumns}
         renderItem={({ item }) => {
-          const owned = isOwned(item.category, item.id);
+          const count = getObjectCount(item.category, item.id);
+          const maxNumber = Number(item.maxNumber) || 1;
+
+          const isFullyOwned =
+            maxNumber === 1
+              ? count > 0
+              : count === maxNumber;
 
           return (
             <Pressable
@@ -106,9 +123,15 @@ export default function AllObjectsScreen() {
                 source={item.image}
                 style={[
                   styles.objectImage,
-                  { opacity: owned ? 1 : 0.3 },
+                  { opacity: isFullyOwned ? 1 : 0.3 },
                 ]}
               />
+
+              {maxNumber > 1 && count > 0 && (
+                <View style={styles.countBadge}>
+                  <Text style={styles.countText}>{count}</Text>
+                </View>
+              )}
             </Pressable>
           );
         }}
@@ -122,10 +145,25 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     alignItems: 'center',
     justifyContent: 'center',
+    position: 'relative',
   },
   objectImage: {
     width: '80%',
     height: '80%',
     resizeMode: 'contain',
+  },
+  countBadge: {
+    position: 'absolute',
+    bottom: 1,
+    right: 1,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    borderRadius: 5,
+    paddingHorizontal: 4,
+    paddingVertical: 1,
+  },
+  countText: {
+    color: '#fff',
+    fontSize: 8,
+    fontWeight: '600',
   },
 });

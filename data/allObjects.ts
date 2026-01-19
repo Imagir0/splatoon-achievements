@@ -10,6 +10,8 @@ export type ObjectItem = {
   category: ObjectType;
   howToGet: string;
   image: any;
+  maxNumber: string;
+  fishScalePrice: string;
 };
 
 export const allObjects: ObjectItem[] = [
