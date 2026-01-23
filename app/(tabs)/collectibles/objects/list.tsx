@@ -1,3 +1,4 @@
+import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
 import { allObjects, ObjectItem } from '@/data/allObjects';
 import { objectsFilters } from '@/data/filters/objectsFilters';
@@ -22,7 +23,8 @@ export default function AllObjectsScreen() {
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
   const spacing = 2;
-  const itemSize = (screenWidth - spacing * (numColumns * 2)) / numColumns;
+  const itemSize =
+    (screenWidth - spacing * (numColumns * 2)) / numColumns;
 
   const OBJECT_GROUP_ORDER: Array<{
     category: ObjectItem['category'];
@@ -57,14 +59,15 @@ export default function AllObjectsScreen() {
     const result: ObjectItem[] = [];
 
     for (const group of OBJECT_GROUP_ORDER) {
-      const filterFn = objectsFilters[group.category]?.[group.filterKey];
+      const filterFn =
+        objectsFilters[group.category]?.[group.filterKey];
       if (!filterFn) continue;
 
-      const items = allObjects
+      const filtered = allObjects
         .filter(filterFn)
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      result.push(...items);
+      result.push(...filtered);
     }
 
     return result;
@@ -75,18 +78,18 @@ export default function AllObjectsScreen() {
     if (Platform.OS === 'android') {
       ToastAndroid.show(message, ToastAndroid.SHORT);
     } else {
-      Alert.alert('Équipement', message);
+      Alert.alert('Objet', message);
     }
   };
 
-  const GEAR_COLORS: Record<ObjectItem['category'], string> = {
-    figures: 'rgb(193, 233, 194)',
-    lockers: '#bfc6e9',
-    stickers: 'rgb(238, 184, 177)',
+  const OBJECT_COLORS: Record<ObjectItem['category'], string> = {
+    figures: COLORS.categories.blue,
+    stickers: COLORS.categories.red,
+    lockers: COLORS.categories.green,
   };
 
-  function getGearColor(object: ObjectItem) {
-    return GEAR_COLORS[object.category] ?? '#e5e7eb';
+  function getObjectColor(object: ObjectItem) {
+    return OBJECT_COLORS[object.category] ?? COLORS.shades.order;
   }
 
   return (
@@ -95,16 +98,14 @@ export default function AllObjectsScreen() {
 
       <FlatList
         data={sortedObjects}
-        keyExtractor={(item) => `${item.category}-${item.id}`}
+        keyExtractor={item => `${item.category}-${item.id}`}
         numColumns={numColumns}
         renderItem={({ item }) => {
           const count = getObjectCount(item.category, item.id);
           const maxNumber = Number(item.maxNumber) || 1;
 
           const isFullyOwned =
-            maxNumber === 1
-              ? count > 0
-              : count === maxNumber;
+            maxNumber === 1 ? count > 0 : count === maxNumber;
 
           return (
             <Pressable
@@ -115,7 +116,7 @@ export default function AllObjectsScreen() {
                   width: itemSize,
                   height: itemSize,
                   margin: spacing,
-                  backgroundColor: getGearColor(item),
+                  backgroundColor: getObjectColor(item),
                 },
               ]}
             >
@@ -162,7 +163,7 @@ const styles = StyleSheet.create({
     paddingVertical: 1,
   },
   countText: {
-    color: '#fff',
+    color: COLORS.shades.white,
     fontSize: 8,
     fontWeight: '600',
   },

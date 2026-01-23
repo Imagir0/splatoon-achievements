@@ -1,10 +1,11 @@
+import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
 import { STICKERS_CATEGORY_TITLES } from '@/data/categoryTitles/stickersCategoryTitles';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
 import { useRouter } from 'expo-router';
 import React, { useMemo, useRef } from 'react';
-import { Animated, Pressable, ScrollView, Text, View } from 'react-native';
+import { Animated, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 export default function StickersIndexScreen() {
   const router = useRouter();
@@ -13,7 +14,7 @@ export default function StickersIndexScreen() {
   const categories = Object.entries(STICKERS_CATEGORY_TITLES);
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 16 }}>
+    <ScrollView contentContainerStyle={styles.container}>
       {categories.map(([key, title]) => {
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
@@ -23,7 +24,7 @@ export default function StickersIndexScreen() {
           const filterFn = objectsFilters.stickers[key];
           if (!filterFn) return [];
           return OBJECTS_DATA.stickers
-            .map(s => ({ ...s, category: 'stickers' as const })) // fix type
+            .map(s => ({ ...s, category: 'stickers' as const }))
             .filter(filterFn);
         }, [key]);
 
@@ -51,25 +52,16 @@ export default function StickersIndexScreen() {
                 params: { stickersCategory: key },
               })
             }
-            style={{
-              padding: 16,
-              backgroundColor: '#e5e7eb',
-              borderRadius: 10,
-              marginBottom: 12,
-            }}
+            style={styles.card}
           >
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
-              <Text style={{ fontSize: 18, fontWeight: '600' }}>{title}</Text>
-              <Text style={{ fontSize: 14, fontWeight: '600' }}>{obtained} / {total}</Text>
+            <View style={styles.row}>
+              <Text style={styles.title}>{title}</Text>
+              <Text style={styles.counter}>{obtained} / {total}</Text>
             </View>
 
-            <View style={{ height: 6, backgroundColor: '#d1d5db', borderRadius: 4, overflow: 'hidden' }}>
+            <View style={styles.barBackground}>
               <Animated.View
-                style={{
-                  height: '100%',
-                  width: widthInterpolated,
-                  backgroundColor: '#16a34a',
-                }}
+                style={[styles.barProgress, { width: widthInterpolated }]}
               />
             </View>
           </Pressable>
@@ -78,3 +70,41 @@ export default function StickersIndexScreen() {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 16,
+  },
+  card: {
+    padding: 16,
+    backgroundColor: COLORS.shades.white,
+    borderRadius: 10,
+    marginBottom: 12,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: COLORS.shades.black,
+  },
+  counter: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: COLORS.shades.black,
+  },
+  barBackground: {
+    height: 6,
+    backgroundColor: COLORS.shades.order,
+    borderRadius: 4,
+    overflow: 'hidden',
+  },
+  barProgress: {
+    height: '100%',
+    backgroundColor: COLORS.green.progress,
+    borderRadius: 4,
+  },
+});

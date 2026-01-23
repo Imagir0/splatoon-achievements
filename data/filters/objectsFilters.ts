@@ -28,7 +28,8 @@ export const objectsFilters: Record<
     salmonEvent: (o) =>
       o.category === 'figures' &&
       o.howToGet.includes('Other') &&
-      o.id >= 1200031 && o.id <= 1200144,
+      o.id >= 1200031 && o.id <= 1200144 &&
+      o.id != 1200115,
 
     tableturf: (o) =>
       o.category === 'figures' &&
