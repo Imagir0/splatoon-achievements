@@ -1,6 +1,6 @@
 import { useObjects } from '@/contexts/ObjectsContext';
 import { allObjects, ObjectItem } from '@/data/allObjects';
-import { objectsFilters } from '@/data/objectsFilters';
+import { objectsFilters } from '@/data/filters/objectsFilters';
 import { Stack } from 'expo-router';
 import React, { useMemo } from 'react';
 import {

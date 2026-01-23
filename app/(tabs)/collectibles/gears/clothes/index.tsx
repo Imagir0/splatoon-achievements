@@ -1,30 +1,48 @@
+import { COLORS } from '@/constants/colors';
 import { useGears } from '@/contexts/GearsContext';
+import { GEARS_CATEGORY_TITLES } from '@/data/categoryTitles/gearsCategoryTitles';
 import { GEARS_DATA } from '@/data/gears';
-import { GEARS_CATEGORY_TITLES } from '@/data/gearsCategoryTitles';
 import { useRouter } from 'expo-router';
 import React, { useMemo, useRef } from 'react';
-import { Animated, Pressable, ScrollView, Text, View } from 'react-native';
+import {
+  Animated,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 export default function ClothesIndexScreen() {
   const router = useRouter();
   const { isOwned } = useGears();
+
   const progressAnim = useRef<Record<string, Animated.Value>>({}).current;
   const categories = Object.entries(GEARS_CATEGORY_TITLES);
 
+  const normalize = (str: string) =>
+    str.toLowerCase().replace(/\s+/g, '').replace(/[^\w]/g, '');
+
   return (
-    <ScrollView contentContainerStyle={{ padding: 16 }}>
+    <ScrollView contentContainerStyle={styles.container}>
       {categories.map(([key, title]) => {
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
         }
 
-        const filtered = useMemo(
-          () => GEARS_DATA.clothes.filter(g => g.brand.name.toLowerCase() === key.toLowerCase()),
+        const filteredGears = useMemo(
+          () =>
+            GEARS_DATA.clothes.filter(
+              g => normalize(g.brand.name) === normalize(key)
+            ),
           [key]
         );
 
-        const total = filtered.length;
-        const obtained = filtered.filter(g => isOwned('clothes', g.id)).length;
+        const total = filteredGears.length;
+        const obtained = filteredGears.filter(g =>
+          isOwned('clothes', g.id)
+        ).length;
+
         const progress = total === 0 ? 0 : obtained / total;
 
         Animated.timing(progressAnim[key], {
@@ -41,31 +59,28 @@ export default function ClothesIndexScreen() {
         return (
           <Pressable
             key={key}
+            style={styles.card}
             onPress={() =>
               router.push({
-                pathname: '/(tabs)/collectibles/gears/clothes/[clothesCategory]',
+                pathname:
+                  '/(tabs)/collectibles/gears/clothes/[clothesCategory]',
                 params: { clothesCategory: key },
               })
             }
-            style={{
-              padding: 16,
-              backgroundColor: '#e5e7eb',
-              borderRadius: 10,
-              marginBottom: 12,
-            }}
           >
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
-              <Text style={{ fontSize: 18, fontWeight: '600' }}>{title}</Text>
-              <Text style={{ fontSize: 14, fontWeight: '600' }}>{obtained} / {total}</Text>
+            <View style={styles.row}>
+              <Text style={styles.title}>{title}</Text>
+              <Text style={styles.counter}>
+                {obtained} / {total}
+              </Text>
             </View>
 
-            <View style={{ height: 6, backgroundColor: '#d1d5db', borderRadius: 4, overflow: 'hidden' }}>
+            <View style={styles.barBackground}>
               <Animated.View
-                style={{
-                  height: '100%',
-                  width: widthInterpolated,
-                  backgroundColor: '#16a34a',
-                }}
+                style={[
+                  styles.barProgress,
+                  { width: widthInterpolated },
+                ]}
               />
             </View>
           </Pressable>
@@ -74,3 +89,40 @@ export default function ClothesIndexScreen() {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 16,
+  },
+  card: {
+    padding: 16,
+    backgroundColor: COLORS.shades.white,
+    borderRadius: 10,
+    marginBottom: 12,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: COLORS.shades.black,
+  },
+  counter: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  barBackground: {
+    height: 6,
+    backgroundColor: COLORS.shades.order,
+    borderRadius: 4,
+    overflow: 'hidden',
+  },
+  barProgress: {
+    height: '100%',
+    backgroundColor: COLORS.green.progress,
+    borderRadius: 4,
+  },
+});

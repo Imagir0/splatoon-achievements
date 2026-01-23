@@ -1,18 +1,12 @@
-import { Stack, useLocalSearchParams } from 'expo-router';
-import { useMemo, useState } from 'react';
-import {
-  FlatList,
-  Image,
-  Pressable,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
-
+import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
 import { badges } from '@/data/badges';
-import { weaponCategories } from '@/data/weaponCategories';
+import { weaponCategories } from '@/data/filters/weaponFilters';
+import { MaterialIcons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import { useMemo, useState } from 'react';
+import { FlatList, Image, Pressable, StyleSheet, Text, TextInput, View, } from 'react-native';
 
 export default function WeaponCategoryScreen() {
   const params = useLocalSearchParams();
@@ -21,11 +15,9 @@ export default function WeaponCategoryScreen() {
     | undefined;
 
   const config = weaponCategory ? weaponCategories[weaponCategory] : undefined;
-
   const { selectedBadges, toggleBadge } = useBadges();
   const [search, setSearch] = useState('');
 
-  // Liste des catégories qui doivent afficher la barre de recherche
   const searchableCategories = [
     'shooters',
     'rollers',
@@ -46,25 +38,21 @@ export default function WeaponCategoryScreen() {
 
   const filteredBadges = useMemo(() => {
     if (!config) return [];
-
     return badges.filter(
       (badge) =>
         config.filter(badge) &&
-        (!showSearch || // si la recherche est activée, filtre par search
+        (!showSearch ||
           badge.description.toLowerCase().includes(search.toLowerCase()))
     );
   }, [config, search, showSearch]);
 
-  if (!config) {
-    return (
-      <View style={styles.center}>
-        <Text>Catégorie inconnue</Text>
-      </View>
-    );
-  }
+  const handlePress = (id: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    toggleBadge(id);
+  };
 
   return (
-    <View style={{ flex: 1, padding: 16 }}>
+    <View style={styles.view}>
       <Stack.Screen
         options={{
           title: config?.title ?? 'Armes',
@@ -88,13 +76,25 @@ export default function WeaponCategoryScreen() {
 
           return (
             <Pressable
-              onPress={() => toggleBadge(item.id)}
-              style={[styles.row, isChecked && styles.rowChecked]}
+              onPress={() => handlePress(item.id)}
+              style={[
+                styles.row,
+                isChecked && styles.rowChecked,
+              ]}
             >
               <Image source={item.image} style={styles.image} />
-              <Text style={styles.description}>{item.description}</Text>
+
+              <Text style={styles.description}>
+                {item.description}
+              </Text>
+
               <View style={styles.checkbox}>
-                {isChecked && <Text style={styles.checkMark}>✔</Text>}
+                {isChecked && (
+                  <MaterialIcons
+                    name="check"
+                    size={24}
+                  />
+                )}
               </View>
             </Pressable>
           );
@@ -105,21 +105,20 @@ export default function WeaponCategoryScreen() {
 }
 
 const styles = StyleSheet.create({
-  center: {
+  view: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    padding: 16,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: '#f3f4f6',
+    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
   },
   rowChecked: {
-    backgroundColor: '#86efac',
+    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
@@ -132,26 +131,20 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   checkbox: {
-    width: 28,
-    height: 28,
-    borderRadius: 6,
+    width: 32,
+    height: 32,
+    borderRadius: 8,
     borderWidth: 2,
-    borderColor: '#065f46',
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 5,
-  },
-  checkMark: {
-    fontSize: 18,
-    color: '#065f46',
-    fontWeight: '700',
+    marginLeft: 8,
   },
   searchInput: {
     height: 44,
     borderRadius: 10,
     paddingHorizontal: 14,
     marginBottom: 12,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     fontSize: 16,
   },
 });

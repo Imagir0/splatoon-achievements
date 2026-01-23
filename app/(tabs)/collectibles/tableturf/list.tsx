@@ -1,6 +1,6 @@
 import { useTableTurf } from '@/contexts/TableTurfContext';
+import { tableTurfFilters } from '@/data/filters/tableTurfFilters';
 import { tableTurf } from '@/data/tableTurf';
-import { tableTurfFilters } from '@/data/tableTurfFilters';
 import { Stack } from 'expo-router';
 import React from 'react';
 import {

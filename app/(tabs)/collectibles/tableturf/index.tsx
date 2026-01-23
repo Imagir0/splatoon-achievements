@@ -1,7 +1,7 @@
 import { useTableTurf } from '@/contexts/TableTurfContext';
+import { TABLETURF_CATEGORY_TITLES } from '@/data/categoryTitles/tableTurfCategoryTitles';
+import { tableTurfFilters } from '@/data/filters/tableTurfFilters';
 import { tableTurf } from '@/data/tableTurf';
-import { TABLETURF_CATEGORY_TITLES } from '@/data/tableTurfCategoryTitles';
-import { tableTurfFilters } from '@/data/tableTurfFilters';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';

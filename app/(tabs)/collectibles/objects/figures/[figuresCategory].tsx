@@ -1,7 +1,7 @@
 import { useObjects } from '@/contexts/ObjectsContext';
+import { FIGURES_CATEGORY_TITLES } from '@/data/categoryTitles/objectsCategoryTitles';
+import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
-import { FIGURES_CATEGORY_TITLES } from '@/data/objectsCategoryTitles';
-import { objectsFilters } from '@/data/objectsFilters';
 import Slider from '@react-native-community/slider';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React, { useMemo, useState } from 'react';

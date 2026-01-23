@@ -11,14 +11,17 @@ import {
 
 import { useObjects } from '@/contexts/ObjectsContext';
 import { allObjects } from '@/data/allObjects';
-import { getFilteredObjects } from '@/data/getFilteredObjects';
+import { objectsFilters } from '@/data/filters/objectsFilters';
 
 export default function LockersScreen() {
   const { isOwned, toggleObject } = useObjects();
 
   const lockers = useMemo(() => {
-    return getFilteredObjects(allObjects, 'lockers', 'general');
-  }, []);
+  const filterFn = objectsFilters.lockers['general'];
+  if (!filterFn) return [];
+  return allObjects.filter(filterFn).sort((a, b) => a.id - b.id);
+}, []);
+
 
   return (
     <View style={styles.container}>

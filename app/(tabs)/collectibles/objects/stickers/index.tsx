@@ -1,7 +1,7 @@
 import { useObjects } from '@/contexts/ObjectsContext';
+import { STICKERS_CATEGORY_TITLES } from '@/data/categoryTitles/stickersCategoryTitles';
+import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
-import { objectsFilters } from '@/data/objectsFilters';
-import { STICKERS_CATEGORY_TITLES } from '@/data/stickersCategoryTitles';
 import { useRouter } from 'expo-router';
 import React, { useMemo, useRef } from 'react';
 import { Animated, Pressable, ScrollView, Text, View } from 'react-native';

@@ -1,6 +1,9 @@
+import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
 import { badges } from '@/data/badges';
-import { salmonRunCategories } from '@/data/salmonRunCategories';
+import { salmonRunCategories } from '@/data/filters/salmonRunFilters';
+import { MaterialIcons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useMemo } from 'react';
 import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
@@ -12,7 +15,7 @@ export default function SalmonRunCategoryScreen() {
     | undefined;
   const config = salmonRunCategory ? salmonRunCategories[salmonRunCategory] : undefined;
   const { selectedBadges, toggleBadge } = useBadges();
-  
+
   const filteredBadges = useMemo(() => {
     if (!config) return [];
     return badges.filter(config.filter);
@@ -26,37 +29,42 @@ export default function SalmonRunCategoryScreen() {
     );
   }
 
+  const handlePress = (id: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    toggleBadge(id);
+  };
+
   return (
-    <View style={{ flex: 1, padding: 16 }}>
+    <View style={styles.view}>
       <Stack.Screen
         options={{
           title: config?.title ?? 'Salmon Run',
         }}
       />
-
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => {
           const isChecked = !!selectedBadges[item.id];
-
           return (
             <Pressable
-              onPress={() => toggleBadge(item.id)}
+              onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
                 isChecked && styles.rowChecked,
               ]}
             >
-              {/* Image du badge */}
               <Image source={item.image} style={styles.image} />
-
-              {/* Description */}
-              <Text style={styles.description}>{item.description}</Text>
-
-              {/* Checkbox */}
+              <Text style={styles.description}>
+                {item.description}
+              </Text>
               <View style={styles.checkbox}>
-                {isChecked && <Text style={styles.checkMark}>✔</Text>}
+                {isChecked && (
+                  <MaterialIcons
+                    name="check"
+                    size={24}
+                  />
+                )}
               </View>
             </Pressable>
           );
@@ -67,6 +75,10 @@ export default function SalmonRunCategoryScreen() {
 }
 
 const styles = StyleSheet.create({
+  view: {
+    flex: 1,
+    padding: 16
+  },
   center: {
     flex: 1,
     justifyContent: 'center',
@@ -76,12 +88,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: '#f3f4f6',
+    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
   },
   rowChecked: {
-    backgroundColor: '#86efac',
+    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
@@ -94,18 +106,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   checkbox: {
-    width: 28,
-    height: 28,
-    borderRadius: 6,
+    width: 32,
+    height: 32,
+    borderRadius: 8,
     borderWidth: 2,
-    borderColor: '#065f46',
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 5,
+    marginLeft: 8,
   },
   checkMark: {
     fontSize: 18,
-    color: '#065f46',
     fontWeight: '700',
   },
 });

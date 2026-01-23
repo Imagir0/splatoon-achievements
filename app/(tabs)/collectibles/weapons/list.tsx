@@ -1,6 +1,6 @@
 import { useWeapons } from '@/contexts/WeaponsContext';
+import { weaponsFilters } from '@/data/filters/weaponsFilters';
 import { weapons } from '@/data/weapons';
-import { weaponsFilters } from '@/data/weaponsFilters';
 import { Stack } from 'expo-router';
 import React from 'react';
 import {

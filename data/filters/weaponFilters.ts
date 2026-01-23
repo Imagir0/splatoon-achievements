@@ -21,7 +21,10 @@ export const weaponCategories: Record<
     title: 'Lanceurs',
     filter: (b: Badge) =>
       b.category.includes('WeaponLevel') &&
-      (b.id.toString().startsWith('1000') || b.id.toString().startsWith('1001') || b.id.toString().startsWith('1003') || b.id.toString().startsWith('1004')),
+      (b.id.toString().startsWith('1000') ||
+      b.id.toString().startsWith('1001') ||
+      b.id.toString().startsWith('1003') ||
+      b.id.toString().startsWith('1004')),
   },
 
   rollers: {

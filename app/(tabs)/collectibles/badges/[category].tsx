@@ -1,9 +1,12 @@
+import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
-import { badgeFilters } from '@/data/badgeFilters';
 import { badges } from '@/data/badges';
-import { BADGES_CATEGORY_TITLES } from '@/data/badgesCategoryTitles';
-import { useLocalSearchParams, useNavigation } from 'expo-router';
-import React, { useMemo } from 'react';
+import { BADGES_CATEGORY_TITLES } from '@/data/categoryTitles/badgesCategoryTitles';
+import { badgeFilters } from '@/data/filters/badgeFilters';
+import { MaterialIcons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import { useMemo } from 'react';
 import {
   FlatList,
   Image,
@@ -14,23 +17,37 @@ import {
 } from 'react-native';
 
 export default function CategoryScreen() {
-  const { category } = useLocalSearchParams<{ category: string }>();
+  const params = useLocalSearchParams<{ category?: string }>();
+  const category = params.category;
   const { selectedBadges, toggleBadge } = useBadges();
-  const navigation = useNavigation();
-  const title = BADGES_CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
+  const title = BADGES_CATEGORY_TITLES[category ?? ''];
 
-  React.useLayoutEffect(() => {
-    navigation.setOptions({ title });
-  }, [navigation, title]);
-
-  // Filtrage dynamique
   const filteredBadges = useMemo(() => {
-    const filterFn = badgeFilters[category ?? ''];
+    const filterFn = category ? badgeFilters[category] : undefined;
     return filterFn ? badges.filter(filterFn) : [];
   }, [category]);
 
+  if (!category || !badgeFilters[category]) {
+    return (
+      <View style={styles.center}>
+        <Text>Catégorie inconnue</Text>
+      </View>
+    );
+  }
+
+  const handlePress = (id: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    toggleBadge(id);
+  };
+
   return (
-    <View style={{ flex: 1, padding: 16 }}>
+    <View style={styles.view}>
+      <Stack.Screen
+        options={{
+          title: title ?? 'Catégorie',
+        }}
+      />
+
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}
@@ -39,15 +56,25 @@ export default function CategoryScreen() {
 
           return (
             <Pressable
-              style={[styles.row, isChecked && styles.rowChecked]}
-              onPress={() => toggleBadge(item.id)}
+              onPress={() => handlePress(item.id)}
+              style={[
+                styles.row,
+                isChecked && styles.rowChecked,
+              ]}
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.description}>{item.description}</Text>
+              <Text style={styles.description}>
+                {item.description}
+              </Text>
 
               <View style={styles.checkbox}>
-                {isChecked && <Text>✔</Text>}
+                {isChecked && (
+                  <MaterialIcons
+                    name="check"
+                    size={24}
+                  />
+                )}
               </View>
             </Pressable>
           );
@@ -58,35 +85,43 @@ export default function CategoryScreen() {
 }
 
 const styles = StyleSheet.create({
+  view: {
+    flex: 1,
+    padding: 16,
+  },
+  center: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   row: {
-    marginBottom: 12,
-    borderRadius: 10,
-    backgroundColor: '#f3f4f6',
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
+    backgroundColor: COLORS.shades.white,
+    borderRadius: 8,
+    marginBottom: 8,
   },
   rowChecked: {
-    backgroundColor: '#86efac',
+    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
     height: 50,
-    marginRight: 12,
     resizeMode: 'contain',
+    marginRight: 12,
   },
   description: {
     flex: 1,
     fontSize: 16,
   },
   checkbox: {
-    width: 28,
-    height: 28,
-    borderRadius: 6,
+    width: 32,
+    height: 32,
+    borderRadius: 8,
     borderWidth: 2,
-    borderColor: '#065f46',
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 5,
+    marginLeft: 8,
   },
 });

@@ -1,7 +1,7 @@
 import { useWeapons } from '@/contexts/WeaponsContext';
+import { WEAPONS_CATEGORY_TITLES } from '@/data/categoryTitles/weaponsCategoryTitles';
+import { weaponsFilters } from '@/data/filters/weaponsFilters';
 import { weapons } from '@/data/weapons';
-import { WEAPONS_CATEGORY_TITLES } from '@/data/weaponsCategoryTitles';
-import { weaponsFilters } from '@/data/weaponsFilters';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
