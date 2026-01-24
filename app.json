@@ -1,16 +1,16 @@
 {
   "expo": {
     "name": "Splat Helper",
-    "slug": "splatoon-achievements",
+    "slug": "splat-helper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "splat_helper",
+    "scheme": "splat-helper",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.imagiro5002.splat_helper"
+      "bundleIdentifier": "com.imagiro5002.splathelper"
     },
     "android": {
       "adaptiveIcon": {
@@ -21,7 +21,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.imagiro5002.splat_helper"
+      "package": "com.imagiro5002.splathelper"
     },
     "web": {
       "output": "static",
@@ -40,7 +40,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
