@@ -1,11 +1,9 @@
 
 import { useTableTurf } from '@/contexts/TableTurfContext';
 import { tableTurf } from '@/data/tableTurf';
-
 import { Stack } from 'expo-router';
 import React from 'react';
 import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, ToastAndroid, View } from 'react-native';
-
 export default function AllTableTurfScreen() {
   const { selectedTableTurf } = useTableTurf();
   const screenWidth = Dimensions.get('window').width;
