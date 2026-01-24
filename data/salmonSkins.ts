@@ -2,7 +2,7 @@ export const salmonSkins = [
   {
     id: 1,
     image: require('@/assets/images/salmonSkins/COP001.png'),
-    name: 'Orange Slopsuit',
+    name: 'Salopette orange',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel : '1',
@@ -10,7 +10,7 @@ export const salmonSkins = [
   {
     id: 2,
     image: require('@/assets/images/salmonSkins/COP002.png'),
-    name: 'Green Slopsuit',
+    name: 'Salopette verte',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 10\nGold 0',
     unlockLevel : '1',
@@ -18,7 +18,7 @@ export const salmonSkins = [
   {
     id: 3,
     image: require('@/assets/images/salmonSkins/COP003.png'),
-    name: 'Yellow Slopsuit',
+    name: 'Salopette jaune',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 10\nGold 0',
     unlockLevel : '1',
@@ -26,7 +26,7 @@ export const salmonSkins = [
   {
     id: 4,
     image: require('@/assets/images/salmonSkins/COP004.png'),
-    name: 'Pink Slopsuit',
+    name: 'Salopette rose',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 30\nGold 0',
     unlockLevel : '2',
@@ -34,7 +34,7 @@ export const salmonSkins = [
   {
     id: 5,
     image: require('@/assets/images/salmonSkins/COP005.png'),
-    name: 'Blue Slopsuit',
+    name: 'Salopette bleue',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 30\nGold 0',
     unlockLevel : '2',
@@ -42,7 +42,7 @@ export const salmonSkins = [
   {
     id: 6,
     image: require('@/assets/images/salmonSkins/COP006.png'),
-    name: 'Black Slopsuit',
+    name: 'Salopette noire',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 100\nGold 0',
     unlockLevel : '3',
@@ -50,7 +50,7 @@ export const salmonSkins = [
   {
     id: 7,
     image: require('@/assets/images/salmonSkins/COP007.png'),
-    name: 'White Slopsuit',
+    name: 'Salopette blanche',
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 100\nGold 0',
     unlockLevel : '3',
@@ -58,7 +58,7 @@ export const salmonSkins = [
   {
     id: 8,
     image: require('@/assets/images/salmonSkins/COP008.png'),
-    name: 'Orange Gloopsuit',
+    name: 'Combi caoutchouc orange',
     season: '3',
     fishScalePrice: 'Bronze: 0\nSilver: 15\nGold 0',
     unlockLevel : '1',
@@ -66,7 +66,7 @@ export const salmonSkins = [
   {
     id: 9,
     image: require('@/assets/images/salmonSkins/COP009.png'),
-    name: 'Black Gloopsuit',
+    name: 'Combi caoutchouc noire',
     season: '3',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -74,7 +74,7 @@ export const salmonSkins = [
   {
     id: 10,
     image: require('@/assets/images/salmonSkins/COP010.png'),
-    name: 'Yellow Gloopsuit',
+    name: 'Combi caoutchouc jaune',
     season: '3',
     fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
     unlockLevel : '2',
@@ -82,7 +82,7 @@ export const salmonSkins = [
   {
     id: 11,
     image: require('@/assets/images/salmonSkins/COP011.png'),
-    name: 'Brown Gloopsuit',
+    name: 'Combi caoutchouc marron',
     season: '3',
     fishScalePrice: 'Bronze: 0\nSilver: 75\nGold 0',
     unlockLevel : '3',
@@ -90,7 +90,7 @@ export const salmonSkins = [
   {
     id: 12,
     image: require('@/assets/images/salmonSkins/COP012.png'),
-    name: 'Polka-Dot Slopsuit',
+    name: 'Combi à pois',
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -98,7 +98,7 @@ export const salmonSkins = [
   {
     id: 13,
     image: require('@/assets/images/salmonSkins/COP013.png'),
-    name: 'Camo Slopsuit',
+    name: 'Combi camouflage',
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -106,7 +106,7 @@ export const salmonSkins = [
   {
     id: 14,
     image: require('@/assets/images/salmonSkins/COP014.png'),
-    name: 'Koi Slopsuit',
+    name: 'Combi carpe koï',
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -114,7 +114,7 @@ export const salmonSkins = [
   {
     id: 15,
     image: require('@/assets/images/salmonSkins/COP015.png'),
-    name: 'Peach Gloopsuit',
+    name: 'Salopette pêche',
     season: '7',
     fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
     unlockLevel : '2',
@@ -122,7 +122,7 @@ export const salmonSkins = [
   {
     id: 16,
     image: require('@/assets/images/salmonSkins/COP016.png'),
-    name: 'Lime Gloopsuit',
+    name: 'Salopette limette',
     season: '7',
     fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
     unlockLevel : '2',
@@ -130,7 +130,7 @@ export const salmonSkins = [
   {
     id: 17,
     image: require('@/assets/images/salmonSkins/COP017.png'),
-    name: 'Berry Gloopsuit',
+    name: 'Salopette baie rouge',
     season: '7',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -138,7 +138,7 @@ export const salmonSkins = [
   {
     id: 18,
     image: require('@/assets/images/salmonSkins/COP018.png'),
-    name: 'Silver Slopsuit',
+    name: 'Salopette argent',
     season: '8',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -146,7 +146,7 @@ export const salmonSkins = [
   {
     id: 19,
     image: require('@/assets/images/salmonSkins/COP019.png'),
-    name: 'Gold Slopsuit',
+    name: 'Salopette or',
     season: '8',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -154,7 +154,7 @@ export const salmonSkins = [
   {
     id: 20,
     image: require('@/assets/images/salmonSkins/COP020.png'),
-    name: 'Iridescent Slopsuit',
+    name: 'Salopette irisée',
     season: '8',
     fishScalePrice: 'Bronze: 0\nSilver: 150\nGold 0',
     unlockLevel : '3',
@@ -166,5 +166,6 @@ export const salmonSkins = [
     season: '9',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel : '0',
+    note: 'Nintendo Switch News\n\nBig Run incoming !\n2 September 2024',
   },
 ];
