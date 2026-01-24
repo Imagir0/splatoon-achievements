@@ -76,8 +76,6 @@ export default function AllBadgesScreen() {
     return result;
   }, []);
 
-
-
   function getBadgeColor(badge: (typeof badges)[number]) {
     const categoryKey = Object.keys(badgeFilters).find((key) =>
       badgeFilters[key](badge)

@@ -1,10 +1,19 @@
+import { COLORS } from '@/constants/colors';
 import { useWeapons } from '@/contexts/WeaponsContext';
 import { WEAPONS_CATEGORY_TITLES } from '@/data/categoryTitles/weaponsCategoryTitles';
 import { weaponsFilters } from '@/data/filters/weaponsFilters';
 import { weapons } from '@/data/weapons';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
-import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import {
+  Animated,
+  Easing,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 const collectibleCategories = Object.entries(WEAPONS_CATEGORY_TITLES).map(
   ([key, title]) => ({ key, title })
@@ -42,9 +51,7 @@ export default function WeaponsScreen() {
           </Text>
         </View>
 
-        <Text style={styles.summaryLink}>
-          Voir la collection
-        </Text>
+        <Text style={styles.summaryLink}>Voir la collection</Text>
       </Pressable>
 
       {collectibleCategories.map(cat => {
@@ -56,7 +63,7 @@ export default function WeaponsScreen() {
         useEffect(() => {
           Animated.timing(progressAnim, {
             toValue: progress,
-            duration: 1200,
+            duration: 500,
             easing: Easing.out(Easing.ease),
             useNativeDriver: false,
           }).start();
@@ -108,7 +115,7 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
   },
   row: {
@@ -119,28 +126,29 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   counter: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
   },
   barBackground: {
     height: 8,
     width: '100%',
-    backgroundColor: '#d1d5db',
+    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: '#16a34a',
+    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
-    summaryCard: {
+  summaryCard: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 20,
   },
   summaryTopRow: {
@@ -151,6 +159,7 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   summaryCounter: {
     fontSize: 16,
@@ -159,8 +168,6 @@ const styles = StyleSheet.create({
   summaryLink: {
     marginTop: 4,
     fontSize: 12,
-    color: '#374151',
     opacity: 0.7,
   },
-
 });

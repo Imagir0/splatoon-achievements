@@ -6,38 +6,30 @@ export const COLORS = {
     story: '#b47165',
     300: '#ef4444',
   },
-
   orange: {
     100: '#fdba74',
-    200: '#fb923c',
     salmon: '#eb3919ff',
   },
-
   yellow: {
     others: '#f3f576ff',
-    200: '#eed261',
     300: '#ffc518',
   },
-
   green: {
     rowChecked: '#86efac',
     rank: '#4ade80',
     progress: '#1ea851',
   },
-
   blue: {
     weapons: '#a5b4fc',
     200: '#60a5fa',
     specialWeapons: '#7288f1ff',
   },
-
   violet: {
     100: '#c4b5fd',
     splatfest: '#e76ee1ff',
     challenge: '#F03481',
     tableturf: '#b85cf6',
   },
-
   shades: {
     white: '#fff',
     order: '#dfdfdfff',
@@ -45,11 +37,23 @@ export const COLORS = {
     disable: '#6b7280',
     black: '#000000',
   },
-
   categories: {
     blue: '#a5b4fc',
     red: 'rgb(238, 134, 134)',
     green: '#6ee79a',
     yellow: '#f3f576ff',
+  },
+  weapons: {
+    shooter: '#a5b4fc',
+    blaster: '#e66f6fff',
+    roller: '#dd9b87',
+    brush: '#ba76f1',
+    charger: '#8d9cee',
+    slosher: '#90ec98',
+    spinner: '#eed261',
+    maneuver: '#da74af',
+    shelter: '#b4b3af',
+    stringer: '#4c6d52',
+    saber: '#ecece8',
   }
 };

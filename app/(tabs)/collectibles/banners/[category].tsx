@@ -27,7 +27,6 @@ export default function CategoryScreen() {
   const [switchNewsModalVisible, setSwitchNewsModalVisible] = useState(false);
   const [selectedSwitchNews, setSelectedSwitchNews] = useState<any>(null);
 
-
   React.useLayoutEffect(() => {
     navigation.setOptions({ title });
   }, [navigation, title]);
@@ -99,10 +98,7 @@ export default function CategoryScreen() {
                 )}
               </View>
             </Pressable>
-
-            
           );
-          
         }}
       />
       <Modal
