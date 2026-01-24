@@ -1,3 +1,4 @@
+import { COLORS } from '@/constants/colors';
 import { useTableTurf } from '@/contexts/TableTurfContext';
 import { tableTurfFilters } from '@/data/filters/tableTurfFilters';
 import { tableTurf } from '@/data/tableTurf';
@@ -12,18 +13,21 @@ import {
   Pressable,
   StyleSheet,
   ToastAndroid,
-  View
+  View,
 } from 'react-native';
 
-export default function AlltableTurfScreen() {
+export default function AllTableTurfScreen() {
   const { selectedTableTurf } = useTableTurf();
+
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
-  const spacing = 2; // marge entre les tableTurf
-  const tableTurfSize = (screenWidth - spacing * (numColumns * 2)) / numColumns;
+  const spacing = 2;
+  const tableTurfSize =
+    (screenWidth - spacing * (numColumns * 2)) / numColumns;
 
-  const handleTableTurfPress = (tT: typeof tableTurf[0]) => {
-    const message = tT.name;
+  const handleTableTurfPress = (card: typeof tableTurf[0]) => {
+    const message = card.name;
+
     if (Platform.OS === 'android') {
       ToastAndroid.show(message, ToastAndroid.SHORT);
     } else {
@@ -32,20 +36,24 @@ export default function AlltableTurfScreen() {
   };
 
   const filterColors: Record<string, string> = {
-    season1: 'rgb(223, 226, 241)',
-    season2: 'rgb(190, 199, 243)',
-    season4: 'rgb(163, 176, 240)',
-    season5: 'rgb(141, 157, 236)',
-    season6: 'rgb(108, 128, 231)',
-    season7: 'rgb(79, 103, 223)',
-    season8: 'rgb(51, 76, 202)',
+    season1: COLORS.shades.white,
+    season2: COLORS.shades.order,
+    season3: COLORS.shades.white,
+    season4: COLORS.shades.order,
+    season5: COLORS.shades.white,
+    season6: COLORS.shades.order,
+    season7: COLORS.shades.white,
+    season8: COLORS.shades.order,
   };
 
-  function getTableTurfColor(tT: (typeof tableTurf)[number]) {
+  function getTableTurfColor(card: (typeof tableTurf)[number]) {
     const categoryKey = Object.keys(tableTurfFilters).find((key) =>
-      tableTurfFilters[key](tT)
+      tableTurfFilters[key](card)
     );
-    return categoryKey ? filterColors[categoryKey] ?? '#e5e7eb' : '#e5e7eb';
+
+    return categoryKey
+      ? filterColors[categoryKey] ?? COLORS.shades.order
+      : COLORS.shades.order;
   }
 
   return (
@@ -53,7 +61,7 @@ export default function AlltableTurfScreen() {
       <Stack.Screen options={{ title: 'Toutes les cartes' }} />
 
       <FlatList
-        key={Object.keys(selectedTableTurf).join('-')} // force re-render
+        key={Object.keys(selectedTableTurf).join('-')}
         data={tableTurf}
         keyExtractor={(item) => item.number.toString()}
         numColumns={numColumns}
@@ -66,17 +74,20 @@ export default function AlltableTurfScreen() {
               onPress={() => handleTableTurfPress(item)}
               style={[
                 styles.tableTurfWrapper,
-                { 
+                {
                   backgroundColor: bgColor,
                   width: tableTurfSize,
                   height: tableTurfSize,
                   margin: spacing,
-                }
+                },
               ]}
             >
               <Image
                 source={item.image}
-                style={[styles.tableTurfImage, { opacity: owned ? 1 : 0.3 }]}
+                style={[
+                  styles.tableTurfImage,
+                  { opacity: owned ? 1 : 0.3 },
+                ]}
               />
             </Pressable>
           );
