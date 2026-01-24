@@ -1,7 +1,10 @@
+import { COLORS } from '@/constants/colors';
 import { useTableTurf } from '@/contexts/TableTurfContext';
 import { TABLETURF_CATEGORY_TITLES } from '@/data/categoryTitles/tableTurfCategoryTitles';
 import { tableTurfFilters } from '@/data/filters/tableTurfFilters';
 import { tableTurf } from '@/data/tableTurf';
+import { MaterialIcons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { useLocalSearchParams, useNavigation } from 'expo-router';
 import React, { useMemo } from 'react';
 import {
@@ -10,27 +13,33 @@ import {
   Pressable,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
 
 export default function CategoryScreen() {
   const { category } = useLocalSearchParams<{ category: string }>();
   const { selectedTableTurf, toggleTableTurf } = useTableTurf();
   const navigation = useNavigation();
-  const title = TABLETURF_CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
+
+  const title =
+    TABLETURF_CATEGORY_TITLES[category ?? ''] ?? 'Catégorie';
 
   React.useLayoutEffect(() => {
     navigation.setOptions({ title });
   }, [navigation, title]);
 
-  // Filtrage dynamique
+  const handlePress = (number: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    toggleTableTurf(number);
+  };
+
   const filteredTableTurf = useMemo(() => {
     const filterFn = tableTurfFilters[category ?? ''];
     return filterFn ? tableTurf.filter(filterFn) : [];
   }, [category]);
 
   return (
-    <View style={{ flex: 1, padding: 16 }}>
+    <View style={styles.view}>
       <FlatList
         data={filteredTableTurf}
         keyExtractor={(item) => item.number.toString()}
@@ -39,15 +48,25 @@ export default function CategoryScreen() {
 
           return (
             <Pressable
-              style={[styles.row, isChecked && styles.rowChecked]}
-              onPress={() => toggleTableTurf(item.number)}
+              onPress={() => handlePress(item.number)}
+              style={[
+                styles.row,
+                isChecked && styles.rowChecked,
+              ]}
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.description}>{item.name}</Text>
+              <View style={styles.content}>
+                <Text style={styles.name}>{item.name}</Text>
+              </View>
 
               <View style={styles.checkbox}>
-                {isChecked && <Text>✔</Text>}
+                {isChecked && (
+                  <MaterialIcons
+                    name="check"
+                    size={22}
+                  />
+                )}
               </View>
             </Pressable>
           );
@@ -58,35 +77,41 @@ export default function CategoryScreen() {
 }
 
 const styles = StyleSheet.create({
+  view: {
+    flex: 1,
+    padding: 16,
+  },
   row: {
-    marginBottom: 12,
-    borderRadius: 10,
-    backgroundColor: '#f3f4f6',
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
+    backgroundColor: COLORS.shades.white,
+    borderRadius: 8,
+    marginBottom: 8,
   },
   rowChecked: {
-    backgroundColor: '#86efac',
+    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
     height: 50,
-    marginRight: 12,
     resizeMode: 'contain',
+    marginRight: 12,
   },
-  description: {
+  content: {
     flex: 1,
+  },
+  name: {
     fontSize: 16,
+    fontWeight: '500',
   },
   checkbox: {
-    width: 28,
-    height: 28,
-    borderRadius: 6,
+    width: 32,
+    height: 32,
+    borderRadius: 8,
     borderWidth: 2,
-    borderColor: '#065f46',
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 5,
+    marginLeft: 8,
   },
 });
