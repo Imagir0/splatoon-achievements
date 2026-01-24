@@ -1,17 +1,10 @@
+import { COLORS } from '@/constants/colors';
 import { useGears } from '@/contexts/GearsContext';
 import { allGears } from '@/data/allGears';
 import { GEARS_DATA } from '@/data/gears';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
-import {
-  Animated,
-  Easing,
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { Animated, Pressable, ScrollView, StyleSheet, Text, View, } from 'react-native';
 
 type GearType = keyof typeof GEARS_DATA;
 
@@ -43,7 +36,6 @@ export default function GearsIndexScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Résumé global */}
       <Pressable
         style={styles.summaryCard}
         onPress={() =>
@@ -64,7 +56,6 @@ export default function GearsIndexScreen() {
         </Text>
       </Pressable>
 
-      {/* Catégories */}
       {gearCategories.map(cat => {
         const { total, checked } = getCategoryCounters(cat.key);
         const progress = total > 0 ? checked / total : 0;
@@ -74,8 +65,7 @@ export default function GearsIndexScreen() {
         useEffect(() => {
           Animated.timing(progressAnim, {
             toValue: progress,
-            duration: 1200,
-            easing: Easing.out(Easing.ease),
+            duration: 500,
             useNativeDriver: false,
           }).start();
         }, [progress]);
@@ -126,7 +116,7 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
   },
   row: {
@@ -139,26 +129,26 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   counter: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
   },
   barBackground: {
     height: 8,
     width: '100%',
-    backgroundColor: '#d1d5db',
+    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: '#16a34a',
+    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
   summaryCard: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 20,
   },
   summaryTopRow: {
@@ -177,7 +167,6 @@ const styles = StyleSheet.create({
   summaryLink: {
     marginTop: 4,
     fontSize: 12,
-    color: '#374151',
     opacity: 0.7,
   },
 });

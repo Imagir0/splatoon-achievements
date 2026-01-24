@@ -15,7 +15,11 @@ export const salmonRunCategories: Record<
   general: {
     title: 'Général',
     filter: (b: Badge) =>
-      b.category.includes('CoopBigRunTrophy') || b.category.includes('CoopClearDangerRateMax') || b.category.includes('CoopContestTrophy') || b.category.includes('CoopKillTripleBoss') || b.category.includes('TotalKumaPoint'),
+      b.category.includes('CoopBigRunTrophy') ||
+      b.category.includes('CoopClearDangerRateMax') ||
+      b.category.includes('CoopContestTrophy') ||
+      b.category.includes('CoopKillTripleBoss') ||
+      b.category.includes('TotalKumaPoint'),
   },
 
   ennemies: {

@@ -1,6 +1,13 @@
+import { COLORS } from '@/constants/colors';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
-import { Animated, Easing, Pressable, StyleSheet, Text, View } from 'react-native';
+import {
+  Animated,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 type Props = {
   categoryKey: string;
@@ -9,7 +16,12 @@ type Props = {
   total: number;
 };
 
-export default function CategoryScreen({ categoryKey, title, checked, total }: Props) {
+export default function CategoryCard({
+  categoryKey,
+  title,
+  checked,
+  total,
+}: Props) {
   const router = useRouter();
   const progress = total > 0 ? checked / total : 0;
   const progressAnim = useRef(new Animated.Value(0)).current;
@@ -17,8 +29,7 @@ export default function CategoryScreen({ categoryKey, title, checked, total }: P
   useEffect(() => {
     Animated.timing(progressAnim, {
       toValue: progress,
-      duration: 1200,
-      easing: Easing.out(Easing.ease),
+      duration: 500,
       useNativeDriver: false,
     }).start();
   }, [progress]);
@@ -61,7 +72,7 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
   },
   row: {
@@ -72,20 +83,22 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   counter: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
   },
   barBackground: {
     height: 8,
-    backgroundColor: '#d1d5db',
+    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: '#16a34a',
+    backgroundColor: COLORS.green.progress,
+    borderRadius: 4,
   },
 });

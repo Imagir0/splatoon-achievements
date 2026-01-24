@@ -1,32 +1,24 @@
+import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
 import { badges } from '@/data/badges';
-import { weaponCategories } from '@/data/weaponCategories';
+import { weaponCategories } from '@/data/filters/weaponFilters';
 import { useRouter } from 'expo-router';
 import React, { useMemo, useRef } from 'react';
-import {
-  Animated,
-  Pressable,
-  ScrollView,
-  Text,
-  View,
-} from 'react-native';
+import { Animated, Pressable, ScrollView, StyleSheet, Text, View, } from 'react-native';
 
 export default function WeaponsIndex() {
   const router = useRouter();
   const { selectedBadges } = useBadges();
 
-  // Animations par catégorie
   const progressAnim = useRef<Record<string, Animated.Value>>({}).current;
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 16 }}>
+    <ScrollView contentContainerStyle={styles.container}>
       {Object.entries(weaponCategories).map(([key, config]) => {
-        // Initialisation animation
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
         }
 
-        // Badges filtrés pour cette catégorie
         const filteredBadges = useMemo(
           () => badges.filter(config.filter),
           [config.filter]
@@ -39,10 +31,9 @@ export default function WeaponsIndex() {
 
         const progress = total === 0 ? 0 : obtained / total;
 
-        // Animation
         Animated.timing(progressAnim[key], {
           toValue: progress,
-          duration: 500, // ⬅️ durée modifiable
+          duration: 500,
           useNativeDriver: false,
         }).start();
 
@@ -54,51 +45,26 @@ export default function WeaponsIndex() {
         return (
           <Pressable
             key={key}
+            style={styles.card}
             onPress={() =>
               router.push({
-                pathname: '/(tabs)/collectibles/badges/weapons/[weaponCategory]',
+                pathname:
+                  '/(tabs)/collectibles/badges/weapons/[weaponCategory]',
                 params: { weaponCategory: key },
               })
             }
-            style={{
-              padding: 16,
-              backgroundColor: '#e5e7eb',
-              borderRadius: 10,
-              marginBottom: 12,
-            }}
           >
-            {/* Titre + compteur */}
-            <View
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                marginBottom: 8,
-              }}
-            >
-              <Text style={{ fontSize: 18, fontWeight: '600' }}>
-                {config.title}
-              </Text>
-
-              <Text style={{ fontSize: 14, fontWeight: '600' }}>
-                {obtained} / {total}
-              </Text>
+            <View style={styles.row}>
+              <Text style={styles.title}>{config.title}</Text>
+              <Text style={styles.counter}>{obtained} / {total}</Text>
             </View>
 
-            {/* Barre de progression */}
-            <View
-              style={{
-                height: 6,
-                backgroundColor: '#d1d5db',
-                borderRadius: 4,
-                overflow: 'hidden',
-              }}
-            >
+            <View style={styles.barBackground}>
               <Animated.View
-                style={{
-                  height: '100%',
-                  width: widthInterpolated,
-                  backgroundColor: '#16a34a',
-                }}
+                style={[
+                  styles.barProgress,
+                  { width: widthInterpolated },
+                ]}
               />
             </View>
           </Pressable>
@@ -107,3 +73,40 @@ export default function WeaponsIndex() {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 16,
+  },
+  card: {
+    padding: 16,
+    backgroundColor: COLORS.shades.white,
+    borderRadius: 10,
+    marginBottom: 12,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: COLORS.shades.black,
+  },
+  counter: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  barBackground: {
+    height: 6,
+    backgroundColor: COLORS.shades.order,
+    borderRadius: 4,
+    overflow: 'hidden',
+  },
+  barProgress: {
+    height: '100%',
+    backgroundColor: COLORS.green.progress,
+    borderRadius: 4,
+  },
+});

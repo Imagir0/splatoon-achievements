@@ -2,7 +2,7 @@ import { Stack } from 'expo-router';
 import React, { useState } from 'react';
 import { View } from 'react-native';
 
-import CollectiblesTabBar from './components/CollectiblesTabBar';
+import CollectiblesTabBar from '@/components/CollectiblesTabBar';
 
 import BadgesScreen from './badges';
 import BannersScreen from './banners';

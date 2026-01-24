@@ -1,8 +1,11 @@
+import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { STICKERS_CATEGORY_TITLES } from '@/data/categoryTitles/stickersCategoryTitles';
+import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
-import { objectsFilters } from '@/data/objectsFilters';
-import { STICKERS_CATEGORY_TITLES } from '@/data/stickersCategoryTitles';
+import { MaterialIcons } from '@expo/vector-icons';
 import Slider from '@react-native-community/slider';
+import * as Haptics from 'expo-haptics';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
@@ -16,27 +19,16 @@ import {
 } from 'react-native';
 
 export default function StickersCategoryScreen() {
-    const { stickersCategory } =
-        useLocalSearchParams<{ stickersCategory: string }>();
+    const { stickersCategory } = useLocalSearchParams<{ stickersCategory: string }>();
 
-    const {
-        isOwned,
-        toggleObject,
-        getObjectCount,
-        setObjectCount,
-    } = useObjects();
+    const { isOwned, toggleObject, getObjectCount, setObjectCount } = useObjects();
 
-    const title =
-        STICKERS_CATEGORY_TITLES[stickersCategory ?? ''] ?? 'Catégorie';
-
+    const title = STICKERS_CATEGORY_TITLES[stickersCategory ?? ''] ?? 'Catégorie';
     const filterFn = objectsFilters.stickers[stickersCategory ?? ''];
 
     const [search, setSearch] = useState('');
     const searchableCategories = ['spend', 'weapons'];
-
-    const showSearch = stickersCategory
-        ? searchableCategories.includes(stickersCategory)
-        : false;
+    const showSearch = stickersCategory ? searchableCategories.includes(stickersCategory) : false;
 
     const filteredStickers = useMemo(() => {
         if (!filterFn) return [];
@@ -46,16 +38,27 @@ export default function StickersCategoryScreen() {
             .filter(
                 sticker =>
                     filterFn(sticker) &&
-                    (!showSearch ||
-                        sticker.name
-                            .toLowerCase()
-                            .includes(search.toLowerCase()))
+                    (!showSearch || sticker.name.toLowerCase().includes(search.toLowerCase()))
             )
             .sort((a, b) => a.name.localeCompare(b.name));
     }, [filterFn, stickersCategory, search, showSearch]);
 
+    const handlePress = (id: number, maxNumber: number) => {
+        if (maxNumber === 1) {
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            toggleObject('stickers', id);
+        }
+    };
+
+    const handleSliderChange = (id: number, value: number, maxNumber: number) => {
+        setObjectCount('stickers', id, value);
+        if (value === maxNumber) {
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+        }
+    };
+
     return (
-        <View style={{ flex: 1, padding: 16 }}>
+        <View style={styles.container}>
             <Stack.Screen options={{ title }} />
 
             {showSearch && (
@@ -75,32 +78,26 @@ export default function StickersCategoryScreen() {
                     const minPrice = Number(item.price ?? 0);
                     const count = getObjectCount('stickers', item.id);
                     const isChecked = isOwned('stickers', item.id);
-
-                    const shouldHighlightRow =
-                        count === maxNumber;
+                    const shouldHighlightRow = count === maxNumber;
 
                     return (
                         <Pressable
-                            style={[
-                                styles.row,
-                                shouldHighlightRow && styles.rowChecked,
-                            ]}
-                            onPress={
-                                maxNumber === 1
-                                    ? () => toggleObject('stickers', item.id)
-                                    : undefined
-                            }
+                            style={[styles.row, shouldHighlightRow && styles.rowChecked]}
+                            onPress={maxNumber === 1 ? () => handlePress(item.id, maxNumber) : undefined}
                         >
                             {maxNumber === 1 && (
                                 <View style={styles.rowTop}>
                                     <Image source={item.image} style={styles.image} />
                                     <View style={styles.textContainer}>
-                                        <Text style={styles.description}>
-                                            {item.name}
-                                        </Text>
+                                        <Text style={styles.description}>{item.name}</Text>
                                     </View>
+                                        {stickersCategory === 'tableturf' && (
+                                        <View style={styles.tableturf}>
+                                            <Text style={styles.price}>{item.note}</Text>
+                                        </View>
+                                        )}
                                     <View style={styles.checkbox}>
-                                        {isChecked && <Text>✔</Text>}
+                                        {isChecked && <MaterialIcons name="check" size={22} color={COLORS.shades.black} />}
                                     </View>
                                 </View>
                             )}
@@ -110,37 +107,35 @@ export default function StickersCategoryScreen() {
                                     <View style={styles.rowTop}>
                                         <Image source={item.image} style={styles.image} />
                                         <View style={styles.textContainer}>
-                                            <Text style={styles.description}>
-                                                {item.name}
-                                            </Text>
-                                            {minPrice != 0 && (
-                                                <Text style={styles.price}>
-                                                    {Number(item.price).toLocaleString()}
-                                                </Text>
+                                            <Text style={styles.description}>{item.name}</Text>
+                                            {minPrice !== 0 && (
+                                                <Text style={styles.price}>{minPrice.toLocaleString()}</Text>
                                             )}
                                         </View>
-                                            <View style={styles.slideCount}>
-                                                {minPrice != 0 && (
-                                                        <Text style={styles.price}>
-                                                            {Number(item.price) * count}
-                                                        </Text>
-                                                )}
-                                                <Text style={styles.countTextInline}>
-                                                    {count} / {maxNumber}
-                                                </Text>
-                                            </View>
+                                        {stickersCategory === 'salmon' && (
+                                        <View style={styles.fishScalePrice}>
+                                            <Text style={styles.price}>{item.fishScalePrice}</Text>
+                                        </View>
+                                        )}
+                                        <View style={styles.slideCount}>
+                                            {minPrice !== 0 && (
+                                                <Text style={styles.price}>{(minPrice * count).toLocaleString()}</Text>
+                                            )}
+                                            <Text style={styles.countTextInline}>
+                                                {count} / {maxNumber}
+                                            </Text>
+                                        </View>
                                     </View>
+
                                     <Slider
                                         minimumValue={0}
                                         maximumValue={maxNumber}
                                         step={1}
                                         value={count}
-                                        onValueChange={value =>
-                                            setObjectCount('stickers', item.id, value)
-                                        }
-                                        minimumTrackTintColor="#22c55e"
-                                        maximumTrackTintColor="#d1d5db"
-                                        thumbTintColor="#22c55e"
+                                        onValueChange={value => handleSliderChange(item.id, value, maxNumber)}
+                                        minimumTrackTintColor={COLORS.green.progress}
+                                        maximumTrackTintColor={COLORS.shades.order}
+                                        thumbTintColor={COLORS.green.progress}
                                         style={styles.slider}
                                     />
                                 </View>
@@ -154,35 +149,35 @@ export default function StickersCategoryScreen() {
 }
 
 const styles = StyleSheet.create({
+    container: { flex: 1, padding: 16 },
     searchInput: {
         height: 44,
         borderRadius: 10,
         paddingHorizontal: 14,
         marginBottom: 12,
-        backgroundColor: '#e5e7eb',
+        backgroundColor: COLORS.shades.white,
         fontSize: 16,
     },
     row: {
         marginBottom: 12,
         borderRadius: 14,
-        backgroundColor: '#f9fafb',
+        backgroundColor: COLORS.shades.white,
         overflow: 'hidden',
+    },
+    rowTop: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingVertical: 8,
+        paddingHorizontal: 12,
+    },
+    rowChecked: {
+        backgroundColor: COLORS.green.rowChecked,
     },
     image: {
         width: 50,
         height: 50,
         marginRight: 12,
         resizeMode: 'contain',
-    },
-    rowTop: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        padding: 12,
-        paddingVertical: 8,
-        paddingHorizontal: 12,
-    },
-    rowChecked: {
-        backgroundColor: '#dcfce7',
     },
     textContainer: {
         flex: 1,
@@ -191,13 +186,20 @@ const styles = StyleSheet.create({
     description: {
         fontSize: 16,
         fontWeight: '500',
+        color: COLORS.shades.black,
+    },
+    fishScalePrice: {
+        width: 80,
+    },
+    tableturf: {
+        width: 100,
     },
     checkbox: {
-        width: 28,
-        height: 28,
-        borderRadius: 6,
+        width: 32,
+        height: 32,
+        borderRadius: 8,
         borderWidth: 2,
-        borderColor: '#065f46',
+        borderColor: COLORS.shades.black,
         alignItems: 'center',
         justifyContent: 'center',
         marginLeft: 8,
@@ -205,7 +207,6 @@ const styles = StyleSheet.create({
     countTextInline: {
         fontSize: 14,
         fontWeight: '600',
-        color: '#6b7280',
         marginLeft: 8,
     },
     slideCount: {
@@ -216,7 +217,7 @@ const styles = StyleSheet.create({
     price: {
         fontSize: 12,
         fontWeight: '600',
-        color: '#949494',
+        color: COLORS.shades.codeqr,
         marginBottom: 1,
     },
     slider: {

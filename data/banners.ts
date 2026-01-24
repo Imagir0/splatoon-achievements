@@ -1825,6 +1825,7 @@ export const banners = [
     season: '3',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Acheter \nle DLC',
   },
   {
     id: 10001,
@@ -1906,6 +1907,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre\nle rang 10',
   },
   {
     id: 1002,
@@ -1915,6 +1917,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre\nle rang 25',
   },
   {
     id: 1003,
@@ -1924,6 +1927,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre\nle rang 46',
   },
   {
     id: 951,
@@ -1933,6 +1937,7 @@ export const banners = [
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
   {
     id: 952,
@@ -1942,6 +1947,7 @@ export const banners = [
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
   {
     id: 953,
@@ -1951,6 +1957,7 @@ export const banners = [
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
   {
     id: 954,
@@ -1960,6 +1967,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Halloween.\n20 October 2023',
   },
   {
     id: 961,
@@ -1969,6 +1977,7 @@ export const banners = [
     season: '6',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'FrostyFest.\n5 January 2024',
   },
   {
     id: 971,
@@ -1978,6 +1987,7 @@ export const banners = [
     season: '7',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'SpringFest.\n5 April 2024',
   },
   {
     id: 972,
@@ -1987,6 +1997,7 @@ export const banners = [
     season: '8',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Splatoon 3 World Championship 2024.\n5 June 2024',
   },
   {
     id: 981,
@@ -1996,6 +2007,7 @@ export const banners = [
     season: '8',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Summer Nights.\n28 June 2024',
   },
   {
     id: 991,
@@ -2005,6 +2017,7 @@ export const banners = [
     season: '9',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Festival of the year.\n2 September 2024',
   },
   {
     id: 992,
@@ -2014,6 +2027,7 @@ export const banners = [
     season: '9',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Festival of the year.\n2 September 2024',
   },
   {
     id: 993,
@@ -2023,6 +2037,7 @@ export const banners = [
     season: '9',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Festival of the year.\n2 September 2024',
   },
   {
     id: 810,
@@ -2032,6 +2047,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Acheter \nle DLC',
   },
   {
     id: 851,
@@ -2041,6 +2057,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Ouvrir le \ncasier 2',
   },
   {
     id: 852,
@@ -2050,6 +2067,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Ouvrir le \ncasier 26',
   },
   {
     id: 853,
@@ -2059,6 +2077,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Ouvrir le \ncasier 35',
   },
   {
     id: 861,
@@ -2068,6 +2087,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Obtenir \n3 clés',
   },
   {
     id: 862,
@@ -2077,6 +2097,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Obtenir \n9 clés',
   },
   {
     id: 863,
@@ -2086,6 +2107,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Obtenir \n21 clés',
   },
   {
     id: 864,
@@ -2095,6 +2117,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Obtenir \n33 clés',
   },
   {
     id: 901,
@@ -2104,6 +2127,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/901.png'),
   },
   {
     id: 902,
@@ -2113,6 +2137,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/902.png'),
   },
   {
     id: 911,
@@ -2122,6 +2147,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/911.png'),
   },
   {
     id: 912,
@@ -2131,6 +2157,7 @@ export const banners = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/912.png'),
   },
   {
     id: 921,
@@ -2140,6 +2167,7 @@ export const banners = [
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/921.png'),
   },
   {
     id: 922,
@@ -2149,6 +2177,7 @@ export const banners = [
     season: '5',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/922.png'),
   },
   {
     id: 923,
@@ -2158,6 +2187,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/923.png'),
   },
   {
     id: 924,
@@ -2167,6 +2197,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/924.png'),
   },
   {
     id: 931,
@@ -2176,6 +2207,7 @@ export const banners = [
     season: '6',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/931.png'),
   },
   {
     id: 936,
@@ -2185,6 +2217,7 @@ export const banners = [
     season: '7',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/936.png'),
   },
   {
     id: 937,
@@ -2194,6 +2227,7 @@ export const banners = [
     season: '-1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    codeQR: require('@/assets/images/banners/codeqr/937.png'),
   },
   {
     id: 1,

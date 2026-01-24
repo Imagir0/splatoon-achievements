@@ -5950,6 +5950,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 12 en Cartes & Territoire',
   },
   {
     id: 6400102,
@@ -5962,6 +5963,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 32 en Cartes & Territoire',
   },
   {
     id: 6400103,
@@ -5974,6 +5976,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 36 en Cartes & Territoire',
   },
   {
     id: 6400104,
@@ -5986,6 +5989,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 39 en Cartes & Territoire',
   },
   {
     id: 6400105,
@@ -5998,6 +6002,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 42 en Cartes & Territoire',
   },
   {
     id: 6400106,
@@ -6010,6 +6015,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 45 en Cartes & Territoire',
   },
   {
     id: 6400107,
@@ -6022,6 +6028,7 @@ export const stickers = [
     season: '1',
     fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
     unlockLevel: '1',
+    note: 'Atteindre le rang 48 en Cartes & Territoire',
   },
   {
     id: 5007020,

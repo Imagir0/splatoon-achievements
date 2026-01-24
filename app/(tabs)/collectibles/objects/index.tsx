@@ -1,3 +1,4 @@
+import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
 import { allObjects } from '@/data/allObjects';
 import { OBJECTS_DATA } from '@/data/objects';
@@ -5,7 +6,6 @@ import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import {
   Animated,
-  Easing,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -15,7 +15,7 @@ import {
 
 type ObjectType = keyof typeof OBJECTS_DATA;
 
-const GEAR_LABELS: Record<ObjectType, string> = {
+const OBJECT_LABELS: Record<ObjectType, string> = {
   figures: 'Objets',
   lockers: 'Casiers',
   stickers: 'Autocollants',
@@ -23,7 +23,7 @@ const GEAR_LABELS: Record<ObjectType, string> = {
 
 const objectCategories = (Object.keys(OBJECTS_DATA) as ObjectType[]).map(type => ({
   key: type,
-  title: GEAR_LABELS[type],
+  title: OBJECT_LABELS[type],
 }));
 
 export default function ObjectsIndexScreen() {
@@ -43,6 +43,7 @@ export default function ObjectsIndexScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      {/* Résumé global */}
       <Pressable
         style={styles.summaryCard}
         onPress={() =>
@@ -50,7 +51,9 @@ export default function ObjectsIndexScreen() {
         }
       >
         <View style={styles.summaryTopRow}>
-          <Text style={styles.summaryTitle}>Objets / Autocollants / Casiers</Text>
+          <Text style={styles.summaryTitle}>
+            Objets / Autocollants / Casiers
+          </Text>
           <Text style={styles.summaryCounter}>
             {Object.values(selectedObjects).filter(Boolean).length}
             {' / '}
@@ -63,7 +66,6 @@ export default function ObjectsIndexScreen() {
         </Text>
       </Pressable>
 
-      {/* Catégories */}
       {objectCategories.map(cat => {
         const { total, checked } = getCategoryCounters(cat.key);
         const progress = total > 0 ? checked / total : 0;
@@ -73,8 +75,7 @@ export default function ObjectsIndexScreen() {
         useEffect(() => {
           Animated.timing(progressAnim, {
             toValue: progress,
-            duration: 1200,
-            easing: Easing.out(Easing.ease),
+            duration: 500,
             useNativeDriver: false,
           }).start();
         }, [progress]);
@@ -125,7 +126,7 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
   },
   row: {
@@ -136,28 +137,29 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   counter: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
   },
   barBackground: {
     height: 8,
     width: '100%',
-    backgroundColor: '#d1d5db',
+    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: '#16a34a',
+    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
   summaryCard: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 20,
   },
   summaryTopRow: {
@@ -168,6 +170,7 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   summaryCounter: {
     fontSize: 16,
@@ -176,7 +179,6 @@ const styles = StyleSheet.create({
   summaryLink: {
     marginTop: 4,
     fontSize: 12,
-    color: '#374151',
     opacity: 0.7,
   },
 });

@@ -1,7 +1,8 @@
+import { COLORS } from '@/constants/colors';
 import { useBanners } from '@/contexts/BannersContext';
-import { bannerFilters } from '@/data/bannerFilters';
 import { banners } from '@/data/banners';
-import { BANNER_CATEGORY_TITLES } from '@/data/bannersCategoryTitles';
+import { BANNER_CATEGORY_TITLES } from '@/data/categoryTitles/bannersCategoryTitles';
+import { bannerFilters } from '@/data/filters/bannerFilters';
 import { useRouter } from 'expo-router';
 import { useEffect, useRef } from 'react';
 import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -36,15 +37,11 @@ export default function BannersScreen() {
         <View style={styles.summaryTopRow}>
           <Text style={styles.summaryTitle}>Bannières</Text>
           <Text style={styles.summaryCounter}>
-            {Object.values(selectedBanners).filter(Boolean).length}
-            {' / '}
-            {banners.length}
+            {Object.values(selectedBanners).filter(Boolean).length} / {banners.length}
           </Text>
         </View>
 
-        <Text style={styles.summaryLink}>
-          Voir la collection
-        </Text>
+        <Text style={styles.summaryLink}>Voir la collection</Text>
       </Pressable>
 
       {collectibleCategories.map(cat => {
@@ -56,7 +53,7 @@ export default function BannersScreen() {
         useEffect(() => {
           Animated.timing(progressAnim, {
             toValue: progress,
-            duration: 1200,
+            duration: 500,
             easing: Easing.out(Easing.ease),
             useNativeDriver: false,
           }).start();
@@ -75,9 +72,7 @@ export default function BannersScreen() {
           >
             <View style={styles.row}>
               <Text style={styles.cardTitle}>{cat.title}</Text>
-              <Text style={styles.counter}>
-                {checked} / {total}
-              </Text>
+              <Text style={styles.counter}>{checked} / {total}</Text>
             </View>
 
             <View style={styles.barBackground}>
@@ -108,7 +103,7 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
   },
   row: {
@@ -119,28 +114,29 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   counter: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
   },
   barBackground: {
     height: 8,
     width: '100%',
-    backgroundColor: '#d1d5db',
+    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: '#16a34a',
+    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
-    summaryCard: {
+  summaryCard: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: '#e5e7eb',
+    backgroundColor: COLORS.shades.white,
     marginBottom: 20,
   },
   summaryTopRow: {
@@ -151,6 +147,7 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 18,
     fontWeight: '600',
+    color: COLORS.shades.black,
   },
   summaryCounter: {
     fontSize: 16,
@@ -159,8 +156,6 @@ const styles = StyleSheet.create({
   summaryLink: {
     marginTop: 4,
     fontSize: 12,
-    color: '#374151',
     opacity: 0.7,
   },
-
 });

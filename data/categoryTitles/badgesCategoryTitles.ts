@@ -5,7 +5,7 @@ export const BADGES_CATEGORY_TITLES: Record<string, string> = {
   gameModes: 'Modes de jeu',
   challenge: 'Matchs challenge',
   spending: 'Dépenses',
-  equipement: 'Équipements',
+  gears: 'Équipements',
   splatfest: 'Splatfests',
   others: 'Autres',
   tableturf: 'Cartes & Territoire',

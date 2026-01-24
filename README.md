@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# App Splatoon
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🎮 **Splat Helper** est une application mobile open-source dédiée à la gestion de collectibles et, à terme, au suivi des équipes et des statistiques de joueurs dans l’univers *Splatoon*.
 
-## Get started
+Le projet vise à centraliser progression, données compétitives et outils communautaires dans une application moderne, rapide et évolutive.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Fonctionnalités
 
-2. Start the app
+### 🎒 Collectibles
+- Gestion des objets possédés / non possédés
+- Catégories prises en charge :
+  - Badges
+  - Splatiquettes
+  - Objets
+  - Équipements
+  - Armes
+  - Cartes & Territoire
+  - Salmon Run
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Stack technique
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **expo-router**
+- **Context API**
+- **Animated API**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Roadmap
 
-When you're ready, run:
+### 👥 Gestion des équipes
+- Création et administration d’équipes
+- Affectation des joueurs
 
-```bash
-npm run reset-project
-```
+### 📊 Statistiques joueurs
+- Statistiques individuelles et collectives
+- Données par match, map et mode
+- Intégration Google Sheets
+- Visualisation avancée (tableaux / graphiques)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🤝 Contribuer
 
-To learn more about developing your project with Expo, look at the following resources:
+Les retours sont bienvenus.
+Contactez moi sur Discord @Imagiro
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 👤 Auteur
 
-Join our community of developers creating universal apps.
+Développé par **Imagiro**.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+

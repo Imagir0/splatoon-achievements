@@ -4,8 +4,8 @@ import { stickers } from '@/data/stickers';
 
 export const OBJECTS_DATA = {
   figures,
-  lockers,
   stickers,
+  lockers,
 } as const;
 
 export type ObjectItem = {
