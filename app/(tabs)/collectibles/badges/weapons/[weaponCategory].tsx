@@ -64,6 +64,7 @@ export default function WeaponCategoryScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Rechercher un badge…"
+          placeholderTextColor={COLORS.shades.disable}
           style={styles.searchInput}
         />
       )}

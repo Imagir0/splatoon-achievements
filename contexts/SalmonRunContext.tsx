@@ -10,32 +10,48 @@ type SalmonSkinsContextType = {
   toggleSalmonSkins: (id: number) => void;
 };
 
-
 const SalmonSkinsContext = createContext<SalmonSkinsContextType | undefined>(undefined);
 
 export const SalmonSkinsProvider = ({ children }: { children: React.ReactNode }) => {
   const [selectedSalmonSkins, setSelectedSalmonSkins] = useState<SelectedSalmonSkins>({});
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Charger depuis AsyncStorage
   useEffect(() => {
     (async () => {
-      const saved = await AsyncStorage.getItem('selectedSalmonSkins');
-      if (saved) setSelectedSalmonSkins(JSON.parse(saved));
+      try {
+        const saved = await AsyncStorage.getItem('selectedSalmonSkins');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setSelectedSalmonSkins(parsed);
+          // console.log('Salmon Skins chargés ✅', parsed);
+        }
+      } catch (err) {
+        console.error('Erreur lors du parsing AsyncStorage:', err);
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 
-  // Sauvegarder automatiquement
   useEffect(() => {
-    AsyncStorage.setItem('selectedSalmonSkins', JSON.stringify(selectedSalmonSkins));
-  }, [selectedSalmonSkins]);
+    if (isLoading) return;
+
+    (async () => {
+      try {
+        await AsyncStorage.setItem('selectedSalmonSkins', JSON.stringify(selectedSalmonSkins));
+        // console.log('Salmon Skins sauvegardés ✅', selectedSalmonSkins);
+      } catch (err) {
+        console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
+      }
+    })();
+  }, [selectedSalmonSkins, isLoading]);
 
   const toggleSalmonSkins = (id: number) => {
     setSelectedSalmonSkins(prev => ({
-        ...prev,
-        [id]: !prev[id],
+      ...prev,
+      [id]: !prev[id],
     }));
-};
-
+  };
 
   return (
     <SalmonSkinsContext.Provider value={{ selectedSalmonSkins, toggleSalmonSkins }}>

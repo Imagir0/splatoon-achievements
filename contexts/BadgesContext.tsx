@@ -8,25 +8,44 @@ type SelectedBadges = {
 type BadgesContextType = {
   selectedBadges: SelectedBadges;
   toggleBadge: (id: number) => void;
+  isLoading: boolean;
 };
 
 const BadgesContext = createContext<BadgesContextType | undefined>(undefined);
 
 export const BadgesProvider = ({ children }: { children: React.ReactNode }) => {
   const [selectedBadges, setSelectedBadges] = useState<SelectedBadges>({});
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Charger depuis AsyncStorage
   useEffect(() => {
     (async () => {
-      const saved = await AsyncStorage.getItem('selectedBadges');
-      if (saved) setSelectedBadges(JSON.parse(saved));
+      try {
+        const saved = await AsyncStorage.getItem('selectedBadges');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setSelectedBadges(parsed);
+          // console.log('Badges chargés ✅', parsed);
+        }
+      } catch (err) {
+        console.error('Erreur lors du parsing AsyncStorage:', err);
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 
-  // Sauvegarder automatiquement
   useEffect(() => {
-    AsyncStorage.setItem('selectedBadges', JSON.stringify(selectedBadges));
-  }, [selectedBadges]);
+    if (isLoading) return;
+
+    (async () => {
+      try {
+        await AsyncStorage.setItem('selectedBadges', JSON.stringify(selectedBadges));
+        // console.log('Badges sauvegardés ✅', selectedBadges);
+      } catch (err) {
+        console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
+      }
+    })();
+  }, [selectedBadges, isLoading]);
 
   const toggleBadge = (id: number) => {
     setSelectedBadges(prev => ({
@@ -36,7 +55,7 @@ export const BadgesProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   return (
-    <BadgesContext.Provider value={{ selectedBadges, toggleBadge }}>
+    <BadgesContext.Provider value={{ selectedBadges, toggleBadge, isLoading }}>
       {children}
     </BadgesContext.Provider>
   );

@@ -14,18 +14,37 @@ const TableTurfContext = createContext<TableTurfContextType | undefined>(undefin
 
 export const TableTurfProvider = ({ children }: { children: React.ReactNode }) => {
   const [selectedTableTurf, setSelectedTableTurf] = useState<SelectedTableTurf>({});
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Charger depuis AsyncStorage
   useEffect(() => {
     (async () => {
-      const saved = await AsyncStorage.getItem('selectedTableTurf');
-      if (saved) setSelectedTableTurf(JSON.parse(saved));
+      try {
+        const saved = await AsyncStorage.getItem('selectedTableTurf');
+
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setSelectedTableTurf(parsed);
+          // console.log('Cartes chargées ✅', parsed);
+        }
+      } catch (err) {
+        console.error('Erreur lors du parsing AsyncStorage:', err);
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 
-  // Sauvegarder automatiquement
   useEffect(() => {
-    AsyncStorage.setItem('selectedTableTurf', JSON.stringify(selectedTableTurf));
+    if (isLoading) return;
+
+    (async () => {
+      try {
+        await AsyncStorage.setItem('selectedTableTurf', JSON.stringify(selectedTableTurf));
+        //console.log('Données sauvegardées ✅', selectedTableTurf);
+      } catch (err) {
+        console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
+      }
+    })();
   }, [selectedTableTurf]);
 
   const toggleTableTurf = (id: number) => {

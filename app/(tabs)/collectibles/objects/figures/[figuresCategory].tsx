@@ -9,13 +9,13 @@ import * as Haptics from 'expo-haptics';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
-    FlatList,
-    Image,
-    Pressable,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 
 export default function FiguresCategoryScreen() {
@@ -59,6 +59,7 @@ export default function FiguresCategoryScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Rechercher un objet…"
+          placeholderTextColor={COLORS.shades.disable}
           style={styles.searchInput}
         />
       )}
