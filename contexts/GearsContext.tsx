@@ -12,25 +12,44 @@ type GearsContextType = {
   selectedGears: SelectedGears;
   toggleGear: (type: GearType, id: number) => void;
   isOwned: (type: GearType, id: number) => boolean;
+  isLoading: boolean;
 };
 
 const GearsContext = createContext<GearsContextType | undefined>(undefined);
 
 export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
   const [selectedGears, setSelectedGears] = useState<SelectedGears>({});
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Charger depuis AsyncStorage
   useEffect(() => {
     (async () => {
-      const saved = await AsyncStorage.getItem('selectedGears');
-      if (saved) setSelectedGears(JSON.parse(saved));
+      try {
+        const saved = await AsyncStorage.getItem('selectedGears');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setSelectedGears(parsed);
+          // console.log('Gears chargés ✅', parsed);
+        }
+      } catch (err) {
+        console.error('Erreur lors du parsing AsyncStorage:', err);
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 
-  // Sauvegarder automatiquement
   useEffect(() => {
-    AsyncStorage.setItem('selectedGears', JSON.stringify(selectedGears));
-  }, [selectedGears]);
+    if (isLoading) return;
+
+    (async () => {
+      try {
+        await AsyncStorage.setItem('selectedGears', JSON.stringify(selectedGears));
+        // console.log('Gears sauvegardés ✅', selectedGears);
+      } catch (err) {
+        console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
+      }
+    })();
+  }, [selectedGears, isLoading]);
 
   const toggleGear = (type: GearType, id: number) => {
     const key: GearKey = `${type}-${id}`;
@@ -42,11 +61,12 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   const isOwned = (type: GearType, id: number) => {
-    return !!selectedGears[`${type}-${id}`];
+    const key: GearKey = `${type}-${id}`;
+    return !!selectedGears[key];
   };
 
   return (
-    <GearsContext.Provider value={{ selectedGears, toggleGear, isOwned }}>
+    <GearsContext.Provider value={{ selectedGears, toggleGear, isOwned, isLoading }}>
       {children}
     </GearsContext.Provider>
   );

@@ -14,19 +14,37 @@ const BannersContext = createContext<BannersContextType | undefined>(undefined);
 
 export const BannersProvider = ({ children }: { children: React.ReactNode }) => {
   const [selectedBanners, setSelectedBanners] = useState<SelectedBanners>({});
+  const [isLoading, setIsLoading] = useState(true); // Pour loader si besoin
 
-  // Charger depuis AsyncStorage
   useEffect(() => {
     (async () => {
-      const saved = await AsyncStorage.getItem('selectedBanners');
-      if (saved) setSelectedBanners(JSON.parse(saved));
+      try {
+        const saved = await AsyncStorage.getItem('selectedBanners');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setSelectedBanners(parsed);
+          // console.log('Banners chargés ✅', parsed);
+        }
+      } catch (err) {
+        console.error('Erreur lors du parsing AsyncStorage:', err);
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 
-  // Sauvegarder automatiquement
   useEffect(() => {
-    AsyncStorage.setItem('selectedBanners', JSON.stringify(selectedBanners));
-  }, [selectedBanners]);
+    if (isLoading) return;
+
+    (async () => {
+      try {
+        await AsyncStorage.setItem('selectedBanners', JSON.stringify(selectedBanners));
+        // console.log('Banners sauvegardés ✅', selectedBanners);
+      } catch (err) {
+        console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
+      }
+    })();
+  }, [selectedBanners, isLoading]);
 
   const toggleBanner = (id: number) => {
     setSelectedBanners(prev => ({
