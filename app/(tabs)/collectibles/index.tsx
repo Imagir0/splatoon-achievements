@@ -29,10 +29,10 @@ export default function CollectiblesScreen() {
         return <GearsScreen />;
       case 'weapons':
         return <WeaponsScreen />;
-      case 'tableturf':
-        return <TableturfScreen />;
       case 'salmon':
         return <SalmonScreen />;
+      case 'tableturf':
+        return <TableturfScreen />;
       default:
         return null;
     }

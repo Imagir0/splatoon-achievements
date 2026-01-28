@@ -34,8 +34,8 @@ export default function AllBadgesScreen() {
   'gears',
   'tableturf',
   'salmonRun',
-  'weapons',
   'specialWeapons',
+  'weapons',
 ];
 
   const filterColors: Record<string, string> = {

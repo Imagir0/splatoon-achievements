@@ -1,3 +1,4 @@
+import { useTheme } from '@/contexts/ThemeContext';
 import React from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
@@ -16,18 +17,28 @@ interface Props {
 }
 
 export default function CollectiblesTabBar({ activeTab, onChange }: Props) {
+  const { theme } = useTheme();
+
   const tabs: { key: Tab; label: string }[] = [
     { key: 'badges', label: 'Badges' },
     { key: 'banners', label: 'Splatiquettes' },
     { key: 'objects', label: 'Objets' },
     { key: 'gears', label: 'Équipements' },
     { key: 'weapons', label: 'Armes' },
-    { key: 'tableturf', label: 'Cartes & Territoire' },
     { key: 'salmon', label: 'Salmon Run' },
+    { key: 'tableturf', label: 'Cartes & Territoire' },
   ];
 
   return (
-    <View style={styles.wrapper}>
+    <View
+      style={[
+        styles.wrapper,
+        {
+          backgroundColor: theme.colors.surface,
+          borderColor: theme.colors.border,
+        },
+      ]}
+    >
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -43,13 +54,27 @@ export default function CollectiblesTabBar({ activeTab, onChange }: Props) {
               style={styles.tab}
             >
               <Text
-                style={[styles.label, isActive && styles.labelActive]}
+                style={[
+                  styles.label,
+                  { color: theme.colors.textMuted },
+                  isActive && {
+                    color: theme.colors.primary,
+                    fontWeight: '700',
+                  },
+                ]}
                 numberOfLines={2}
               >
                 {tab.label}
               </Text>
 
-              {isActive && <View style={styles.indicator} />}
+              {isActive && (
+                <View
+                  style={[
+                    styles.indicator,
+                    { backgroundColor: theme.colors.primary },
+                  ]}
+                />
+              )}
             </Pressable>
           );
         })}
@@ -61,38 +86,25 @@ export default function CollectiblesTabBar({ activeTab, onChange }: Props) {
 const styles = StyleSheet.create({
   wrapper: {
     borderBottomWidth: 1,
-    borderColor: '#6b7280',
-    backgroundColor: '#363232ff',
   },
-
   container: {
     paddingHorizontal: 8,
   },
-
   tab: {
     paddingHorizontal: 10,
     paddingVertical: 6,
     alignItems: 'center',
     minWidth: 64,
   },
-
   label: {
     fontSize: 12,
-    color: '#6b7280',
     fontWeight: '500',
     textAlign: 'center',
   },
-
-  labelActive: {
-    color: '#e92626ff',
-    fontWeight: '700',
-  },
-
   indicator: {
     marginTop: 4,
     height: 3,
     width: 18,
     borderRadius: 2,
-    backgroundColor: '#e92626ff',
   },
 });

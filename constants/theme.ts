@@ -1,31 +1,33 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+export const lightTheme = {
+  colors: {
+    background: '#f2f2f2',
+    surface: '#ffffff',
+    text: '#111827',
+    textMuted: '#6b7280',
+    border: '#e5e7eb',
+    primary: '#e92626ff',
+    icon: '#374151',
+    header: '#ffffff',
   },
 };
+
+export const darkTheme = {
+  colors: {
+    background: '#000000',
+    surface: '#363232ff',
+    text: '#f9fafb',
+    textMuted: '#9ca3af',
+    border: '#575a5f',
+    primary: '#e92626ff',
+    icon: '#e5e7eb',
+    header: '#020617',
+  },
+};
+
+export type AppTheme = typeof lightTheme;
+
 
 export const Fonts = Platform.select({
   ios: {
