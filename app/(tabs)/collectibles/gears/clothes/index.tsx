@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useGears } from '@/contexts/GearsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { GEARS_CATEGORY_TITLES } from '@/data/categoryTitles/gearsCategoryTitles';
 import { GEARS_DATA } from '@/data/gears';
 import { useRouter } from 'expo-router';
@@ -16,6 +16,7 @@ import {
 export default function ClothesIndexScreen() {
   const router = useRouter();
   const { isOwned } = useGears();
+  const { theme } = useTheme();
 
   const progressAnim = useRef<Record<string, Animated.Value>>({}).current;
   const categories = Object.entries(GEARS_CATEGORY_TITLES);
@@ -24,7 +25,12 @@ export default function ClothesIndexScreen() {
     str.toLowerCase().replace(/\s+/g, '').replace(/[^\w]/g, '');
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+      contentContainerStyle={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       {categories.map(([key, title]) => {
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
@@ -59,7 +65,13 @@ export default function ClothesIndexScreen() {
         return (
           <Pressable
             key={key}
-            style={styles.card}
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+              },
+            ]}
             onPress={() =>
               router.push({
                 pathname:
@@ -69,17 +81,27 @@ export default function ClothesIndexScreen() {
             }
           >
             <View style={styles.row}>
-              <Text style={styles.title}>{title}</Text>
-              <Text style={styles.counter}>
+              <Text style={[styles.title, { color: theme.colors.text }]}>
+                {title}
+              </Text>
+              <Text style={[styles.counter, { color: theme.colors.text }]}>
                 {obtained} / {total}
               </Text>
             </View>
 
-            <View style={styles.barBackground}>
+            <View
+              style={[
+                styles.barBackground,
+                { backgroundColor: theme.colors.border },
+              ]}
+            >
               <Animated.View
                 style={[
                   styles.barProgress,
-                  { width: widthInterpolated },
+                  {
+                    backgroundColor: theme.colors.progressBar,
+                    width: widthInterpolated,
+                  },
                 ]}
               />
             </View>
@@ -96,9 +118,9 @@ const styles = StyleSheet.create({
   },
   card: {
     padding: 16,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 10,
     marginBottom: 12,
+    borderWidth: 1,
   },
   row: {
     flexDirection: 'row',
@@ -108,7 +130,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: '600',
-    color: COLORS.shades.black,
   },
   counter: {
     fontSize: 14,
@@ -116,13 +137,11 @@ const styles = StyleSheet.create({
   },
   barBackground: {
     height: 6,
-    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
 });

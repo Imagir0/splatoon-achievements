@@ -55,7 +55,7 @@ export default function CollectiblesScreen() {
           <Text style={[styles.summaryTitle, { color: theme.colors.text }]}>
             Badges
           </Text>
-          <Text style={[styles.summaryCounter, { color: theme.colors.primary }]}>
+          <Text style={[styles.summaryCounter, { color: theme.colors.text }]}>
             {Object.values(selectedBadges).filter(v => v).length}
             {' / '}
             {badges.length}
@@ -99,7 +99,7 @@ export default function CollectiblesScreen() {
               <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
                 {cat.title}
               </Text>
-              <Text style={[styles.counter, { color: theme.colors.textMuted }]}>
+              <Text style={[styles.counter, { color: theme.colors.text }]}>
                 {checked} / {total}
               </Text>
             </View>

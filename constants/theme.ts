@@ -29,6 +29,9 @@ const categoriesColors = {
   weapons: '#a5b4fc',
   codeqr: '#a79191',
   news: '#fca5a5',
+  heads: '#a5b4fc',
+  clothes: '#4ade80',
+  shoes: '#e66f6fff',
 };
 
 export const lightTheme = {

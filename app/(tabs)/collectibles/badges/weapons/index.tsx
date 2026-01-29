@@ -67,7 +67,7 @@ export default function WeaponsIndex() {
               <Text style={[styles.title, { color: theme.colors.text }]}>
                 {config.title}
               </Text>
-              <Text style={[styles.counter, { color: theme.colors.textMuted }]}>
+              <Text style={[styles.counter, { color: theme.colors.text }]}>
                 {obtained} / {total}
               </Text>
             </View>

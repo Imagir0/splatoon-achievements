@@ -47,7 +47,7 @@ export default function BannersScreen() {
           <Text style={[styles.summaryTitle, { color: theme.colors.text }]}>
             Bannières
           </Text>
-          <Text style={[styles.summaryCounter, { color: theme.colors.primary }]}>
+          <Text style={[styles.summaryCounter, { color: theme.colors.text }]}>
             {Object.values(selectedBanners).filter(Boolean).length} / {banners.length}
           </Text>
         </View>
@@ -90,7 +90,7 @@ export default function BannersScreen() {
               <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
                 {cat.title}
               </Text>
-              <Text style={[styles.counter, { color: theme.colors.textMuted }]}>
+              <Text style={[styles.counter, { color: theme.colors.text }]}>
                 {checked} / {total}
               </Text>
             </View>
