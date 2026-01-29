@@ -10,6 +10,9 @@ export const lightTheme = {
     primary: '#e92626ff',
     icon: '#374151',
     header: '#ffffff',
+    progressBar: '#1ea851',
+    rowChecked: '#2dbd62',
+    white: '#fff',
   },
 };
 
@@ -22,7 +25,10 @@ export const darkTheme = {
     border: '#575a5f',
     primary: '#e92626ff',
     icon: '#e5e7eb',
-    header: '#020617',
+    header: '#000000',
+    progressBar: '#1ea851',
+    rowChecked: '#2dbd62',
+    white: '#fff',
   },
 };
 

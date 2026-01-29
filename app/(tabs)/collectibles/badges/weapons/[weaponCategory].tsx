@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { badges } from '@/data/badges';
 import { weaponCategories } from '@/data/filters/weaponFilters';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -9,6 +9,7 @@ import { useMemo, useState } from 'react';
 import { FlatList, Image, Pressable, StyleSheet, Text, TextInput, View, } from 'react-native';
 
 export default function WeaponCategoryScreen() {
+  const { theme } = useTheme();
   const params = useLocalSearchParams();
   const weaponCategory = params.weaponCategory as
     | keyof typeof weaponCategories
@@ -64,8 +65,8 @@ export default function WeaponCategoryScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Rechercher un badge…"
-          placeholderTextColor={COLORS.shades.disable}
-          style={styles.searchInput}
+          placeholderTextColor={theme.colors.textMuted}
+          style={[styles.searchInput, { borderColor: theme.colors.border }]}
         />
       )}
 
@@ -80,20 +81,43 @@ export default function WeaponCategoryScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.description}>
+              <Text
+                style={[
+                  styles.description,
+                  { color: theme.colors.text },
+                ]}
+              >
                 {item.description}
               </Text>
 
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                    backgroundColor: isChecked
+                      ? 'transparent'
+                      : 'transparent',
+                  },
+                ]}
+              >
                 {isChecked && (
                   <MaterialIcons
                     name="check"
                     size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -109,17 +133,15 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     padding: 16,
+    paddingBottom: 0,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 50,
@@ -145,7 +167,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingHorizontal: 14,
     marginBottom: 12,
-    backgroundColor: COLORS.shades.white,
+    backgroundColor: 'white',
     fontSize: 16,
+    borderWidth: 1,
   },
 });
