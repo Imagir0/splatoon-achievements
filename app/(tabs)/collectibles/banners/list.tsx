@@ -1,5 +1,6 @@
 import { COLORS } from '@/constants/colors';
 import { useBanners } from '@/contexts/BannersContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { banners } from '@/data/banners';
 import { bannerFilters } from '@/data/filters/bannerFilters';
 import { Stack } from 'expo-router';
@@ -17,6 +18,7 @@ import {
 } from 'react-native';
 
 export default function AllBannersScreen() {
+  const { theme } = useTheme();
   const { selectedBanners } = useBanners();
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -58,13 +60,13 @@ export default function AllBannersScreen() {
   ];
 
   const filterColors: Record<string, string> = {
-    general: COLORS.blue.weapons,
-    salmonRun: COLORS.orange.salmon,
-    tableturf: COLORS.violet.tableturf,
-    dlc: COLORS.shades.order,
-    codeQR: COLORS.shades.codeqr,
-    nSwitchNews: COLORS.red.news,
-    jackpots: COLORS.yellow.others,
+    general: theme.categories?.weapons,
+    salmonRun: theme.categories?.salmon,
+    tableturf: theme.categories?.tableturf,
+    dlc: theme.categories?.dlc,
+    codeQR: theme.categories?.codeqr,
+    nSwitchNews: theme.categories?.news,
+    jackpots: theme.categories?.others,
   };
 
   function getBannerColor(banner: (typeof banners)[number]) {

@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { badges } from '@/data/badges';
 import { salmonRunCategories } from '@/data/filters/salmonRunFilters';
 import { useRouter } from 'expo-router';
@@ -16,11 +16,17 @@ import {
 export default function SalmonRunIndex() {
   const router = useRouter();
   const { selectedBadges } = useBadges();
+  const { theme } = useTheme(); // Récupération du thème
 
   const progressAnim = useRef<Record<string, Animated.Value>>({}).current;
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+      contentContainerStyle={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       {Object.entries(salmonRunCategories).map(([key, config]) => {
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
@@ -54,22 +60,42 @@ export default function SalmonRunIndex() {
             key={key}
             onPress={() =>
               router.push({
-                pathname: '/(tabs)/collectibles/badges/salmonRun/[salmonRunCategory]',
+                pathname:
+                  '/(tabs)/collectibles/badges/salmonRun/[salmonRunCategory]',
                 params: { salmonRunCategory: key },
               })
             }
-            style={styles.card}
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+                borderWidth: 1,
+              },
+            ]}
           >
             <View style={styles.row}>
-              <Text style={styles.title}>{config.title}</Text>
-              <Text style={styles.counter}>{obtained} / {total}</Text>
+              <Text style={[styles.title, { color: theme.colors.text }]}>
+                {config.title}
+              </Text>
+              <Text style={[styles.counter, { color: theme.colors.textMuted }]}>
+                {obtained} / {total}
+              </Text>
             </View>
 
-            <View style={styles.barBackground}>
+            <View
+              style={[
+                styles.barBackground,
+                { backgroundColor: theme.colors.border },
+              ]}
+            >
               <Animated.View
                 style={[
                   styles.barProgress,
-                  { width: widthInterpolated },
+                  {
+                    backgroundColor: theme.colors.progressBar,
+                    width: widthInterpolated,
+                  },
                 ]}
               />
             </View>
@@ -86,7 +112,6 @@ const styles = StyleSheet.create({
   },
   card: {
     padding: 16,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 10,
     marginBottom: 12,
   },
@@ -98,7 +123,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: '600',
-    color: COLORS.shades.black,
   },
   counter: {
     fontSize: 14,
@@ -106,13 +130,11 @@ const styles = StyleSheet.create({
   },
   barBackground: {
     height: 6,
-    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
 });

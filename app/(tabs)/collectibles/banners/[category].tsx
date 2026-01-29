@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBanners } from '@/contexts/BannersContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { banners } from '@/data/banners';
 import { BANNER_CATEGORY_TITLES } from '@/data/categoryTitles/bannersCategoryTitles';
 import { bannerFilters } from '@/data/filters/bannerFilters';
@@ -9,13 +9,16 @@ import { useLocalSearchParams, useNavigation } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
   FlatList,
-  Image, Modal, Pressable,
+  Image,
+  Modal,
+  Pressable,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
 
 export default function CategoryScreen() {
+  const { theme } = useTheme();
   const { category } = useLocalSearchParams<{ category: string }>();
   const { selectedBanners, toggleBanner } = useBanners();
   const navigation = useNavigation();
@@ -42,7 +45,7 @@ export default function CategoryScreen() {
   }, [category]);
 
   return (
-    <View style={{ flex: 1, padding: 16 }}>
+    <View style={[styles.view, { backgroundColor: theme.colors.background }]}>
       <FlatList
         data={filteredBanners}
         keyExtractor={(item) => item.id.toString()}
@@ -54,21 +57,28 @@ export default function CategoryScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
-
               <View style={styles.content}>
                 {category === 'salmonRun' && (
-                  <Text style={styles.meta}>{item.fishScalePrice}</Text>
+                  <Text style={[styles.meta, { color: theme.colors.text }]}>
+                    {item.fishScalePrice}
+                  </Text>
                 )}
-                {category === 'tableturf' && (
-                  <Text style={styles.meta}>{item.note}</Text>
+
+                {(category === 'tableturf' || category === 'dlc') && (
+                  <Text style={[styles.meta, { color: theme.colors.text }]}>
+                    {item.note}
+                  </Text>
                 )}
-                {category === 'dlc' && (
-                  <Text style={styles.meta}>{item.note}</Text>
-                )}
+
                 {category === 'codeQR' && (
                   <Pressable
                     onPress={() => {
@@ -87,20 +97,40 @@ export default function CategoryScreen() {
                       setSwitchNewsModalVisible(true);
                     }}
                   >
-                    <Text style={styles.link}>Informations</Text>
+                    <Text
+                      style={[
+                        styles.link,
+                        { color: theme.colors.primary },
+                      ]}
+                    >
+                      Informations
+                    </Text>
                   </Pressable>
                 )}
               </View>
-
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                  },
+                ]}
+              >
                 {isChecked && (
-                  <MaterialIcons name="check" size={22} />
+                  <MaterialIcons
+                    name="check"
+                    size={24}
+                    color={theme.colors.white}
+                  />
                 )}
               </View>
             </Pressable>
           );
         }}
       />
+
       <Modal
         visible={qrModalVisible}
         transparent
@@ -111,18 +141,22 @@ export default function CategoryScreen() {
           style={styles.modalOverlay}
           onPress={() => setQrModalVisible(false)}
         >
-          <View style={styles.modalContent}>
-            <Text>Capture d'écran
-              ➜ App Nintendo ➜ QR Code</Text>
+          <View
+            style={[
+              styles.modalContent,
+              { backgroundColor: theme.colors.surface },
+            ]}
+          >
+            <Text style={{ color: theme.colors.text, marginBottom: 12 }}>
+              Capture d'écran ➜ App Nintendo ➜ QR Code
+            </Text>
             {selectedQr && (
-              <Image
-                source={selectedQr}
-                style={styles.qrLarge}
-              />
+              <Image source={selectedQr} style={styles.qrLarge} />
             )}
           </View>
         </Pressable>
       </Modal>
+
       <Modal
         visible={switchNewsModalVisible}
         transparent
@@ -133,14 +167,26 @@ export default function CategoryScreen() {
           style={styles.modalOverlay}
           onPress={() => setSwitchNewsModalVisible(false)}
         >
-          <View style={styles.modalContent}>
+          <View
+            style={[
+              styles.modalContent,
+              { backgroundColor: theme.colors.surface },
+            ]}
+          >
             {selectedSwitchNews && (
               <View>
                 <Image
                   source={selectedSwitchNews.image}
                   style={styles.selectedSwitchNewsLarge}
                 />
-              <Text style={styles.switchNewsText}>{selectedSwitchNews.note}</Text>
+                <Text
+                  style={[
+                    styles.switchNewsText,
+                    { color: theme.colors.text },
+                  ]}
+                >
+                  {selectedSwitchNews.note}
+                </Text>
               </View>
             )}
           </View>
@@ -159,12 +205,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 200,
@@ -182,7 +225,6 @@ const styles = StyleSheet.create({
   link: {
     fontSize: 14,
     fontWeight: '600',
-    color: COLORS.blue.specialWeapons,
   },
   checkbox: {
     width: 32,
@@ -205,7 +247,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   modalContent: {
-    backgroundColor: COLORS.shades.white,
     padding: 20,
     borderRadius: 16,
     alignItems: 'center',
@@ -218,8 +259,8 @@ const styles = StyleSheet.create({
   },
   selectedSwitchNewsLarge: {
     width: 300,
-    resizeMode: 'contain',
     height: 100,
+    resizeMode: 'contain',
   },
   switchNewsText: {
     marginTop: 12,
