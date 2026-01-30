@@ -1,3 +1,4 @@
+import { allGears } from '@/data/allGears';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
@@ -12,6 +13,9 @@ type GearsContextType = {
   selectedGears: SelectedGears;
   toggleGear: (type: GearType, id: number) => void;
   isOwned: (type: GearType, id: number) => boolean;
+  getOwnedGears: (type?: GearType) => typeof allGears;
+  getGearsTotalSpent: (type?: GearType) => number;
+  getGearsTotalPossible: (type?: GearType) => number;
   isLoading: boolean;
 };
 
@@ -28,7 +32,6 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
         if (saved) {
           const parsed = JSON.parse(saved);
           setSelectedGears(parsed);
-          // console.log('Gears chargés ✅', parsed);
         }
       } catch (err) {
         console.error('Erreur lors du parsing AsyncStorage:', err);
@@ -44,7 +47,6 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
     (async () => {
       try {
         await AsyncStorage.setItem('selectedGears', JSON.stringify(selectedGears));
-        // console.log('Gears sauvegardés ✅', selectedGears);
       } catch (err) {
         console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
       }
@@ -65,8 +67,45 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
     return !!selectedGears[key];
   };
 
+  const getOwnedGears = (type?: GearType) => {
+    return allGears.filter(gear => {
+      if (type && gear.type !== type) return false;
+
+      const key: GearKey = `${gear.type}-${gear.id}`;
+      return selectedGears[key] === true;
+    });
+  };
+
+  const getGearsTotalSpent = (type?: GearType): number => {
+    return allGears.reduce((sum, gear) => {
+      if (type && gear.type !== type) return sum;
+
+      const key: GearKey = `${gear.type}-${gear.id}`;
+      if (!selectedGears[key]) return sum;
+
+      return sum + (gear.price ?? 0);
+    }, 0);
+  };
+
+  const getGearsTotalPossible = (type?: GearType): number => {
+    return allGears.reduce((sum, gear) => {
+      if (type && gear.type !== type) return sum;
+      return sum + (gear.price ?? 0);
+    }, 0);
+  };
+
   return (
-    <GearsContext.Provider value={{ selectedGears, toggleGear, isOwned, isLoading }}>
+    <GearsContext.Provider
+      value={{
+        selectedGears,
+        toggleGear,
+        isOwned,
+        getOwnedGears,
+        getGearsTotalSpent,
+        getGearsTotalPossible,
+        isLoading,
+      }}
+    >
       {children}
     </GearsContext.Provider>
   );

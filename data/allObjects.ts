@@ -12,10 +12,11 @@ export type ObjectItem = {
   image: any;
   maxNumber: string;
   fishScalePrice: string;
+  price: number;
 };
 
 export const allObjects: ObjectItem[] = [
-  ...figures.map(item => ({ ...item, category: 'figures' as const })),
-  ...lockers.map(item => ({ ...item, category: 'lockers' as const })),
-  ...stickers.map(item => ({ ...item, category: 'stickers' as const })),
+  ...figures.map(item => ({ ...item, category: 'figures' as const, price: Number(item.price ?? 0) })),
+  ...lockers.map(item => ({ ...item, category: 'lockers' as const, price: Number(item.price ?? 0) })),
+  ...stickers.map(item => ({ ...item, category: 'stickers' as const, price: Number(item.price ?? 0) })),
 ];

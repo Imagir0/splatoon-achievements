@@ -1,3 +1,4 @@
+import { allObjects } from '@/data/allObjects';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
@@ -14,6 +15,8 @@ type ObjectsContextType = {
   isOwned: (type: ObjectType, id: number) => boolean;
   getObjectCount: (type: ObjectType, id: number) => number;
   setObjectCount: (type: ObjectType, id: number, count: number) => void;
+  getObjectsTotalSpent: (category?: ObjectType) => number;
+  getObjectsTotalPossible: (category?: ObjectType) => number;
   isLoading: boolean;
 };
 
@@ -38,7 +41,6 @@ export const ObjectsProvider = ({ children }: { children: React.ReactNode }) => 
           }
 
           setSelectedObjects(migrated);
-          // console.log('Objects chargés ✅', migrated);
         }
       } catch (err) {
         console.error('Erreur lors du parsing AsyncStorage:', err);
@@ -54,7 +56,6 @@ export const ObjectsProvider = ({ children }: { children: React.ReactNode }) => 
     (async () => {
       try {
         await AsyncStorage.setItem('selectedObjects', JSON.stringify(selectedObjects));
-        // console.log('Objects sauvegardés ✅', selectedObjects);
       } catch (err) {
         console.error('Erreur lors de la sauvegarde AsyncStorage:', err);
       }
@@ -82,6 +83,28 @@ export const ObjectsProvider = ({ children }: { children: React.ReactNode }) => 
 
   const isOwned = (type: ObjectType, id: number) => getObjectCount(type, id) > 0;
 
+  const getObjectsTotalSpent = (category?: ObjectType): number => {
+  return allObjects.reduce((sum, object) => {
+    if (category && object.category !== category) return sum;
+
+    const count = getObjectCount(object.category, object.id);
+    const price = object.price ?? 0;
+
+    return sum + count * price;
+  }, 0);
+};
+
+const getObjectsTotalPossible = (category?: ObjectType): number => {
+  return allObjects.reduce((sum, object) => {
+    if (category && object.category !== category) return sum;
+
+    const price = object.price ?? 0;
+    const max = Number(object.maxNumber ?? 0);
+
+    return sum + max * price;
+  }, 0);
+};
+
   return (
     <ObjectsContext.Provider
       value={{
@@ -90,6 +113,8 @@ export const ObjectsProvider = ({ children }: { children: React.ReactNode }) => 
         isOwned,
         getObjectCount,
         setObjectCount,
+        getObjectsTotalSpent,
+        getObjectsTotalPossible,
         isLoading,
       }}
     >
