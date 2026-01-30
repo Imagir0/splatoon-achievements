@@ -32,6 +32,9 @@ const categoriesColors = {
   heads: '#a5b4fc',
   clothes: '#4ade80',
   shoes: '#e66f6fff',
+  figures: '#a5b4fc',
+  stickers: '#4ade80',
+  lockers: '#e66f6fff',
 };
 
 export const lightTheme = {
@@ -47,6 +50,7 @@ export const lightTheme = {
     progressBar: '#1870d4',
     rowChecked: '#2dbd62',
     white: '#fff',
+    black: '#000',
   },
   weapons: weaponsColors,
   categories: categoriesColors,
@@ -65,6 +69,7 @@ export const darkTheme = {
     progressBar: '#1ea851',
     rowChecked: '#2dbd62',
     white: '#fff',
+    black: '#000',
   },
   weapons: weaponsColors,
   categories: categoriesColors,

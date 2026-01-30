@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { FIGURES_CATEGORY_TITLES } from '@/data/categoryTitles/objectsCategoryTitles';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
@@ -9,12 +9,18 @@ import { Animated, Pressable, ScrollView, StyleSheet, Text, View } from 'react-n
 
 export default function FiguresIndexScreen() {
   const router = useRouter();
+  const { theme } = useTheme();
   const { isOwned } = useObjects();
   const progressAnim = useRef<Record<string, Animated.Value>>({}).current;
   const categories = Object.entries(FIGURES_CATEGORY_TITLES);
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+      contentContainerStyle={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       {categories.map(([key, title]) => {
         if (!progressAnim[key]) {
           progressAnim[key] = new Animated.Value(0);
@@ -52,16 +58,38 @@ export default function FiguresIndexScreen() {
                 params: { figuresCategory: key },
               })
             }
-            style={styles.card}
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+                borderWidth: 1,
+              },
+            ]}
           >
             <View style={styles.row}>
-              <Text style={styles.title}>{title}</Text>
-              <Text style={styles.counter}>{obtained} / {total}</Text>
+              <Text style={[styles.title, { color: theme.colors.text }]}>
+                {title}
+              </Text>
+              <Text style={[styles.counter, { color: theme.colors.textMuted }]}>
+                {obtained} / {total}
+              </Text>
             </View>
 
-            <View style={styles.barBackground}>
+            <View
+              style={[
+                styles.barBackground,
+                { backgroundColor: theme.colors.border },
+              ]}
+            >
               <Animated.View
-                style={[styles.barProgress, { width: widthInterpolated }]}
+                style={[
+                  styles.barProgress,
+                  {
+                    backgroundColor: theme.colors.progressBar,
+                    width: widthInterpolated,
+                  },
+                ]}
               />
             </View>
           </Pressable>
@@ -77,7 +105,6 @@ const styles = StyleSheet.create({
   },
   card: {
     padding: 16,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 10,
     marginBottom: 12,
   },
@@ -89,7 +116,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: '600',
-    color: COLORS.shades.black,
   },
   counter: {
     fontSize: 14,
@@ -97,13 +123,11 @@ const styles = StyleSheet.create({
   },
   barBackground: {
     height: 6,
-    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
 });

@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { allObjects } from '@/data/allObjects';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -17,6 +17,7 @@ import {
 
 export default function LockersScreen() {
   const { isOwned, toggleObject } = useObjects();
+  const { theme } = useTheme();
 
   const lockers = useMemo(() => {
     const filterFn = objectsFilters.lockers.general;
@@ -30,8 +31,19 @@ export default function LockersScreen() {
   };
 
   return (
-    <View style={styles.container}>
-      <Stack.Screen options={{ title: 'Casiers' }} />
+    <View
+      style={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
+      <Stack.Screen
+        options={{
+          title: 'Casiers',
+          headerStyle: { backgroundColor: theme.colors.header },
+          headerTintColor: theme.colors.text,
+        }}
+      />
 
       <FlatList
         data={lockers}
@@ -43,20 +55,36 @@ export default function LockersScreen() {
             <Pressable
               style={[
                 styles.row,
-                owned && styles.rowOwned,
+                {
+                  backgroundColor: owned
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
               onPress={() => handlePress(item.id)}
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.name}>{item.name}</Text>
+              <Text style={[styles.name, { color: theme.colors.text }]}>
+                {item.name}
+              </Text>
 
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: owned
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                  },
+                ]}
+              >
                 {owned && (
                   <MaterialIcons
                     name="check"
-                    size={22}
-                    color={COLORS.shades.black}
+                    size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -77,12 +105,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowOwned: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 48,

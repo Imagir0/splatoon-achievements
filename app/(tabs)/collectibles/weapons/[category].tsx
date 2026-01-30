@@ -62,7 +62,7 @@ export default function CategoryScreen() {
                 {isChecked && (
                   <MaterialIcons
                     name="check"
-                    size={22}
+                    size={24}
                   />
                 )}
               </View>

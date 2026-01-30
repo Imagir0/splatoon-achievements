@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { FIGURES_CATEGORY_TITLES } from '@/data/categoryTitles/objectsCategoryTitles';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
@@ -20,12 +20,13 @@ import {
 
 export default function FiguresCategoryScreen() {
   const { figuresCategory } = useLocalSearchParams<{ figuresCategory: string }>();
+  const { theme } = useTheme();
 
   const { isOwned, toggleObject, getObjectCount, setObjectCount } = useObjects();
 
   const title = FIGURES_CATEGORY_TITLES[figuresCategory ?? ''] ?? 'Catégorie';
   const filterFn = objectsFilters.figures[figuresCategory ?? ''];
-  
+
   const [search, setSearch] = useState('');
   const searchableCategories = ['spend'];
   const showSearch = figuresCategory ? searchableCategories.includes(figuresCategory) : false;
@@ -51,7 +52,12 @@ export default function FiguresCategoryScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       <Stack.Screen options={{ title }} />
 
       {showSearch && (
@@ -59,10 +65,18 @@ export default function FiguresCategoryScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Rechercher un objet…"
-          placeholderTextColor={COLORS.shades.disable}
-          style={styles.searchInput}
+          placeholderTextColor={theme.colors.textMuted}
+          style={[
+            styles.searchInput,
+            {
+              backgroundColor: theme.colors.surface,
+              color: theme.colors.text,
+              borderColor: theme.colors.border,
+            },
+          ]}
         />
       )}
+
 
       <FlatList
         data={filteredFigures}
@@ -76,18 +90,49 @@ export default function FiguresCategoryScreen() {
 
           return (
             <Pressable
-              style={[styles.row, shouldHighlightRow && styles.rowChecked]}
+              style={[
+                styles.row,
+                {
+                  backgroundColor: shouldHighlightRow
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                  borderWidth: 1,
+                },
+              ]}
               onPress={() => handlePress(item.id, maxNumber)}
             >
               {maxNumber === 1 && (
                 <View style={styles.rowTop}>
                   <Image source={item.image} style={styles.image} />
+
                   <View style={styles.textContainer}>
-                    <Text style={styles.description}>{item.name}</Text>
+                    <Text
+                      style={[
+                        styles.description,
+                        { color: theme.colors.text },
+                      ]}
+                    >
+                      {item.name}
+                    </Text>
                   </View>
-                  <View style={styles.checkbox}>
+
+                  <View
+                    style={[
+                      styles.checkbox,
+                      {
+                        borderColor: isChecked
+                          ? theme.colors.white
+                          : theme.colors.icon,
+                      },
+                    ]}
+                  >
                     {isChecked && (
-                      <MaterialIcons name="check" size={22} color={COLORS.shades.black} />
+                      <MaterialIcons
+                        name="check"
+                        size={24}
+                        color={theme.colors.white}
+                      />
                     )}
                   </View>
                 </View>
@@ -97,37 +142,76 @@ export default function FiguresCategoryScreen() {
                 <View>
                   <View style={styles.rowTop}>
                     <Image source={item.image} style={styles.image} />
+
                     <View style={styles.textContainer}>
-                      <Text style={styles.description}>{item.name}</Text>
+                      <Text
+                        style={[
+                          styles.description,
+                          { color: theme.colors.text },
+                        ]}
+                      >
+                        {item.name}
+                      </Text>
+
                       {minPrice !== 0 && (
-                        <Text style={styles.price}>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
                           {minPrice.toLocaleString()}
                         </Text>
                       )}
                     </View>
+
                     {figuresCategory === 'salmon' && (
-                    <View style={styles.fishScalePrice}>
-                        <Text style={styles.price}>{item.fishScalePrice}</Text>
-                    </View>
+                      <View style={styles.fishScalePrice}>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
+                          {item.fishScalePrice}
+                        </Text>
+                      </View>
                     )}
+
                     <View style={styles.slideCount}>
                       {minPrice !== 0 && (
-                        <Text style={styles.price}>{(minPrice * count).toLocaleString()}</Text>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
+                          {(minPrice * count).toLocaleString()}
+                        </Text>
                       )}
-                      <Text style={styles.countTextInline}>
+
+                      <Text
+                        style={[
+                          styles.countTextInline,
+                          { color: theme.colors.text },
+                        ]}
+                      >
                         {count} / {maxNumber}
                       </Text>
                     </View>
                   </View>
+
                   <Slider
                     minimumValue={0}
                     maximumValue={maxNumber}
                     step={1}
                     value={count}
-                    onValueChange={value => setObjectCount('figures', item.id, value)}
-                    minimumTrackTintColor={COLORS.green.progress}
-                    maximumTrackTintColor={COLORS.shades.order}
-                    thumbTintColor={COLORS.green.progress}
+                    onValueChange={value =>
+                      setObjectCount('figures', item.id, value)
+                    }
+                    minimumTrackTintColor={theme.colors.progressBar}
+                    maximumTrackTintColor={theme.colors.border}
+                    thumbTintColor={theme.colors.progressBar}
                     style={styles.slider}
                   />
                 </View>
@@ -141,26 +225,23 @@ export default function FiguresCategoryScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { 
+  container: {
     flex: 1,
-    padding: 16
-},
+    padding: 16,
+    paddingBottom: 0,
+  },
   searchInput: {
     height: 44,
     borderRadius: 10,
     paddingHorizontal: 14,
     marginBottom: 12,
-    backgroundColor: COLORS.shades.white,
     fontSize: 16,
+    borderWidth: 1,
   },
   row: {
     marginBottom: 12,
     borderRadius: 12,
-    backgroundColor: COLORS.shades.white,
     overflow: 'hidden',
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
   },
   rowTop: {
     flexDirection: 'row',
@@ -172,17 +253,15 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     marginRight: 12,
-    resizeMode: 'contain'
-},
+    resizeMode: 'contain',
+  },
   textContainer: {
     flex: 1,
-    flexDirection: 'column'
-},
+  },
   description: {
     fontSize: 16,
     fontWeight: '500',
-    color: COLORS.shades.black
-},
+  },
   fishScalePrice: {
     width: 80,
   },
@@ -191,7 +270,6 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 8,
     borderWidth: 2,
-    borderColor: COLORS.shades.black,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 8,
@@ -209,12 +287,10 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 12,
     fontWeight: '600',
-    color: COLORS.shades.codeqr,
-    marginBottom: 1
-},
+    marginBottom: 1,
+  },
   slider: {
     height: 14,
-    marginHorizontal: 0,
-    marginBottom: 5
-},
+    marginBottom: 5,
+  },
 });

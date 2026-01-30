@@ -22,7 +22,7 @@ export default function UserMenu() {
       >
         <Ionicons
           name="menu-outline"
-          size={26}
+          size={24}
           color={theme.colors.text}
         />
       </Pressable>

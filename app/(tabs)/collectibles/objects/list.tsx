@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { allObjects, ObjectItem } from '@/data/allObjects';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { Stack } from 'expo-router';
@@ -19,6 +19,7 @@ import {
 
 export default function AllObjectsScreen() {
   const { getObjectCount } = useObjects();
+  const { theme } = useTheme();
 
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -30,30 +31,30 @@ export default function AllObjectsScreen() {
     category: ObjectItem['category'];
     filterKey: string;
   }> = [
-    { category: 'figures', filterKey: 'spend' },
-    { category: 'stickers', filterKey: 'spend' },
+      { category: 'figures', filterKey: 'spend' },
+      { category: 'stickers', filterKey: 'spend' },
 
-    { category: 'figures', filterKey: 'rank' },
+      { category: 'figures', filterKey: 'rank' },
 
-    { category: 'figures', filterKey: 'salmon' },
-    { category: 'stickers', filterKey: 'salmon' },
+      { category: 'figures', filterKey: 'salmon' },
+      { category: 'stickers', filterKey: 'salmon' },
 
-    { category: 'figures', filterKey: 'salmonEvent' },
-    { category: 'stickers', filterKey: 'salmonEvent' },
+      { category: 'figures', filterKey: 'salmonEvent' },
+      { category: 'stickers', filterKey: 'salmonEvent' },
 
-    { category: 'figures', filterKey: 'tableturf' },
-    { category: 'stickers', filterKey: 'tableturf' },
+      { category: 'figures', filterKey: 'tableturf' },
+      { category: 'stickers', filterKey: 'tableturf' },
 
-    { category: 'figures', filterKey: 'story' },
-    { category: 'stickers', filterKey: 'story' },
+      { category: 'figures', filterKey: 'story' },
+      { category: 'stickers', filterKey: 'story' },
 
-    { category: 'figures', filterKey: 'dlc' },
-    { category: 'stickers', filterKey: 'dlc' },
+      { category: 'figures', filterKey: 'dlc' },
+      { category: 'stickers', filterKey: 'dlc' },
 
-    { category: 'stickers', filterKey: 'weapons' },
+      { category: 'stickers', filterKey: 'weapons' },
 
-    { category: 'lockers', filterKey: 'general' },
-  ];
+      { category: 'lockers', filterKey: 'general' },
+    ];
 
   const sortedObjects = useMemo(() => {
     const result: ObjectItem[] = [];
@@ -82,18 +83,27 @@ export default function AllObjectsScreen() {
     }
   };
 
-  const OBJECT_COLORS: Record<ObjectItem['category'], string> = {
-    figures: COLORS.categories.blue,
-    stickers: COLORS.categories.red,
-    lockers: COLORS.categories.green,
+  const OBJECT_COLORS: Record<ObjectItem['category'], string | undefined> = {
+    figures: theme.categories?.figures,
+    stickers: theme.categories?.stickers,
+    lockers: theme.categories?.lockers,
   };
 
   function getObjectColor(object: ObjectItem) {
-    return OBJECT_COLORS[object.category] ?? COLORS.shades.order;
+    return (
+      OBJECT_COLORS[object.category] ??
+      theme.colors.border
+    );
   }
 
   return (
-    <View style={{ flex: 1, padding: spacing }}>
+    <View
+      style={{
+        flex: 1,
+        padding: spacing,
+        backgroundColor: theme.colors.background,
+      }}
+    >
       <Stack.Screen options={{ title: 'Tous les objets / stickers' }} />
 
       <FlatList
@@ -129,8 +139,20 @@ export default function AllObjectsScreen() {
               />
 
               {maxNumber > 1 && count > 0 && (
-                <View style={styles.countBadge}>
-                  <Text style={styles.countText}>{count}</Text>
+                <View
+                  style={[
+                    styles.countBadge,
+                    { backgroundColor: 'rgba(0,0,0,0.5)' },
+                  ]}
+                >
+                  <Text
+                    style={[
+                      styles.countText,
+                      { color: theme.colors.white },
+                    ]}
+                  >
+                    {count}
+                  </Text>
                 </View>
               )}
             </Pressable>
@@ -157,13 +179,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 1,
     right: 1,
-    backgroundColor: 'rgba(0,0,0,0.5)',
     borderRadius: 5,
     paddingHorizontal: 4,
     paddingVertical: 1,
   },
   countText: {
-    color: COLORS.shades.white,
     fontSize: 8,
     fontWeight: '600',
   },

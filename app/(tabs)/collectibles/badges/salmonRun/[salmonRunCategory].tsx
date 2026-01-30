@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     padding: 16,
+    paddingBottom: 0,
   },
   center: {
     flex: 1,
