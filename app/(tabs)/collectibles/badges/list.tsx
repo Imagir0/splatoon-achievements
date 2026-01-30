@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { badges } from '@/data/badges';
 import { badgeFilters } from '@/data/filters/badgeFilters';
 import { Stack } from 'expo-router';
@@ -8,6 +8,7 @@ import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, To
 
 export default function AllBadgesScreen() {
   const { selectedBadges } = useBadges();
+  const { theme } = useTheme();
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
   const spacing = 2;
@@ -23,68 +24,91 @@ export default function AllBadgesScreen() {
   };
 
   const BADGE_GROUP_ORDER: string[] = [
-  'storyMode',
-  'DLC',
-  'spending',
-  'others',
-  'splatfest',
-  'challenge',
-  'rankLevel',
-  'gameModes',
-  'gears',
-  'tableturf',
-  'salmonRun',
-  'weapons',
-  'specialWeapons',
-];
+    'storyMode',
+    'DLC',
+    'spending',
+    'others',
+    'splatfest',
+    'challenge',
+    'rankLevel',
+    'gameModes',
+    'gears',
+    'tableturf',
+    'salmonRun',
+    'specialWeapons',
+    'weapons',
+  ];
 
   const filterColors: Record<string, string> = {
-    weapons: COLORS.blue.weapons,
-    specialWeapons: COLORS.blue.specialWeapons,
-    rankLevel: COLORS.green.rank,
-    gameModes: COLORS.green.rank,
-    challenge: COLORS.violet.challenge,
-    spending: COLORS.red.spending,
-    gears: COLORS.red.gears,
-    splatfest: COLORS.violet.splatfest,
-    others: COLORS.yellow.others,
-    tableturf: COLORS.violet.tableturf,
-    storyMode: COLORS.red.story,
-    DLC: COLORS.shades.order,
-    salmonRun: COLORS.orange.salmon,
+    weapons: theme.categories?.weapons,
+    specialWeapons: theme.categories?.specialWeapons,
+    rankLevel: theme.categories?.rank,
+    gameModes: theme.categories?.rank,
+    challenge: theme.categories?.challenge,
+    spending: theme.categories?.spending,
+    gears: theme.categories?.gears,
+    splatfest: theme.categories?.splatfest,
+    others: theme.categories?.others,
+    tableturf: theme.categories?.tableturf,
+    storyMode: theme.categories?.story,
+    DLC: theme.categories?.dlc,
+    salmonRun: theme.categories?.salmon,
   };
 
   const sortedBadges = React.useMemo(() => {
-    const result: typeof badges = [];
+  const result: typeof badges = [];
 
-    for (const filterKey of BADGE_GROUP_ORDER) {
-      const filterFn = badgeFilters[filterKey];
-      if (!filterFn) continue;
+  for (const filterKey of BADGE_GROUP_ORDER) {
+    const filterFn = badgeFilters[filterKey];
+    if (!filterFn) continue;
 
-      const PRIORITY_IDS = [2900000, 2900001, 2900002];
-      const filtered = badges
-        .filter(filterFn)
-        .sort((a, b) => {
-          const aPriority = PRIORITY_IDS.includes(a.id);
-          const bPriority = PRIORITY_IDS.includes(b.id);
-          if (aPriority && !bPriority) return -1;
-          if (!aPriority && bPriority) return 1;
-          return a.description.localeCompare(b.description);
-        });
-      result.push(...filtered);
+    let PRIORITY_IDS: number[] = [];
+    if (filterKey === 'gameModes') {
+      // Ordre personnalisé pour gameModes
+      PRIORITY_IDS = [
+        3000000, 3000001, 3000002,
+        3000100, 3000101,
+        3000400, 3000401,
+        3000300, 3000301,
+        3000200, 3000201
+      ];
+    } else {
+      // Ordre par défaut pour les autres catégories
+      PRIORITY_IDS = [2900000, 2900001, 2900002];
     }
-    return result;
-  }, []);
+
+    const filtered = badges
+      .filter(filterFn)
+      .sort((a, b) => {
+        const aPriorityIndex = PRIORITY_IDS.indexOf(a.id);
+        const bPriorityIndex = PRIORITY_IDS.indexOf(b.id);
+
+        // Si l'un des deux est dans PRIORITY_IDS, on trie selon l'index
+        if (aPriorityIndex !== -1 && bPriorityIndex === -1) return -1;
+        if (aPriorityIndex === -1 && bPriorityIndex !== -1) return 1;
+        if (aPriorityIndex !== -1 && bPriorityIndex !== -1)
+          return aPriorityIndex - bPriorityIndex;
+
+        // Sinon, tri alphabétique sur la description
+        return a.description.localeCompare(b.description);
+      });
+
+    result.push(...filtered);
+  }
+
+  return result;
+}, []);
+
 
   function getBadgeColor(badge: (typeof badges)[number]) {
     const categoryKey = Object.keys(badgeFilters).find((key) =>
       badgeFilters[key](badge)
     );
-    return categoryKey ? filterColors[categoryKey] ?? '#e5e7eb' : '#e5e7eb';
+    return categoryKey ? filterColors[categoryKey] ?? theme.colors.border : theme.colors.border;
   }
 
   return (
-    <View style={{ flex: 1, padding: spacing }}>
+    <View style={{ flex: 1, padding: spacing, backgroundColor: theme.colors.background }}>
       <Stack.Screen options={{ title: 'Tous les badges' }} />
 
       <FlatList

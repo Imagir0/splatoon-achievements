@@ -1,4 +1,4 @@
-import { COLORS } from '@/constants/colors';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useWeapons } from '@/contexts/WeaponsContext';
 import { WEAPONS_CATEGORY_TITLES } from '@/data/categoryTitles/weaponsCategoryTitles';
 import { weaponsFilters } from '@/data/filters/weaponsFilters';
@@ -17,6 +17,7 @@ import {
 } from 'react-native';
 
 export default function CategoryScreen() {
+  const { theme } = useTheme();
   const { category } = useLocalSearchParams<{ category: string }>();
   const { selectedWeapons, toggleWeapon } = useWeapons();
   const navigation = useNavigation();
@@ -37,7 +38,7 @@ export default function CategoryScreen() {
   }, [category]);
 
   return (
-    <View style={styles.view}>
+    <View style={[styles.view, { backgroundColor: theme.colors.background }]}>
       <FlatList
         data={filteredWeapons}
         keyExtractor={(item) => item.id.toString()}
@@ -49,20 +50,37 @@ export default function CategoryScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
 
               <View style={styles.content}>
-                <Text style={styles.name}>{item.name}</Text>
+                <Text style={[styles.name, { color: theme.colors.text }]}>
+                  {item.name}
+                </Text>
               </View>
 
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                  },
+                ]}
+              >
                 {isChecked && (
                   <MaterialIcons
                     name="check"
-                    size={22}
+                    size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -78,17 +96,15 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     padding: 16,
+    paddingBottom: 0,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 50,

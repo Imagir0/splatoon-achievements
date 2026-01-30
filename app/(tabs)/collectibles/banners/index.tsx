@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBanners } from '@/contexts/BannersContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { banners } from '@/data/banners';
 import { BANNER_CATEGORY_TITLES } from '@/data/categoryTitles/bannersCategoryTitles';
 import { bannerFilters } from '@/data/filters/bannerFilters';
@@ -14,6 +14,7 @@ const collectibleCategories = Object.entries(BANNER_CATEGORY_TITLES).map(
 export default function BannersScreen() {
   const router = useRouter();
   const { selectedBanners } = useBanners();
+  const { theme } = useTheme();
 
   const getCategoryCounters = (key: string) => {
     const filterFn = bannerFilters[key];
@@ -27,21 +28,33 @@ export default function BannersScreen() {
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+      contentContainerStyle={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       <Pressable
-        style={styles.summaryCard}
+        style={[
+          styles.summaryCard,
+          { backgroundColor: theme.colors.surface, borderColor: theme.colors.border },
+        ]}
         onPress={() =>
           router.push('/(tabs)/collectibles/banners/list')
         }
       >
         <View style={styles.summaryTopRow}>
-          <Text style={styles.summaryTitle}>Bannières</Text>
-          <Text style={styles.summaryCounter}>
+          <Text style={[styles.summaryTitle, { color: theme.colors.text }]}>
+            Bannières
+          </Text>
+          <Text style={[styles.summaryCounter, { color: theme.colors.text }]}>
             {Object.values(selectedBanners).filter(Boolean).length} / {banners.length}
           </Text>
         </View>
 
-        <Text style={styles.summaryLink}>Voir la collection</Text>
+        <Text style={[styles.summaryLink, { color: theme.colors.textMuted }]}>
+          Voir la collection
+        </Text>
       </Pressable>
 
       {collectibleCategories.map(cat => {
@@ -62,7 +75,10 @@ export default function BannersScreen() {
         return (
           <Pressable
             key={cat.key}
-            style={styles.card}
+            style={[
+              styles.card,
+              { backgroundColor: theme.colors.surface, borderColor: theme.colors.border },
+            ]}
             onPress={() =>
               router.push({
                 pathname: '/(tabs)/collectibles/banners/[category]',
@@ -71,15 +87,26 @@ export default function BannersScreen() {
             }
           >
             <View style={styles.row}>
-              <Text style={styles.cardTitle}>{cat.title}</Text>
-              <Text style={styles.counter}>{checked} / {total}</Text>
+              <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+                {cat.title}
+              </Text>
+              <Text style={[styles.counter, { color: theme.colors.text }]}>
+                {checked} / {total}
+              </Text>
             </View>
 
-            <View style={styles.barBackground}>
+
+            <View
+              style={[
+                styles.barBackground,
+                { backgroundColor: theme.colors.border },
+              ]}
+            >
               <Animated.View
                 style={[
                   styles.barProgress,
                   {
+                    backgroundColor: theme.colors.progressBar,
                     width: progressAnim.interpolate({
                       inputRange: [0, 1],
                       outputRange: ['0%', '100%'],
@@ -97,14 +124,13 @@ export default function BannersScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20,
-    paddingBottom: 40,
+    padding: 16,
   },
   card: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: COLORS.shades.white,
     marginBottom: 12,
+    borderWidth: 1,
   },
   row: {
     flexDirection: 'row',
@@ -114,7 +140,6 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: COLORS.shades.black,
   },
   counter: {
     fontSize: 14,
@@ -123,21 +148,19 @@ const styles = StyleSheet.create({
   barBackground: {
     height: 8,
     width: '100%',
-    backgroundColor: COLORS.shades.order,
     borderRadius: 4,
     marginTop: 6,
     overflow: 'hidden',
   },
   barProgress: {
     height: '100%',
-    backgroundColor: COLORS.green.progress,
     borderRadius: 4,
   },
   summaryCard: {
     padding: 16,
     borderRadius: 10,
-    backgroundColor: COLORS.shades.white,
     marginBottom: 20,
+    borderWidth: 1,
   },
   summaryTopRow: {
     flexDirection: 'row',
@@ -147,7 +170,6 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: COLORS.shades.black,
   },
   summaryCounter: {
     fontSize: 16,
@@ -156,6 +178,5 @@ const styles = StyleSheet.create({
   summaryLink: {
     marginTop: 4,
     fontSize: 12,
-    opacity: 0.7,
   },
 });

@@ -1,4 +1,4 @@
-import { COLORS } from '@/constants/colors';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useWeapons } from '@/contexts/WeaponsContext';
 import { weaponsFilters } from '@/data/filters/weaponsFilters';
 import { weapons } from '@/data/weapons';
@@ -18,6 +18,7 @@ import {
 
 export default function AllWeaponsScreen() {
   const { selectedWeapons } = useWeapons();
+  const { theme } = useTheme();
 
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -34,18 +35,18 @@ export default function AllWeaponsScreen() {
     }
   };
 
-  const filterColors: Record<string, string> = {
-    shooter: COLORS.weapons.shooter,
-    blaster: COLORS.weapons.blaster,
-    roller: COLORS.weapons.roller,
-    brush: COLORS.weapons.brush,
-    charger: COLORS.weapons.charger,
-    slosher: COLORS.weapons.slosher,
-    spinner: COLORS.weapons.spinner,
-    maneuver: COLORS.weapons.maneuver,
-    shelter: COLORS.weapons.shelter,
-    stringer: COLORS.weapons.stringer,
-    saber: COLORS.weapons.saber,
+  const filterColors: Record<string, string | undefined> = {
+    shooter: theme.weapons?.shooter,
+    blaster: theme.weapons?.blaster,
+    roller: theme.weapons?.roller,
+    brush: theme.weapons?.brush,
+    charger: theme.weapons?.charger,
+    slosher: theme.weapons?.slosher,
+    spinner: theme.weapons?.spinner,
+    maneuver: theme.weapons?.maneuver,
+    shelter: theme.weapons?.shelter,
+    stringer: theme.weapons?.stringer,
+    saber: theme.weapons?.saber,
   };
 
   function getWeaponColor(weapon: (typeof weapons)[number]) {
@@ -54,8 +55,8 @@ export default function AllWeaponsScreen() {
     );
 
     return categoryKey
-      ? filterColors[categoryKey] ?? COLORS.shades.order
-      : COLORS.shades.order;
+      ? filterColors[categoryKey] ?? theme.colors.border
+      : theme.colors.border;
   }
 
   const sortedWeapons = React.useMemo(() => {
@@ -79,13 +80,18 @@ export default function AllWeaponsScreen() {
 
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       <Stack.Screen options={{ title: 'Toutes les armes' }} />
 
       <FlatList
         key={Object.keys(selectedWeapons).join('-')}
         data={sortedWeapons}
-        keyExtractor={(item) => item.id.toString()}
+        keyExtractor={item => item.id.toString()}
         numColumns={numColumns}
         renderItem={({ item }) => {
           const owned = !!selectedWeapons[item.id];

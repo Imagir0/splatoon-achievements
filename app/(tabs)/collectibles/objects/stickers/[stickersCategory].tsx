@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useObjects } from '@/contexts/ObjectsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { STICKERS_CATEGORY_TITLES } from '@/data/categoryTitles/stickersCategoryTitles';
 import { objectsFilters } from '@/data/filters/objectsFilters';
 import { OBJECTS_DATA } from '@/data/objects';
@@ -20,6 +20,7 @@ import {
 
 export default function StickersCategoryScreen() {
   const { stickersCategory } = useLocalSearchParams<{ stickersCategory: string }>();
+  const { theme } = useTheme();
 
   const { isOwned, toggleObject, getObjectCount, setObjectCount } = useObjects();
 
@@ -58,7 +59,12 @@ export default function StickersCategoryScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        { backgroundColor: theme.colors.background },
+      ]}
+    >
       <Stack.Screen options={{ title }} />
 
       {showSearch && (
@@ -66,8 +72,15 @@ export default function StickersCategoryScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Rechercher un autocollant…"
-          placeholderTextColor={COLORS.shades.disable}
-          style={styles.searchInput}
+          placeholderTextColor={theme.colors.textMuted}
+          style={[
+            styles.searchInput,
+            {
+              backgroundColor: theme.colors.surface,
+              color: theme.colors.text,
+              borderColor: theme.colors.border,
+            },
+          ]}
         />
       )}
 
@@ -83,22 +96,67 @@ export default function StickersCategoryScreen() {
 
           return (
             <Pressable
-              style={[styles.row, shouldHighlightRow && styles.rowChecked]}
-              onPress={maxNumber === 1 ? () => handlePress(item.id, maxNumber) : undefined}
+              style={[
+                styles.row,
+                {
+                  backgroundColor: shouldHighlightRow
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                  borderWidth: 1,
+                },
+              ]}
+              onPress={
+                maxNumber === 1
+                  ? () => handlePress(item.id, maxNumber)
+                  : undefined
+              }
             >
               {maxNumber === 1 && (
                 <View style={styles.rowTop}>
                   <Image source={item.image} style={styles.image} />
+
                   <View style={styles.textContainer}>
-                    <Text style={styles.description}>{item.name}</Text>
+                    <Text
+                      style={[
+                        styles.description,
+                        { color: theme.colors.text },
+                      ]}
+                    >
+                      {item.name}
+                    </Text>
                   </View>
+
                   {stickersCategory === 'tableturf' && (
                     <View style={styles.tableturf}>
-                      <Text style={styles.price}>{item.note}</Text>
+                      <Text
+                        style={[
+                          styles.price,
+                          { color: theme.colors.textMuted },
+                        ]}
+                      >
+                        {item.note}
+                      </Text>
                     </View>
                   )}
-                  <View style={styles.checkbox}>
-                    {isChecked && <MaterialIcons name="check" size={22} color={COLORS.shades.black} />}
+
+                  <View
+                    style={[
+                      styles.checkbox,
+                      {
+                        borderColor: isChecked
+                          ? theme.colors.white
+                          : theme.colors.icon,
+                      },
+                    ]}
+                  >
+                    {isChecked && (
+                      <MaterialIcons
+                        name="check"
+                        size={24}
+                        color={theme.colors.white}
+                      />
+                    )}
                   </View>
                 </View>
               )}
@@ -107,22 +165,60 @@ export default function StickersCategoryScreen() {
                 <View>
                   <View style={styles.rowTop}>
                     <Image source={item.image} style={styles.image} />
+
                     <View style={styles.textContainer}>
-                      <Text style={styles.description}>{item.name}</Text>
+                      <Text
+                        style={[
+                          styles.description,
+                          { color: theme.colors.text },
+                        ]}
+                      >
+                        {item.name}
+                      </Text>
+
                       {minPrice !== 0 && (
-                        <Text style={styles.price}>{minPrice.toLocaleString()}</Text>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
+                          {minPrice.toLocaleString()}
+                        </Text>
                       )}
                     </View>
+
                     {stickersCategory === 'salmon' && (
                       <View style={styles.fishScalePrice}>
-                        <Text style={styles.price}>{item.fishScalePrice}</Text>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
+                          {item.fishScalePrice}
+                        </Text>
                       </View>
                     )}
+
                     <View style={styles.slideCount}>
                       {minPrice !== 0 && (
-                        <Text style={styles.price}>{(minPrice * count).toLocaleString()}</Text>
+                        <Text
+                          style={[
+                            styles.price,
+                            { color: theme.colors.textMuted },
+                          ]}
+                        >
+                          {(minPrice * count).toLocaleString()}
+                        </Text>
                       )}
-                      <Text style={styles.countTextInline}>
+
+                      <Text
+                        style={[
+                          styles.countTextInline,
+                          { color: theme.colors.text },
+                        ]}
+                      >
                         {count} / {maxNumber}
                       </Text>
                     </View>
@@ -133,10 +229,12 @@ export default function StickersCategoryScreen() {
                     maximumValue={maxNumber}
                     step={1}
                     value={count}
-                    onValueChange={value => handleSliderChange(item.id, value, maxNumber)}
-                    minimumTrackTintColor={COLORS.green.progress}
-                    maximumTrackTintColor={COLORS.shades.order}
-                    thumbTintColor={COLORS.green.progress}
+                    onValueChange={value =>
+                      handleSliderChange(item.id, value, maxNumber)
+                    }
+                    minimumTrackTintColor={theme.colors.progressBar}
+                    maximumTrackTintColor={theme.colors.border}
+                    thumbTintColor={theme.colors.progressBar}
                     style={styles.slider}
                   />
                 </View>
@@ -150,19 +248,22 @@ export default function StickersCategoryScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
+  container: {
+    flex: 1,
+    padding: 16,
+    paddingBottom: 0,
+  },
   searchInput: {
     height: 44,
     borderRadius: 10,
     paddingHorizontal: 14,
     marginBottom: 12,
-    backgroundColor: COLORS.shades.white,
     fontSize: 16,
+    borderWidth: 1,
   },
   row: {
     marginBottom: 12,
-    borderRadius: 14,
-    backgroundColor: COLORS.shades.white,
+    borderRadius: 12,
     overflow: 'hidden',
   },
   rowTop: {
@@ -170,9 +271,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 8,
     paddingHorizontal: 12,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
@@ -182,12 +280,10 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     flex: 1,
-    flexDirection: 'column',
   },
   description: {
     fontSize: 16,
     fontWeight: '500',
-    color: COLORS.shades.black,
   },
   fishScalePrice: {
     width: 80,
@@ -200,7 +296,6 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 8,
     borderWidth: 2,
-    borderColor: COLORS.shades.black,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 8,
@@ -218,12 +313,10 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 12,
     fontWeight: '600',
-    color: COLORS.shades.codeqr,
     marginBottom: 1,
   },
   slider: {
     height: 14,
-    marginHorizontal: 0,
     marginBottom: 5,
   },
 });

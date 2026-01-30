@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useGears } from '@/contexts/GearsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { GEARS_CATEGORY_TITLES } from '@/data/categoryTitles/gearsCategoryTitles';
 import { GEARS_DATA } from '@/data/gears';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -16,6 +16,7 @@ import {
 } from 'react-native';
 
 export default function ShoesCategoryScreen() {
+  const { theme } = useTheme();
   const { shoesCategory } =
     useLocalSearchParams<{ shoesCategory: string }>();
 
@@ -54,20 +55,40 @@ export default function ShoesCategoryScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
 
-              <Text style={styles.description}>
+              <Text
+                style={[
+                  styles.description,
+                  { color: theme.colors.text },
+                ]}
+              >
                 {item.name}
               </Text>
 
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                  },
+                ]}
+              >
                 {isChecked && (
                   <MaterialIcons
                     name="check"
                     size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -88,12 +109,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 50,

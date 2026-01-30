@@ -1,10 +1,13 @@
 
 import { useTableTurf } from '@/contexts/TableTurfContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { tableTurf } from '@/data/tableTurf';
 import { Stack } from 'expo-router';
 import React from 'react';
 import { Alert, Dimensions, FlatList, Image, Platform, Pressable, StyleSheet, ToastAndroid, View } from 'react-native';
+
 export default function AllTableTurfScreen() {
+  const { theme } = useTheme();
   const { selectedTableTurf } = useTableTurf();
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -21,7 +24,7 @@ export default function AllTableTurfScreen() {
   };
 
   return (
-    <View style={{ flex: 1, padding: spacing }}>
+    <View style={{ flex: 1, padding: spacing, backgroundColor: theme.colors.background }}>
       <Stack.Screen options={{ title: 'Toutes les cartes' }} />
 
       <FlatList
@@ -38,10 +41,11 @@ export default function AllTableTurfScreen() {
               style={[
                 styles.tableTurfWrapper,
                 {
-                  backgroundColor: 'white',
+                  backgroundColor: theme.categories.dlc,
                   width: tableTurfSize,
                   height: tableTurfSize,
                   margin: spacing,
+                  borderWidth: 1,
                 },
               ]}
             >

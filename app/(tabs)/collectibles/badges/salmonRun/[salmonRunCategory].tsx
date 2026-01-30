@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useBadges } from '@/contexts/BadgesContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { badges } from '@/data/badges';
 import { salmonRunCategories } from '@/data/filters/salmonRunFilters';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -9,10 +9,12 @@ import { useMemo } from 'react';
 import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function SalmonRunCategoryScreen() {
+  const { theme } = useTheme(); // Récupération du thème
   const params = useLocalSearchParams();
   const salmonRunCategory = params.salmonRunCategory as
     | keyof typeof salmonRunCategories
     | undefined;
+
   const config = salmonRunCategory ? salmonRunCategories[salmonRunCategory] : undefined;
   const { selectedBadges, toggleBadge } = useBadges();
 
@@ -24,7 +26,7 @@ export default function SalmonRunCategoryScreen() {
   if (!config) {
     return (
       <View style={styles.center}>
-        <Text>Catégorie inconnue</Text>
+        <Text style={{ color: theme.colors.text }}>Catégorie inconnue</Text>
       </View>
     );
   }
@@ -35,12 +37,13 @@ export default function SalmonRunCategoryScreen() {
   };
 
   return (
-    <View style={styles.view}>
+    <View style={[styles.view, { backgroundColor: theme.colors.background }]}>
       <Stack.Screen
         options={{
           title: config?.title ?? 'Salmon Run',
         }}
       />
+
       <FlatList
         data={filteredBadges}
         keyExtractor={(item) => item.id.toString()}
@@ -51,18 +54,35 @@ export default function SalmonRunCategoryScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                  borderWidth: 1,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
-              <Text style={styles.description}>
+              <Text style={[styles.description, { color: theme.colors.text }]}>
                 {item.description}
               </Text>
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                    backgroundColor: 'transparent',
+                  },
+                ]}
+              >
                 {isChecked && (
                   <MaterialIcons
                     name="check"
                     size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -77,7 +97,8 @@ export default function SalmonRunCategoryScreen() {
 const styles = StyleSheet.create({
   view: {
     flex: 1,
-    padding: 16
+    padding: 16,
+    paddingBottom: 0,
   },
   center: {
     flex: 1,
@@ -88,12 +109,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
     borderRadius: 8,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
   },
   image: {
     width: 50,
@@ -113,9 +130,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 8,
-  },
-  checkMark: {
-    fontSize: 18,
-    fontWeight: '700',
   },
 });

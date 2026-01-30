@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useGears } from '@/contexts/GearsContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { allGears, GearItem } from '@/data/allGears';
 import { Stack } from 'expo-router';
 import React from 'react';
@@ -17,6 +17,7 @@ import {
 
 export default function AllGearsScreen() {
   const { isOwned } = useGears();
+  const { theme } = useTheme();
 
   const screenWidth = Dimensions.get('window').width;
   const numColumns = 10;
@@ -33,19 +34,18 @@ export default function AllGearsScreen() {
     }
   };
 
-  const GEAR_TYPE_TO_COLOR: Record<GearItem['type'], keyof typeof COLORS.categories> = {
-    heads: 'blue',
-    clothes: 'green',
-    shoes: 'red',
+  const GEAR_TYPE_TO_COLOR: Record<GearItem['type'], string> = {
+    heads: theme.colors.primary,
+    clothes: theme.colors.progressBar,
+    shoes: theme.colors.rowChecked,
   };
 
   function getGearColor(gear: GearItem) {
-    const colorKey = GEAR_TYPE_TO_COLOR[gear.type];
-    return COLORS.categories[colorKey] ?? COLORS.shades.order;
+    return GEAR_TYPE_TO_COLOR[gear.type] ?? theme.colors.surface;
   }
 
   return (
-    <View style={{ flex: 1, padding: spacing }}>
+    <View style={{ flex: 1, padding: spacing, backgroundColor: theme.colors.background }}>
       <Stack.Screen options={{ title: 'Tous les équipements' }} />
 
       <FlatList

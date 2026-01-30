@@ -11,6 +11,7 @@
     "lint": "expo lint"
   },
   "dependencies": {
+    "@expo/react-native-action-sheet": "^4.1.1",
     "@expo/vector-icons": "^15.0.3",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-community/slider": "5.0.1",
@@ -49,6 +50,7 @@
     "@types/react": "~19.1.0",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
+    "expo-module-scripts": "^5.0.8",
     "typescript": "~5.9.2"
   },
   "private": true
