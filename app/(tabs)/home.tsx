@@ -34,6 +34,16 @@ export default function HomeScreen() {
   const ownedTableTurfCount = Object.values(selectedTableTurf).filter(Boolean).length;
   const ownedWeaponsCount = Object.values(selectedWeapons).filter(Boolean).length;
 
+  const { getObjectsTotalSpent, getObjectsTotalPossible } = useObjects();
+  const { getGearsTotalSpent, getGearsTotalPossible } = useGears();
+
+  const priceOwnedObjects = getObjectsTotalSpent();
+  const priceTotalObjects = getObjectsTotalPossible();
+
+  const priceOwnedGears = getGearsTotalSpent();
+  const priceTotalGears = getGearsTotalPossible();
+
+
   return (
     <ScrollView
       contentContainerStyle={[
@@ -77,6 +87,32 @@ export default function HomeScreen() {
       <Text style={[styles.title, { color: theme.colors.text }]}>
         Dépenses
       </Text>
+
+      <View style={styles.grid}>
+        {[
+          ['Objets', priceOwnedObjects, priceTotalObjects],
+          ['Équipements', priceOwnedGears, priceTotalGears],
+          /*['Salmon Run', priceOwnedSalmon, priceTotalSalmon],*/
+        ].map(([label, owned, total]) => (
+          <Pressable
+            key={label}
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+              },
+            ]}
+          >
+            <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+              {label}
+            </Text>
+            <Text style={[styles.counter, { color: theme.colors.primary }]}>
+              {owned.toLocaleString()} / {total.toLocaleString()}
+            </Text>
+          </Pressable>
+        ))}
+      </View>
     </ScrollView>
   );
 }
