@@ -1,5 +1,5 @@
-import { COLORS } from '@/constants/colors';
 import { useSalmonSkins } from '@/contexts/SalmonRunContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { salmonSkins } from '@/data/salmonSkins';
 import { MaterialIcons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -15,6 +15,7 @@ import {
 } from 'react-native';
 
 export default function SalmonScreen() {
+  const { theme } = useTheme();
   const { selectedSalmonSkins, toggleSalmonSkins } = useSalmonSkins();
 
   const [switchNewsModalVisible, setSwitchNewsModalVisible] = useState(false);
@@ -26,7 +27,7 @@ export default function SalmonScreen() {
   };
 
   return (
-    <View style={styles.view}>
+    <View style={[styles.view, { backgroundColor: theme.colors.background }]}>
       <FlatList
         data={salmonSkins}
         keyExtractor={(item) => item.id.toString()}
@@ -38,23 +39,30 @@ export default function SalmonScreen() {
               onPress={() => handlePress(item.id)}
               style={[
                 styles.row,
-                isChecked && styles.rowChecked,
+                {
+                  backgroundColor: isChecked
+                    ? theme.colors.rowChecked
+                    : theme.colors.surface,
+                  borderColor: theme.colors.border,
+                },
               ]}
             >
               <Image source={item.image} style={styles.image} />
 
               <View style={styles.content}>
-                <Text style={styles.name}>
+                <Text style={[styles.name, { color: theme.colors.text }]}>
                   {item.name}
                 </Text>
               </View>
-              {!item.note && 
-              <View style={styles.content}>
-                <Text style={styles.price}>
-                  {item.fishScalePrice}
-                </Text>
-              </View>
-              }
+
+              {!item.note && (
+                <View style={styles.content}>
+                  <Text style={[styles.price, { color: theme.colors.text }]}>
+                    {item.fishScalePrice}
+                  </Text>
+                </View>
+              )}
+
               {item.note && (
                 <Pressable
                   onPress={() => {
@@ -62,15 +70,27 @@ export default function SalmonScreen() {
                     setSwitchNewsModalVisible(true);
                   }}
                 >
-                  <Text style={styles.link}>Informations</Text>
+                  <Text style={[styles.link, { color: theme.colors.primary }]}>
+                    Informations
+                  </Text>
                 </Pressable>
               )}
 
-              <View style={styles.checkbox}>
+              <View
+                style={[
+                  styles.checkbox,
+                  {
+                    borderColor: isChecked
+                      ? theme.colors.white
+                      : theme.colors.icon,
+                  },
+                ]}
+              >
                 {isChecked && (
                   <MaterialIcons
                     name="check"
                     size={24}
+                    color={theme.colors.white}
                   />
                 )}
               </View>
@@ -78,7 +98,7 @@ export default function SalmonScreen() {
           );
         }}
       />
-      
+
       <Modal
         visible={switchNewsModalVisible}
         transparent
@@ -89,14 +109,21 @@ export default function SalmonScreen() {
           style={styles.modalOverlay}
           onPress={() => setSwitchNewsModalVisible(false)}
         >
-          <View style={styles.modalContent}>
+          <View
+            style={[
+              styles.modalContent,
+              { backgroundColor: theme.colors.surface },
+            ]}
+          >
             {selectedSwitchNews && (
               <View>
                 <Image
                   source={selectedSwitchNews.image}
                   style={styles.selectedSwitchNewsLarge}
                 />
-              <Text style={styles.switchNewsText}>{selectedSwitchNews.note}</Text>
+                <Text style={[styles.switchNewsText, { color: theme.colors.text }]}>
+                  {selectedSwitchNews.note}
+                </Text>
               </View>
             )}
           </View>
@@ -110,17 +137,15 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     padding: 16,
+    paddingBottom: 0,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    backgroundColor: COLORS.shades.white,
-    borderRadius: 8,
+    borderRadius: 10,
     marginBottom: 8,
-  },
-  rowChecked: {
-    backgroundColor: COLORS.green.rowChecked,
+    borderWidth: 1,
   },
   image: {
     width: 50,
@@ -151,7 +176,6 @@ const styles = StyleSheet.create({
   link: {
     fontSize: 14,
     fontWeight: '600',
-    color: COLORS.blue.specialWeapons,
     width: 130,
   },
   modalOverlay: {
@@ -161,7 +185,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   modalContent: {
-    backgroundColor: COLORS.shades.white,
     padding: 20,
     borderRadius: 16,
     alignItems: 'center',

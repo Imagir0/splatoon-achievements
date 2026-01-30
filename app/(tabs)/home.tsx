@@ -74,6 +74,9 @@ export default function HomeScreen() {
           </Pressable>
         ))}
       </View>
+      <Text style={[styles.title, { color: theme.colors.text }]}>
+        Dépenses
+      </Text>
     </ScrollView>
   );
 }

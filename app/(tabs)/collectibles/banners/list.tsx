@@ -1,4 +1,3 @@
-import { COLORS } from '@/constants/colors';
 import { useBanners } from '@/contexts/BannersContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { banners } from '@/data/banners';
@@ -75,8 +74,8 @@ export default function AllBannersScreen() {
     );
 
     return categoryKey
-      ? filterColors[categoryKey] ?? COLORS.shades.order
-      : COLORS.shades.order;
+      ? filterColors[categoryKey] ?? theme.categories.dlc
+      : theme.categories.dlc;
   }
 
   function getBannerGroup(banner: (typeof banners)[number]) {
@@ -121,7 +120,7 @@ export default function AllBannersScreen() {
               onPress={() => handleBannerPress(item)}
               style={[
                 styles.bannerWrapper,
-                { 
+                {
                   backgroundColor: bgColor,
                   width: bannerSize,
                   height: bannerSize,
