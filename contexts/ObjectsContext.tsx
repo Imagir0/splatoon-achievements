@@ -84,26 +84,26 @@ export const ObjectsProvider = ({ children }: { children: React.ReactNode }) => 
   const isOwned = (type: ObjectType, id: number) => getObjectCount(type, id) > 0;
 
   const getObjectsTotalSpent = (category?: ObjectType): number => {
-  return allObjects.reduce((sum, object) => {
-    if (category && object.category !== category) return sum;
+    return allObjects.reduce((sum, object) => {
+      if (category && object.category !== category) return sum;
 
-    const count = getObjectCount(object.category, object.id);
-    const price = object.price ?? 0;
+      const count = getObjectCount(object.category, object.id);
+      const price = object.price ?? 0;
 
-    return sum + count * price;
-  }, 0);
-};
+      return sum + count * price;
+    }, 0);
+  };
 
-const getObjectsTotalPossible = (category?: ObjectType): number => {
-  return allObjects.reduce((sum, object) => {
-    if (category && object.category !== category) return sum;
+  const getObjectsTotalPossible = (category?: ObjectType): number => {
+    return allObjects.reduce((sum, object) => {
+      if (category && object.category !== category) return sum;
 
-    const price = object.price ?? 0;
-    const max = Number(object.maxNumber ?? 0);
+      const price = object.price ?? 0;
+      const max = Number(object.maxNumber ?? 0);
 
-    return sum + max * price;
-  }, 0);
-};
+      return sum + max * price;
+    }, 0);
+  };
 
   return (
     <ObjectsContext.Provider

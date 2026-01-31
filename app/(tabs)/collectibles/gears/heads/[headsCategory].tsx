@@ -68,6 +68,12 @@ export default function HeadsCategoryScreen() {
               <Text style={[styles.description, { color: theme.colors.text }]}>
                 {item.name}
               </Text>
+                            
+              {headsCategory === 'mourssa' && (
+                <Text style={[styles.meta, { color: theme.colors.text }]}>
+                  {item.uroko}
+                </Text>
+              )}
 
               <View
                 style={[
@@ -117,6 +123,11 @@ const styles = StyleSheet.create({
   description: {
     flex: 1,
     fontSize: 16,
+  },
+  meta: {
+    fontSize: 14,
+    fontWeight: '500',
+    width: 100,
   },
   checkbox: {
     width: 32,

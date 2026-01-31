@@ -35,7 +35,7 @@ export default function FiguresCategoryScreen() {
     if (!filterFn) return [];
 
     return OBJECTS_DATA.figures
-      .map(f => ({ ...f, category: 'figures' as const }))
+      .map(f => ({ ...f, category: 'figures' as const, price: Number(f.price ?? 0) }))
       .filter(
         figure =>
           filterFn(figure) &&
@@ -164,18 +164,11 @@ export default function FiguresCategoryScreen() {
                         </Text>
                       )}
                     </View>
-
+                     
                     {figuresCategory === 'salmon' && (
-                      <View style={styles.fishScalePrice}>
-                        <Text
-                          style={[
-                            styles.price,
-                            { color: theme.colors.textMuted },
-                          ]}
-                        >
-                          {item.fishScalePrice}
-                        </Text>
-                      </View>
+                      <Text style={[styles.meta, { color: theme.colors.text }]}>
+                        {item.fishScalePrice}
+                      </Text>
                     )}
 
                     <View style={styles.slideCount}>
@@ -264,6 +257,11 @@ const styles = StyleSheet.create({
   },
   fishScalePrice: {
     width: 80,
+  },
+  meta: {
+    fontSize: 14,
+    fontWeight: '500',
+    width: 100,
   },
   checkbox: {
     width: 32,

@@ -5,7 +5,7 @@ export const banners = [
     textColor: 'R: 0.00369724\nG: 0.1219857\nB: 0.3992933\nA: 1\n\n#ff001f65',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -14,7 +14,7 @@ export const banners = [
     textColor: 'R: 0.5604992\nG: 0.06381488\nB: 0.173439\nA: 1\n\n#ff8e102c',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -23,7 +23,7 @@ export const banners = [
     textColor: 'R: 0.7372048\nG: 0.3021255\nB: 0.002932319\nA: 1\n\n#ffbb4d00',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -32,7 +32,7 @@ export const banners = [
     textColor: 'R: 0.2508403\nG: 0.5731589\nB: 0.7742273\nA: 1\n\n#ff3f92c5',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -41,7 +41,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -50,7 +50,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -59,7 +59,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -68,7 +68,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -77,7 +77,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -86,7 +86,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -95,7 +95,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -104,7 +104,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -113,7 +113,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0.02899119\nB: 0.02095113\nA: 1\n\n#ff000705',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -122,7 +122,7 @@ export const banners = [
     textColor: 'R: 0.9239933\nG: 1\nB: 0.7372048\nA: 1\n\n#ffebffbb',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -131,7 +131,7 @@ export const banners = [
     textColor: 'R: 0.02899119\nG: 0.006584958\nB: 0.000175124\nA: 1\n\n#ff070100',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -140,7 +140,7 @@ export const banners = [
     textColor: 'R: 0.9764706\nG: 0.8784314\nB: 1\nA: 1\n\n#fff9e0ff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -149,7 +149,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -158,7 +158,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -167,7 +167,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -176,7 +176,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -185,7 +185,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -194,7 +194,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -203,7 +203,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -212,7 +212,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -221,7 +221,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -230,7 +230,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -239,7 +239,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -248,7 +248,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -257,7 +257,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -266,7 +266,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -275,7 +275,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -284,7 +284,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -293,7 +293,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -302,7 +302,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -311,7 +311,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -320,7 +320,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -329,7 +329,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -338,7 +338,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -347,7 +347,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -356,7 +356,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -365,7 +365,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -374,7 +374,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -383,7 +383,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -392,7 +392,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -401,7 +401,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -410,7 +410,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -419,7 +419,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -428,7 +428,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -437,7 +437,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -446,7 +446,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -455,7 +455,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -464,7 +464,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -473,7 +473,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -482,7 +482,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -491,7 +491,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -500,7 +500,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -509,7 +509,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -518,7 +518,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -527,7 +527,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -536,7 +536,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -545,7 +545,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -554,7 +554,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -563,7 +563,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -572,7 +572,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -581,7 +581,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -590,7 +590,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -599,7 +599,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -608,7 +608,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -617,7 +617,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -626,7 +626,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -635,7 +635,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -644,7 +644,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -653,7 +653,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -662,7 +662,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -671,7 +671,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -680,7 +680,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -689,7 +689,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -698,7 +698,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -707,7 +707,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -716,7 +716,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -725,7 +725,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -734,7 +734,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -743,7 +743,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -752,7 +752,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -761,7 +761,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -770,7 +770,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -779,7 +779,7 @@ export const banners = [
     textColor: 'R: 0.02352941\nG: 0.04705882\nB: 0.1921569\nA: 1\n\n#ff050b31',
     howToGet: 'Catalog',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -788,7 +788,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -797,7 +797,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -806,7 +806,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -815,7 +815,7 @@ export const banners = [
     textColor: 'R: 1\nG: 0.20471\nB: 0.31118\nA: 1\n\n#ffff344f',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -824,7 +824,7 @@ export const banners = [
     textColor: 'R: 0.9743\nG: 0.06191\nB: 0.06381\nA: 1\n\n#fff80f10',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -833,7 +833,7 @@ export const banners = [
     textColor: 'R: 0.85125\nG: 0.38891\nB: 0.16364\nA: 1\n\n#ffd96329',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -842,7 +842,7 @@ export const banners = [
     textColor: 'R: 0.04943\nG: 0.03561\nB: 0.02422\nA: 1\n\n#ff0c0906',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -851,7 +851,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -860,7 +860,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -869,7 +869,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -878,7 +878,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -887,7 +887,7 @@ export const banners = [
     textColor: 'R: 0.06666667\nG: 0.06666667\nB: 0.06666667\nA: 1\n\n#ff111111',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -896,7 +896,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -905,7 +905,7 @@ export const banners = [
     textColor: 'R: 0.3568628\nG: 0.2862745\nB: 0.6392157\nA: 1\n\n#ff5b48a3',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -914,7 +914,7 @@ export const banners = [
     textColor: 'R: 0.53333\nG: 0.53333\nB: 0.53333\nA: 1\n\n#ff878787',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -923,7 +923,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -932,7 +932,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0.8\nB: 0.38431\nA: 1\n\n#ff00cc61',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -941,7 +941,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -950,7 +950,7 @@ export const banners = [
     textColor: 'R: 0.96863\nG: 0.45098\nB: 0\nA: 1\n\n#fff77200',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -959,7 +959,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -968,7 +968,7 @@ export const banners = [
     textColor: 'R: 0.07450981\nG: 0.07450981\nB: 0.07450981\nA: 1\n\n#ff131313',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -977,7 +977,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -986,7 +986,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0.07843138\nA: 1\n\n#ff000014',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -995,7 +995,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1004,7 +1004,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1013,7 +1013,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1022,7 +1022,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1031,7 +1031,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1040,7 +1040,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1049,7 +1049,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1058,7 +1058,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1067,7 +1067,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1076,7 +1076,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1085,7 +1085,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1094,7 +1094,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1103,7 +1103,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1112,7 +1112,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1121,7 +1121,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1130,7 +1130,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1139,7 +1139,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1148,7 +1148,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1157,7 +1157,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1166,7 +1166,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1175,7 +1175,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1184,7 +1184,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1193,7 +1193,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1202,7 +1202,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1211,7 +1211,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1220,7 +1220,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1229,7 +1229,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1238,7 +1238,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1247,7 +1247,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1256,7 +1256,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1265,7 +1265,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1274,7 +1274,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1283,7 +1283,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1292,7 +1292,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1301,7 +1301,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1310,7 +1310,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1319,7 +1319,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1328,7 +1328,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1337,7 +1337,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1346,7 +1346,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1355,7 +1355,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1364,7 +1364,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1373,7 +1373,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1382,7 +1382,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1391,7 +1391,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1400,7 +1400,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1409,7 +1409,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1418,7 +1418,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1427,7 +1427,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1436,7 +1436,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1445,7 +1445,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1454,7 +1454,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1463,7 +1463,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1472,7 +1472,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1481,7 +1481,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1490,7 +1490,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1499,7 +1499,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1508,7 +1508,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1517,7 +1517,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1526,7 +1526,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Shop',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1535,7 +1535,7 @@ export const banners = [
     textColor: 'R: 0.1607843\nG: 0.1490196\nB: 0.05490196\nA: 1\n\n#ff28250d',
     howToGet: 'Catalog',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1544,7 +1544,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1553,7 +1553,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1562,7 +1562,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1571,7 +1571,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1580,7 +1580,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Catalog',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1589,7 +1589,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 10\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 10\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1598,7 +1598,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1607,7 +1607,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 2',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 2',
     unlockLevel: '1',
   },
   {
@@ -1616,7 +1616,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1625,7 +1625,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1634,7 +1634,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 5',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 5',
     unlockLevel: '2',
   },
   {
@@ -1643,7 +1643,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 600\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 600\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1652,7 +1652,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 600\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 600\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1661,7 +1661,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 20',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 20',
     unlockLevel: '3',
   },
   {
@@ -1670,7 +1670,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 999\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 999\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1679,7 +1679,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '3',
-    fishScalePrice: 'Bronze: 60\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 60\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1688,7 +1688,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '3',
-    fishScalePrice: 'Bronze: 400\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 400\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1697,7 +1697,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Uroko',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 333',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 333',
     unlockLevel: '3',
   },
   {
@@ -1706,7 +1706,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '3',
-    fishScalePrice: 'Bronze: 150\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 150\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1715,7 +1715,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '5',
-    fishScalePrice: 'Bronze: 150\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 150\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1724,7 +1724,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 33',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 33',
     unlockLevel: '3',
   },
   {
@@ -1733,7 +1733,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '5',
-    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1742,7 +1742,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '5',
-    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 250\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1751,7 +1751,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '7',
-    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1760,7 +1760,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 5',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 5',
     unlockLevel: '2',
   },
   {
@@ -1769,7 +1769,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Uroko',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 333',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 333',
     unlockLevel: '3',
   },
   {
@@ -1778,7 +1778,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0\nB: 0\nA: 1\n\n#ff000000',
     howToGet: 'Uroko',
     season: '7',
-    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1787,7 +1787,7 @@ export const banners = [
     textColor: 'R: 1\nG: 0.9568627\nB: 0.9803922\nA: 1\n\n#fffff3fa',
     howToGet: 'Uroko',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 5',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 5',
     unlockLevel: '2',
   },
   {
@@ -1796,7 +1796,7 @@ export const banners = [
     textColor: 'R: 0.1019608\nG: 0.1019608\nB: 0.1686275\nA: 1\n\n#ff1a1a2b',
     howToGet: 'Uroko',
     season: '8',
-    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 100\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1805,7 +1805,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Uroko',
     season: '8',
-    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 800\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1814,7 +1814,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Uroko',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 333',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 333',
     unlockLevel: '3',
   },
   {
@@ -1823,7 +1823,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Acheter \nle DLC',
   },
@@ -1833,7 +1833,7 @@ export const banners = [
     textColor: 'R: 0.05882353\nG: 0.02352941\nB: 0\nA: 1\n\n#ff0f0500',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1842,7 +1842,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Other',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1851,7 +1851,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Other',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1860,7 +1860,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Other',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1869,7 +1869,7 @@ export const banners = [
     textColor: 'R: 0.05490196\nG: 0.02352941\nB: 0\nA: 1\n\n#ff0d0500',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1878,7 +1878,7 @@ export const banners = [
     textColor: 'R: 0.05882\nG: 0.02353\nB: 0\nA: 1\n\n#ff0e0600',
     howToGet: 'Other',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1887,7 +1887,7 @@ export const banners = [
     textColor: 'R: 0.05490196\nG: 0.02352941\nB: 0\nA: 1\n\n#ff0d0500',
     howToGet: 'Other',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1896,7 +1896,7 @@ export const banners = [
     textColor: 'R: 0.05490196\nG: 0.02352941\nB: 0\nA: 1\n\n#ff0d0500',
     howToGet: 'Other',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1905,7 +1905,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre\nle rang 10',
   },
@@ -1915,7 +1915,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre\nle rang 25',
   },
@@ -1925,7 +1925,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre\nle rang 46',
   },
@@ -1935,7 +1935,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
@@ -1945,7 +1945,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
@@ -1955,7 +1955,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Premier anniversaire du jeu.\n1 September 2023',
   },
@@ -1965,7 +1965,7 @@ export const banners = [
     textColor: 'R: 0.9075472\nG: 0.08464152\nB: 0.01991784\nA: 1\n\n#ffe71505',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Halloween.\n20 October 2023',
   },
@@ -1975,7 +1975,7 @@ export const banners = [
     textColor: 'R: 0\nG: 0.07450981\nB: 0.3843137\nA: 1\n\n#ff001361',
     howToGet: 'Other',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'FrostyFest.\n5 January 2024',
   },
@@ -1985,7 +1985,7 @@ export const banners = [
     textColor: 'R: 0.1490196\nG: 0.007843138\nB: 0.1176471\nA: 1\n\n#ff25021e',
     howToGet: 'Other',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'SpringFest.\n5 April 2024',
   },
@@ -1995,7 +1995,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Splatoon 3 World Championship 2024.\n5 June 2024',
   },
@@ -2005,7 +2005,7 @@ export const banners = [
     textColor: 'R: 1\nG: 0.9743002\nB: 0.007155037\nA: 1\n\n#fffff801',
     howToGet: 'Other',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Summer Nights.\n28 June 2024',
   },
@@ -2015,7 +2015,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Festival of the year.\n2 September 2024',
   },
@@ -2025,7 +2025,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Festival of the year.\n2 September 2024',
   },
@@ -2035,7 +2035,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Festival of the year.\n2 September 2024',
   },
@@ -2045,7 +2045,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Acheter \nle DLC',
   },
@@ -2055,7 +2055,7 @@ export const banners = [
     textColor: 'R: 0.0902\nG: 0.07059\nB: 0.07059\nA: 1\n\n#ff171212',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Ouvrir le \ncasier 2',
   },
@@ -2065,7 +2065,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Ouvrir le \ncasier 26',
   },
@@ -2075,7 +2075,7 @@ export const banners = [
     textColor: 'R: 0.01176471\nG: 0.01568628\nB: 0.01176471\nA: 1\n\n#ff030403',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Ouvrir le \ncasier 35',
   },
@@ -2085,7 +2085,7 @@ export const banners = [
     textColor: 'R: 0.03529412\nG: 0.02352941\nB: 0.02352941\nA: 1\n\n#ff090505',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Obtenir \n3 clés',
   },
@@ -2095,7 +2095,7 @@ export const banners = [
     textColor: 'R: 1\nG: 0.96078\nB: 0.9607843\nA: 1\n\n#fffff4f4',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Obtenir \n9 clés',
   },
@@ -2105,7 +2105,7 @@ export const banners = [
     textColor: 'R: 0.0902\nG: 0.07059\nB: 0.07059\nA: 1\n\n#ff171212',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Obtenir \n21 clés',
   },
@@ -2115,7 +2115,7 @@ export const banners = [
     textColor: 'R: 0.0902\nG: 0.07059\nB: 0.07059\nA: 1\n\n#ff171212',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Obtenir \n33 clés',
   },
@@ -2125,7 +2125,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/901.png'),
   },
@@ -2135,7 +2135,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/902.png'),
   },
@@ -2145,7 +2145,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/911.png'),
   },
@@ -2155,7 +2155,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/912.png'),
   },
@@ -2165,7 +2165,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/921.png'),
   },
@@ -2175,7 +2175,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/922.png'),
   },
@@ -2185,7 +2185,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/923.png'),
   },
@@ -2195,7 +2195,7 @@ export const banners = [
     textColor: 'R: 0.04705882\nG: 0.1294118\nB: 0.3215686\nA: 1\n\n#ff0b2151',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/924.png'),
   },
@@ -2205,7 +2205,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/931.png'),
   },
@@ -2215,7 +2215,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/936.png'),
   },
@@ -2225,7 +2225,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     codeQR: require('@/assets/images/banners/codeqr/937.png'),
   },
@@ -2235,7 +2235,7 @@ export const banners = [
     textColor: 'R: 1\nG: 1\nB: 1\nA: 1\n\n#ffffffff',
     howToGet: 'Other',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
 ];

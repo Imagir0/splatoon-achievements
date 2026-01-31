@@ -8,7 +8,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 10\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 10\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -20,7 +20,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -32,7 +32,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -44,7 +44,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -56,7 +56,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 25\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 25\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -68,7 +68,7 @@ export const stickers = [
     price: '8888',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -80,7 +80,7 @@ export const stickers = [
     price: '10101',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -92,7 +92,7 @@ export const stickers = [
     price: '11000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -104,7 +104,7 @@ export const stickers = [
     price: '38500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -116,7 +116,7 @@ export const stickers = [
     price: '38500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -128,7 +128,7 @@ export const stickers = [
     price: '38500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -140,7 +140,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -152,7 +152,7 @@ export const stickers = [
     price: '33330',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -164,7 +164,7 @@ export const stickers = [
     price: '33330',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -176,7 +176,7 @@ export const stickers = [
     price: '33330',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -188,7 +188,7 @@ export const stickers = [
     price: '19800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -200,7 +200,7 @@ export const stickers = [
     price: '18000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -212,7 +212,7 @@ export const stickers = [
     price: '5800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -224,7 +224,7 @@ export const stickers = [
     price: '9999',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -236,7 +236,7 @@ export const stickers = [
     price: '44444',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -248,7 +248,7 @@ export const stickers = [
     price: '10000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -260,7 +260,7 @@ export const stickers = [
     price: '24800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -272,7 +272,7 @@ export const stickers = [
     price: '29800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -284,7 +284,7 @@ export const stickers = [
     price: '19800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -296,7 +296,7 @@ export const stickers = [
     price: '9800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -308,7 +308,7 @@ export const stickers = [
     price: '9800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -320,7 +320,7 @@ export const stickers = [
     price: '14800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -332,7 +332,7 @@ export const stickers = [
     price: '8800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -344,7 +344,7 @@ export const stickers = [
     price: '8250',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -356,7 +356,7 @@ export const stickers = [
     price: '34800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -368,7 +368,7 @@ export const stickers = [
     price: '39800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -380,7 +380,7 @@ export const stickers = [
     price: '5600',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -392,7 +392,7 @@ export const stickers = [
     price: '45000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -404,7 +404,7 @@ export const stickers = [
     price: '30303',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -416,7 +416,7 @@ export const stickers = [
     price: '12000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -428,7 +428,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -440,7 +440,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -452,7 +452,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -464,7 +464,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -476,7 +476,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 10',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 10',
     unlockLevel: '3',
   },
   {
@@ -488,7 +488,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -500,7 +500,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 60\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 60\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -512,7 +512,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -524,7 +524,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 10',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 10',
     unlockLevel: '3',
   },
   {
@@ -536,7 +536,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -548,7 +548,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -560,7 +560,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 15\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 15\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -572,7 +572,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -584,7 +584,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -596,7 +596,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -608,7 +608,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -620,7 +620,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -632,7 +632,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 10',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 10',
     unlockLevel: '3',
   },
   {
@@ -644,7 +644,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -656,7 +656,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 2',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 2',
     unlockLevel: '1',
   },
   {
@@ -668,7 +668,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 3\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -680,7 +680,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 50\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -692,7 +692,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -704,7 +704,7 @@ export const stickers = [
     price: '9300',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -716,7 +716,7 @@ export const stickers = [
     price: '12300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -728,7 +728,7 @@ export const stickers = [
     price: '12000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -740,7 +740,7 @@ export const stickers = [
     price: '14800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -752,7 +752,7 @@ export const stickers = [
     price: '13800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -764,7 +764,7 @@ export const stickers = [
     price: '32100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -776,7 +776,7 @@ export const stickers = [
     price: '40000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -788,7 +788,7 @@ export const stickers = [
     price: '16600',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -800,7 +800,7 @@ export const stickers = [
     price: '18000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -812,7 +812,7 @@ export const stickers = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -824,7 +824,7 @@ export const stickers = [
     price: '18800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -836,7 +836,7 @@ export const stickers = [
     price: '24680',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -848,7 +848,7 @@ export const stickers = [
     price: '20202',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -860,7 +860,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -872,7 +872,7 @@ export const stickers = [
     price: '12300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -884,7 +884,7 @@ export const stickers = [
     price: '12345',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -896,7 +896,7 @@ export const stickers = [
     price: '13245',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -908,7 +908,7 @@ export const stickers = [
     price: '13425',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -920,7 +920,7 @@ export const stickers = [
     price: '13452',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -932,7 +932,7 @@ export const stickers = [
     price: '22222',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -944,7 +944,7 @@ export const stickers = [
     price: '34567',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -956,7 +956,7 @@ export const stickers = [
     price: '10101',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -968,7 +968,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -980,7 +980,7 @@ export const stickers = [
     price: '8080',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -992,7 +992,7 @@ export const stickers = [
     price: '31650',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1004,7 +1004,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1016,7 +1016,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1028,7 +1028,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1040,7 +1040,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1052,7 +1052,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1064,7 +1064,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1076,7 +1076,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1088,7 +1088,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1100,7 +1100,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1112,7 +1112,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1124,7 +1124,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1136,7 +1136,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1148,7 +1148,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1160,7 +1160,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1172,7 +1172,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1184,7 +1184,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1196,7 +1196,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1208,7 +1208,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1220,7 +1220,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1232,7 +1232,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1244,7 +1244,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1256,7 +1256,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1268,7 +1268,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1280,7 +1280,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1292,7 +1292,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1304,7 +1304,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1316,7 +1316,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1328,7 +1328,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1340,7 +1340,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1352,7 +1352,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1364,7 +1364,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1376,7 +1376,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1388,7 +1388,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1400,7 +1400,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1412,7 +1412,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1424,7 +1424,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1436,7 +1436,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1448,7 +1448,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1460,7 +1460,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1472,7 +1472,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1484,7 +1484,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1496,7 +1496,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1508,7 +1508,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1520,7 +1520,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1532,7 +1532,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1544,7 +1544,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1556,7 +1556,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1568,7 +1568,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1580,7 +1580,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1592,7 +1592,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1604,7 +1604,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1616,7 +1616,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1628,7 +1628,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1640,7 +1640,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1652,7 +1652,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1664,7 +1664,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1676,7 +1676,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1688,7 +1688,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1700,7 +1700,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1712,7 +1712,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1724,7 +1724,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1736,7 +1736,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1748,7 +1748,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1760,7 +1760,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1772,7 +1772,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1784,7 +1784,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1796,7 +1796,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1808,7 +1808,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1820,7 +1820,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1832,7 +1832,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1844,7 +1844,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1856,7 +1856,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1868,7 +1868,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1880,7 +1880,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1892,7 +1892,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1904,7 +1904,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1916,7 +1916,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1928,7 +1928,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1940,7 +1940,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1952,7 +1952,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1964,7 +1964,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1976,7 +1976,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1988,7 +1988,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2000,7 +2000,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2012,7 +2012,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2024,7 +2024,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2036,7 +2036,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2048,7 +2048,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2060,7 +2060,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2072,7 +2072,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2084,7 +2084,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2096,7 +2096,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2108,7 +2108,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2120,7 +2120,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2132,7 +2132,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2144,7 +2144,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2156,7 +2156,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2168,7 +2168,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2180,7 +2180,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2192,7 +2192,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2204,7 +2204,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2216,7 +2216,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2228,7 +2228,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2240,7 +2240,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2252,7 +2252,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2264,7 +2264,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2276,7 +2276,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2288,7 +2288,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2300,7 +2300,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2312,7 +2312,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2324,7 +2324,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2336,7 +2336,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2348,7 +2348,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2360,7 +2360,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2372,7 +2372,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2384,7 +2384,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2396,7 +2396,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2408,7 +2408,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2420,7 +2420,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2432,7 +2432,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2444,7 +2444,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2456,7 +2456,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2468,7 +2468,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2480,7 +2480,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2492,7 +2492,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2504,7 +2504,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2516,7 +2516,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2528,7 +2528,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2540,7 +2540,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2552,7 +2552,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2564,7 +2564,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2576,7 +2576,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2588,7 +2588,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2600,7 +2600,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2612,7 +2612,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2624,7 +2624,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2636,7 +2636,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2648,7 +2648,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2660,7 +2660,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2672,7 +2672,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2684,7 +2684,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2696,7 +2696,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2708,7 +2708,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2720,7 +2720,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2732,7 +2732,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2744,7 +2744,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2756,7 +2756,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2768,7 +2768,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2780,7 +2780,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2792,7 +2792,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2804,7 +2804,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2816,7 +2816,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2828,7 +2828,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2840,7 +2840,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2852,7 +2852,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2864,7 +2864,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2876,7 +2876,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2888,7 +2888,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2900,7 +2900,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2912,7 +2912,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2924,7 +2924,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2936,7 +2936,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2948,7 +2948,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2960,7 +2960,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2972,7 +2972,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2984,7 +2984,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2996,7 +2996,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3008,7 +3008,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3020,7 +3020,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3032,7 +3032,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3044,7 +3044,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3056,7 +3056,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3068,7 +3068,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3080,7 +3080,7 @@ export const stickers = [
     price: '101010',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3092,7 +3092,7 @@ export const stickers = [
     price: '88888',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3104,7 +3104,7 @@ export const stickers = [
     price: '12000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3116,7 +3116,7 @@ export const stickers = [
     price: '34500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3128,7 +3128,7 @@ export const stickers = [
     price: '15000',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3140,7 +3140,7 @@ export const stickers = [
     price: '99999',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3152,7 +3152,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3164,7 +3164,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3176,7 +3176,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3188,7 +3188,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3200,7 +3200,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3212,7 +3212,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3224,7 +3224,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3236,7 +3236,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3248,7 +3248,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3260,7 +3260,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3272,7 +3272,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3284,7 +3284,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3296,7 +3296,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3308,7 +3308,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3320,7 +3320,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3332,7 +3332,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3344,7 +3344,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3356,7 +3356,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3368,7 +3368,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3380,7 +3380,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3392,7 +3392,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3404,7 +3404,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3416,7 +3416,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3428,7 +3428,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3440,7 +3440,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3452,7 +3452,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3464,7 +3464,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3476,7 +3476,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3488,7 +3488,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3500,7 +3500,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3512,7 +3512,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3524,7 +3524,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3536,7 +3536,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3548,7 +3548,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3560,7 +3560,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3572,7 +3572,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3584,7 +3584,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3596,7 +3596,7 @@ export const stickers = [
     price: '7000',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3608,7 +3608,7 @@ export const stickers = [
     price: '8800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3620,7 +3620,7 @@ export const stickers = [
     price: '25500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3632,7 +3632,7 @@ export const stickers = [
     price: '3500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3644,7 +3644,7 @@ export const stickers = [
     price: '14500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3656,7 +3656,7 @@ export const stickers = [
     price: '17800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3668,7 +3668,7 @@ export const stickers = [
     price: '14800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3680,7 +3680,7 @@ export const stickers = [
     price: '32500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3692,7 +3692,7 @@ export const stickers = [
     price: '1200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3704,7 +3704,7 @@ export const stickers = [
     price: '6300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3716,7 +3716,7 @@ export const stickers = [
     price: '36800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3728,7 +3728,7 @@ export const stickers = [
     price: '15800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3740,7 +3740,7 @@ export const stickers = [
     price: '3500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3752,7 +3752,7 @@ export const stickers = [
     price: '19790',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3764,7 +3764,7 @@ export const stickers = [
     price: '800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3776,7 +3776,7 @@ export const stickers = [
     price: '6397',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3788,7 +3788,7 @@ export const stickers = [
     price: '2222',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3800,7 +3800,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 3',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 3',
     unlockLevel: '2',
   },
   {
@@ -3812,7 +3812,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -3824,7 +3824,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -3836,7 +3836,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3848,7 +3848,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -3860,7 +3860,7 @@ export const stickers = [
     price: '9380',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3872,7 +3872,7 @@ export const stickers = [
     price: '13116',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3884,7 +3884,7 @@ export const stickers = [
     price: '19840',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3896,7 +3896,7 @@ export const stickers = [
     price: '24000',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3908,7 +3908,7 @@ export const stickers = [
     price: '13000',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3920,7 +3920,7 @@ export const stickers = [
     price: '10120',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3932,7 +3932,7 @@ export const stickers = [
     price: '15000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3944,7 +3944,7 @@ export const stickers = [
     price: '15100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3956,7 +3956,7 @@ export const stickers = [
     price: '5000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3968,7 +3968,7 @@ export const stickers = [
     price: '6000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3980,7 +3980,7 @@ export const stickers = [
     price: '7000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3992,7 +3992,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4004,7 +4004,7 @@ export const stickers = [
     price: '9000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4016,7 +4016,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4028,7 +4028,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4040,7 +4040,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4052,7 +4052,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4064,7 +4064,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4076,7 +4076,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4088,7 +4088,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4100,7 +4100,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4112,7 +4112,7 @@ export const stickers = [
     price: '35200',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4124,7 +4124,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4136,7 +4136,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4148,7 +4148,7 @@ export const stickers = [
     price: '3300',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4160,7 +4160,7 @@ export const stickers = [
     price: '5000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4172,7 +4172,7 @@ export const stickers = [
     price: '6000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4184,7 +4184,7 @@ export const stickers = [
     price: '3110',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4196,7 +4196,7 @@ export const stickers = [
     price: '7000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4208,7 +4208,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4220,7 +4220,7 @@ export const stickers = [
     price: '9000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4232,7 +4232,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4244,7 +4244,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4256,7 +4256,7 @@ export const stickers = [
     price: '15000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4268,7 +4268,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4280,7 +4280,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4292,7 +4292,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4304,7 +4304,7 @@ export const stickers = [
     price: '36000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4316,7 +4316,7 @@ export const stickers = [
     price: '9800',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4328,7 +4328,7 @@ export const stickers = [
     price: '24210',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4340,7 +4340,7 @@ export const stickers = [
     price: '4980',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4352,7 +4352,7 @@ export const stickers = [
     price: '9800',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4364,7 +4364,7 @@ export const stickers = [
     price: '35940',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4376,7 +4376,7 @@ export const stickers = [
     price: '2500',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4388,7 +4388,7 @@ export const stickers = [
     price: '5000',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4400,7 +4400,7 @@ export const stickers = [
     price: '7800',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4412,7 +4412,7 @@ export const stickers = [
     price: '300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4424,7 +4424,7 @@ export const stickers = [
     price: '600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4436,7 +4436,7 @@ export const stickers = [
     price: '938',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4448,7 +4448,7 @@ export const stickers = [
     price: '9999',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4460,7 +4460,7 @@ export const stickers = [
     price: '8888',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4472,7 +4472,7 @@ export const stickers = [
     price: '7777',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4484,7 +4484,7 @@ export const stickers = [
     price: '6666',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4496,7 +4496,7 @@ export const stickers = [
     price: '5555',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4508,7 +4508,7 @@ export const stickers = [
     price: '6666',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4520,7 +4520,7 @@ export const stickers = [
     price: '5100',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4532,7 +4532,7 @@ export const stickers = [
     price: '7800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4544,7 +4544,7 @@ export const stickers = [
     price: '7700',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4556,7 +4556,7 @@ export const stickers = [
     price: '18890',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4568,7 +4568,7 @@ export const stickers = [
     price: '14010',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4580,7 +4580,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4592,7 +4592,7 @@ export const stickers = [
     price: '5200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4604,7 +4604,7 @@ export const stickers = [
     price: '1000',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4616,7 +4616,7 @@ export const stickers = [
     price: '5400',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4628,7 +4628,7 @@ export const stickers = [
     price: '1600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4640,7 +4640,7 @@ export const stickers = [
     price: '1700',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4652,7 +4652,7 @@ export const stickers = [
     price: '1800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4664,7 +4664,7 @@ export const stickers = [
     price: '6800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4676,7 +4676,7 @@ export const stickers = [
     price: '5500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4688,7 +4688,7 @@ export const stickers = [
     price: '2000',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4700,7 +4700,7 @@ export const stickers = [
     price: '2000',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4712,7 +4712,7 @@ export const stickers = [
     price: '5800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4724,7 +4724,7 @@ export const stickers = [
     price: '1500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4736,7 +4736,7 @@ export const stickers = [
     price: '4219',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4748,7 +4748,7 @@ export const stickers = [
     price: '200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4760,7 +4760,7 @@ export const stickers = [
     price: '100',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4772,7 +4772,7 @@ export const stickers = [
     price: '500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4784,7 +4784,7 @@ export const stickers = [
     price: '1220',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4796,7 +4796,7 @@ export const stickers = [
     price: '1220',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4808,7 +4808,7 @@ export const stickers = [
     price: '1220',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4820,7 +4820,7 @@ export const stickers = [
     price: '6800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4832,7 +4832,7 @@ export const stickers = [
     price: '22222',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4844,7 +4844,7 @@ export const stickers = [
     price: '5800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4856,7 +4856,7 @@ export const stickers = [
     price: '6800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4868,7 +4868,7 @@ export const stickers = [
     price: '46490',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4880,7 +4880,7 @@ export const stickers = [
     price: '12600',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4892,7 +4892,7 @@ export const stickers = [
     price: '93800',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4904,7 +4904,7 @@ export const stickers = [
     price: '12345',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4916,7 +4916,7 @@ export const stickers = [
     price: '11230',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4928,7 +4928,7 @@ export const stickers = [
     price: '1000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4940,7 +4940,7 @@ export const stickers = [
     price: '5200',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4952,7 +4952,7 @@ export const stickers = [
     price: '1000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4964,7 +4964,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4976,7 +4976,7 @@ export const stickers = [
     price: '11230',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4988,7 +4988,7 @@ export const stickers = [
     price: '32000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5000,7 +5000,7 @@ export const stickers = [
     price: '93800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5012,7 +5012,7 @@ export const stickers = [
     price: '18000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5024,7 +5024,7 @@ export const stickers = [
     price: '12600',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5036,7 +5036,7 @@ export const stickers = [
     price: '50505',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5048,7 +5048,7 @@ export const stickers = [
     price: '14800',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5060,7 +5060,7 @@ export const stickers = [
     price: '5290',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5072,7 +5072,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5084,7 +5084,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5096,7 +5096,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5108,7 +5108,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5120,7 +5120,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5132,7 +5132,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5144,7 +5144,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5156,7 +5156,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5168,7 +5168,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5180,7 +5180,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5192,7 +5192,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5204,7 +5204,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5216,7 +5216,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5228,7 +5228,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5240,7 +5240,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5252,7 +5252,7 @@ export const stickers = [
     price: '11111',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5264,7 +5264,7 @@ export const stickers = [
     price: '11111',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5276,7 +5276,7 @@ export const stickers = [
     price: '5550',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5288,7 +5288,7 @@ export const stickers = [
     price: '5550',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5300,7 +5300,7 @@ export const stickers = [
     price: '5550',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5312,7 +5312,7 @@ export const stickers = [
     price: '300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5324,7 +5324,7 @@ export const stickers = [
     price: '600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5336,7 +5336,7 @@ export const stickers = [
     price: '450',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5348,7 +5348,7 @@ export const stickers = [
     price: '700',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5360,7 +5360,7 @@ export const stickers = [
     price: '900',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5372,7 +5372,7 @@ export const stickers = [
     price: '7500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5384,7 +5384,7 @@ export const stickers = [
     price: '3400',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5396,7 +5396,7 @@ export const stickers = [
     price: '7878',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5408,7 +5408,7 @@ export const stickers = [
     price: '10101',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5420,7 +5420,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5432,7 +5432,7 @@ export const stickers = [
     price: '11111',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5444,7 +5444,7 @@ export const stickers = [
     price: '10101',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5456,7 +5456,7 @@ export const stickers = [
     price: '10101',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5468,7 +5468,7 @@ export const stickers = [
     price: '10101',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5480,7 +5480,7 @@ export const stickers = [
     price: '80808',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5492,7 +5492,7 @@ export const stickers = [
     price: '12800',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5504,7 +5504,7 @@ export const stickers = [
     price: '28000',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5516,7 +5516,7 @@ export const stickers = [
     price: '38000',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5528,7 +5528,7 @@ export const stickers = [
     price: '9500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5540,7 +5540,7 @@ export const stickers = [
     price: '9500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5552,7 +5552,7 @@ export const stickers = [
     price: '33900',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5564,7 +5564,7 @@ export const stickers = [
     price: '35400',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5576,7 +5576,7 @@ export const stickers = [
     price: '3200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5588,7 +5588,7 @@ export const stickers = [
     price: '25500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5600,7 +5600,7 @@ export const stickers = [
     price: '28300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5612,7 +5612,7 @@ export const stickers = [
     price: '28300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5624,7 +5624,7 @@ export const stickers = [
     price: '32500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5636,7 +5636,7 @@ export const stickers = [
     price: '33900',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5648,7 +5648,7 @@ export const stickers = [
     price: '37300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5660,7 +5660,7 @@ export const stickers = [
     price: '33900',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5672,7 +5672,7 @@ export const stickers = [
     price: '36800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5684,7 +5684,7 @@ export const stickers = [
     price: '29300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5696,7 +5696,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5708,7 +5708,7 @@ export const stickers = [
     price: '36800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5720,7 +5720,7 @@ export const stickers = [
     price: '34800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5732,7 +5732,7 @@ export const stickers = [
     price: '33333',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5744,7 +5744,7 @@ export const stickers = [
     price: '36800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5756,7 +5756,7 @@ export const stickers = [
     price: '28700',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5768,7 +5768,7 @@ export const stickers = [
     price: '34800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5780,7 +5780,7 @@ export const stickers = [
     price: '34800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5792,7 +5792,7 @@ export const stickers = [
     price: '12800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5804,7 +5804,7 @@ export const stickers = [
     price: '28300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5816,7 +5816,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5828,7 +5828,7 @@ export const stickers = [
     price: '32500',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5840,7 +5840,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5852,7 +5852,7 @@ export const stickers = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5864,7 +5864,7 @@ export const stickers = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5876,7 +5876,7 @@ export const stickers = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5888,7 +5888,7 @@ export const stickers = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5900,7 +5900,7 @@ export const stickers = [
     price: '31111',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5912,7 +5912,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5924,7 +5924,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5936,7 +5936,7 @@ export const stickers = [
     price: '31100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5948,7 +5948,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 12 en Cartes & Territoire',
   },
@@ -5961,7 +5961,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 32 en Cartes & Territoire',
   },
@@ -5974,7 +5974,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 36 en Cartes & Territoire',
   },
@@ -5987,7 +5987,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 39 en Cartes & Territoire',
   },
@@ -6000,7 +6000,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 42 en Cartes & Territoire',
   },
@@ -6013,7 +6013,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 45 en Cartes & Territoire',
   },
@@ -6026,7 +6026,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
     note: 'Atteindre le rang 48 en Cartes & Territoire',
   },
@@ -6039,7 +6039,7 @@ export const stickers = [
     price: '24690',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6051,7 +6051,7 @@ export const stickers = [
     price: '24800',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6063,7 +6063,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6075,7 +6075,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6087,7 +6087,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6099,7 +6099,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6111,7 +6111,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6123,7 +6123,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6135,7 +6135,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6147,7 +6147,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6159,7 +6159,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6171,7 +6171,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6183,7 +6183,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6195,7 +6195,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6207,7 +6207,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6219,7 +6219,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6231,7 +6231,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6243,7 +6243,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6255,7 +6255,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6267,7 +6267,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6279,7 +6279,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6291,7 +6291,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6303,7 +6303,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6315,7 +6315,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6327,7 +6327,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6339,7 +6339,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6351,7 +6351,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6363,7 +6363,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6375,7 +6375,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6387,7 +6387,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6399,7 +6399,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6411,7 +6411,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6423,7 +6423,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6435,7 +6435,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6447,7 +6447,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6459,7 +6459,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6471,7 +6471,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6483,7 +6483,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6495,7 +6495,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6507,7 +6507,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6519,7 +6519,7 @@ export const stickers = [
     price: '680',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6531,7 +6531,7 @@ export const stickers = [
     price: '780',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6543,7 +6543,7 @@ export const stickers = [
     price: '1800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6555,7 +6555,7 @@ export const stickers = [
     price: '2800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6567,7 +6567,7 @@ export const stickers = [
     price: '4200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6579,7 +6579,7 @@ export const stickers = [
     price: '1300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6591,7 +6591,7 @@ export const stickers = [
     price: '800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6603,7 +6603,7 @@ export const stickers = [
     price: '7300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6615,7 +6615,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6627,7 +6627,7 @@ export const stickers = [
     price: '3500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6639,7 +6639,7 @@ export const stickers = [
     price: '3500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6651,7 +6651,7 @@ export const stickers = [
     price: '1200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6663,7 +6663,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 1',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 1',
     unlockLevel: '1',
   },
   {
@@ -6675,7 +6675,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6687,7 +6687,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 25\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 25\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -6699,7 +6699,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 10\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 10\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -6711,7 +6711,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6723,7 +6723,7 @@ export const stickers = [
     price: '3333',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6735,7 +6735,7 @@ export const stickers = [
     price: '9999',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6747,7 +6747,7 @@ export const stickers = [
     price: '7777',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6759,7 +6759,7 @@ export const stickers = [
     price: '14300',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6771,7 +6771,7 @@ export const stickers = [
     price: '32123',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6783,7 +6783,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6795,7 +6795,7 @@ export const stickers = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6807,7 +6807,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6819,7 +6819,7 @@ export const stickers = [
     price: '5800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6831,7 +6831,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6843,7 +6843,7 @@ export const stickers = [
     price: '7800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6855,7 +6855,7 @@ export const stickers = [
     price: '8800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6867,7 +6867,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6879,7 +6879,7 @@ export const stickers = [
     price: '5800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6891,7 +6891,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6903,7 +6903,7 @@ export const stickers = [
     price: '7800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6915,7 +6915,7 @@ export const stickers = [
     price: '8800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6927,7 +6927,7 @@ export const stickers = [
     price: '4390',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6939,7 +6939,7 @@ export const stickers = [
     price: '5050',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6951,7 +6951,7 @@ export const stickers = [
     price: '8080',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6963,7 +6963,7 @@ export const stickers = [
     price: '6540',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6975,7 +6975,7 @@ export const stickers = [
     price: '7650',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6987,7 +6987,7 @@ export const stickers = [
     price: '43210',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -6999,7 +6999,7 @@ export const stickers = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7011,7 +7011,7 @@ export const stickers = [
     price: '12800',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7023,7 +7023,7 @@ export const stickers = [
     price: '9800',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7035,7 +7035,7 @@ export const stickers = [
     price: '12345',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7047,7 +7047,7 @@ export const stickers = [
     price: '1400',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7059,7 +7059,7 @@ export const stickers = [
     price: '1600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7071,7 +7071,7 @@ export const stickers = [
     price: '5200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7083,7 +7083,7 @@ export const stickers = [
     price: '5220',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7095,7 +7095,7 @@ export const stickers = [
     price: '395',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7107,7 +7107,7 @@ export const stickers = [
     price: '263',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7119,7 +7119,7 @@ export const stickers = [
     price: '563',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7131,7 +7131,7 @@ export const stickers = [
     price: '6666',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7143,7 +7143,7 @@ export const stickers = [
     price: '2500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7155,7 +7155,7 @@ export const stickers = [
     price: '3157',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7167,7 +7167,7 @@ export const stickers = [
     price: '1500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7179,7 +7179,7 @@ export const stickers = [
     price: '26000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7191,7 +7191,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7203,7 +7203,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7215,7 +7215,7 @@ export const stickers = [
     price: '13000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7227,7 +7227,7 @@ export const stickers = [
     price: '7600',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7239,7 +7239,7 @@ export const stickers = [
     price: '6900',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7251,7 +7251,7 @@ export const stickers = [
     price: '2600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7263,7 +7263,7 @@ export const stickers = [
     price: '1300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7275,7 +7275,7 @@ export const stickers = [
     price: '7200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7287,7 +7287,7 @@ export const stickers = [
     price: '2020',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7299,7 +7299,7 @@ export const stickers = [
     price: '3300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7311,7 +7311,7 @@ export const stickers = [
     price: '3300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7323,7 +7323,7 @@ export const stickers = [
     price: '3800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7335,7 +7335,7 @@ export const stickers = [
     price: '999',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7347,7 +7347,7 @@ export const stickers = [
     price: '1010',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7359,7 +7359,7 @@ export const stickers = [
     price: '6900',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7371,7 +7371,7 @@ export const stickers = [
     price: '404',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7383,7 +7383,7 @@ export const stickers = [
     price: '4040',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7395,7 +7395,7 @@ export const stickers = [
     price: '9380',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7407,7 +7407,7 @@ export const stickers = [
     price: '19000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7419,7 +7419,7 @@ export const stickers = [
     price: '29000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7431,7 +7431,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 30\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7443,7 +7443,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -7455,7 +7455,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -7467,7 +7467,7 @@ export const stickers = [
     price: '22518',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7479,7 +7479,7 @@ export const stickers = [
     price: '11437',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7491,7 +7491,7 @@ export const stickers = [
     price: '21097',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7503,7 +7503,7 @@ export const stickers = [
     price: '23000',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7515,7 +7515,7 @@ export const stickers = [
     price: '5600',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7527,7 +7527,7 @@ export const stickers = [
     price: '21000',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7539,7 +7539,7 @@ export const stickers = [
     price: '10101',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7551,7 +7551,7 @@ export const stickers = [
     price: '8000',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7563,7 +7563,7 @@ export const stickers = [
     price: '3000',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7575,7 +7575,7 @@ export const stickers = [
     price: '4500',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7587,7 +7587,7 @@ export const stickers = [
     price: '7650',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7599,7 +7599,7 @@ export const stickers = [
     price: '10920',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7611,7 +7611,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7623,7 +7623,7 @@ export const stickers = [
     price: '1200',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7635,7 +7635,7 @@ export const stickers = [
     price: '2300',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7647,7 +7647,7 @@ export const stickers = [
     price: '3400',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7659,7 +7659,7 @@ export const stickers = [
     price: '4500',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7671,7 +7671,7 @@ export const stickers = [
     price: '5600',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7683,7 +7683,7 @@ export const stickers = [
     price: '6700',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7695,7 +7695,7 @@ export const stickers = [
     price: '7800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7707,7 +7707,7 @@ export const stickers = [
     price: '8900',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7719,7 +7719,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7731,7 +7731,7 @@ export const stickers = [
     price: '9800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7743,7 +7743,7 @@ export const stickers = [
     price: '9800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7755,7 +7755,7 @@ export const stickers = [
     price: '9800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7767,7 +7767,7 @@ export const stickers = [
     price: '5930',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7779,7 +7779,7 @@ export const stickers = [
     price: '3920',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7791,7 +7791,7 @@ export const stickers = [
     price: '3620',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7803,7 +7803,7 @@ export const stickers = [
     price: '5930',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7815,7 +7815,7 @@ export const stickers = [
     price: '8800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7827,7 +7827,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7839,7 +7839,7 @@ export const stickers = [
     price: '5013',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7851,7 +7851,7 @@ export const stickers = [
     price: '5013',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7863,7 +7863,7 @@ export const stickers = [
     price: '10000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7875,7 +7875,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7887,7 +7887,7 @@ export const stickers = [
     price: '5800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7899,7 +7899,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7911,7 +7911,7 @@ export const stickers = [
     price: '22222',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7923,7 +7923,7 @@ export const stickers = [
     price: '30623',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7935,7 +7935,7 @@ export const stickers = [
     price: '12300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7947,7 +7947,7 @@ export const stickers = [
     price: '3800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7959,7 +7959,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7971,7 +7971,7 @@ export const stickers = [
     price: '28000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7983,7 +7983,7 @@ export const stickers = [
     price: '12300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -7995,7 +7995,7 @@ export const stickers = [
     price: '30303',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8007,7 +8007,7 @@ export const stickers = [
     price: '11000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8019,7 +8019,7 @@ export const stickers = [
     price: '12300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8031,7 +8031,7 @@ export const stickers = [
     price: '13300',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8043,7 +8043,7 @@ export const stickers = [
     price: '5800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8055,7 +8055,7 @@ export const stickers = [
     price: '4800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8067,7 +8067,7 @@ export const stickers = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8079,7 +8079,7 @@ export const stickers = [
     price: '8800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8091,7 +8091,7 @@ export const stickers = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8103,7 +8103,7 @@ export const stickers = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8115,7 +8115,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8127,7 +8127,7 @@ export const stickers = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8139,7 +8139,7 @@ export const stickers = [
     price: '5000',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8151,7 +8151,7 @@ export const stickers = [
     price: '8080',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8163,7 +8163,7 @@ export const stickers = [
     price: '76100',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8175,7 +8175,7 @@ export const stickers = [
     price: '19800',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8187,7 +8187,7 @@ export const stickers = [
     price: '5290',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8199,7 +8199,7 @@ export const stickers = [
     price: '26000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8211,7 +8211,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8223,7 +8223,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8235,7 +8235,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8247,7 +8247,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8259,7 +8259,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8271,7 +8271,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8283,7 +8283,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8295,7 +8295,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8307,7 +8307,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8319,7 +8319,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8331,7 +8331,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8343,7 +8343,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8355,7 +8355,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8367,7 +8367,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8379,7 +8379,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8391,7 +8391,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8403,7 +8403,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8415,7 +8415,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8427,7 +8427,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8439,7 +8439,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8451,7 +8451,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8463,7 +8463,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8475,7 +8475,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8487,7 +8487,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8499,7 +8499,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8511,7 +8511,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8523,7 +8523,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8535,7 +8535,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8547,7 +8547,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8559,7 +8559,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8571,7 +8571,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8583,7 +8583,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8595,7 +8595,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8607,7 +8607,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8619,7 +8619,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8631,7 +8631,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8643,7 +8643,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8655,7 +8655,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8667,7 +8667,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8679,7 +8679,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8691,7 +8691,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8703,7 +8703,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8715,7 +8715,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8727,7 +8727,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8739,7 +8739,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8751,7 +8751,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8763,7 +8763,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8775,7 +8775,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8787,7 +8787,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8799,7 +8799,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8811,7 +8811,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8823,7 +8823,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8835,7 +8835,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8847,7 +8847,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8859,7 +8859,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8871,7 +8871,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8883,7 +8883,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8895,7 +8895,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8907,7 +8907,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8919,7 +8919,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8931,7 +8931,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8943,7 +8943,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8955,7 +8955,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8967,7 +8967,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8979,7 +8979,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -8991,7 +8991,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9003,7 +9003,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9015,7 +9015,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9027,7 +9027,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9039,7 +9039,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9051,7 +9051,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9063,7 +9063,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9075,7 +9075,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9087,7 +9087,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9099,7 +9099,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9111,7 +9111,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9123,7 +9123,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9135,7 +9135,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9147,7 +9147,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9159,7 +9159,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9171,7 +9171,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9183,7 +9183,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9195,7 +9195,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9207,7 +9207,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9219,7 +9219,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9231,7 +9231,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9243,7 +9243,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9255,7 +9255,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9267,7 +9267,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9279,7 +9279,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9291,7 +9291,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9303,7 +9303,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9315,7 +9315,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9327,7 +9327,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9339,7 +9339,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9351,7 +9351,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9363,7 +9363,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9375,7 +9375,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9387,7 +9387,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9399,7 +9399,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9411,7 +9411,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9423,7 +9423,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9435,7 +9435,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9447,7 +9447,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9459,7 +9459,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9471,7 +9471,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9483,7 +9483,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9495,7 +9495,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9507,7 +9507,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9519,7 +9519,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9531,7 +9531,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9543,7 +9543,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9555,7 +9555,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9567,7 +9567,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9579,7 +9579,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9591,7 +9591,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9603,7 +9603,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9615,7 +9615,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9627,7 +9627,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9639,7 +9639,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9651,7 +9651,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9663,7 +9663,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9675,7 +9675,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9687,7 +9687,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9699,7 +9699,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9711,7 +9711,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9723,7 +9723,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9735,7 +9735,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9747,7 +9747,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9759,7 +9759,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9771,7 +9771,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9783,7 +9783,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9795,7 +9795,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9807,7 +9807,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9819,7 +9819,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9831,7 +9831,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9843,7 +9843,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9855,7 +9855,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9867,7 +9867,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9879,7 +9879,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9891,7 +9891,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9903,7 +9903,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9915,7 +9915,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9927,7 +9927,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9939,7 +9939,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9951,7 +9951,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9963,7 +9963,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9975,7 +9975,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9987,7 +9987,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -9999,7 +9999,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10011,7 +10011,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10023,7 +10023,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10035,7 +10035,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10047,7 +10047,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10059,7 +10059,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10071,7 +10071,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10083,7 +10083,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10095,7 +10095,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10107,7 +10107,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10119,7 +10119,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10131,7 +10131,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10143,7 +10143,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10155,7 +10155,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10167,7 +10167,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10179,7 +10179,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10191,7 +10191,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10203,7 +10203,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10215,7 +10215,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10227,7 +10227,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10239,7 +10239,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10251,7 +10251,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10263,7 +10263,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10275,7 +10275,7 @@ export const stickers = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10287,7 +10287,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10299,7 +10299,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10311,7 +10311,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10323,7 +10323,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10335,7 +10335,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10347,7 +10347,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10359,7 +10359,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10371,7 +10371,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10383,7 +10383,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10395,7 +10395,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10407,7 +10407,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10419,7 +10419,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10431,7 +10431,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10443,7 +10443,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10455,7 +10455,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10467,7 +10467,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10479,7 +10479,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10491,7 +10491,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10503,7 +10503,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10515,7 +10515,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10527,7 +10527,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10539,7 +10539,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10551,7 +10551,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10563,7 +10563,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10575,7 +10575,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10587,7 +10587,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10599,7 +10599,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10611,7 +10611,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10623,7 +10623,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10635,7 +10635,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -10647,7 +10647,7 @@ export const stickers = [
     price: '100000',
     rarity: '2',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
 ];
