@@ -36,6 +36,7 @@ export default function HomeScreen() {
 
   const { getObjectsTotalSpent, getObjectsTotalPossible } = useObjects();
   const { getGearsTotalSpent, getGearsTotalPossible } = useGears();
+
   const {
     getTotalFishScales: getTotalBannerScales,
     getOwnedFishScales: getOwnedBannerScales,
@@ -50,11 +51,12 @@ export default function HomeScreen() {
     getTotalFishScalesByType: getTotalGearScalesByType,
   } = useGears();
 
-  const totalScales =
-  getTotalBannerScales() + getTotalGearScales();
-
-  const ownedScales =
-    getOwnedBannerScales() + getOwnedGearScales();
+  const {
+    getTotalFishScales: getTotalObjectScales,
+    getOwnedFishScales: getOwnedObjectScales,
+    getOwnedFishScalesByType: getOwnedObjectScalesByType,
+    getTotalFishScalesByType: getTotalObjectScalesByType,
+  } = useObjects();
 
   const priceOwnedObjects = getObjectsTotalSpent();
   const priceTotalObjects = getObjectsTotalPossible();
@@ -62,32 +64,41 @@ export default function HomeScreen() {
   const priceOwnedGears = getGearsTotalSpent();
   const priceTotalGears = getGearsTotalPossible();
 
+  const totalScales = getTotalBannerScales() + getTotalGearScales() + getTotalObjectScales();
+  const ownedScales = getOwnedBannerScales() + getOwnedGearScales() + getOwnedObjectScales();
+
   const totalScalesByType = {
     Bronze:
       getTotalBannerScalesByType().Bronze +
-      getTotalGearScalesByType().Bronze,
+      getTotalGearScalesByType().Bronze +
+      getTotalObjectScalesByType().Bronze,
 
     Silver:
       getTotalBannerScalesByType().Silver +
-      getTotalGearScalesByType().Silver,
+      getTotalGearScalesByType().Silver +
+      getTotalObjectScalesByType().Silver,
 
     Gold:
       getTotalBannerScalesByType().Gold +
-      getTotalGearScalesByType().Gold,
+      getTotalGearScalesByType().Gold +
+      getTotalObjectScalesByType().Gold,
   };
 
   const ownedScalesByType = {
     Bronze:
       getOwnedBannerScalesByType().Bronze +
-      getOwnedGearScalesByType().Bronze,
+      getOwnedGearScalesByType().Bronze +
+      getOwnedObjectScalesByType().Bronze,
 
     Silver:
       getOwnedBannerScalesByType().Silver +
-      getOwnedGearScalesByType().Silver,
+      getOwnedGearScalesByType().Silver +
+      getOwnedObjectScalesByType().Silver,
 
     Gold:
       getOwnedBannerScalesByType().Gold +
-      getOwnedGearScalesByType().Gold,
+      getOwnedGearScalesByType().Gold +
+      getOwnedObjectScalesByType().Gold,
   };
 
 
