@@ -8,7 +8,7 @@ export const lockers = [
     price: '100',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -20,7 +20,7 @@ export const lockers = [
     price: '34646',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -32,7 +32,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -44,7 +44,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -56,7 +56,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -68,7 +68,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -80,7 +80,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -92,7 +92,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -104,7 +104,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -116,7 +116,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -128,7 +128,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -140,7 +140,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -152,7 +152,7 @@ export const lockers = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -164,7 +164,7 @@ export const lockers = [
     price: '31290',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -176,7 +176,7 @@ export const lockers = [
     price: '35640',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -188,7 +188,7 @@ export const lockers = [
     price: '37100',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
 ];

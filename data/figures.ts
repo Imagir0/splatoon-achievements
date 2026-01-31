@@ -8,7 +8,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -20,7 +20,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -32,7 +32,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -44,7 +44,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -56,7 +56,7 @@ export const figures = [
     price: '100100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -68,7 +68,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -80,7 +80,7 @@ export const figures = [
     price: '14800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -92,7 +92,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -104,7 +104,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -116,7 +116,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -128,7 +128,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -140,7 +140,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -152,7 +152,7 @@ export const figures = [
     price: '69390',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -164,7 +164,7 @@ export const figures = [
     price: '98000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -176,7 +176,7 @@ export const figures = [
     price: '98000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -188,7 +188,7 @@ export const figures = [
     price: '98000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -200,7 +200,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -212,7 +212,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -224,7 +224,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -236,7 +236,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -248,7 +248,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -260,7 +260,7 @@ export const figures = [
     price: '55555',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -272,7 +272,7 @@ export const figures = [
     price: '3000',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -284,7 +284,7 @@ export const figures = [
     price: '3000',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -296,7 +296,7 @@ export const figures = [
     price: '3000',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -308,7 +308,7 @@ export const figures = [
     price: '3000',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -320,7 +320,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -332,7 +332,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -344,7 +344,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -356,7 +356,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -368,7 +368,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -380,7 +380,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -392,7 +392,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -404,7 +404,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -416,7 +416,7 @@ export const figures = [
     price: '1117',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -428,7 +428,7 @@ export const figures = [
     price: '1280',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -440,7 +440,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -452,7 +452,7 @@ export const figures = [
     price: '600',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -464,7 +464,7 @@ export const figures = [
     price: '10000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -476,7 +476,7 @@ export const figures = [
     price: '300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -488,7 +488,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -500,7 +500,7 @@ export const figures = [
     price: '22222',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -512,7 +512,7 @@ export const figures = [
     price: '11111',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -524,7 +524,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -536,7 +536,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -548,7 +548,7 @@ export const figures = [
     price: '698',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -560,7 +560,7 @@ export const figures = [
     price: '698',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -572,7 +572,7 @@ export const figures = [
     price: '980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -584,7 +584,7 @@ export const figures = [
     price: '980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -596,7 +596,7 @@ export const figures = [
     price: '980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -608,7 +608,7 @@ export const figures = [
     price: '1980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -620,7 +620,7 @@ export const figures = [
     price: '1980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -632,7 +632,7 @@ export const figures = [
     price: '1980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -644,7 +644,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -656,7 +656,7 @@ export const figures = [
     price: '19999',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -668,7 +668,7 @@ export const figures = [
     price: '1300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -680,7 +680,7 @@ export const figures = [
     price: '1300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -692,7 +692,7 @@ export const figures = [
     price: '77777',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -704,7 +704,7 @@ export const figures = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -716,7 +716,7 @@ export const figures = [
     price: '6800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -728,7 +728,7 @@ export const figures = [
     price: '4000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -740,7 +740,7 @@ export const figures = [
     price: '4000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -752,7 +752,7 @@ export const figures = [
     price: '4000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -764,7 +764,7 @@ export const figures = [
     price: '85850',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -776,7 +776,7 @@ export const figures = [
     price: '2980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -788,7 +788,7 @@ export const figures = [
     price: '3800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -800,7 +800,7 @@ export const figures = [
     price: '5572',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -812,7 +812,7 @@ export const figures = [
     price: '9500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -824,7 +824,7 @@ export const figures = [
     price: '8888',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -836,7 +836,7 @@ export const figures = [
     price: '71104',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -848,7 +848,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -860,7 +860,7 @@ export const figures = [
     price: '980',
     rarity: '1',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -872,7 +872,7 @@ export const figures = [
     price: '49800',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -884,7 +884,7 @@ export const figures = [
     price: '8460',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -896,7 +896,7 @@ export const figures = [
     price: '1290',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -908,7 +908,7 @@ export const figures = [
     price: '1810',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -920,7 +920,7 @@ export const figures = [
     price: '1550',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -932,7 +932,7 @@ export const figures = [
     price: '1990',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -944,7 +944,7 @@ export const figures = [
     price: '1480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -956,7 +956,7 @@ export const figures = [
     price: '5460',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -968,7 +968,7 @@ export const figures = [
     price: '10500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -980,7 +980,7 @@ export const figures = [
     price: '10800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -992,7 +992,7 @@ export const figures = [
     price: '11000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1004,7 +1004,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1016,7 +1016,7 @@ export const figures = [
     price: '3800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1028,7 +1028,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 160\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1040,7 +1040,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1052,7 +1052,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1064,7 +1064,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1076,7 +1076,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1088,7 +1088,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1100,7 +1100,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1112,7 +1112,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1124,7 +1124,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1136,7 +1136,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1148,7 +1148,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1160,7 +1160,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 1',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 1',
     unlockLevel: '1',
   },
   {
@@ -1172,7 +1172,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1184,7 +1184,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1196,7 +1196,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 4',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 4',
     unlockLevel: '2',
   },
   {
@@ -1208,7 +1208,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 120\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 120\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1220,7 +1220,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 1',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 1',
     unlockLevel: '1',
   },
   {
@@ -1232,7 +1232,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 5',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 5',
     unlockLevel: '2',
   },
   {
@@ -1244,7 +1244,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1256,7 +1256,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1268,7 +1268,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1280,7 +1280,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1292,7 +1292,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1304,7 +1304,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 15',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 15',
     unlockLevel: '3',
   },
   {
@@ -1316,7 +1316,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1328,7 +1328,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1340,7 +1340,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1352,7 +1352,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1364,7 +1364,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 5\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1376,7 +1376,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 80\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 80\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1388,7 +1388,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 50\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1400,7 +1400,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 100',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 100',
     unlockLevel: '3',
   },
   {
@@ -1412,7 +1412,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 80\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1424,7 +1424,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1436,7 +1436,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1448,7 +1448,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1460,7 +1460,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1472,7 +1472,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1484,7 +1484,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 1',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 1',
     unlockLevel: '1',
   },
   {
@@ -1496,7 +1496,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 320\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -1508,7 +1508,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 15',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 15',
     unlockLevel: '3',
   },
   {
@@ -1520,7 +1520,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1532,7 +1532,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1544,7 +1544,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1556,7 +1556,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1568,7 +1568,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 120\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 120\nSilver: 0\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1580,7 +1580,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 20\nGold: 0',
     unlockLevel: '2',
   },
   {
@@ -1592,7 +1592,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1604,7 +1604,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1616,7 +1616,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1628,7 +1628,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1640,7 +1640,7 @@ export const figures = [
     price: '17800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1652,7 +1652,7 @@ export const figures = [
     price: '9999',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1664,7 +1664,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1676,7 +1676,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1688,7 +1688,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1700,7 +1700,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1712,7 +1712,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1724,7 +1724,7 @@ export const figures = [
     price: '1880',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1736,7 +1736,7 @@ export const figures = [
     price: '880',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1748,7 +1748,7 @@ export const figures = [
     price: '3333',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1760,7 +1760,7 @@ export const figures = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1772,7 +1772,7 @@ export const figures = [
     price: '19980',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1784,7 +1784,7 @@ export const figures = [
     price: '19980',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1796,7 +1796,7 @@ export const figures = [
     price: '19980',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1808,7 +1808,7 @@ export const figures = [
     price: '19980',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1820,7 +1820,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1832,7 +1832,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1844,7 +1844,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1856,7 +1856,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1868,7 +1868,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1880,7 +1880,7 @@ export const figures = [
     price: '7239',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1892,7 +1892,7 @@ export const figures = [
     price: '5800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1904,7 +1904,7 @@ export const figures = [
     price: '44444',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1916,7 +1916,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1928,7 +1928,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1940,7 +1940,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1952,7 +1952,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1964,7 +1964,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1976,7 +1976,7 @@ export const figures = [
     price: '158000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -1988,7 +1988,7 @@ export const figures = [
     price: '6980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2000,7 +2000,7 @@ export const figures = [
     price: '6890',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2012,7 +2012,7 @@ export const figures = [
     price: '6500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2024,7 +2024,7 @@ export const figures = [
     price: '34800',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2036,7 +2036,7 @@ export const figures = [
     price: '8900',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2048,7 +2048,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2060,7 +2060,7 @@ export const figures = [
     price: '5800',
     rarity: '1',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2072,7 +2072,7 @@ export const figures = [
     price: '10750',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2084,7 +2084,7 @@ export const figures = [
     price: '10750',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2096,7 +2096,7 @@ export const figures = [
     price: '10750',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2108,7 +2108,7 @@ export const figures = [
     price: '10750',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2120,7 +2120,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2132,7 +2132,7 @@ export const figures = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2144,7 +2144,7 @@ export const figures = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2156,7 +2156,7 @@ export const figures = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2168,7 +2168,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2180,7 +2180,7 @@ export const figures = [
     price: '800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2192,7 +2192,7 @@ export const figures = [
     price: '1000',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2204,7 +2204,7 @@ export const figures = [
     price: '500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2216,7 +2216,7 @@ export const figures = [
     price: '400',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2228,7 +2228,7 @@ export const figures = [
     price: '75800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2240,7 +2240,7 @@ export const figures = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2252,7 +2252,7 @@ export const figures = [
     price: '19800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2264,7 +2264,7 @@ export const figures = [
     price: '19800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2276,7 +2276,7 @@ export const figures = [
     price: '19800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2288,7 +2288,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2300,7 +2300,7 @@ export const figures = [
     price: '7800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2312,7 +2312,7 @@ export const figures = [
     price: '50505',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2324,7 +2324,7 @@ export const figures = [
     price: '50505',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2336,7 +2336,7 @@ export const figures = [
     price: '50205',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2348,7 +2348,7 @@ export const figures = [
     price: '12345',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2360,7 +2360,7 @@ export const figures = [
     price: '19600',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2372,7 +2372,7 @@ export const figures = [
     price: '2360',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2384,7 +2384,7 @@ export const figures = [
     price: '2360',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2396,7 +2396,7 @@ export const figures = [
     price: '2360',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2408,7 +2408,7 @@ export const figures = [
     price: '2360',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2420,7 +2420,7 @@ export const figures = [
     price: '2360',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2432,7 +2432,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2444,7 +2444,7 @@ export const figures = [
     price: '7590',
     rarity: '1',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2456,7 +2456,7 @@ export const figures = [
     price: '15000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2468,7 +2468,7 @@ export const figures = [
     price: '15000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2480,7 +2480,7 @@ export const figures = [
     price: '15000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2492,7 +2492,7 @@ export const figures = [
     price: '15000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2504,7 +2504,7 @@ export const figures = [
     price: '15000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2516,7 +2516,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2528,7 +2528,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2540,7 +2540,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2552,7 +2552,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '9',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2564,7 +2564,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '9',
-    fishScalePrice: 'Bronze: 999\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 999\nSilver: 0\nGold: 0',
     unlockLevel: '3',
   },
   {
@@ -2576,7 +2576,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2588,7 +2588,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2600,7 +2600,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2612,7 +2612,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2624,7 +2624,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2636,7 +2636,7 @@ export const figures = [
     price: '10101',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2648,7 +2648,7 @@ export const figures = [
     price: '1480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2660,7 +2660,7 @@ export const figures = [
     price: '1480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2672,7 +2672,7 @@ export const figures = [
     price: '1680',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2684,7 +2684,7 @@ export const figures = [
     price: '1680',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2696,7 +2696,7 @@ export const figures = [
     price: '1680',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2708,7 +2708,7 @@ export const figures = [
     price: '8311',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2720,7 +2720,7 @@ export const figures = [
     price: '8311',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2732,7 +2732,7 @@ export const figures = [
     price: '8311',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2744,7 +2744,7 @@ export const figures = [
     price: '8311',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2756,7 +2756,7 @@ export const figures = [
     price: '8311',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2768,7 +2768,7 @@ export const figures = [
     price: '2200',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2780,7 +2780,7 @@ export const figures = [
     price: '8800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2792,7 +2792,7 @@ export const figures = [
     price: '3300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2804,7 +2804,7 @@ export const figures = [
     price: '4800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2816,7 +2816,7 @@ export const figures = [
     price: '6800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2828,7 +2828,7 @@ export const figures = [
     price: '2300',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2840,7 +2840,7 @@ export const figures = [
     price: '9200',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2852,7 +2852,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2864,7 +2864,7 @@ export const figures = [
     price: '4480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2876,7 +2876,7 @@ export const figures = [
     price: '2980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2888,7 +2888,7 @@ export const figures = [
     price: '160900',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2900,7 +2900,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2912,7 +2912,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2924,7 +2924,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2936,7 +2936,7 @@ export const figures = [
     price: '13333',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2948,7 +2948,7 @@ export const figures = [
     price: '33303',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2960,7 +2960,7 @@ export const figures = [
     price: '33333',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2972,7 +2972,7 @@ export const figures = [
     price: '33330',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2984,7 +2984,7 @@ export const figures = [
     price: '33033',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -2996,7 +2996,7 @@ export const figures = [
     price: '30333',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3008,7 +3008,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3020,7 +3020,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3032,7 +3032,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3044,7 +3044,7 @@ export const figures = [
     price: '80000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3056,7 +3056,7 @@ export const figures = [
     price: '101010',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3068,7 +3068,7 @@ export const figures = [
     price: '10600',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3080,7 +3080,7 @@ export const figures = [
     price: '24400',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3092,7 +3092,7 @@ export const figures = [
     price: '24400',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3104,7 +3104,7 @@ export const figures = [
     price: '5050',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3116,7 +3116,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3128,7 +3128,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3140,7 +3140,7 @@ export const figures = [
     price: '13180',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3152,7 +3152,7 @@ export const figures = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3164,7 +3164,7 @@ export const figures = [
     price: '3000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3176,7 +3176,7 @@ export const figures = [
     price: '5000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3188,7 +3188,7 @@ export const figures = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3200,7 +3200,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3212,7 +3212,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3224,7 +3224,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3236,7 +3236,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3248,7 +3248,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3260,7 +3260,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3272,7 +3272,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3284,7 +3284,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3296,7 +3296,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3308,7 +3308,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3320,7 +3320,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3332,7 +3332,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3344,7 +3344,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3356,7 +3356,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3368,7 +3368,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3380,7 +3380,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3392,7 +3392,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3404,7 +3404,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3416,7 +3416,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3428,7 +3428,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3440,7 +3440,7 @@ export const figures = [
     price: '1010',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3452,7 +3452,7 @@ export const figures = [
     price: '8888',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3464,7 +3464,7 @@ export const figures = [
     price: '10000',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3476,7 +3476,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3488,7 +3488,7 @@ export const figures = [
     price: '13800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3500,7 +3500,7 @@ export const figures = [
     price: '125000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3512,7 +3512,7 @@ export const figures = [
     price: '4480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3524,7 +3524,7 @@ export const figures = [
     price: '3333',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3536,7 +3536,7 @@ export const figures = [
     price: '24800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3548,7 +3548,7 @@ export const figures = [
     price: '2980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3560,7 +3560,7 @@ export const figures = [
     price: '8131',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3572,7 +3572,7 @@ export const figures = [
     price: '24800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3584,7 +3584,7 @@ export const figures = [
     price: '13190',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3596,7 +3596,7 @@ export const figures = [
     price: '14800',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3608,7 +3608,7 @@ export const figures = [
     price: '6397',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3620,7 +3620,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3632,7 +3632,7 @@ export const figures = [
     price: '40000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3644,7 +3644,7 @@ export const figures = [
     price: '1111',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3656,7 +3656,7 @@ export const figures = [
     price: '1111',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3668,7 +3668,7 @@ export const figures = [
     price: '1111',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3680,7 +3680,7 @@ export const figures = [
     price: '1111',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3692,7 +3692,7 @@ export const figures = [
     price: '1111',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3704,7 +3704,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3716,7 +3716,7 @@ export const figures = [
     price: '5963',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3728,7 +3728,7 @@ export const figures = [
     price: '3980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3740,7 +3740,7 @@ export const figures = [
     price: '35150',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3752,7 +3752,7 @@ export const figures = [
     price: '5800',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3764,7 +3764,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3776,7 +3776,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3788,7 +3788,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3800,7 +3800,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3812,7 +3812,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3824,7 +3824,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3836,7 +3836,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3848,7 +3848,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3860,7 +3860,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3872,7 +3872,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3884,7 +3884,7 @@ export const figures = [
     price: '65000',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3896,7 +3896,7 @@ export const figures = [
     price: '7119',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3908,7 +3908,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3920,7 +3920,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3932,7 +3932,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3944,7 +3944,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3956,7 +3956,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3968,7 +3968,7 @@ export const figures = [
     price: '12500',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3980,7 +3980,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '4',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -3992,7 +3992,7 @@ export const figures = [
     price: '7890',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4004,7 +4004,7 @@ export const figures = [
     price: '4560',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4016,7 +4016,7 @@ export const figures = [
     price: '4560',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4028,7 +4028,7 @@ export const figures = [
     price: '4560',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4040,7 +4040,7 @@ export const figures = [
     price: '15000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4052,7 +4052,7 @@ export const figures = [
     price: '10000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4064,7 +4064,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4076,7 +4076,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4088,7 +4088,7 @@ export const figures = [
     price: '14890',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4100,7 +4100,7 @@ export const figures = [
     price: '32600',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4112,7 +4112,7 @@ export const figures = [
     price: '333333',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4124,7 +4124,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4136,7 +4136,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4148,7 +4148,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4160,7 +4160,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4172,7 +4172,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4184,7 +4184,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4196,7 +4196,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4208,7 +4208,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4220,7 +4220,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4232,7 +4232,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4244,7 +4244,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4256,7 +4256,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4268,7 +4268,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4280,7 +4280,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4292,7 +4292,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4304,7 +4304,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4316,7 +4316,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4328,7 +4328,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '-1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4340,7 +4340,7 @@ export const figures = [
     price: '75800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4352,7 +4352,7 @@ export const figures = [
     price: '39393',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4364,7 +4364,7 @@ export const figures = [
     price: '3800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4376,7 +4376,7 @@ export const figures = [
     price: '101010',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4388,7 +4388,7 @@ export const figures = [
     price: '1240',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4400,7 +4400,7 @@ export const figures = [
     price: '24800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4412,7 +4412,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4424,7 +4424,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4436,7 +4436,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4448,7 +4448,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4460,7 +4460,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4472,7 +4472,7 @@ export const figures = [
     price: '2480',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4484,7 +4484,7 @@ export const figures = [
     price: '19800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4496,7 +4496,7 @@ export const figures = [
     price: '46490',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4508,7 +4508,7 @@ export const figures = [
     price: '33800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4520,7 +4520,7 @@ export const figures = [
     price: '23800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4532,7 +4532,7 @@ export const figures = [
     price: '38000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4544,7 +4544,7 @@ export const figures = [
     price: '28000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4556,7 +4556,7 @@ export const figures = [
     price: '101010',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4568,7 +4568,7 @@ export const figures = [
     price: '88888',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4580,7 +4580,7 @@ export const figures = [
     price: '19800',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4592,7 +4592,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4604,7 +4604,7 @@ export const figures = [
     price: '48000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4616,7 +4616,7 @@ export const figures = [
     price: '35000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4628,7 +4628,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4640,7 +4640,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4652,7 +4652,7 @@ export const figures = [
     price: '8989',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4664,7 +4664,7 @@ export const figures = [
     price: '8989',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4676,7 +4676,7 @@ export const figures = [
     price: '8989',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4688,7 +4688,7 @@ export const figures = [
     price: '8989',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4700,7 +4700,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4712,7 +4712,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4724,7 +4724,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4736,7 +4736,7 @@ export const figures = [
     price: '2800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4748,7 +4748,7 @@ export const figures = [
     price: '80808',
     rarity: '2',
     season: '6',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4760,7 +4760,7 @@ export const figures = [
     price: '180300',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4772,7 +4772,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4784,7 +4784,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4796,7 +4796,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4808,7 +4808,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4820,7 +4820,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4832,7 +4832,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4844,7 +4844,7 @@ export const figures = [
     price: '9980',
     rarity: '1',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4856,7 +4856,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4868,7 +4868,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4880,7 +4880,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4892,7 +4892,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4904,7 +4904,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4916,7 +4916,7 @@ export const figures = [
     price: '7140',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4928,7 +4928,7 @@ export const figures = [
     price: '5800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4940,7 +4940,7 @@ export const figures = [
     price: '7980',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4952,7 +4952,7 @@ export const figures = [
     price: '7980',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4964,7 +4964,7 @@ export const figures = [
     price: '32100',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4976,7 +4976,7 @@ export const figures = [
     price: '33333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -4988,7 +4988,7 @@ export const figures = [
     price: '133333',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5000,7 +5000,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5012,7 +5012,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5024,7 +5024,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5036,7 +5036,7 @@ export const figures = [
     price: '4980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5048,7 +5048,7 @@ export const figures = [
     price: '9800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5060,7 +5060,7 @@ export const figures = [
     price: '9800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5072,7 +5072,7 @@ export const figures = [
     price: '6800',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5084,7 +5084,7 @@ export const figures = [
     price: '1280',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5096,7 +5096,7 @@ export const figures = [
     price: '1980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5108,7 +5108,7 @@ export const figures = [
     price: '498',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5120,7 +5120,7 @@ export const figures = [
     price: '10100',
     rarity: '2',
     season: '7',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5132,7 +5132,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5144,7 +5144,7 @@ export const figures = [
     price: '6980',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5156,7 +5156,7 @@ export const figures = [
     price: '5980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5168,7 +5168,7 @@ export const figures = [
     price: '6980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5180,7 +5180,7 @@ export const figures = [
     price: '5980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5192,7 +5192,7 @@ export const figures = [
     price: '5980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5204,7 +5204,7 @@ export const figures = [
     price: '5980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5216,7 +5216,7 @@ export const figures = [
     price: '6980',
     rarity: '1',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5228,7 +5228,7 @@ export const figures = [
     price: '10101',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5240,7 +5240,7 @@ export const figures = [
     price: '39390',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5252,7 +5252,7 @@ export const figures = [
     price: '8888',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5264,7 +5264,7 @@ export const figures = [
     price: '9800',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5276,7 +5276,7 @@ export const figures = [
     price: '6000',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5288,7 +5288,7 @@ export const figures = [
     price: '20000',
     rarity: '2',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5300,7 +5300,7 @@ export const figures = [
     price: '49106',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5312,7 +5312,7 @@ export const figures = [
     price: '42195',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5324,7 +5324,7 @@ export const figures = [
     price: '100000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5336,7 +5336,7 @@ export const figures = [
     price: '30000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5348,7 +5348,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5360,7 +5360,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5372,7 +5372,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5384,7 +5384,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5396,7 +5396,7 @@ export const figures = [
     price: '1800',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5408,7 +5408,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '0',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5420,7 +5420,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 15',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 15',
     unlockLevel: '3',
   },
   {
@@ -5432,7 +5432,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '8',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5444,7 +5444,7 @@ export const figures = [
     price: '15800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5456,7 +5456,7 @@ export const figures = [
     price: '15800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5468,7 +5468,7 @@ export const figures = [
     price: '15800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5480,7 +5480,7 @@ export const figures = [
     price: '5500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5492,7 +5492,7 @@ export const figures = [
     price: '4500',
     rarity: '1',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5504,7 +5504,7 @@ export const figures = [
     price: '5800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5516,7 +5516,7 @@ export const figures = [
     price: '9800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5528,7 +5528,7 @@ export const figures = [
     price: '9080',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5540,7 +5540,7 @@ export const figures = [
     price: '9500',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5552,7 +5552,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '2',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5564,7 +5564,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5576,7 +5576,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5588,7 +5588,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5600,7 +5600,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5612,7 +5612,7 @@ export const figures = [
     price: '21000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5624,7 +5624,7 @@ export const figures = [
     price: '93800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5636,7 +5636,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5648,7 +5648,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5660,7 +5660,7 @@ export const figures = [
     price: '25000',
     rarity: '2',
     season: '5',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5672,7 +5672,7 @@ export const figures = [
     price: '29800',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5684,7 +5684,7 @@ export const figures = [
     price: '89600',
     rarity: '2',
     season: '1',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
   {
@@ -5696,7 +5696,7 @@ export const figures = [
     price: '0',
     rarity: '1',
     season: '3',
-    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold 0',
+    fishScalePrice: 'Bronze: 0\nSilver: 0\nGold: 0',
     unlockLevel: '1',
   },
 ];

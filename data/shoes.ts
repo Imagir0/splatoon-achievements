@@ -14,7 +14,7 @@ export const shoes = [
     price: '300',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -32,7 +32,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -50,7 +50,7 @@ export const shoes = [
     price: '400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -68,7 +68,7 @@ export const shoes = [
     price: '8000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -86,7 +86,7 @@ export const shoes = [
     price: '600',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -104,7 +104,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -122,7 +122,7 @@ export const shoes = [
     price: '2000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -140,7 +140,7 @@ export const shoes = [
     price: '500',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -158,7 +158,7 @@ export const shoes = [
     price: '1500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -176,7 +176,7 @@ export const shoes = [
     price: '8700',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -194,7 +194,7 @@ export const shoes = [
     price: '1400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -212,7 +212,7 @@ export const shoes = [
     price: '9600',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -230,7 +230,7 @@ export const shoes = [
     price: '7500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -248,7 +248,7 @@ export const shoes = [
     price: '3200',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -266,7 +266,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -284,7 +284,7 @@ export const shoes = [
     price: '1300',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -302,7 +302,7 @@ export const shoes = [
     price: '1800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -320,7 +320,7 @@ export const shoes = [
     price: '1400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -338,7 +338,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -356,7 +356,7 @@ export const shoes = [
     price: '4200',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -374,7 +374,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -392,7 +392,7 @@ export const shoes = [
     price: '10500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -410,7 +410,7 @@ export const shoes = [
     price: '10500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -428,7 +428,7 @@ export const shoes = [
     price: '8200',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -446,7 +446,7 @@ export const shoes = [
     price: '11500',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -464,7 +464,7 @@ export const shoes = [
     price: '8200',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -482,7 +482,7 @@ export const shoes = [
     price: '11260',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -500,7 +500,7 @@ export const shoes = [
     price: '8200',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -518,7 +518,7 @@ export const shoes = [
     price: '8200',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -536,7 +536,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -554,7 +554,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -572,7 +572,7 @@ export const shoes = [
     price: '500',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -590,7 +590,7 @@ export const shoes = [
     price: '1000',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -608,7 +608,7 @@ export const shoes = [
     price: '500',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -626,7 +626,7 @@ export const shoes = [
     price: '1800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -644,7 +644,7 @@ export const shoes = [
     price: '7000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -662,7 +662,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -680,7 +680,7 @@ export const shoes = [
     price: '2400',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -698,7 +698,7 @@ export const shoes = [
     price: '1700',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -716,7 +716,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -734,7 +734,7 @@ export const shoes = [
     price: '1500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -752,7 +752,7 @@ export const shoes = [
     price: '9400',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -770,7 +770,7 @@ export const shoes = [
     price: '3800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -788,7 +788,7 @@ export const shoes = [
     price: '9800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -806,7 +806,7 @@ export const shoes = [
     price: '3800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -824,7 +824,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -842,7 +842,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -860,7 +860,7 @@ export const shoes = [
     price: '8500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -878,7 +878,7 @@ export const shoes = [
     price: '2800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -896,7 +896,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -914,7 +914,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -932,7 +932,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -950,7 +950,7 @@ export const shoes = [
     price: '12800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -968,7 +968,7 @@ export const shoes = [
     price: '5800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -986,7 +986,7 @@ export const shoes = [
     price: '13000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1004,7 +1004,7 @@ export const shoes = [
     price: '3600',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1022,7 +1022,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1040,7 +1040,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1058,7 +1058,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1076,7 +1076,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1094,7 +1094,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1112,7 +1112,7 @@ export const shoes = [
     price: '5880',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1130,7 +1130,7 @@ export const shoes = [
     price: '4880',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1148,7 +1148,7 @@ export const shoes = [
     price: '9880',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1166,7 +1166,7 @@ export const shoes = [
     price: '3260',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1184,7 +1184,7 @@ export const shoes = [
     price: '12800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1202,7 +1202,7 @@ export const shoes = [
     price: '2780',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1220,7 +1220,7 @@ export const shoes = [
     price: '1350',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1238,7 +1238,7 @@ export const shoes = [
     price: '899',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1256,7 +1256,7 @@ export const shoes = [
     price: '2900',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1274,7 +1274,7 @@ export const shoes = [
     price: '7980',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -1292,7 +1292,7 @@ export const shoes = [
     price: '8800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1310,7 +1310,7 @@ export const shoes = [
     price: '4200',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -1328,7 +1328,7 @@ export const shoes = [
     price: '8800',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1346,7 +1346,7 @@ export const shoes = [
     price: '9500',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1364,7 +1364,7 @@ export const shoes = [
     price: '10200',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -1382,7 +1382,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -1400,7 +1400,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -1418,7 +1418,7 @@ export const shoes = [
     price: '8880',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -1436,7 +1436,7 @@ export const shoes = [
     price: '8500',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1454,7 +1454,7 @@ export const shoes = [
     price: '500',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -1472,7 +1472,7 @@ export const shoes = [
     price: '1100',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1490,7 +1490,7 @@ export const shoes = [
     price: '700',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -1508,7 +1508,7 @@ export const shoes = [
     price: '2500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1526,7 +1526,7 @@ export const shoes = [
     price: '700',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1544,7 +1544,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1562,7 +1562,7 @@ export const shoes = [
     price: '8000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1580,7 +1580,7 @@ export const shoes = [
     price: '1800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1598,7 +1598,7 @@ export const shoes = [
     price: '4500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1616,7 +1616,7 @@ export const shoes = [
     price: '500',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -1634,7 +1634,7 @@ export const shoes = [
     price: '1000',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1652,7 +1652,7 @@ export const shoes = [
     price: '900',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1670,7 +1670,7 @@ export const shoes = [
     price: '1300',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1688,7 +1688,7 @@ export const shoes = [
     price: '10000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1706,7 +1706,7 @@ export const shoes = [
     price: '1700',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1724,7 +1724,7 @@ export const shoes = [
     price: '3900',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1742,7 +1742,7 @@ export const shoes = [
     price: '4900',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1760,7 +1760,7 @@ export const shoes = [
     price: '8900',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1778,7 +1778,7 @@ export const shoes = [
     price: '3260',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1796,7 +1796,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1814,7 +1814,7 @@ export const shoes = [
     price: '2200',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1832,7 +1832,7 @@ export const shoes = [
     price: '1300',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -1850,7 +1850,7 @@ export const shoes = [
     price: '2200',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1868,7 +1868,7 @@ export const shoes = [
     price: '2600',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1886,7 +1886,7 @@ export const shoes = [
     price: '7980',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1904,7 +1904,7 @@ export const shoes = [
     price: '2800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -1922,7 +1922,7 @@ export const shoes = [
     price: '4120',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -1940,7 +1940,7 @@ export const shoes = [
     price: '2600',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '6',
   },
   {
@@ -1958,7 +1958,7 @@ export const shoes = [
     price: '4100',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -1976,7 +1976,7 @@ export const shoes = [
     price: '4000',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '8',
   },
   {
@@ -1994,7 +1994,7 @@ export const shoes = [
     price: '1300',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2012,7 +2012,7 @@ export const shoes = [
     price: '1300',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '8',
   },
   {
@@ -2030,7 +2030,7 @@ export const shoes = [
     price: '600',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2048,7 +2048,7 @@ export const shoes = [
     price: '1800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2066,7 +2066,7 @@ export const shoes = [
     price: '700',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2084,7 +2084,7 @@ export const shoes = [
     price: '2000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2102,7 +2102,7 @@ export const shoes = [
     price: '4800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2120,7 +2120,7 @@ export const shoes = [
     price: '300',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2138,7 +2138,7 @@ export const shoes = [
     price: '8800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2156,7 +2156,7 @@ export const shoes = [
     price: '5000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2174,7 +2174,7 @@ export const shoes = [
     price: '2880',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2192,7 +2192,7 @@ export const shoes = [
     price: '2880',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2210,7 +2210,7 @@ export const shoes = [
     price: '280',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2228,7 +2228,7 @@ export const shoes = [
     price: '850',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -2246,7 +2246,7 @@ export const shoes = [
     price: '980',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2264,7 +2264,7 @@ export const shoes = [
     price: '400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2282,7 +2282,7 @@ export const shoes = [
     price: '650',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2300,7 +2300,7 @@ export const shoes = [
     price: '3180',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -2318,7 +2318,7 @@ export const shoes = [
     price: '890',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -2336,7 +2336,7 @@ export const shoes = [
     price: '280',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -2354,7 +2354,7 @@ export const shoes = [
     price: '650',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2372,7 +2372,7 @@ export const shoes = [
     price: '650',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2390,7 +2390,7 @@ export const shoes = [
     price: '720',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2408,7 +2408,7 @@ export const shoes = [
     price: '940',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2426,7 +2426,7 @@ export const shoes = [
     price: '830',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2444,7 +2444,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2462,7 +2462,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '8',
   },
   {
@@ -2480,7 +2480,7 @@ export const shoes = [
     price: '1050',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '8',
   },
   {
@@ -2498,7 +2498,7 @@ export const shoes = [
     price: '7500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2516,7 +2516,7 @@ export const shoes = [
     price: '3000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2534,7 +2534,7 @@ export const shoes = [
     price: '9800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -2552,7 +2552,7 @@ export const shoes = [
     price: '3800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2570,7 +2570,7 @@ export const shoes = [
     price: '3000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2588,7 +2588,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2606,7 +2606,7 @@ export const shoes = [
     price: '10800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2624,7 +2624,7 @@ export const shoes = [
     price: '1600',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2642,7 +2642,7 @@ export const shoes = [
     price: '600',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2660,7 +2660,7 @@ export const shoes = [
     price: '3800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2678,7 +2678,7 @@ export const shoes = [
     price: '9000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2696,7 +2696,7 @@ export const shoes = [
     price: '3000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2714,7 +2714,7 @@ export const shoes = [
     price: '450',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -2732,7 +2732,7 @@ export const shoes = [
     price: '8000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2750,7 +2750,7 @@ export const shoes = [
     price: '8200',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -2768,7 +2768,7 @@ export const shoes = [
     price: '11500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2786,7 +2786,7 @@ export const shoes = [
     price: '8800',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2804,7 +2804,7 @@ export const shoes = [
     price: '12000',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2822,7 +2822,7 @@ export const shoes = [
     price: '9696',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2840,7 +2840,7 @@ export const shoes = [
     price: '5000',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2858,7 +2858,7 @@ export const shoes = [
     price: '11500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -2876,7 +2876,7 @@ export const shoes = [
     price: '12000',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -2894,7 +2894,7 @@ export const shoes = [
     price: '4800',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -2912,7 +2912,7 @@ export const shoes = [
     price: '9200',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -2930,7 +2930,7 @@ export const shoes = [
     price: '9200',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -2948,7 +2948,7 @@ export const shoes = [
     price: '10999',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -2966,7 +2966,7 @@ export const shoes = [
     price: '9500',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '4',
   },
   {
@@ -2984,7 +2984,7 @@ export const shoes = [
     price: '3600',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -3002,7 +3002,7 @@ export const shoes = [
     price: '3600',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3020,7 +3020,7 @@ export const shoes = [
     price: '9500',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3038,7 +3038,7 @@ export const shoes = [
     price: '12000',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -3056,7 +3056,7 @@ export const shoes = [
     price: '9200',
     rarity: '2',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '6',
   },
   {
@@ -3074,7 +3074,7 @@ export const shoes = [
     price: '3600',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '6',
   },
   {
@@ -3092,7 +3092,7 @@ export const shoes = [
     price: '400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3110,7 +3110,7 @@ export const shoes = [
     price: '300',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3128,7 +3128,7 @@ export const shoes = [
     price: '1500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -3146,7 +3146,7 @@ export const shoes = [
     price: '1500',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3164,7 +3164,7 @@ export const shoes = [
     price: '4200',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3182,7 +3182,7 @@ export const shoes = [
     price: '1400',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3200,7 +3200,7 @@ export const shoes = [
     price: '2400',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3218,7 +3218,7 @@ export const shoes = [
     price: '2800',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3236,7 +3236,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3254,7 +3254,7 @@ export const shoes = [
     price: '1200',
     rarity: '0',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '3',
   },
   {
@@ -3272,7 +3272,7 @@ export const shoes = [
     price: '9500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3290,7 +3290,7 @@ export const shoes = [
     price: '8600',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3308,7 +3308,7 @@ export const shoes = [
     price: '4600',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3326,7 +3326,7 @@ export const shoes = [
     price: '4600',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3344,7 +3344,7 @@ export const shoes = [
     price: '10500',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3362,7 +3362,7 @@ export const shoes = [
     price: '8880',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -3380,7 +3380,7 @@ export const shoes = [
     price: '9990',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -3398,7 +3398,7 @@ export const shoes = [
     price: '10200',
     rarity: '2',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -3416,7 +3416,7 @@ export const shoes = [
     price: '2200',
     rarity: '1',
     howToGet: 'Shop',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -3434,7 +3434,7 @@ export const shoes = [
     price: '2200',
     rarity: '0',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '6',
   },
   {
@@ -3452,7 +3452,7 @@ export const shoes = [
     price: '5500',
     rarity: '1',
     howToGet: 'Catalog',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '8',
   },
   {
@@ -3470,7 +3470,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 0\nSilver: 15\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 15\nGold: 0',
     season: '3',
   },
   {
@@ -3488,7 +3488,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 0\nSilver: 15\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 15\nGold: 0',
     season: '5',
   },
   {
@@ -3506,7 +3506,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 800\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 800\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3524,7 +3524,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 5',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 5',
     season: '8',
   },
   {
@@ -3542,7 +3542,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 300\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 300\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -3560,7 +3560,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Uroko',
-    uroko: 'Bronze: 0\nSilver: 15\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 15\nGold: 0',
     season: '8',
   },
   {
@@ -3578,7 +3578,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '6',
   },
   {
@@ -3596,7 +3596,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '5',
   },
   {
@@ -3614,7 +3614,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3632,7 +3632,7 @@ export const shoes = [
     price: '8021',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3650,7 +3650,7 @@ export const shoes = [
     price: '12000',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3668,7 +3668,7 @@ export const shoes = [
     price: '9800',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3686,7 +3686,7 @@ export const shoes = [
     price: '10340',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3704,7 +3704,7 @@ export const shoes = [
     price: '8018',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3722,7 +3722,7 @@ export const shoes = [
     price: '11000',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3740,7 +3740,7 @@ export const shoes = [
     price: '9600',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3758,7 +3758,7 @@ export const shoes = [
     price: '10140',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -3776,7 +3776,7 @@ export const shoes = [
     price: '8500',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3794,7 +3794,7 @@ export const shoes = [
     price: '8500',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3812,7 +3812,7 @@ export const shoes = [
     price: '8500',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3830,7 +3830,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3848,7 +3848,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3866,7 +3866,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3884,7 +3884,7 @@ export const shoes = [
     price: '10000',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3902,7 +3902,7 @@ export const shoes = [
     price: '800',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3920,7 +3920,7 @@ export const shoes = [
     price: '3500',
     rarity: '0',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -3938,7 +3938,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -3956,7 +3956,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -3974,7 +3974,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -3992,7 +3992,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4010,7 +4010,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4028,7 +4028,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4046,7 +4046,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4064,7 +4064,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4082,7 +4082,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4100,7 +4100,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4118,7 +4118,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4136,7 +4136,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4154,7 +4154,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4172,7 +4172,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4190,7 +4190,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4208,7 +4208,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4226,7 +4226,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4244,7 +4244,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4262,7 +4262,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4280,7 +4280,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4298,7 +4298,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4316,7 +4316,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4334,7 +4334,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '1',
   },
   {
@@ -4352,7 +4352,7 @@ export const shoes = [
     price: '0',
     rarity: '2',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '0',
   },
   {
@@ -4370,7 +4370,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4388,7 +4388,7 @@ export const shoes = [
     price: '0',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
   {
@@ -4406,7 +4406,7 @@ export const shoes = [
     price: '5880',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '2',
   },
   {
@@ -4424,7 +4424,7 @@ export const shoes = [
     price: '5880',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '7',
   },
   {
@@ -4442,7 +4442,7 @@ export const shoes = [
     price: '899',
     rarity: '1',
     howToGet: 'Other',
-    uroko: 'Bronze: 0\nSilver: 0\nGold 0',
+    uroko: 'Bronze: 0\nSilver: 0\nGold: 0',
     season: '-1',
   },
 ];

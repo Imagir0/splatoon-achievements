@@ -37,11 +37,69 @@ export default function HomeScreen() {
   const { getObjectsTotalSpent, getObjectsTotalPossible } = useObjects();
   const { getGearsTotalSpent, getGearsTotalPossible } = useGears();
 
+  const {
+    getTotalFishScales: getTotalBannerScales,
+    getOwnedFishScales: getOwnedBannerScales,
+    getOwnedFishScalesByType: getOwnedBannerScalesByType,
+    getTotalFishScalesByType: getTotalBannerScalesByType,
+  } = useBanners();
+
+  const {
+    getTotalFishScales: getTotalGearScales,
+    getOwnedFishScales: getOwnedGearScales,
+    getOwnedFishScalesByType: getOwnedGearScalesByType,
+    getTotalFishScalesByType: getTotalGearScalesByType,
+  } = useGears();
+
+  const {
+    getTotalFishScales: getTotalObjectScales,
+    getOwnedFishScales: getOwnedObjectScales,
+    getOwnedFishScalesByType: getOwnedObjectScalesByType,
+    getTotalFishScalesByType: getTotalObjectScalesByType,
+  } = useObjects();
+
   const priceOwnedObjects = getObjectsTotalSpent();
   const priceTotalObjects = getObjectsTotalPossible();
 
   const priceOwnedGears = getGearsTotalSpent();
   const priceTotalGears = getGearsTotalPossible();
+
+  const totalScales = getTotalBannerScales() + getTotalGearScales() + getTotalObjectScales();
+  const ownedScales = getOwnedBannerScales() + getOwnedGearScales() + getOwnedObjectScales();
+
+  const totalScalesByType = {
+    Bronze:
+      getTotalBannerScalesByType().Bronze +
+      getTotalGearScalesByType().Bronze +
+      getTotalObjectScalesByType().Bronze,
+
+    Silver:
+      getTotalBannerScalesByType().Silver +
+      getTotalGearScalesByType().Silver +
+      getTotalObjectScalesByType().Silver,
+
+    Gold:
+      getTotalBannerScalesByType().Gold +
+      getTotalGearScalesByType().Gold +
+      getTotalObjectScalesByType().Gold,
+  };
+
+  const ownedScalesByType = {
+    Bronze:
+      getOwnedBannerScalesByType().Bronze +
+      getOwnedGearScalesByType().Bronze +
+      getOwnedObjectScalesByType().Bronze,
+
+    Silver:
+      getOwnedBannerScalesByType().Silver +
+      getOwnedGearScalesByType().Silver +
+      getOwnedObjectScalesByType().Silver,
+
+    Gold:
+      getOwnedBannerScalesByType().Gold +
+      getOwnedGearScalesByType().Gold +
+      getOwnedObjectScalesByType().Gold,
+  };
 
 
   return (
@@ -92,7 +150,7 @@ export default function HomeScreen() {
         {[
           ['Objets', priceOwnedObjects, priceTotalObjects],
           ['Équipements', priceOwnedGears, priceTotalGears],
-          /*['Salmon Run', priceOwnedSalmon, priceTotalSalmon],*/
+          ['Écailles', ownedScales, totalScales],
         ].map(([label, owned, total]) => (
           <Pressable
             key={label}
@@ -104,15 +162,28 @@ export default function HomeScreen() {
               },
             ]}
           >
-            <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
-              {label}
-            </Text>
-            <Text style={[styles.counter, { color: theme.colors.primary }]}>
-              {owned.toLocaleString()} / {total.toLocaleString()}
-            </Text>
+                <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+                  {label}
+                </Text>
+
+            {label != 'Écailles' && (
+              <View>
+                <Text style={[styles.counter, { color: theme.colors.primary }]}>
+                  {owned.toLocaleString()} / {total.toLocaleString()}
+                </Text>
+              </View>
+            )}
+            {label === 'Écailles' && (
+              <Text style={[styles.counter, { color: theme.colors.primary }]}>
+                🟤 {ownedScalesByType.Bronze}/{totalScalesByType.Bronze}{'\n'}
+                ⚪ {ownedScalesByType.Silver}/{totalScalesByType.Silver}{'\n'}
+                🟡 {ownedScalesByType.Gold}/{totalScalesByType.Gold}
+              </Text>
+            )}
           </Pressable>
         ))}
       </View>
+
     </ScrollView>
   );
 }

@@ -35,7 +35,7 @@ export default function StickersCategoryScreen() {
     if (!filterFn) return [];
 
     return OBJECTS_DATA.stickers
-      .map(s => ({ ...s, category: 'stickers' as const }))
+      .map(f => ({ ...f, category: 'stickers' as const, price: Number(f.price ?? 0) }))
       .filter(
         sticker =>
           filterFn(sticker) &&
@@ -187,18 +187,11 @@ export default function StickersCategoryScreen() {
                         </Text>
                       )}
                     </View>
-
+ 
                     {stickersCategory === 'salmon' && (
-                      <View style={styles.fishScalePrice}>
-                        <Text
-                          style={[
-                            styles.price,
-                            { color: theme.colors.textMuted },
-                          ]}
-                        >
-                          {item.fishScalePrice}
-                        </Text>
-                      </View>
+                      <Text style={[styles.meta, { color: theme.colors.text }]}>
+                        {item.fishScalePrice}
+                      </Text>
                     )}
 
                     <View style={styles.slideCount}>
@@ -285,11 +278,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '500',
   },
-  fishScalePrice: {
-    width: 80,
-  },
   tableturf: {
     width: 100,
+  },
+  meta: {
+    fontSize: 14,
+    fontWeight: '500',
+    width: 90,
   },
   checkbox: {
     width: 32,

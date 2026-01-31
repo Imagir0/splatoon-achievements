@@ -1,4 +1,5 @@
 import { allGears } from '@/data/allGears';
+import { parseFishScalePrice } from '@/utils/fishScale';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
@@ -9,6 +10,12 @@ type SelectedGears = {
   [key in GearKey]?: boolean;
 };
 
+export type FishScaleCount = {
+  Bronze: number;
+  Silver: number;
+  Gold: number;
+};
+
 type GearsContextType = {
   selectedGears: SelectedGears;
   toggleGear: (type: GearType, id: number) => void;
@@ -16,6 +23,10 @@ type GearsContextType = {
   getOwnedGears: (type?: GearType) => typeof allGears;
   getGearsTotalSpent: (type?: GearType) => number;
   getGearsTotalPossible: (type?: GearType) => number;
+  getTotalFishScales: () => number;
+  getOwnedFishScales: () => number;
+  getTotalFishScalesByType: () => FishScaleCount;
+  getOwnedFishScalesByType: () => FishScaleCount;
   isLoading: boolean;
 };
 
@@ -94,6 +105,55 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
     }, 0);
   };
 
+  const getTotalFishScales = (): number => {
+    return allGears.reduce((sum, gear) => {
+      if (!gear.fishScalePrice) return sum;
+      const scales = parseFishScalePrice(gear.fishScalePrice);
+      return sum + scales.Bronze + scales.Silver + scales.Gold;
+    }, 0);
+  };
+
+  const getOwnedFishScales = (): number => {
+    return allGears.reduce((sum, gear) => {
+      const key: GearKey = `${gear.type}-${gear.id}`;
+      if (!selectedGears[key] || !gear.fishScalePrice) return sum;
+
+      const scales = parseFishScalePrice(gear.fishScalePrice);
+      return sum + scales.Bronze + scales.Silver + scales.Gold;
+    }, 0);
+  };
+
+  const getTotalFishScalesByType = (): FishScaleCount => {
+    return allGears.reduce(
+      (acc, gear) => {
+        if (!gear.fishScalePrice) return acc;
+
+        const scales = parseFishScalePrice(gear.fishScalePrice);
+        acc.Bronze += scales.Bronze;
+        acc.Silver += scales.Silver;
+        acc.Gold += scales.Gold;
+        return acc;
+      },
+      { Bronze: 0, Silver: 0, Gold: 0 }
+    );
+  };
+
+  const getOwnedFishScalesByType = (): FishScaleCount => {
+    return allGears.reduce(
+      (acc, gear) => {
+        const key: GearKey = `${gear.type}-${gear.id}`;
+        if (!selectedGears[key] || !gear.fishScalePrice) return acc;
+
+        const scales = parseFishScalePrice(gear.fishScalePrice);
+        acc.Bronze += scales.Bronze;
+        acc.Silver += scales.Silver;
+        acc.Gold += scales.Gold;
+        return acc;
+      },
+      { Bronze: 0, Silver: 0, Gold: 0 }
+    );
+  };
+
   return (
     <GearsContext.Provider
       value={{
@@ -103,6 +163,10 @@ export const GearsProvider = ({ children }: { children: React.ReactNode }) => {
         getOwnedGears,
         getGearsTotalSpent,
         getGearsTotalPossible,
+        getTotalFishScales,
+        getOwnedFishScales,
+        getTotalFishScalesByType,
+        getOwnedFishScalesByType,
         isLoading,
       }}
     >
