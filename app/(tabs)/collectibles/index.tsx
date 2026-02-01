@@ -1,8 +1,17 @@
-import { Stack } from 'expo-router';
-import React, { useState } from 'react';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import CollectiblesTabBar from '@/components/CollectiblesTabBar';
+
+type Tab =
+  | 'badges'
+  | 'banners'
+  | 'gears'
+  | 'objects'
+  | 'salmon'
+  | 'tableturf'
+  | 'weapons';
 
 import BadgesScreen from './badges';
 import BannersScreen from './banners';
@@ -13,9 +22,17 @@ import TableturfScreen from './tableturf';
 import WeaponsScreen from './weapons';
 
 export default function CollectiblesScreen() {
-  const [activeTab, setActiveTab] = useState<
-    'badges' | 'banners' | 'gears' | 'objects' | 'salmon' | 'tableturf' | 'weapons'
-  >('badges');
+  const { tab } = useLocalSearchParams<{ tab?: Tab }>();
+
+  const [activeTab, setActiveTab] = useState<Tab>(
+    tab ?? 'badges'
+  );
+
+  useEffect(() => {
+    if (tab) {
+      setActiveTab(tab);
+    }
+  }, [tab]);
 
   const renderActiveTab = () => {
     switch (activeTab) {

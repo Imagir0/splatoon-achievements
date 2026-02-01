@@ -13,10 +13,12 @@ import { banners } from '@/data/banners';
 import { salmonSkins } from '@/data/salmonSkins';
 import { tableTurf } from '@/data/tableTurf';
 import { weapons } from '@/data/weapons';
+import { useRouter } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   const { theme } = useTheme();
+  const router = useRouter();
 
   const { selectedBadges } = useBadges();
   const { selectedBanners } = useBanners();
@@ -101,6 +103,15 @@ export default function HomeScreen() {
       getOwnedObjectScalesByType().Gold,
   };
 
+  const homeCategories = [
+    { label: 'Badges', key: 'badges', owned: ownedBadgesCount, total: badges.length },
+    { label: 'Splatiquettes', key: 'banners', owned: ownedBannersCount, total: banners.length },
+    { label: 'Objets', key: 'objects', owned: ownedObjectsCount, total: allObjects.length },
+    { label: 'Armes', key: 'weapons', owned: ownedWeaponsCount, total: weapons.length },
+    { label: 'Équipements', key: 'gears', owned: ownedGearsCount, total: allGears.length },
+    { label: 'Salmon Run', key: 'salmon', owned: ownedSalmonSkinsCount, total: salmonSkins.length },
+    { label: 'Cartes & Territoire', key: 'tableturf', owned: ownedTableTurfCount, total: tableTurf.length },
+  ];
 
   return (
     <ScrollView
@@ -114,17 +125,15 @@ export default function HomeScreen() {
       </Text>
 
       <View style={styles.grid}>
-        {[
-          ['Badges', ownedBadgesCount, badges.length],
-          ['Splatiquettes', ownedBannersCount, banners.length],
-          ['Objets', ownedObjectsCount, allObjects.length],
-          ['Armes', ownedWeaponsCount, weapons.length],
-          ['Équipements', ownedGearsCount, allGears.length],
-          ['Salmon Run', ownedSalmonSkinsCount, salmonSkins.length],
-          ['Cartes & Territoire', ownedTableTurfCount, tableTurf.length],
-        ].map(([label, owned, total]) => (
+        {homeCategories.map(({ label, key, owned, total }) => (
           <Pressable
-            key={label}
+            key={key}
+            onPress={() =>
+              router.push({
+                pathname: '/collectibles',
+                params: { tab: key },
+              })
+            }
             style={[
               styles.card,
               {
