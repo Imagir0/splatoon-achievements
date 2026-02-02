@@ -55,7 +55,7 @@ export default function UserMenu() {
               style={styles.item}
               onPress={() => {
                 setVisible(false);
-                router.push('/encyclopedia');
+                router.push({ pathname: '/encyclopedia/list' });
               }}
             >
               <Text style={[styles.text, { color: theme.colors.text }]}>
