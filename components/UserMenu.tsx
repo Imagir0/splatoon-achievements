@@ -40,6 +40,7 @@ export default function UserMenu() {
               { backgroundColor: theme.colors.surface },
             ]}
           >
+            {/*
             <Pressable
               style={styles.item}
               onPress={() => {
@@ -51,6 +52,8 @@ export default function UserMenu() {
                 👤 Compte
               </Text>
             </Pressable>
+            */}
+            {/*
             <Pressable
               style={styles.item}
               onPress={() => {
@@ -62,6 +65,7 @@ export default function UserMenu() {
                 📖 Encyclopédie
               </Text>
             </Pressable>
+            */}
             <Pressable
               style={styles.item}
               onPress={() => {
@@ -70,7 +74,7 @@ export default function UserMenu() {
               }}
             >
               <Text style={[styles.text, { color: theme.colors.text }]}>
-                {isDark ? '☀️ Thème clair' : '🌙Thème sombre'}
+                {isDark ? '☀️ Thème clair' : '🌙 Thème sombre'}
               </Text>
             </Pressable>
           </View>

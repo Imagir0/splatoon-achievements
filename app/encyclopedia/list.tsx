@@ -12,7 +12,7 @@ const ENTRIES = [
   { id: 'experience', label: 'Expériences de niveaux' },
   { id: 'colors', label: 'Couleurs présentes' },
   { id: 'fistBump', label: 'Fist bump' },
-  { id: 'tableTurf', label: 'Récompenses Cartes & Territoire' },
+  { id: 'tableTurf', label: 'Cartes & Territoire' },
 ];
 
 export default function EncyclopediaScreen() {
