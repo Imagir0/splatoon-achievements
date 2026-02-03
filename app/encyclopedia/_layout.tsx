@@ -8,7 +8,6 @@ export default function EncyclopediaLayout() {
   return (
     <Stack
       screenOptions={{
-        headerTitle: 'Encyclopédie',
         headerStyle: { backgroundColor: theme.colors.surface },
         headerTintColor: theme.colors.text,
         headerShadowVisible: false,

@@ -223,7 +223,6 @@ export default function HomeScreen() {
               Compte / Paramètres
             </Text>
           </Pressable>
-          
           <Pressable
             style={[
               styles.card,
@@ -234,7 +233,13 @@ export default function HomeScreen() {
             ]}
           >
             <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
-              Encyclopédie
+              Encyclopédie{'\n'}
+              - Cartes & Territoire{'\n'}
+              - Emotes et checks{'\n'}
+              - Expériences{'\n'}
+              - Bonus marques{'\n'}
+              - Couleurs{'\n'}
+              - Nourriture et Boissons{'\n'}
             </Text>
           </Pressable>
       </View>

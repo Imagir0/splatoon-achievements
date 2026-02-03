@@ -53,19 +53,19 @@ export default function UserMenu() {
               </Text>
             </Pressable>
             */}
-            {/*
+            
             <Pressable
               style={styles.item}
               onPress={() => {
                 setVisible(false);
-                router.push({ pathname: '/encyclopedia/list' });
+                router.push({ pathname: '/encyclopedia' });
               }}
             >
               <Text style={[styles.text, { color: theme.colors.text }]}>
                 📖 Encyclopédie
               </Text>
             </Pressable>
-            */}
+            
             <Pressable
               style={styles.item}
               onPress={() => {
