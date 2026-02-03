@@ -8,21 +8,10 @@ import { TableTurfProvider } from '@/contexts/TableTurfContext';
 import { WeaponsProvider } from '@/contexts/WeaponsContext';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
-import React, { useState } from 'react';
+import React from 'react';
 import { StyleSheet } from 'react-native';
 
 export default function TabsLayout() {
-  const [menuVisible, setMenuVisible] = useState(false);
-
-  /*const handleLogin = () => {
-    setMenuVisible(false);
-    console.log('Connexion');
-    // navigation vers écran de connexion plus tard
-  };*/
-
-  const toggleTheme = () => {
-    setMenuVisible(false);
-  };
 
   return (
     <BadgesProvider>
@@ -38,6 +27,9 @@ export default function TabsLayout() {
                         tabBarLabelStyle: { fontSize: 11 },
                         tabBarActiveTintColor: '#e92626ff',
                         tabBarInactiveTintColor: '#6b7280',
+                        headerRightContainerStyle: {
+                          paddingRight: 16,
+                        },
                         headerRight: () => <UserMenu />,
                       }}
                     >

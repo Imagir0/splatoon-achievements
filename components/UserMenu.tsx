@@ -1,5 +1,6 @@
 import { useTheme } from '@/contexts/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import {
   Modal,
@@ -12,13 +13,13 @@ import {
 export default function UserMenu() {
   const [visible, setVisible] = useState(false);
   const { theme, isDark, toggleTheme } = useTheme();
+  const router = useRouter();
 
   return (
     <>
       <Pressable
         onPress={() => setVisible(true)}
         hitSlop={10}
-        style={{ marginRight: 16 }}
       >
         <Ionicons
           name="menu-outline"
@@ -33,8 +34,6 @@ export default function UserMenu() {
             style={StyleSheet.absoluteFill}
             onPress={() => setVisible(false)}
           />
-
-          {/* Menu */}
           <View
             style={[
               styles.menu,
@@ -42,13 +41,31 @@ export default function UserMenu() {
             ]}
           >
             {/*
-            <Pressable style={styles.item} onPress={() => setVisible(false)}>
+            <Pressable
+              style={styles.item}
+              onPress={() => {
+                setVisible(false);
+                router.push('/account');
+              }}
+            >
               <Text style={[styles.text, { color: theme.colors.text }]}>
-                Connexion
+                👤 Compte
               </Text>
             </Pressable>
             */}
-
+            {/*
+            <Pressable
+              style={styles.item}
+              onPress={() => {
+                setVisible(false);
+                router.push({ pathname: '/encyclopedia/list' });
+              }}
+            >
+              <Text style={[styles.text, { color: theme.colors.text }]}>
+                📖 Encyclopédie
+              </Text>
+            </Pressable>
+            */}
             <Pressable
               style={styles.item}
               onPress={() => {
@@ -57,7 +74,7 @@ export default function UserMenu() {
               }}
             >
               <Text style={[styles.text, { color: theme.colors.text }]}>
-                {isDark ? 'Thème clair ☀️' : 'Thème sombre 🌙'}
+                {isDark ? '☀️ Thème clair' : '🌙 Thème sombre'}
               </Text>
             </Pressable>
           </View>

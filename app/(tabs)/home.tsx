@@ -192,6 +192,52 @@ export default function HomeScreen() {
           </Pressable>
         ))}
       </View>
+      
+      <Text style={[styles.title, { color: theme.colors.text }]}>
+        Updates
+      </Text>
+      <View style={styles.grid}>
+          <Pressable
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+              },
+            ]}
+          >
+            <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+              Thèmes sombre/clair
+            </Text>
+          </Pressable>
+          <Pressable
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+              },
+            ]}
+          >
+            <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+              Compte / Paramètres
+            </Text>
+          </Pressable>
+          
+          <Pressable
+            style={[
+              styles.card,
+              {
+                backgroundColor: theme.colors.surface,
+                borderColor: theme.colors.border,
+              },
+            ]}
+          >
+            <Text style={[styles.cardTitle, { color: theme.colors.text }]}>
+              Encyclopédie
+            </Text>
+          </Pressable>
+      </View>
 
     </ScrollView>
   );
