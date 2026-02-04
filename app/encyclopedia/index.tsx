@@ -3,8 +3,7 @@ import { Stack, useRouter } from 'expo-router';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
 const ENTRIES = [
-  { id: 'bonus', label: 'Bonus' },
-  { id: 'gearBonus', label: 'Bonus vêtements' },
+  { id: 'bonus', label: '↗️​ Bonus vêtements' },
   { id: 'medals', label: 'Médailles' },
   { id: 'salmonSmell', label: 'Odeur Salmon' },
   { id: 'salmonEnnemies', label: 'Ennemis Salmon Run' },
