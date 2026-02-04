@@ -10,7 +10,7 @@ const ENTRIES = [
   { id: 'salmonEnnemies', label: 'Ennemis Salmon Run' },
   { id: 'tickets', label: 'Tickets nourriture et équipements' },
   { id: 'experience', label: 'Expériences de niveaux' },
-  { id: 'colors', label: 'Couleurs présentes' },
+  { id: 'colors', label: '🎨 Couleurs' },
   { id: 'emote', label: '🏆 Animations de poses' },
   { id: 'tableTurf', label: 'Cartes & Territoire' },
 ];

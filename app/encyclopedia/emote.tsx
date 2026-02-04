@@ -15,7 +15,7 @@ import { Emote, emotes } from '@/data/emotes';
 type SortKey = 'name' | 'season' | 'category';
 type SortOrder = 'asc' | 'desc';
 
-export default function EncyclopediaSlugScreen() {
+export default function EmoteScreen() {
   const { theme } = useTheme();
 
   const [sortKey, setSortKey] = useState<SortKey>('name');
