@@ -11,6 +11,7 @@ import {
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { Emote, emotes } from '@/data/emotes';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type SortKey = 'name' | 'season' | 'category';
 type SortOrder = 'asc' | 'desc';
@@ -40,7 +41,7 @@ export default function EmoteScreen() {
   }, [data, sortKey, sortOrder]);
 
   return (
-    <>
+    <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
       <Stack.Screen
         options={{
           title: 'Animation de poses',
@@ -142,7 +143,7 @@ export default function EmoteScreen() {
           )}
         />
       </View>
-    </>
+    </SafeAreaView>
   );
 
   function toggleSort(key: SortKey) {

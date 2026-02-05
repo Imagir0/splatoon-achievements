@@ -1,16 +1,17 @@
 import { Stack } from 'expo-router';
 import { useMemo, useState } from 'react';
 import {
-    FlatList,
-    Image,
-    Pressable,
-    StyleSheet,
-    Text,
-    View,
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
 } from 'react-native';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { Bonus, bonus } from '@/data/bonus';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type SortKey = 'brand' | 'likely' | 'unlikely';
 type SortOrder = 'asc' | 'desc';
@@ -40,7 +41,7 @@ export default function BonusScreen() {
   }, [data, sortKey, sortOrder]);
 
   return (
-    <>
+    <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
       <Stack.Screen
         options={{
           title: 'Bonus d\'équipements',
@@ -149,7 +150,7 @@ export default function BonusScreen() {
             )}
             />
       </View>
-    </>
+    </SafeAreaView>
   );
 
   function toggleSort(key: SortKey) {

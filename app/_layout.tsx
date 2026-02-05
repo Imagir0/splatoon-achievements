@@ -8,8 +8,21 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
+import * as NavigationBar from 'expo-navigation-bar';
+import { useEffect } from 'react';
+
+
 function AppNavigation() {
   const { isDark } = useTheme();
+
+    useEffect(() => {
+    NavigationBar.setBackgroundColorAsync(
+      isDark ? '#000000' : '#FFFFFF'
+    );
+    NavigationBar.setButtonStyleAsync(
+      isDark ? 'light' : 'dark'
+    );
+  }, [isDark]);
 
   return (
     <NavigationThemeProvider value={isDark ? DarkTheme : DefaultTheme}>

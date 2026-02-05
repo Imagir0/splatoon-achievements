@@ -10,6 +10,8 @@ import {
   View
 } from 'react-native';
 
+import { SafeAreaView } from 'react-native-safe-area-context';
+
 export default function ColorsScreen() {
   const { theme } = useTheme();
   const rowsWithImages = useMemo(() => {
@@ -25,7 +27,7 @@ export default function ColorsScreen() {
   }, []);
 
   return (
-    <>
+    <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
       <Stack.Screen
         options={{
           title: 'Couleurs',
@@ -99,7 +101,7 @@ export default function ColorsScreen() {
           )}
         />
       </View>
-    </>
+    </SafeAreaView>
   );
 }
 
